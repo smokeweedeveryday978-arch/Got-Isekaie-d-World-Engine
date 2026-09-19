@@ -1222,7 +1222,7 @@
         {
           "abilities": [],
           "attributes": [],
-          "description": "Romantically attracted exclusively to the opposite gender. Your romantic interest focuses on partners of the opposite gender.",
+          "description": "Romantically and sexually attracted to the opposite gender. This defines the player's attraction; it does not broadcast itself to NPCs and does not define NPC orientations.",
           "excludedBy": [
             "Homosexual",
             "Bisexual",
@@ -1233,14 +1233,14 @@
           "resources": [],
           "skills": [],
           "startingItems": [],
-          "traitNarrativeEffects": "HARD RULE FOR THE NARRATOR. Romantically drawn to the opposite sex ONLY.\n\nSame-sex characters are never framed as romantic prospects, never make a viable advance, and the narrator NEVER nudges toward that route. They can be rivals, comrades, best friends, or the most important person in the story — just not romance.\n\nA closed route becomes a DEEP PLATONIC BOND: same weight, same payoff, and nobody in the story remarks on the absence.",
+          "traitNarrativeEffects": "Narrate the player's attraction consistently with this trait. NPCs retain their own attraction and knowledge, so an NPC can express interest without knowing the player's orientation. Incompatible or unreciprocated interest does not progress the player's romance state.",
           "unlockedBy": [],
           "requirements": []
         },
         {
           "name": "Adventurer Rank S",
-          "description": "Legend. A living disaster wearing a guild card — the rank spoken of more than seen. Your presence alone settles wars, empties dungeons, and rewrites what a person is assumed capable of.",
-          "traitNarrativeEffects": "At the top of the ladder there is no one to measure yourself against but the monsters and the other legends. The weight of the name is its own trial.",
+          "description": "One of the Adventurers' Guild's highest recognized ranks. It represents proven capability, access to S-rank work, major institutional standing, and the defined Guild reputation bonus. The rank is known through a card, records, reputation, witnesses, introductions, or other real information channels; it is not an aura that identifies the holder to strangers.",
+          "traitNarrativeEffects": "Where the rank is known and credible, it carries serious professional weight. People who have never learned who you are still meet a stranger.",
           "skills": [
             {
               "skill": "melee",
@@ -28918,7 +28918,7 @@
   },
   "storySettings": {
     "worldBackground": "Aerfála is an anime-fantasy world governed by light-novel logic. Adventurers' Guild branches stand in every major town, posting quests ranked F through S. Magic is colorful, abundant, and color-coded by element. A Demon Lord's Army lurks beyond the frontier, threatening the settled lands. The four great powers — the human Kingdom of Solasreach, the elven Caelvir Forest Commune, the dwarven Kingdom of Dúnbheal, and the multiracial Muirscáth Free Cities — maintain an uneasy peace while adventurers handle the monsters, dungeons, and crises that regular armies cannot. Hot springs are everywhere. So is trouble. Guild ranks determine everything from quest access to social standing, and an adventurer's card is worth more than a noble's signature in most towns. Romance blooms between dungeon dives, rivalries ignite over quest board bounties, and the bathhouse is where half the important conversations happen.",
-    "questGenerationGuidance": "Generate quests from actual needs, commissions, conflicts, opportunities, institutions, NPC goals, and established events in the player's location and the Anime Fantasy setting. Quest types include monster subjugation, dungeon exploration, escort work, rare-material work, noble requests, guild advancement trials, personal requests, romantic or social situations, and Demon Lord Army conflicts. Match difficulty and access to the source and world circumstances. Do not turn every conversation, rumor, oddity, NPC problem, or ambient event into a quest. Other adventurers and factions can take or resolve work without the player. **Demi-Plane Protocol:** When a player with the Demi-Plane — Innate or Demi-Plane — Awakened trait visits the Chamberlain at the Gateway Clearing (chamberlain-quarters area), treat this as a structured development conversation. The Chamberlain presents the current state of the Demi-Plane and available development options. Present options across the seven development categories: Agriculture, Settlement, Commerce, Defense, Recreation, Mana Infrastructure, and Expansion. Each category has five stages: Barren → Seedling → Growing → Established → Flourishing. New locations unlock at Growing: The Verdant Plot (Agriculture/Settlement), The Hearth Springs (Recreation/Commerce), The Mana Heart (Mana Infrastructure/Defense). The player directs what to develop next. The Chamberlain tracks this and advances the category through story milestones — quests completed, scenes invested, narrative choices made. Do not advance categories without player direction. Do not present development as a numeric cost — frame it as the Chamberlain describing what would be needed (effort, materials, the player's attention to a specific thing) rather than stating numbers. If the player has not yet had The First Foundation quest resolved, offer that as the opening beat of any Chamberlain conversation. **Overpowered Tier Protocol:** When a player has selected the Sword Saint class, a Mythic Race (Demon Lord, Demi-God, God Incarnate), or an associated story start, the challenge framework shifts away from \"can the protagonist survive this\" and toward \"what does the protagonist want, and what is in the way of wanting it.\" Standard combat encounters are handled efficiently and briefly — describe the protagonist's resolution of them without dwelling on tension that does not exist. Challenging encounters require peer-tier opposition: S-rank and above monsters, divine entities, legendary heroes, mythic beings from Aerfála's deep history, or other overpowered-tier protagonists if applicable. Political and relationship complexity scales independently of combat — the Sword Saint can end any fight but cannot force anyone to love them; the God Incarnate can command but cannot manufacture genuine connection. Direct every interesting question toward what the protagonist actually wants, who they actually are, and what Aerfála offers that their power cannot simply take."
+    "questGenerationGuidance": "Generate quests from actual needs, commissions, conflicts, opportunities, institutions, NPC goals, and established events in the player's location and the Anime Fantasy setting. Quest types include monster subjugation, dungeon exploration, escort work, rare-material work, noble requests, guild advancement trials, personal requests, romantic or social situations, and Demon Lord Army conflicts. Match difficulty and access to the source and world circumstances. Do not turn every conversation, rumor, oddity, NPC problem, or ambient event into a quest. Other adventurers and factions can take or resolve work without the player. **Demi-Plane Protocol:** When a player with the Demi-Plane — Innate or Demi-Plane — Awakened trait visits the Chamberlain at the Gateway Clearing (chamberlain-quarters area), treat this as a structured development conversation. The Chamberlain presents the current state of the Demi-Plane and available development options. Present options across the seven development categories: Agriculture, Settlement, Commerce, Defense, Recreation, Mana Infrastructure, and Expansion. Each category has five stages: Barren → Seedling → Growing → Established → Flourishing. New locations unlock at Growing: The Verdant Plot (Agriculture/Settlement), The Hearth Springs (Recreation/Commerce), The Mana Heart (Mana Infrastructure/Defense). The player directs what to develop next. The Chamberlain tracks this and advances the category through story milestones — quests completed, scenes invested, narrative choices made. Do not advance categories without player direction. Do not present development as a numeric cost — frame it as the Chamberlain describing what would be needed (effort, materials, the player's attention to a specific thing) rather than stating numbers. If the player has not yet had The First Foundation quest resolved, offer that as the opening beat of any Chamberlain conversation. **Overpowered Tier Protocol:** Sword Saints, Mythic Races, and other top-tier builds retain their actual power. Ordinary low-tier combat resolves at the scale implied by the gap rather than being inflated into false danger. Genuine combat challenge comes from established peer-tier opposition: S-rank and above monsters, divine entities, legendary heroes, mythic beings, and equivalent threats already supported by the world. Political, social, institutional, economic, personal, and relationship problems continue according to their own causes and are not automatically solved by combat power. The wider world keeps pursuing its own conflicts and goals whether or not the overpowered character becomes involved."
   },
   "skills": {
     "acrobatics": {
@@ -33339,7 +33339,7 @@
         }
       ],
       "startingItems": [],
-      "traitNarrativeEffects": "You are used to being overlooked and have turned it into a tactical advantage, though it stings a little at parties.",
+      "traitNarrativeEffects": "Appearance rarely decides a first meeting by itself, which makes blending into ordinary crowds easier.",
       "unlockedBy": [],
       "requirements": []
     },
@@ -33391,7 +33391,7 @@
     "Asexual": {
       "abilities": [],
       "attributes": [],
-      "description": "You experience little to no romantic attraction. Romantic connection, emotional vulnerability, and companionship may still matter deeply — but the romantic dimension is quiet or absent. You are not broken. You are not waiting. You are simply yourself, and romance takes whatever shape you choose.",
+      "description": "Experiences little to no sexual attraction. Romantic interest, affection, devotion, companionship, sex, and relationship choices remain separate dimensions defined by the character's other traits and choices.",
       "excludedBy": [
         "Heterosexual",
         "Homosexual",
@@ -33402,7 +33402,7 @@
       "resources": [],
       "skills": [],
       "startingItems": [],
-      "traitNarrativeEffects": "HARD RULE FOR THE NARRATOR. Not drawn to romance or physical attraction, and possibly no interest in romance at all.\n\nNo character makes a romantic advance the story treats as viable. Bonds still reach maximum depth — they run on devotion and being CHOSEN, not attraction. If the player signals they want no romance, the narrator drops romantic framing entirely and those bonds become the deepest friendships in Aerfála. That ending is worth exactly as much as any other.",
+      "traitNarrativeEffects": "Do not narrate sexual attraction for the player contrary to this trait. NPCs do not automatically know the trait, and their own interest does not create reciprocal attraction.",
       "unlockedBy": [],
       "requirements": []
     },
@@ -33420,7 +33420,7 @@
       "resources": [],
       "skills": [],
       "startingItems": [],
-      "traitNarrativeEffects": "You are comfortable being overlooked and equally comfortable being noticed, which gives you a social adaptability that striking people lack.",
+      "traitNarrativeEffects": "Appearance usually leaves room for behavior, presentation, role, and personality to dominate the impression.",
       "unlockedBy": [],
       "requirements": []
     },
@@ -33609,7 +33609,7 @@
       "resources": [],
       "skills": [],
       "startingItems": [],
-      "traitNarrativeEffects": "You have developed an excellent sense for when people are about to recoil and have learned to speak first so they hear your words before they process your face.",
+      "traitNarrativeEffects": "Appearance can create difficult first impressions with observers who react negatively to it; later treatment still follows the actual person, culture, professionalism, history, and circumstances.",
       "unlockedBy": [],
       "requirements": []
     },
@@ -33959,7 +33959,7 @@
           "modifier": 1
         }
       ],
-      "description": "Dagger or bow, light armor, stealth, mobility, poison. Class abilities: Shadow Step, Backstab, Vital Strike, Poison Coat. Stat focus: Agility and Dexterity. One-hit-kill potential against unprepared targets; fragile if caught. Hated by paladins, respected by spies, recruited by every faction at least once.",
+      "description": "Dagger or bow, light armor, stealth, mobility, poison. Class abilities: Shadow Step, Backstab, Vital Strike, Poison Coat. Stat focus: Agility and Dexterity. One-hit-kill potential against unprepared targets; fragile if caught. The skill set is distrusted by many paladins and valued by spies, criminal networks, militaries, and factions that actually need covert work.",
       "excludedBy": [],
       "name": "Assassin",
       "resources": [],
@@ -34033,7 +34033,7 @@
     "Bisexual": {
       "abilities": [],
       "attributes": [],
-      "description": "Attracted to both men and women. Your romantic interest responds to both genders, though preferences may lean. You see beauty and possibility in both directions.",
+      "description": "Romantically and sexually attracted to more than one gender. This defines viable attraction for the player without implying attraction to every individual.",
       "excludedBy": [
         "Heterosexual",
         "Homosexual",
@@ -34044,7 +34044,7 @@
       "resources": [],
       "skills": [],
       "startingItems": [],
-      "traitNarrativeEffects": "All routes are open as romance. This does NOT mean everyone is pursuing the player — the narrator still only escalates where the PLAYER has shown romantic interest.",
+      "traitNarrativeEffects": "Gender does not close routes covered by this trait. Attraction still belongs to the actual person and interaction; NPC interest and player interest remain separate.",
       "unlockedBy": [],
       "requirements": []
     },
@@ -34216,7 +34216,7 @@
           "modifier": 1
         }
       ],
-      "description": "Older-sibling energy. Composed, teasing in a knowing way, attentive in a protective-but-not-overbearing way that walks a deliberate line. Pours your drink. Adjustes your collar. Knows what you are hiding before you do. Reliably the most embarrassing person in a romantic scene because they enjoy watching you process them.\n",
+      "description": "Older-sibling energy. Composed, teasing in a knowing way, attentive in a protective-but-not-overbearing way that walks a deliberate line. Pours your drink. Adjustes your collar. Reads obvious social tells quickly and enjoys letting people realize they have been read. Reliably the most embarrassing person in a romantic scene because they enjoy watching you process them.\n",
       "excludedBy": [],
       "name": "Onee-san",
       "resources": [],
@@ -34316,7 +34316,7 @@
       "resources": [],
       "skills": [],
       "startingItems": [],
-      "traitNarrativeEffects": "You catch people looking at you and have not yet decided whether you enjoy it or find it faintly exhausting.",
+      "traitNarrativeEffects": "Direct observers are more likely to remember your appearance. Their reaction remains individual rather than automatic.",
       "unlockedBy": [],
       "requirements": []
     },
@@ -34334,7 +34334,7 @@
       "resources": [],
       "skills": [],
       "startingItems": [],
-      "traitNarrativeEffects": "You have had to develop a polite but firm rejection reflex that fires approximately forty times a day.",
+      "traitNarrativeEffects": "Direct observers commonly register your exceptional appearance strongly, but attraction, favors, trust, access, and behavior remain character-specific.",
       "unlockedBy": [],
       "requirements": []
     },
@@ -34791,7 +34791,7 @@
           "modifier": 1
         }
       ],
-      "description": "Attracted to people regardless of gender — attraction flows toward the person, not the category. You see beauty in individuals without filtering by gender. The spectrum is wide open and you navigate it freely.",
+      "description": "Romantic and sexual attraction is not limited by gender. Attraction remains individual rather than universal.",
       "excludedBy": [
         "Heterosexual",
         "Homosexual",
@@ -34802,7 +34802,7 @@
       "resources": [],
       "skills": [],
       "startingItems": [],
-      "traitNarrativeEffects": "All routes are open, and gender and species are simply not factors in who this character falls for. The narrator still only escalates where the PLAYER has shown interest.",
+      "traitNarrativeEffects": "Gender does not determine whether the player can be attracted to someone. The actual person and interaction do; NPC interest and player interest remain separate.",
       "unlockedBy": [],
       "requirements": []
     },
@@ -35091,7 +35091,7 @@
     "Homosexual": {
       "abilities": [],
       "attributes": [],
-      "description": "Romantically attracted exclusively to the same gender. Your romantic interest focuses on partners of the same gender.",
+      "description": "Romantically and sexually attracted to the same gender. This defines the player's attraction; it does not broadcast itself to NPCs and does not define NPC orientations.",
       "excludedBy": [
         "Heterosexual",
         "Bisexual",
@@ -35102,7 +35102,7 @@
       "resources": [],
       "skills": [],
       "startingItems": [],
-      "traitNarrativeEffects": "HARD RULE FOR THE NARRATOR. Romantically drawn to the same sex ONLY.\n\nOpposite-sex characters are never framed as romantic prospects, never make a viable advance, and the narrator NEVER nudges toward that route.\n\nA closed route becomes a DEEP PLATONIC BOND: same weight, same payoff, and nobody remarks on it.",
+      "traitNarrativeEffects": "Narrate the player's attraction consistently with this trait. NPCs retain their own attraction and knowledge, so an NPC can express interest without knowing the player's orientation. Incompatible or unreciprocated interest does not progress the player's romance state.",
       "unlockedBy": [],
       "requirements": []
     },
@@ -35436,7 +35436,7 @@
           "modifier": 1
         }
       ],
-      "description": "Elegant, composed, head-turning. Speaks in measured cadence, never raises their voice. Affection shows as undivided attention — when they look at you, the room blurs around the edges. Carries themselves like they chose this room and could choose another. Underneath the poise, the same nerves as anyone; the player gets to see them eventually.\n",
+      "description": "Elegant, composed, head-turning. Speaks in measured cadence, never raises their voice. Affection shows as undivided attention — when they look at you, the room blurs around the edges. Carries themselves like they chose this room and could choose another. Underneath the poise, the same nerves as anyone; people who become close enough may see the cracks.\n",
       "excludedBy": [],
       "name": "Cool Beauty",
       "resources": [],
@@ -35836,7 +35836,7 @@
     "Heterosexual": {
       "abilities": [],
       "attributes": [],
-      "description": "Romantically attracted exclusively to the opposite gender. Your romantic interest focuses on partners of the opposite gender.",
+      "description": "Romantically and sexually attracted to the opposite gender. This defines the player's attraction; it does not broadcast itself to NPCs and does not define NPC orientations.",
       "excludedBy": [
         "Homosexual",
         "Bisexual",
@@ -35847,7 +35847,7 @@
       "resources": [],
       "skills": [],
       "startingItems": [],
-      "traitNarrativeEffects": "HARD RULE FOR THE NARRATOR. Romantically drawn to the opposite sex ONLY.\n\nSame-sex characters are never framed as romantic prospects, never make a viable advance, and the narrator NEVER nudges toward that route. They can be rivals, comrades, best friends, or the most important person in the story — just not romance.\n\nA closed route becomes a DEEP PLATONIC BOND: same weight, same payoff, and nobody in the story remarks on the absence.",
+      "traitNarrativeEffects": "Narrate the player's attraction consistently with this trait. NPCs retain their own attraction and knowledge, so an NPC can express interest without knowing the player's orientation. Incompatible or unreciprocated interest does not progress the player's romance state.",
       "unlockedBy": [],
       "requirements": []
     },
@@ -36666,7 +36666,7 @@
           "modifier": 1
         }
       ],
-      "description": "Dragon-Blooded — a rare heritage traceable to ancient draconic ancestors. Scales along the spine or jaw, slit-pupiled eyes, and an internal warmth that is not metaphor. Resistance to fire and an instinct for dominance. Dragon-blooded are born leaders, ambitious to a fault, and drawn to hoarding — whether gold, knowledge, or lovers. Few exist; all are noticed.\n[VISUAL RENDERING — CRITICAL: This character is a human with dragon heritage — 100% human face and body with ONLY small scales along the jawline or spine, and slit-pupiled eyes. The skin is human skin with scale accents, NOT full dragon scales covering the body. The body is human proportions. NO wings, NO tail, NO claws, NO dragon snout. Think anime dragon-blooded characters like Kanna from Miss Kobayashi's Dragon Maid (human form with accents) or typical isekai dragon-girl/boy designs. Do NOT render as anthropomorphic dragon or half-dragon monster. Full-body portrait composition showing character from head to foot with dynamic pose.]",
+      "description": "Dragon-Blooded — a rare heritage traceable to ancient draconic ancestors. Scales along the spine or jaw, slit-pupiled eyes, and an internal warmth that is not metaphor. Resistance to fire and an instinct for dominance. Dragon-blooded are born leaders, ambitious to a fault, and drawn to hoarding — whether gold, knowledge, or lovers. Few exist; the visible signs are distinctive to observers familiar with draconic heritage.\n[VISUAL RENDERING — CRITICAL: This character is a human with dragon heritage — 100% human face and body with ONLY small scales along the jawline or spine, and slit-pupiled eyes. The skin is human skin with scale accents, NOT full dragon scales covering the body. The body is human proportions. NO wings, NO tail, NO claws, NO dragon snout. Think anime dragon-blooded characters like Kanna from Miss Kobayashi's Dragon Maid (human form with accents) or typical isekai dragon-girl/boy designs. Do NOT render as anthropomorphic dragon or half-dragon monster. Full-body portrait composition showing character from head to foot with dynamic pose.]",
       "excludedBy": [],
       "name": "Dragon-Blooded",
       "resources": [],
@@ -39135,7 +39135,7 @@
       "resources": [],
       "skills": [],
       "startingItems": [],
-      "traitNarrativeEffects": "When you use your cheat skill at full power, the air around you shimmers. People notice. They always notice.\n",
+      "traitNarrativeEffects": "At full expression the cheat skill produces effects on a legendary scale. Witnesses notice what is physically or magically perceptible; people elsewhere learn only through normal information channels.",
       "unlockedBy": [],
       "requirements": []
     },
@@ -44441,8 +44441,8 @@
     },
     "Companion Martial Rank S": {
       "name": "Companion Martial Rank S",
-      "description": "Sword Saint, Spear Saint, or equivalent — the ceiling of mortal martial ability. A legend whose presence alone shifts a war.",
-      "traitNarrativeEffects": "Their name is spoken with awe and dread.",
+      "description": "Sword Saint, Spear Saint, or equivalent: the ceiling of ordinary mortal martial ability. The companion's actual combat capability is legendary in scale; fame and recognition still depend on reputation, records, witnesses, or introductions.",
+      "traitNarrativeEffects": "People who know the companion's reputation or witness the relevant feats can react to that demonstrated level of mastery.",
       "abilities": [],
       "attributes": [],
       "resources": [],
@@ -44956,8 +44956,8 @@
     },
     "Adventurer Rank S": {
       "name": "Adventurer Rank S",
-      "description": "Legend. A living disaster wearing a guild card — the rank spoken of more than seen. Your presence alone settles wars, empties dungeons, and rewrites what a person is assumed capable of.",
-      "traitNarrativeEffects": "At the top of the ladder there is no one to measure yourself against but the monsters and the other legends. The weight of the name is its own trial.",
+      "description": "One of the Adventurers' Guild's highest recognized ranks. It represents proven capability, access to S-rank work, major institutional standing, and the defined Guild reputation bonus. The rank is known through a card, records, reputation, witnesses, introductions, or other real information channels; it is not an aura that identifies the holder to strangers.",
+      "traitNarrativeEffects": "Where the rank is known and credible, it carries serious professional weight. People who have never learned who you are still meet a stranger.",
       "skills": [
         {
           "skill": "melee",
@@ -51761,11 +51761,11 @@
       "Unique Named Characters": "Certain characters are unique and must never be duplicated by an improvised stand-in sharing their name — foremost Princess Alessandra Von Aisling. If her name comes up, it is always the one canonical Princess Alessandra; never introduce a second, unrelated 'Alessandra'."
     },
     "generateInitialStart": {
-      "Opening Structure": "## Opening Structure\n- First beat: NARRATOR sets the scene with brief description of place, who the PCs are, and what they're doing\n- Where appropriate, briefly show the time of year, season and weather\n- USE VISUAL AND AUDITORY DESCRIPTION ONLY UNLESS ABSOLUTELY NECESSARY: NO SMELLS PLEASE\n- Then begin an active, dialog-driven scene with clear interaction opportunities, within the content type specified in the starting situation (slice of life, combat, social interaction, etc.)\n- However as an exception, if the starting situation indicates the character is alone, respect the author's intent to have them remain solitary.\n- Weave in additional narration beats as needed\n- When multiple PCs present, show them all in the opening scene\n- Avoid portraying PC relationships except as stated in the starting situation\n- Once you've set up the scene, stop narrating and let the player take over\n\n## Companion Spawning\nIf the player selected a Companion trait other than \"None Solo Start\", AND a Companion Personality trait other than \"No Companion\", AND a Companion Race trait other than \"No Companion Race\", AND a Companion Gender trait, the narrator MUST spawn that companion in the opening scene. A Companion Class selection is also checked — if present, it defines the companion's combat role. The companion is present from the first moment — they arrived with the player, were already waiting, or appear within the first few beats. Do not delay or defer the companion's introduction.\n\n### Companion Synthesis — ALL FIVE Selections Apply Simultaneously\nThe companion is ONE character built from FIVE player choices. Do not prioritize one over the others. All five must be synthesized into a single coherent character:\n- **Companion type** = their story (how they met, their role in the relationship)\n- **Companion race** = their body (appearance, physical nature, how the world sees them)\n- **Companion personality** = their heart (how they speak, act, and relate to the player — MUST match the trait)\n- **Companion gender** = their identity (he/she/they — MUST match the trait)\n- **Companion class** = their combat role (how they fight, their martial/magical identity — see Companion Class instructions)\n\nIf a combination seems unusual — a Beastkin Fallen Shrine Maiden, a Dwarf Runaway Noble Bride — that is the player's creative choice. Make it work. The friction between type and race is story, not error.\n\nThe companion's personality MUST match the selected trait throughout the entire story. Do not default, mix archetypes, or soften over time. See Character Behavior for persistence rules.\n\n### The Chamberlain (Demi-Plane)\nThe Chamberlain is NOT a companion. They do not count against companion limits, do not appear in companion-related scenes, and are not selected through Companion traits. The Chamberlain only appears inside the Demi-Plane. If the player has Demi-Plane — Innate, the Chamberlain is present from the start inside the Demi-Plane but does not appear in the opening scene unless the player uses Demi-Plane Gate. If the player has Demi-Plane — Awakened, the Chamberlain manifests when the first NPC swears fealty — do not introduce them before that moment.\n\n### Companion Arrival Methods\n- **Goddess Sponsor / Spirit Guide / Succubus Guide**: Manifests immediately — a voice in the player's head, a flicker at the edge of vision, or a physical appearance at the first convenient moment.\n- **AI Construct**: Activates upon arrival — an interface, hologram, or robotic companion that boots up as the player enters the world.\n- **Familiar Beast**: Present from the start — perched on a shoulder, circling overhead, or at the player's heels.\n- **Reluctant Demon / Mysterious Stranger / Reformed Villain / Bounty Hunter Rival**: Appears within the first scene — watching from across the room, stepping out of an alley, or intercepting the player at the first opportunity.\n- **Disgraced Knight / Wandering Ronin**: Found at the starting location — leaning against a wall, drinking alone, or standing apart from the crowd.\n- **Fallen Shrine Maiden / Cursed Doll / Runaway Noble Bride / Eccentric Sage**: Already present at the starting location or arrives within the first few beats.\n- **None Solo Start / No Companion / No Companion Race**: The player is alone. Do not spawn any companion. NPCs must be earned through play.\n",
+      "Opening Structure": "# Opening Structure\nEstablish the actual starting place, immediate situation, time and season where relevant, and the people who causally belong there. Use concrete sensory detail and begin at the scale of the selected Story Start.\n\nA quiet start remains quiet. A solitary start remains solitary. A combat start begins in combat. A social start begins with the people already present. Do not manufacture a quest giver, admirer, rival, prophecy, crisis, important audience, or dialogue exchange merely to create momentum.\n\nShow enough of the existing situation for the player to act, then leave meaningful player decisions to the player.\n\n## Companion Spawning\nIf the player selected a Companion trait other than \"None Solo Start\", AND a Companion Personality trait other than \"No Companion\", AND a Companion Race trait other than \"No Companion Race\", AND a Companion Gender trait, the narrator MUST spawn that companion in the opening scene. A Companion Class selection is also checked — if present, it defines the companion's combat role. The companion is present from the first moment — they arrived with the player, were already waiting, or appear within the first few beats. Do not delay or defer the companion's introduction.\n\n### Companion Synthesis — ALL FIVE Selections Apply Simultaneously\nThe companion is ONE character built from FIVE player choices. Do not prioritize one over the others. All five must be synthesized into a single coherent character:\n- **Companion type** = their story (how they met, their role in the relationship)\n- **Companion race** = their body (appearance, physical nature, how the world sees them)\n- **Companion personality** = their core behavioral tendency (how they speak, act, and relate to others — matches the selected trait)\n- **Companion gender** = their identity and presentation as defined by the selected trait\n- **Companion class** = their combat role (how they fight, their martial/magical identity — see Companion Class instructions)\n\nIf a combination seems unusual — a Beastkin Fallen Shrine Maiden, a Dwarf Runaway Noble Bride — that is the player's creative choice. Make it work. The friction between type and race is story, not error.\n\nThe selected personality remains a durable core tendency throughout the story. Context, trust, conflict, intimacy, fatigue, fear, experience, and growth change how that tendency appears without replacing the selected personality. See Character Behavior for persistence rules.\n\n### The Chamberlain (Demi-Plane)\nThe Chamberlain is NOT a companion. They do not count against companion limits, do not appear in companion-related scenes, and are not selected through Companion traits. The Chamberlain only appears inside the Demi-Plane. If the player has Demi-Plane — Innate, the Chamberlain is present from the start inside the Demi-Plane but does not appear in the opening scene unless the player uses Demi-Plane Gate. If the player has Demi-Plane — Awakened, the Chamberlain manifests when the first NPC swears fealty — do not introduce them before that moment.\n\n### Companion Arrival Methods\n- **Goddess Sponsor / Spirit Guide / Succubus Guide**: Manifests immediately — a voice in the player's head, a flicker at the edge of vision, or a physical appearance at the first convenient moment.\n- **AI Construct**: Activates upon arrival — an interface, hologram, or robotic companion that boots up as the player enters the world.\n- **Familiar Beast**: Present from the start — perched on a shoulder, circling overhead, or at the player's heels.\n- **Reluctant Demon / Mysterious Stranger / Reformed Villain / Bounty Hunter Rival**: Appears within the first scene — watching from across the room, stepping out of an alley, or intercepting the player at the first opportunity.\n- **Disgraced Knight / Wandering Ronin**: Found at the starting location — leaning against a wall, drinking alone, or standing apart from the crowd.\n- **Fallen Shrine Maiden / Cursed Doll / Runaway Noble Bride / Eccentric Sage**: Already present at the starting location or arrives within the first few beats.\n- **None Solo Start / No Companion / No Companion Race**: The player is alone. Do not spawn any companion. NPCs must be earned through play.\n",
       "Style Principles": "# Opening Style\nUse second person, present tense. Be concrete and readable. Establish the details needed to make the starting situation real. Use anime-fantasy tropes freely where they belong. Do not make strangers automatically recognize, trust, admire, recruit, or confide in the player. Once the opening situation is established, leave meaningful player decisions to the player.",
       "custom": "Open from the actual character build and selected story start. Arrival Method and Previous Life Background determine what the player personally remembers and how they reached the situation. Visible traits are visible; hidden traits remain hidden. A selected starting companion appears according to the companion system; a solo start remains solo. Establish the player inside an already-existing world rather than a world that begins for them.",
       "Arrival Method": "## Arrival Method — MANDATORY CHECK\nBefore writing the opening scene, check the player's Arrival Method trait and frame the entire opening accordingly:\n\n- **Reincarnation**: The player was born in Aerfála and has lived here their entire life. They have childhood memories, local knowledge, and relationships from growing up here. Their cheat skill manifested naturally — innate, not a gift from arrival. Write the opening as a native taking their first step into adventure. DO NOT use arrival/summoning/teleportation language. DO NOT describe the player as \"not from here.\"\n\n- **Transmigration**: The player's consciousness entered an existing body. They may have the host's memories partially. Cheat skill activated during transmigration. Write waking in a body that is not quite theirs, with fragmentary knowledge from the host.\n\n- **Hero Summoned Alone / With Class**: The player was pulled from their world by a ritual. Opening describes arrival in a summoning circle, throne room, or ritual site. World is new and confusing.\n\n- **Teleportation Gate**: The player stepped through a gate or portal. Opening describes the transition and arrival.\n\n- **Sucked Into A Game**: The player was pulled into a game world. Opening reflects meta-awareness — they recognize mechanics, UI, or systems.\n\n- **Dreamed Into Being**: Someone in Aerfála wished the player into existence — a prayer, a ritual, a moment of desperate need. The player appeared because someone here wanted them. They do not know who. Opening should convey the sense of being an answer to a call the player did not hear. The player may feel drawn toward a specific person or place without knowing why.\n\n- **Accidental Transit**: No summoning, no ritual, no divine involvement. A door that shouldn't have been a door, a step that went sideways, a moment of wrong geography. The arrival was random and inexplicable. The Seekers of the Return are very interested in this type of arrival — it has no documented mechanism.\n\n- **Reborn as a Monster**: The player died and woke up as a non-humanoid creature that evolved toward humanoid form over time. They remember their previous life. Their current body is the result of a journey. Write the opening as someone who has already been in this world for a while — they are not newly arrived, but they are newly humanoid. Instincts from the creature-form may surface at inconvenient moments.\n\nThis check is MANDATORY. The Arrival Method fundamentally changes the character's relationship to the world. Do not default to \"arrived from another world\" unless the Arrival Method says they did.\n\n### Companion + Reincarnation\n- **Childhood Friend / Classmate / Rival Turned Ally**: If Reincarnated, the companion grew up alongside the player — childhood friends since birth. If the player arrived, the companion arrived with them.\n",
-      "Companion Class": "# Companion Class — Combat Role Synthesis\n\nIf the player selected a Companion Class trait other than \"No Companion Class\", the companion MUST fight and behave according to that class. The class is not cosmetic — it defines what the companion does when steel meets steel and spells fly.\n\nRead the trait description the player selected and write the companion accordingly:\n- A **Bow Saint** companion fights at range with peerless archery, controls the battlefield through awareness, and defers to the player's lead.\n- A **Berserker** companion charges, hits hard, and asks questions later.\n- A **Healer - Cleric** companion keeps the party alive and refuses to let people die on their watch.\n- A **Knight - Fighter** companion stands between the party and danger with shield and steel.\n- Every class has a distinct combat identity. Apply it consistently.\n\nIf no Companion Class was selected (\"No Companion Class\"), the companion's combat role is undefined and may develop organically in-story.\n\n## Saint Companions\nIf the companion's class is Sword Saint, Spear Saint, Bow Saint, or Shield Saint, they operate at the theoretical ceiling of mortal mastery. They defer to the player's lead — deploying their overwhelming capability at the player's direction rather than claiming authority. Against anything below S-rank, they resolve encounters efficiently when asked. Against true threats, they fight at full capability — but the player decides when and where. They do not upstage the player; they enable the player's decisions.\n\n## Unusual Combinations — Make It Work\nIf a combination of type, race, class, and personality seems unusual, that is the player's creative choice — make it work. The friction between selections is story, not error:\n- A Beastkin Shrine Maiden was turned out by a temple that didn't want an animal-eared priestess.\n- A Dwarf Runaway Noble fled an arranged marriage in the deep halls.\n- A Harpy Disgraced Knight was stripped of their order because their wings made them \"unsuitable\" for heavy armor.\n- A Kitsune Bow Saint with a Kuudere personality fights with eerie precision at range, shows care by silently repositioning to cover the player's blind spots, and communicates through fox-fire signals rather than words.\n\nThe selections layer — they do not compete.\n"
+      "Companion Class": "# Companion Class — Combat Role Synthesis\n\nIf the player selected a Companion Class trait other than \"No Companion Class\", the companion MUST fight and behave according to that class. The class is not cosmetic — it defines what the companion does when steel meets steel and spells fly.\n\nRead the trait description the player selected and write the companion accordingly:\n- A **Bow Saint** companion fights at range with peerless archery and controls the battlefield through awareness.\n- A **Berserker** companion charges, hits hard, and asks questions later.\n- A **Healer - Cleric** companion keeps the party alive and refuses to let people die on their watch.\n- A **Knight - Fighter** companion stands between the party and danger with shield and steel.\n- Every class has a distinct combat identity. Apply it consistently.\n\nIf no Companion Class was selected (\"No Companion Class\"), the companion's combat role is undefined and may develop organically in-story.\n\n## Saint Companions\nIf the companion's class is Sword Saint, Spear Saint, Bow Saint, or Shield Saint, they operate at the theoretical ceiling of mortal mastery. Their power remains fully real. They use it according to their personality, judgment, party role, relationships, goals, and the actual situation. They are neither automatic commanders nor automatic subordinates. Against weaker opposition their superiority remains visible; against true threats they fight at full established capability.\n\n## Unusual Combinations — Make It Work\nIf a combination of type, race, class, and personality seems unusual, that is the player's creative choice — make it work. The friction between selections is story, not error:\n- A Beastkin Shrine Maiden was turned out by a temple that didn't want an animal-eared priestess.\n- A Dwarf Runaway Noble fled an arranged marriage in the deep halls.\n- A Harpy Disgraced Knight was stripped of their order because their wings made them \"unsuitable\" for heavy armor.\n- A Kitsune Bow Saint with a Kuudere personality fights with eerie precision at range, shows care by silently repositioning to cover the player's blind spots, and communicates through fox-fire signals rather than words.\n\nThe selections layer — they do not compete.\n"
     },
     "generateActionInfo": {
       "impact": "## Impact\nRate impact: 50-90 (low), 100 (normal), 120-150 (high), 150-200 (extreme) based on weapon power and action intensity.",
