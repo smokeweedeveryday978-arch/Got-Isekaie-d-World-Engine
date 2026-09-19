@@ -258,4 +258,54 @@ if pc:
             pt["description"] = base.get("description", pt.get("description", ""))
             pt["traitNarrativeEffects"] = base.get("traitNarrativeEffects", pt.get("traitNarrativeEffects", ""))
 
+
+# Clean romance/event triggers so the tracking system records relationships
+# without imposing censorship, automatic exclusivity, player-centricity, or meta-knowledge.
+tg = d.get("triggers", {})
+
+if "Bathhouse Encounter" in tg:
+    tg["Bathhouse Encounter"]["effects"][0]["instruction"] = """Render the bathhouse or hot spring as the place it actually is: steam, water, sound, temperature, bodies, conversation, privacy, etiquette, and whatever the people present are genuinely doing. Social interaction, comedy, awkwardness, fanservice, romance, sex, quiet bathing, or no meaningful interaction at all follow the characters and circumstances. Do not manufacture an encounter, attraction, escalation, or interruption merely because the player entered a bath."""
+
+if "Festival Romance Opportunity" in tg:
+    tg["Festival Romance Opportunity"]["effects"][0]["instruction"] = """An active festival gives established partners and love interests a setting for shared activities such as dancing, food, games, ceremonies, lanterns, private walks, or dates. Let the people involved decide through their existing relationship and initiative whether anything romantic happens. The Festival Date quest can arise from an actual invitation or plan; do not advertise or force it merely because the player is present."""
+
+if "Cross-Romance Faction Effect" in tg:
+    tg["Cross-Romance Faction Effect"]["conditions"][0]["query"] = "A romance has just ended in estrangement with a faction member, and that estrangement has become known to relevant people in the faction through public events, direct communication, witnesses, reports, or another established information path."
+    tg["Cross-Romance Faction Effect"]["effects"][0]["instruction"] = """Identify the NPC's faction. Apply the established -5 to -15 reputation change according to the estrangement's severity and the NPC's standing only because the faction has actually learned enough to react. The faction need not know private details it was never told. Its response reflects what reached it and how that faction interprets the situation."""
+
+if "Faction Romance Implication" in tg:
+    tg["Faction Romance Implication"]["conditions"][0]["query"] = "A romance has reached courting stage or beyond with a faction member, and that relationship has become known to relevant people in the faction through public behavior, direct communication, witnesses, reports, or another established information path."
+    tg["Faction Romance Implication"]["effects"][0]["instruction"] = """Identify the NPC's faction and apply the established +5 reputation effect because the relationship is now known there. Rival-faction complications arise only where the relevant people know enough to care. Private relationships remain politically invisible until information reaches the people or institutions whose reaction is being tracked."""
+
+if "Suitor Jealousy Recognition" in tg:
+    tg["Suitor Jealousy Recognition"]["effects"][0]["instruction"] = """Identify the relevant NPCs who actually witnessed the interaction. Each reacts according to personality, relationship history, expectations, existing agreements, and the relationship structure they understand. Jealousy, amusement, rivalry, comfort, participation, irritation, indifference, or another response are all possible; multiple relationships do not create jealousy or estrangement automatically. Track witnessed_<witness_npc>_<target_npc> only for what that witness actually observed."""
+
+if "Romance Stage None to Interested" in tg:
+    tg["Romance Stage None to Interested"]["conditions"][0]["query"] = "A named NPC and the player have developed a meaningful romantic or sexual interest dynamic beyond ordinary friendliness, established through actual behavior, words, attraction, or interaction."
+    tg["Romance Stage None to Interested"]["effects"][0]["instruction"] = """Identify the named NPC and set romance_<npc_name_snake_case> to interested. Treat this as persistent tracking of an established possibility or attraction, not as mutual love, commitment, or permission to force escalation. Keep each character's actual knowledge and feelings distinct."""
+
+if "Romance Stage Interested to Flirting" in tg:
+    tg["Romance Stage Interested to Flirting"]["conditions"][0]["query"] = "A named NPC at interested stage and the player have established recurring or deliberate mutual flirtation or comparable romantic signaling through actual interaction."
+    tg["Romance Stage Interested to Flirting"]["effects"][0]["instruction"] = """Identify the NPC and set romance_<npc_name_snake_case> to flirting. This records established mutual flirtation. Future behavior still follows the people involved; the state does not prescribe touching, dialogue, exclusivity, sex, or further advancement."""
+
+if "Romance Stage Flirting to Courting" in tg:
+    tg["Romance Stage Flirting to Courting"]["conditions"][0]["query"] = "A named NPC at flirting stage and the player have moved from flirtation into an intentionally pursued romantic relationship through their actual words, choices, or established conduct."
+    tg["Romance Stage Flirting to Courting"]["effects"][0]["instruction"] = """Identify the NPC and set romance_<npc_name_snake_case> to courting. This records that the relationship is now intentionally romantic. Preserve the characters' actual expectations, other relationships, boundaries, habits, and social circumstances rather than imposing a standard courtship script."""
+
+if "Romance Stage Courting to Bonding" in tg:
+    tg["Romance Stage Courting to Bonding"]["conditions"][0]["query"] = "A named NPC at courting stage and the player have developed a durable deep bond through their actual shared history, trust, intimacy, vulnerability, devotion, physical closeness, or other relationship-defining experiences."
+    tg["Romance Stage Courting to Bonding"]["effects"][0]["instruction"] = """Identify the NPC and set romance_<npc_name_snake_case> to bonding. Preserve the trust, intimacy, familiarity, physical history, shared experiences, and meaning that actually produced the bond. Do not prescribe a first kiss, confession, sexual threshold, or any other universal milestone, and do not alter the established level of explicitness or physicality of their scenes."""
+
+if "Romance Stage Bonding to Committed" in tg:
+    tg["Romance Stage Bonding to Committed"]["conditions"][0]["query"] = "A named NPC at bonding stage and the player have explicitly established a long-term commitment or equivalent enduring partnership through their actual relationship."
+    tg["Romance Stage Bonding to Committed"]["effects"][0]["instruction"] = """Identify the NPC and set romance_<npc_name_snake_case> to committed. Preserve the relationship structure the characters actually established, including monogamous, polyamorous, harem, or other multi-partner arrangements. One committed relationship never automatically estranges another; changes to other relationships require their own events and character reactions."""
+
+if "Romance Stage to Estranged" in tg:
+    tg["Romance Stage to Estranged"]["conditions"][0]["query"] = "A named NPC at an established romance stage and the relationship has actually broken down into serious alienation through betrayal, an explicit breakup, irreconcilable conflict, abandonment as understood from established events, or another concrete relationship rupture."
+    tg["Romance Stage to Estranged"]["effects"][0]["instruction"] = """Identify the NPC and set romance_<npc_name_snake_case> to estranged. Preserve the shared history and the specific cause of the rupture. Future hostility, grief, distance, reconciliation, indifference, or continued attachment follows the characters and subsequent events; no dedicated quest or predetermined repair path is required."""
+
+if "Romantic Tension" in tg:
+    tg["Romantic Tension"]["conditions"][0]["query"] = "A romantic or sexual interaction is actually developing between the player and an NPC through established attraction, flirtation, invitation, physical interaction, relationship history, or either character's initiative."
+    tg["Romantic Tension"]["effects"][0]["instruction"] = """Follow the interaction at the intensity, pace, physicality, and emotional character it actually establishes. Let personality, experience, attraction, relationship history, humor, awkwardness, desire, confidence, and circumstances shape behavior. Do not impose a universal progression from glances to touches to confession, do not soften explicit physical content, and do not force escalation merely because this trigger is active. The player's choices remain the player's; the NPC may initiate according to their own character."""
+
 p.write_text(json.dumps(d, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
