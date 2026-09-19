@@ -16149,7 +16149,7 @@
       ],
       "effects": [
         {
-          "instruction": "Describe the bathhouse or hot spring atmosphere in sensory detail — steam, water temperature, ambient sounds, the feeling of relaxation on sore muscles. Include at least one NPC already present or arriving shortly after. Generate a socially interesting situation: an awkward encounter with someone the player knows, a comedic misunderstanding, a conversation that starts in the water, or a moment of romantic tension if the relationship warrants it. Match the tone — warm and comedic; romantic escalation only if the player initiates, led by the player and treating everyone as consenting adults (18+).\n",
+          "instruction": "Render the bathhouse or hot spring as the place it actually is: steam, water, sound, temperature, bodies, conversation, privacy, etiquette, and whatever the people present are genuinely doing. Social interaction, comedy, awkwardness, fanservice, romance, sex, quiet bathing, or no meaningful interaction at all follow the characters and circumstances. Do not manufacture an encounter, attraction, escalation, or interruption merely because the player entered a bath.",
           "type": "story"
         }
       ],
@@ -16212,13 +16212,13 @@
     "Cross-Romance Faction Effect": {
       "conditions": [
         {
-          "query": "A romance has just ended in estrangement with an NPC who is a member of a faction.",
+          "query": "A romance has just ended in estrangement with a faction member, and that estrangement has become known to relevant people in the faction through public events, direct communication, witnesses, reports, or another established information path.",
           "type": "story"
         }
       ],
       "effects": [
         {
-          "instruction": "Identify the NPC's faction. Decrease rep_<faction_key> by -5 to -15 depending on the estrangement's severity and the NPC's standing within the faction. High-ranking faction members generate larger reputation penalties when relationships fail (a public estrangement with Madam Yui Moonwater costs less than an estrangement with Commander Ryda Thornwall). The faction may not know the details, but they register that something is wrong.\n",
+          "instruction": "Identify the NPC's faction. Apply the established -5 to -15 reputation change according to the estrangement's severity and the NPC's standing only because the faction has actually learned enough to react. The faction need not know private details it was never told. Its response reflects what reached it and how that faction interprets the situation.",
           "type": "story"
         }
       ],
@@ -16308,13 +16308,13 @@
     "Faction Romance Implication": {
       "conditions": [
         {
-          "query": "A romance has reached courting stage or beyond with an NPC who is a member of a faction.",
+          "query": "A romance has reached courting stage or beyond with a faction member, and that relationship has become known to relevant people in the faction through public behavior, direct communication, witnesses, reports, or another established information path.",
           "type": "story"
         }
       ],
       "effects": [
         {
-          "instruction": "Identify the NPC's faction. Increase rep_<faction_key> by +5 (the relationship creates a personal bond that the faction registers positively). Conversely, if the NPC's faction has hostile relations with another faction the player is allied with, the player should be aware that this romance creates political complications. Examples: romance with Sylvari (Warden Circle) while allied with the Demon Lord's Army, or romance with Revan Dusk (secretly Demon Army) while allied with the Royal Knights. The narrator should surface these tensions organically.\n",
+          "instruction": "Identify the NPC's faction and apply the established +5 reputation effect because the relationship is now known there. Rival-faction complications arise only where the relevant people know enough to care. Private relationships remain politically invisible until information reaches the people or institutions whose reaction is being tracked.",
           "type": "story"
         }
       ],
@@ -16810,7 +16810,7 @@
       ],
       "effects": [
         {
-          "instruction": "The festival creates a natural romance opportunity. Surface the option to invite a love interest to a festival event — a dance, a private cove, a lantern release, a shared meal. This is the Festival Date quest's natural trigger. Festival atmosphere may accelerate relationships. First kisses and heartfelt confessions are common during festivals. Do not force advancement, but make the opportunity visible and tempting.\n",
+          "instruction": "An active festival gives established partners and love interests a setting for shared activities such as dancing, food, games, ceremonies, lanterns, private walks, or dates. Let the people involved decide through their existing relationship and initiative whether anything romantic happens. The Festival Date quest can arise from an actual invitation or plan; do not advertise or force it merely because the player is present.",
           "type": "story"
         }
       ],
@@ -16874,7 +16874,7 @@
       ],
       "effects": [
         {
-          "instruction": "Identify all NPCs present at courting+ stage. Each one observes the player's behavior with the other. Their reaction depends on their personality archetype, their relationship stage, and the player's apparent intent. If the player has a multiple-suitors motivation trait, the jealous NPCs may grudgingly accept this is the arrangement. If the player has not declared an open arrangement, jealousy registers and may drive that NPC toward an Estrangement transition over multiple incidents. Track which NPCs have witnessed which interactions through a string-state witnessed_<witness_npc>_<target_npc> set to the most recent witnessed beat.\n",
+          "instruction": "Identify the relevant NPCs who actually witnessed the interaction. Each reacts according to personality, relationship history, expectations, existing agreements, and the relationship structure they understand. Jealousy, amusement, rivalry, comfort, participation, irritation, indifference, or another response are all possible; multiple relationships do not create jealousy or estrangement automatically. Track witnessed_<witness_npc>_<target_npc> only for what that witness actually observed.",
           "type": "story"
         }
       ],
@@ -17396,13 +17396,13 @@
     "Romance Stage Courting to Bonding": {
       "conditions": [
         {
-          "query": "A named NPC at courting stage and the player have shared a deeply personal moment — a first kiss, a heartfelt confession, or an equally significant emotional milestone — and the player has initiated or fully reciprocated.",
+          "query": "A named NPC at courting stage and the player have developed a durable deep bond through their actual shared history, trust, intimacy, vulnerability, devotion, physical closeness, or other relationship-defining experiences.",
           "type": "story"
         }
       ],
       "effects": [
         {
-          "instruction": "Identify the NPC. Set romance_<npc_name_snake_case> to bonding. The relationship has now reached a deep emotional and physical bond that the narrator should remember and reference in future encounters — the trust, the closeness, and what it means to both of them. Romance between these consenting adults may be portrayed with sensual heat and emotional depth, led by the player's pacing and emphasizing feeling over explicit detail. The NPC carries this bond forward and may bring it up at meaningful moments.",
+          "instruction": "Identify the NPC and set romance_<npc_name_snake_case> to bonding. Preserve the trust, intimacy, familiarity, physical history, shared experiences, and meaning that actually produced the bond. Do not prescribe a first kiss, confession, sexual threshold, or any other universal milestone, and do not alter the established level of explicitness or physicality of their scenes.",
           "type": "story"
         }
       ],
@@ -17412,13 +17412,13 @@
     "Romance Stage Flirting to Courting": {
       "conditions": [
         {
-          "query": "A named NPC at flirting stage and the player have shared a meaningful private moment, exchanged a deliberate emotional commitment, or completed the Confession quest. The relationship has moved beyond flirtation into genuine emotional investment.",
+          "query": "A named NPC at flirting stage and the player have moved from flirtation into an intentionally pursued romantic relationship through their actual words, choices, or established conduct.",
           "type": "story"
         }
       ],
       "effects": [
         {
-          "instruction": "Identify the NPC. Set romance_<npc_name_snake_case> to courting. The relationship is now an active romance. The narrator should treat the NPC as a meaningful presence in the player's life. They remember details, they ask after the player's wellbeing, they have opinions about the player's other relationships. Jealousy events become possible at this stage if the player advances multiple courting-stage relationships.\n",
+          "instruction": "Identify the NPC and set romance_<npc_name_snake_case> to courting. This records that the relationship is now intentionally romantic. Preserve the characters' actual expectations, other relationships, boundaries, habits, and social circumstances rather than imposing a standard courtship script.",
           "type": "story"
         }
       ],
@@ -17428,13 +17428,13 @@
     "Romance Stage Interested to Flirting": {
       "conditions": [
         {
-          "query": "A named NPC at interested stage has engaged in mutual flirtation with the player, both parties have signaled romantic engagement, and the encounter has progressed beyond initial interest.",
+          "query": "A named NPC at interested stage and the player have established recurring or deliberate mutual flirtation or comparable romantic signaling through actual interaction.",
           "type": "story"
         }
       ],
       "effects": [
         {
-          "instruction": "Identify the NPC. Set romance_<npc_name_snake_case> to flirting. The narrator should treat the relationship as established mutual interest going forward. The NPC and the player can engage in light romantic activity (sustained eye contact, intentional touch, playful conversation) without it feeling forced. Other NPCs at flirting+ stage may notice this dynamic and react accordingly.\n",
+          "instruction": "Identify the NPC and set romance_<npc_name_snake_case> to flirting. This records established mutual flirtation. Future behavior still follows the people involved; the state does not prescribe touching, dialogue, exclusivity, sex, or further advancement.",
           "type": "story"
         }
       ],
@@ -17444,13 +17444,13 @@
     "Romance Stage Bonding to Committed": {
       "conditions": [
         {
-          "query": "A named NPC at bonding stage and the player have made an explicit commitment to long-term relationship through the Proposal quest or equivalent narrative beat, and both parties have accepted exclusively or as part of an openly acknowledged multiple-partner arrangement.",
+          "query": "A named NPC at bonding stage and the player have explicitly established a long-term commitment or equivalent enduring partnership through their actual relationship.",
           "type": "story"
         }
       ],
       "effects": [
         {
-          "instruction": "Identify the NPC. Set romance_<npc_name_snake_case> to committed. If the player has the Many Admirers, Surrounded by Suitors, or Suitors of All Kinds motivation, multiple NPCs can be at committed stage simultaneously and the narrator treats this as an established group of partners with its own social dynamics. Otherwise, advancing one NPC to committed should be treated as exclusive. Other bonding-stage relationships may automatically transition to estranged unless the player explicitly resolves them.\n",
+          "instruction": "Identify the NPC and set romance_<npc_name_snake_case> to committed. Preserve the relationship structure the characters actually established, including monogamous, polyamorous, harem, or other multi-partner arrangements. One committed relationship never automatically estranges another; changes to other relationships require their own events and character reactions.",
           "type": "story"
         }
       ],
@@ -17460,13 +17460,13 @@
     "Romance Stage None to Interested": {
       "conditions": [
         {
-          "query": "The player has had a notable first encounter with a named NPC where romantic interest is established by at least one party, such as a meaningful glance, a deliberate compliment, lingering contact, or explicit acknowledgment.",
+          "query": "A named NPC and the player have developed a meaningful romantic or sexual interest dynamic beyond ordinary friendliness, established through actual behavior, words, attraction, or interaction.",
           "type": "story"
         }
       ],
       "effects": [
         {
-          "instruction": "Identify the named NPC involved in the encounter. Set romance_<npc_name_snake_case> to interested. The narrator should subtly track this state. The NPC may seek out the player again, may mention the player to a third party, or may behave with slightly heightened awareness on next encounter. The player may or may not yet be aware of the NPC's interest. Do not narrate the state change.\n",
+          "instruction": "Identify the named NPC and set romance_<npc_name_snake_case> to interested. Treat this as persistent tracking of an established possibility or attraction, not as mutual love, commitment, or permission to force escalation. Keep each character's actual knowledge and feelings distinct.",
           "type": "story"
         }
       ],
@@ -17476,13 +17476,13 @@
     "Romance Stage to Estranged": {
       "conditions": [
         {
-          "query": "A named NPC at any romance stage has been hurt by player betrayal, abandoned by player neglect, or has formally ended the relationship through the Jealousy quest's worst-case outcome, an explicit breakup, or sustained absence the NPC interpreted as abandonment.",
+          "query": "A named NPC at an established romance stage and the relationship has actually broken down into serious alienation through betrayal, an explicit breakup, irreconcilable conflict, abandonment as understood from established events, or another concrete relationship rupture.",
           "type": "story"
         }
       ],
       "effects": [
         {
-          "instruction": "Identify the NPC. Set romance_<npc_name_snake_case> to estranged. The NPC remembers what was. Their interactions with the player going forward are colored by what was lost. Reconciliation is possible but requires deliberate work, likely a dedicated quest beat where the player demonstrates change. Estrangement is not erasure. The history remains, and the NPC's behavior reflects it.\n",
+          "instruction": "Identify the NPC and set romance_<npc_name_snake_case> to estranged. Preserve the shared history and the specific cause of the rupture. Future hostility, grief, distance, reconciliation, indifference, or continued attachment follows the characters and subsequent events; no dedicated quest or predetermined repair path is required.",
           "type": "story"
         }
       ],
@@ -17492,13 +17492,13 @@
     "Romantic Tension": {
       "conditions": [
         {
-          "query": "The player spends meaningful time with an NPC who has shown romantic interest, or the player initiates a romantic situation.",
+          "query": "A romantic or sexual interaction is actually developing between the player and an NPC through established attraction, flirtation, invitation, physical interaction, relationship history, or either character's initiative.",
           "type": "story"
         }
       ],
       "effects": [
         {
-          "instruction": "Escalate the romantic tension based on the relationship's current depth. First encounters: nervous energy, lingering glances, accidental contact, flushed cheeks. Established attraction: meaningful touches, sustained eye contact, personal questions, leaning closer. Deepened bond: romance between consenting adults may be written with emotional depth, led by the player's pacing, emphasizing feeling. Always let the NPC's personality archetype shape how they express affection. If both parties reciprocate, follow the emotional and physical connection honestly, always treating the characters as consenting adults (18+). If the player pulls back, respect it instantly.\n",
+          "instruction": "Follow the interaction at the intensity, pace, physicality, and emotional character it actually establishes. Let personality, experience, attraction, relationship history, humor, awkwardness, desire, confidence, and circumstances shape behavior. Do not impose a universal progression from glances to touches to confession, do not soften explicit physical content, and do not force escalation merely because this trigger is active. The player's choices remain the player's; the NPC may initiate according to their own character.",
           "type": "story"
         }
       ],
