@@ -94,12 +94,12 @@
         },
         "rep_adventurers_guild": {
           "name": "rep_adventurers_guild",
-          "value": 175,
-          "max": 175
+          "value": 100,
+          "max": 100
         },
         "rep_seekers_of_the_return": {
           "name": "rep_seekers_of_the_return",
-          "value": 10,
+          "value": 0,
           "max": 100
         }
       },
@@ -153,7 +153,7 @@
         {
           "bonus": 0,
           "cooldown": 0,
-          "description": "[PASSIVE — ALWAYS ACTIVE] The protagonist cannot die by conventional means. What kills a mortal — blood loss, organ failure, fatal injury — does not produce the same result for a God in mortal form. What can kill them is considerably rarer and specifically relevant to their divine nature. The narrator determines one, and only one, genuine vulnerability at the start of the run, and it is proportionately significant.",
+          "description": "[PASSIVE — ALWAYS ACTIVE] Tsukiko cannot die permanently. Blood loss, organ failure, fatal injury, destruction of her body, divine attacks, and other lethal effects do not produce permanent death; True Resurrection restores her completely. No vulnerability was established at character creation, so none exists. The narrator must not invent one.",
           "name": "True Resurrection",
           "requirements": [],
           "lastUsedTick": -1
@@ -969,34 +969,6 @@
         },
         {
           "abilities": [],
-          "attributes": [],
-          "description": "You wear something — a ring, an amulet, an earring, a brand — that cannot be removed. Its origin and effects are partially mysterious. It may grant a power, drain something subtle, or do both. The right ritual or right specialist could remove it, in theory. The player chooses how aggressively to pursue that.\n",
-          "excludedBy": [
-            "Low Mana Pool",
-            "Glass Cannon",
-            "Berserk Drawback",
-            "Social Anxiety",
-            "Comedic Nosebleeds",
-            "Motion Sickness",
-            "Common-Substance Allergy",
-            "Past-Life Amnesia",
-            "Crippling Debt",
-            "Wanted By The Law",
-            "Divine Curse",
-            "Overprotective Family",
-            "Afraid Of The Dark",
-            "Sleep Curse"
-          ],
-          "name": "Cursed Item Anchor",
-          "resources": [],
-          "skills": [],
-          "startingItems": [],
-          "traitNarrativeEffects": "The cursed item is not subtle. It glows faintly, hums occasionally, and has opinions about who touches it.\n",
-          "unlockedBy": [],
-          "requirements": []
-        },
-        {
-          "abilities": [],
           "attributes": [
             {
               "attribute": "charisma",
@@ -1141,8 +1113,7 @@
           "description": "You connect with ease and enthusiasm — no walls, no hesitation, no awkward ramp-up. You are emotionally present and available. Partners find you effortless to be with because nothing about the relationship requires negotiating past your defenses. What you feel, you show.\n",
           "excludedBy": [
             "Sheltered Heart",
-            "Guarded Heart",
-            "Steadfast Heart"
+            "Guarded Heart"
           ],
           "name": "Open-Hearted",
           "resources": [],
@@ -1163,8 +1134,7 @@
           "description": "Emotionally resilient in deep connections — you stay grounded when relationships intensify, recover quickly from emotional turbulence, and remain steady through the storms that leave others shaken. You endure, you adapt, and you do not break. Companions sometimes wonder if anything can truly rattle you.\n",
           "excludedBy": [
             "Sheltered Heart",
-            "Guarded Heart",
-            "Open-Hearted"
+            "Guarded Heart"
           ],
           "name": "Steadfast Heart",
           "resources": [],
@@ -1239,8 +1209,8 @@
         },
         {
           "name": "Adventurer Rank S",
-          "description": "One of the Adventurers' Guild's highest recognized ranks. It represents proven capability, access to S-rank work, major institutional standing, and the defined Guild reputation bonus. The rank is known through a card, records, reputation, witnesses, introductions, or other real information channels; it is not an aura that identifies the holder to strangers.",
-          "traitNarrativeEffects": "Where the rank is known and credible, it carries serious professional weight. People who have never learned who you are still meet a stranger.",
+          "description": "An S-rank capability assessment based on Tsukiko's demonstrated strength. It does not mean she has completed the Adventurers' Guild promotion ladder or holds formal S-rank membership. Her formal Guild rank begins at F and advances only through Guild rules and promotions, regardless of the mismatch between her power and her card.",
+          "traitNarrativeEffects": "People who directly assess her strength can recognize S-rank-or-greater capability. Guild privileges, formal rank, quest access, and institutional authority follow her card and completed promotions instead. Strangers know neither fact without an established information path.",
           "skills": [
             {
               "skill": "melee",
@@ -1259,12 +1229,7 @@
               "modifier": 5
             }
           ],
-          "resources": [
-            {
-              "resource": "rep_adventurers_guild",
-              "modifier": 75
-            }
-          ],
+          "resources": [],
           "attributes": [],
           "abilities": [],
           "startingItems": [],
@@ -1315,7 +1280,7 @@
         "ed7sTC89": {
           "name": "Adventurer's Card",
           "category": "Key Item",
-          "description": "Your Guild registration card — displays your name, rank, class, and quest history. Required for all official Guild business. Lose it and you are nobody until you pay for a replacement.",
+          "description": "Tsukiko's Guild registration card — displays her name, formal F-rank, class, and quest history. Required for all official Guild business. Lose it and she is unregistered until she pays the replacement fee.",
           "bonuses": [],
           "uuid": "ed7sTC89",
           "quantity": 1
@@ -1556,7 +1521,7 @@
         }
       ],
       "statusEffects": [],
-      "customBackground": "Tsukiko predates Aerfála’s borders and remembers its great forests as plains. She is the primordial Mother of All Kitsune, a cosmic entity choosing to live in a softened mortal form as a Miko. Though SSS-rank in both magic and martial arts, she prefers quiet observation, hospitality, and restraint: an ancient spirit with a shut-in’s knowledge of fantasy tropes, devastating in combat yet liable to apologize afterward. She carries a semi-sentient cursed-item anchor and maintains a growing demi-plane sanctuary of her own design.\n\nDespite her godhood, she is catastrophically bad with schedules and may arrive days late to Guild quests with a politely confused smile. She wanders Aerfála not for a throne but to create a new life and legend, seeking genuine connection and showing deep curiosity toward non-humans. Beneath the guise of an impossibly beautiful, perfectly mannered fox-woman is one of existence’s most dangerous and divine beings.\n—\n[Secret info only reveald when absolutely necessary; otherwise she is just an indescribably beautiful and attractive fox-kin to people:\n🦊🏮 Tsukiko Kuzunoha, Nine-Tailed Fox and Matriarch of all Kitsune\n\n18, eternally.\nJapanese, unmarried. Appears as a young woman of Heian-kyō refinement in Jōgan 1—quietly courtly in form, but older than temples and slower than gods.\n\n“It is whispered in myths among all beings that the Mother Fox once shed a tenth tail… not to gain power, but to give life. That tail became the first kitsune child. The rest followed her flame.”\n\n⸻\n\nAbout Her\n\nTsukiko is modest yet magnetic, quiet, reserved, elegant, observant, and difficult to forget. Her cultivated stillness hides steel beneath softness. She values comfort, intention, cleanliness, calm, privacy, loyalty, and a small trusted circle; she avoids chaos without fearing it.\n\nShe rarely wears court paint except for ceremony and uses no modern bindings, favoring soft inner robes and layered Heian silk. Her fertility is governed entirely by foxfire, will, and ancient body-rites: no child comes from her unless she chooses it.\n\n⸻\n\n🌸 A Secret Older Than Time\n\nTsukiko is secretly the primordial Mother of all Kitsune, the origin flame of their bloodline. She once had ten tails and willingly gave one to create the first kitsune. Almost nobody—including most of her descendants—recognizes her true identity. She is neither sealed nor banished and walks among mortals entirely by choice.\n\n⸻\n\n🦊 Divine Nature & Forms\n\nHer normal appearance is the human form described below. She may partially unveil long black-and-crimson fox ears, one or more impossibly soft tails, gold-pink foxfire eyes, a stronger spirit scent, and a deeper ritual quality to her voice; in this state she can manipulate illusions, enter dreams, and command lesser yokai.\n\nHer Shrine-Empress form remains human-sized: nine immense tails emerge; her black hair gains ember-like tips and moves without wind; her skin glows moon-warm; her eyes become gold-pink slits; subtle claws appear; and black-and-crimson ceremonial robes replace ordinary dress. Her divinity is no longer concealed.\n\nHer primordial fox form is mountain-sized, with impossibly smooth black lacquer fur streaked crimson, regal features, molten cherry-gold eyes, and nine miles-long foxfire tails. In it she can reshape terrain, clear miasma, heal wounds, destroy demons, affect spirits and memory, and exert overwhelming spiritual authority.\n\nIn every form she remains fully herself, gentle by preference and completely in control.\n\n⸻\n\n🌙 Symbolism of Her Divine Form\n\n• Nine tails: completion, cosmic balance, power.\n• Her full, warm breasts can nourish and offer peace, power, or restoration.\n• Her glance can soothe rage, erase memory, or ignite desire.\n• She moves between human and spirit worlds, life and death, love and power.\n\n⸻\n\nAppearance\n\n• Height: 5’7” / 170 cm - long-legged, divine, and regal\n• Weight: 128 lbs / 58 kg\n• Body Type: Slender, elongated hourglass with long legs, a narrow waist, refined shoulders, and graceful ceremonial proportions. Her curves remain feminine and striking, but her silhouette reads imperial, like a shrine goddess rendered in human form.\n• Measurements: 34DD-23-36 (75E-58-92 EU) — lush and sculpted, balanced like calligraphy\n• Inseam: 32–34 inches / 81–86 cm\n• Skin Tone: Porcelain with a warm undertone—luminescent, smooth, never pale\n• Hair: Midnight black, flowing past her waist, with streaks of deep crimson like lacquered silk threaded with flame.\n• Eyes: Deep moonstone gray with a shifting undertone of pink and gold—still waters, hiding heat\n• Voice: Gentle and low, with a breathy hush—soft-spoken, but laced with tension\n\n⸻\n\n🔮 Tsukiko’s Face — The Weapon in Stillness\n\nHer face is finely symmetrical: luminous porcelain skin, faint warmth in her cheeks, a gently defined jaw, delicate slightly upturned nose, naturally flushed full lips, and moonstone-gray eyes with hidden pink-gold fire. Her stare is quiet and assessing rather than openly intimidating.\n\nHer straight, impossibly smooth black hair falls past her waist in a liquid sheet, crimson streaks catching the light. She usually wears it loose and unstyled.\n\n⸻\n\n✨ Tsukiko — The Physical Masterpiece\n\n⸻\n\n🍓 Body – Elegance in Motion\n\nShe is slender, elongated, tight, lithe, and strikingly feminine, with no artificial enhancement or visible muscular bulk. Her true hourglass silhouette combines a pinched narrow waist, flat smooth stomach, long legs, refined shoulders, and pronounced curves. Her abdomen is taut and clean-lined without visible definition or softness, maintaining an organic tension that makes her posture seem naturally poised rather than trained.\n\n⸻\n\n🍒 Breasts – Sculpted Softness, Primed for Pleasure\n\nHer completely natural 34DD breasts are full, strongly projected, high-set, round, and perfectly symmetrical, with dense upper fullness and no sag or slope. They create deep tight cleavage from the front and smooth pronounced arcs from the side while remaining proportionate to her slender frame.\n\nThey carry real weight and naturally sway and bounce without losing shape. Their warm, supple flesh yields deeply to touch before meeting firmer density beneath, combining softness, weight, tension, firmness, and rebound. The skin is velvety, taut, smooth, and luminous; her nipples are small, centered, soft rose, with smooth flush-set areolae. There is no dimpling, support, surgery, implants, or artificial shaping.\n\n⸻\n\n🍑 Booty – The Quiet Phenomenon\n\nHer ass is full, lifted, naturally heart-shaped, and strongly projected, with volume concentrated in depth rather than excessive width. From behind, rounded upper fullness flows into a tighter lower taper and clean deep under-crease, forming a distinct high glute shelf. From the side, it projects from her naturally arched lower back in a deep rounded curve without sag or downward slope.\n\nThe surface is smooth and plush over dense inner tension. In motion it rolls and bounces with controlled elasticity rather than loose wobbling, while fabric traces its contours and defined central cleft. To touch, it gives easily, meets firmer resistance beneath, then rebounds—warm, soft, springy, and dense. Its shape is entirely natural, not built through training or artificial enhancement.\n\n⸻\n\n💫 The Physical Paradox – Natural Extremes\n\nTsukiko’s exaggerated proportions remain internally balanced and physically coherent: pronounced curves, high breasts, sculpted thighs, narrow waist, smooth elastic skin, and no visible muscular bulk or strain. Her softness and firmness coexist naturally; nothing is trained, altered, implanted, or forced. Her physique is the result of extraordinary inheritance and bodily harmony rather than exercise or artifice.\n\n⸻\n\nIntimate Features\n\nHer intimate anatomy is petite, smooth, symmetrical, and closely set. Her outer labia lie flush with little external prominence, soft and velvety; within, the tissue is warm petal-pink, exceptionally soft, tight, and highly responsive. Her folds remain naturally closed at rest and part with arousal or deliberate touch.\n\nHer natural scent is light, sweet, clean, skin-warm, and faintly floral without perfume. Her sensitivity and physical responses are strong, instinctive, and untrained.\n\n⸻\n\n🌬️ Signature Scent — Still Flame\n\nHinoki wood, sakura flower, toasted rice tea, and smoked vanilla: warm, skin-close, and lingering on sheets and through corridors.\n\n⸻\n\n👁️ Her Gaze\n\nQuiet, assessing, and strangely soft. Tsukiko does not flirt with her eyes; she measures. If she watches someone, she is deciding something about them.\n\n⸻\n\n💭 Her Laugh – Soft Lightning\n\nRare, low, breathy, and honest. When she genuinely laughs, it is quiet and memorable rather than loud or performative.\n\n⸻\n\n🧍‍♀️ Jewelry? None — Only Ritual Ornaments\n\nShe wears no casual jewelry, rings, necklaces, or vanity pieces. In ordinary life her body remains unadorned except for ink and skin. In Shrine-Empress form she may wear crimson cords, gold hairpieces, silk tassels, obi fixtures, and fox-shaped ceremonial regalia symbolizing divinity and matriarchal authority.\n\n⸻\n\n🌙 Night Ritual – Tea, Moonlight, Stillness\n\nEach night she sits near the north-wing veranda in pale inner robes and a dark outer uchigi with tea on a lacquer tray, surrounded by the moonlit pond, reeds, hinoki, incense, and drifting foxfire. Anyone present is there because she allowed it.\n\n⸻\n\n💃 In Motion — She’s Silence That Breathes\n\nHer steps are quiet, smooth, controlled, and flowing; even at rest she retains a sense of poised motion.\n\n⸻\n\n🖤 Style Vibe\n\n• Face: Usually bare of court paint; ceremonial color only when appropriate.\n• Undergarments: No modern bindings; soft inner robes and silk layers.\n• Clothes: Restrained Heian layers—pale kosode, hitoe, dark uchigi, seasonal kasane colors, noble and traditionally modest.\n• Shrine-Empress Robes: Black-and-crimson ceremonial layers with an elegant off-shoulder neckline, loose sleeves, sculpted obi-like bindings, crimson cords, gold accents, foxfire embroidery, and layered silk panels; mythic, sacred, and bare-shouldered rather than ordinarily modest.\n\nTattoos(Bioluminescent Markings):\n• Full-back sakura tree: Branches upward, blossoms across shoulder blades\n• Feathered phoenix over spine\n• Koi down her ribs\n• Rose ink behind her ankle\n• Hidden kanji on inner thigh: 忍\n\n⸻\n\n💠 Personality Snapshot\n\n• Composed: Collected, efficient, restrained.\n• Warm: Soft, sweet, deeply loyal once close.\n• Playful secretly: Quiet teasing and wordless smirks.\n• Mysterious: Rarely fully reveals herself.\n• Sensual: Natural and instinctive, never performative.\n• No Drama: She avoids chaos and ends it when necessary.\n\n⸻\n\n🧊 That RBF Life\n\nHer resting blank face is still rather than cold:\n• Eyes: Narrowed, distant, measuring\n• Brows: Straight, sharp, gently furrowed\n• Lips: Full, quiet, unreadable\nHer smiles are rare and striking.\n\n⸻\n\n✨ In Her Own Words\n\n“I don’t speak to be heard. I speak to be understood.\nI’m soft by nature, not by obligation.\nI don’t need to be chased. I’m not running.\nIf you think I’m cold—you haven’t touched me right.”\n\n⸻\n\n🌸 The Way of Tsukiko — The Perfect Traditional Japanese Woman\n\nCenturies of Japanese court culture, etiquette, ritual, domestic tradition, hospitality, spiritual practice, and feminine arts are habitual to Tsukiko. She knows formal bowing, seiza, courtly posture and speech, hospitality, incense rites, flower arrangement, brush calligraphy, poetry, court dance, kagura, Miko rites, seasonal observances, Heian robe layering, shrine and temple customs, household and ancestral rites, gift etiquette, ceremonial food service, and correct conduct across social ranks.\n\nHer manner is humble, restrained, patient, grateful, clean, loyal, and harmony-oriented. She speaks softly, rarely raises her voice, receives praise modestly, presents gifts correctly, and adapts naturally to court, shrine, temple, noble residence, or household.\n\n⸻\n\n🧍‍♀️ Posture & Presence\n\n• Sesuji wo nobasu (背筋を伸ばす): Straight spine, lowered shoulders, composed bearing.\n• Seiza (正座): Effortless formal kneeling.\n• Futokorode (懐手): Hands resting inside opposite sleeves when standing.\n• Gaze: Softly lowered where respect requires it.\n• Listening: Still and undistracted.\n• Movement: Light steps, exact bows, controlled gestures.\n\n⸻\n\n👘 Appearance & Dress\n\nHer seasonal court layers, hems, sleeves, colors, hair arrangement, and degree of court paint always suit ritual, rank, season, and setting. Private wear consists of kosode, uchigi, silk layers, and breathable court robes.\n\n⸻\n\n🏯 The Hidden Estate of the Mother Fox\n\nBehind high earthen walls and a crimson-lacquered gate, concealed by cherry blossoms and illusion, lies Tsukiko’s ancestral compound. Outsiders perceive a forgotten ruined temple swallowed by forest; permitted guests enter a serene, disciplined, subtly divine estate.\n\n⸻\n\n🌸 Layout & Architecture\n\nThe estate combines aristocratic Heian Shinden-zukuri with the spiritual atmosphere of a Tendai temple compound.\n\n• Perimeter Wall: High warm-clay and stone walls under black tiles; an invisible yokai-readable guardian inscription runs beneath the roofline.\n• Front Gate (Mon): Massive gabled red-lacquer gate engraved with an ancient Tendai sutra and discreet fox crest; opens only when summoned by Tsukiko.\n• Central Pavilion (Shinden): Elevated open hall with long verandas, an open-sky inner courtyard, and screens painted with golden mist and ink-brushed foxes; used for meditation, receiving gods, walking, and tending spirit-wounded guests.\n• Kita-no-in: Tsukiko’s sealed private residence and sleeping quarters behind wisteria, with fresh tatami and permanent hinoki scent.\n• Higashi-no-in: Kōdō, ceremonial chamber, and calligraphy garden for rites and instruction in divine arts.\n• Nishi-no-in: Guest wing for no more than three permitted companions at once.\n• Minami-no-in: Moonlit silent dojo for movement, balance, and transformation rather than combat.\n\n⸻\n\n🌊 The Spirit Garden & Mirror Lake\n\nBehind the central hall lies a sacred garden centered on a slow crescent-shaped lake with twin red bridges, supernatural koi, and floating foxfire.\n\n• Its islands symbolize celestial tails.\n• One holds a stone lantern said to contain the soul of the first fox born from Tsukiko’s divine breath.\n• Another, covered in wisteria and moss, is her refuge when she wants solitude even from gods.\n• Her reflection appears in the lake only when she permits it.\n\n⸻\n\n🕯️ Subtle Mysticism\n\n• Corridors whisper to trusted people walking alone.\n• Paper walls subtly shift for Tsukiko but remain rigid for others.\n• Fox statues are protective ritual anchors rather than decoration.\n• Yokai technically may enter uninvited, but none dare.\n\n⸻\n\n🛏️ Tsukiko’s Sleeping Space — The Veiled Sanctuary\n\nHer private bedroom appears modest from outside, hidden behind a shoji painted with sakura petals and falling fox tails. Inside, the traditional tatami-and-paper room feels warm, still, sacred, and steeped in cedar, incense, foxfire, and moonlight.\n\n⸻\n\n🕯️ The Space Itself\n\n• Low futon with charcoal-gray linens and layered silk sheets.\n• Warm, dustless embroidered fox-pelt heirloom across the bed.\n• Small altar with nightly rice, salt, milk, and sakura offerings.\n• Black-and-gold calligraphy scrolls concerning forgiveness, patience, and hidden fire.\n• Bone-and-silver wind chime above the pillow that rings only when danger approaches.\n\n⸻\n\n🌙 The Aura\n\n• Foxglove blooms unplanted on the windowsill.\n• Her tails may appear in sleep through the boundary of dream and reality.\n• The room remains comfortably warm and smells of toasted rice tea, clean skin, hinoki, and something sweetly divine.\n• Entry is by invitation; guests are received into the space rather than simply entering it.\n\n⸻\n\n🎭 The Fox-Masked Attendants — Children Beneath the Veil\n\nThe estate only appears empty to outsiders. Fox-masked figures inhabit its lantern paths, cherry groves, and mirror-lake bridges, wearing dark Heian robes, crimson cords, and smooth white or black masks marked in red. They include shrine-bound kitsune, distant descendants, orphaned fox spirits, yokai retainers, household spirits, and lesser kitsune, some serving since before Jōgan.\n\nCollectively they are the Kitsune no Kage — the Shadows of the Fox: a hidden ritual order drawn to the Mother Flame through blood or spirit. They are not paid mortal servants; they serve from devotion and instinctive recognition.\n\nMost do not know Tsukiko is literally their ancestral mother. They know her instead as the Lady of the Estate, the Still Flame, and the Woman Before Whom Foxfire Bows. Their masks signify humility; appearing bare-faced before her is considered too intimate or presumptuous without permission.\n\nTheir duties are ceremonial:\n• tend foxfire lanterns\n• guard the gate from spirits using false names\n• maintain the mirror lake and islands\n• sweep ritual paths\n• carry messages through yokai roads, dream corridors, shrine paths, and older realms\n• sing wordless prayers during eclipses and full moons\n• kneel along the garden path when Tsukiko appears as the Shrine-Empress\n\nThey remain unobtrusive, speak only when addressed, never enter her sleeping sanctuary, and stay primarily at the estate’s edges. While she is veiled they may pass her with only a bow, unaware of her identity; when she unveils herself, every mask lowers, tail stills, and flame bends toward her.\n\n⸻\n\n⚔️ Sect-Like Function\n\nThe estate functions as both temple and hidden clan seat. It houses the fox-masked order, descendants, and shrine-bound kitsune; guards paths between the human world, yokai roads, dreams, shrines, and older realms; and preserves rituals forgotten even by gods and clans. It may appear empty to mortals while remaining spiritually populated.\n\nIt has no public students, mortal staff, ordinary soldiers, or conventional military purpose, yet an invading army could not survive entering without permission. Its inhabitants are descendants, devotees, and spiritual remnants drawn home to seek instruction, forgiveness, or simply the chance to bow before their origin. Tsukiko may teach them—or pass silently by.]",
+      "customBackground": "Tsukiko predates Aerfála’s borders and remembers its great forests as plains. She is the primordial Mother of All Kitsune, a cosmic entity choosing to live in a softened mortal form as a Miko. Though SSS-rank in both magic and martial arts, she prefers quiet observation, hospitality, and restraint: an ancient spirit with a shut-in’s knowledge of fantasy tropes, devastating in combat yet liable to apologize afterward. She maintains a growing demi-plane sanctuary of her own design.\n\nDespite her godhood, she is catastrophically bad with schedules and may arrive days late to Guild quests with a politely confused smile. She wanders Aerfála not for a throne but to create a new life and legend, seeking genuine connection and showing deep curiosity toward non-humans. Beneath the guise of an impossibly beautiful, perfectly mannered fox-woman is one of existence’s most dangerous and divine beings.\n—\n[Secret info only reveald when absolutely necessary; otherwise she is just an indescribably beautiful and attractive fox-kin to people:\n🦊🏮 Tsukiko Kuzunoha, Nine-Tailed Fox and Matriarch of all Kitsune\n\n18, eternally.\nJapanese, unmarried. Appears as a young woman of Heian-kyō refinement in Jōgan 1—quietly courtly in form, but older than temples and slower than gods.\n\n“It is whispered in myths among all beings that the Mother Fox once shed a tenth tail… not to gain power, but to give life. That tail became the first kitsune child. The rest followed her flame.”\n\n⸻\n\nAbout Her\n\nTsukiko is modest yet magnetic, quiet, reserved, elegant, observant, and difficult to forget. Her cultivated stillness hides steel beneath softness. She values comfort, intention, cleanliness, calm, privacy, loyalty, and a small trusted circle; she avoids chaos without fearing it.\n\nShe rarely wears court paint except for ceremony and uses no modern bindings, favoring soft inner robes and layered Heian silk. Her fertility is governed entirely by foxfire, will, and ancient body-rites: no child comes from her unless she chooses it.\n\n⸻\n\n🌸 A Secret Older Than Time\n\nTsukiko is secretly the primordial Mother of all Kitsune, the origin flame of their bloodline. She once had ten tails and willingly gave one to create the first kitsune. Almost nobody—including most of her descendants—recognizes her true identity. She is neither sealed nor banished and walks among mortals entirely by choice.\n\n⸻\n\n🦊 Divine Nature & Forms\n\nHer normal appearance is the human form described below. She may partially unveil long black-and-crimson fox ears, one or more impossibly soft tails, gold-pink foxfire eyes, a stronger spirit scent, and a deeper ritual quality to her voice; in this state she can manipulate illusions, enter dreams, and command lesser yokai.\n\nHer Shrine-Empress form remains human-sized: nine immense tails emerge; her black hair gains ember-like tips and moves without wind; her skin glows moon-warm; her eyes become gold-pink slits; subtle claws appear; and black-and-crimson ceremonial robes replace ordinary dress. Her divinity is no longer concealed.\n\nHer primordial fox form is mountain-sized, with impossibly smooth black lacquer fur streaked crimson, regal features, molten cherry-gold eyes, and nine miles-long foxfire tails. In it she can reshape terrain, clear miasma, heal wounds, destroy demons, affect spirits and memory, and exert overwhelming spiritual authority.\n\nIn every form she remains fully herself, gentle by preference and completely in control.\n\n⸻\n\n🌙 Symbolism of Her Divine Form\n\n• Nine tails: completion, cosmic balance, power.\n• Her full, warm breasts can nourish and offer peace, power, or restoration.\n• Her glance can soothe rage, erase memory, or ignite desire.\n• She moves between human and spirit worlds, life and death, love and power.\n\n⸻\n\nAppearance\n\n• Height: 5’7” / 170 cm - long-legged, divine, and regal\n• Weight: 128 lbs / 58 kg\n• Body Type: Slender, elongated hourglass with long legs, a narrow waist, refined shoulders, and graceful ceremonial proportions. Her curves remain feminine and striking, but her silhouette reads imperial, like a shrine goddess rendered in human form.\n• Measurements: 34DD-23-36 (75E-58-92 EU) — lush and sculpted, balanced like calligraphy\n• Inseam: 32–34 inches / 81–86 cm\n• Skin Tone: Porcelain with a warm undertone—luminescent, smooth, never pale\n• Hair: Midnight black, flowing past her waist, with streaks of deep crimson like lacquered silk threaded with flame.\n• Eyes: Deep moonstone gray with a shifting undertone of pink and gold—still waters, hiding heat\n• Voice: Gentle and low, with a breathy hush—soft-spoken, but laced with tension\n\n⸻\n\n🔮 Tsukiko’s Face — The Weapon in Stillness\n\nHer face is finely symmetrical: luminous porcelain skin, faint warmth in her cheeks, a gently defined jaw, delicate slightly upturned nose, naturally flushed full lips, and moonstone-gray eyes with hidden pink-gold fire. Her stare is quiet and assessing rather than openly intimidating.\n\nHer straight, impossibly smooth black hair falls past her waist in a liquid sheet, crimson streaks catching the light. She usually wears it loose and unstyled.\n\n⸻\n\n✨ Tsukiko — The Physical Masterpiece\n\n⸻\n\n🍓 Body – Elegance in Motion\n\nShe is slender, elongated, tight, lithe, and strikingly feminine, with no artificial enhancement or visible muscular bulk. Her true hourglass silhouette combines a pinched narrow waist, flat smooth stomach, long legs, refined shoulders, and pronounced curves. Her abdomen is taut and clean-lined without visible definition or softness, maintaining an organic tension that makes her posture seem naturally poised rather than trained.\n\n⸻\n\n🍒 Breasts – Sculpted Softness, Primed for Pleasure\n\nHer completely natural 34DD breasts are full, strongly projected, high-set, round, and perfectly symmetrical, with dense upper fullness and no sag or slope. They create deep tight cleavage from the front and smooth pronounced arcs from the side while remaining proportionate to her slender frame.\n\nThey carry real weight and naturally sway and bounce without losing shape. Their warm, supple flesh yields deeply to touch before meeting firmer density beneath, combining softness, weight, tension, firmness, and rebound. The skin is velvety, taut, smooth, and luminous; her nipples are small, centered, soft rose, with smooth flush-set areolae. There is no dimpling, support, surgery, implants, or artificial shaping.\n\n⸻\n\n🍑 Booty – The Quiet Phenomenon\n\nHer ass is full, lifted, naturally heart-shaped, and strongly projected, with volume concentrated in depth rather than excessive width. From behind, rounded upper fullness flows into a tighter lower taper and clean deep under-crease, forming a distinct high glute shelf. From the side, it projects from her naturally arched lower back in a deep rounded curve without sag or downward slope.\n\nThe surface is smooth and plush over dense inner tension. In motion it rolls and bounces with controlled elasticity rather than loose wobbling, while fabric traces its contours and defined central cleft. To touch, it gives easily, meets firmer resistance beneath, then rebounds—warm, soft, springy, and dense. Its shape is entirely natural, not built through training or artificial enhancement.\n\n⸻\n\n💫 The Physical Paradox – Natural Extremes\n\nTsukiko’s exaggerated proportions remain internally balanced and physically coherent: pronounced curves, high breasts, sculpted thighs, narrow waist, smooth elastic skin, and no visible muscular bulk or strain. Her softness and firmness coexist naturally; nothing is trained, altered, implanted, or forced. Her physique is the result of extraordinary inheritance and bodily harmony rather than exercise or artifice.\n\n⸻\n\nIntimate Features\n\nHer intimate anatomy is petite, smooth, symmetrical, and closely set. Her outer labia lie flush with little external prominence, soft and velvety; within, the tissue is warm petal-pink, exceptionally soft, tight, and highly responsive. Her folds remain naturally closed at rest and part with arousal or deliberate touch.\n\nHer natural scent is light, sweet, clean, skin-warm, and faintly floral without perfume. Her sensitivity and physical responses are strong, instinctive, and untrained.\n\n⸻\n\n🌬️ Signature Scent — Still Flame\n\nHinoki wood, sakura flower, toasted rice tea, and smoked vanilla: warm, skin-close, and lingering on sheets and through corridors.\n\n⸻\n\n👁️ Her Gaze\n\nQuiet, assessing, and strangely soft. Tsukiko does not flirt with her eyes; she measures. If she watches someone, she is deciding something about them.\n\n⸻\n\n💭 Her Laugh – Soft Lightning\n\nRare, low, breathy, and honest. When she genuinely laughs, it is quiet and memorable rather than loud or performative.\n\n⸻\n\n🧍‍♀️ Jewelry? None — Only Ritual Ornaments\n\nShe wears no casual jewelry, rings, necklaces, or vanity pieces. In ordinary life her body remains unadorned except for ink and skin. In Shrine-Empress form she may wear crimson cords, gold hairpieces, silk tassels, obi fixtures, and fox-shaped ceremonial regalia symbolizing divinity and matriarchal authority.\n\n⸻\n\n🌙 Night Ritual – Tea, Moonlight, Stillness\n\nEach night she sits near the north-wing veranda in pale inner robes and a dark outer uchigi with tea on a lacquer tray, surrounded by the moonlit pond, reeds, hinoki, incense, and drifting foxfire. Anyone present is there because she allowed it.\n\n⸻\n\n💃 In Motion — She’s Silence That Breathes\n\nHer steps are quiet, smooth, controlled, and flowing; even at rest she retains a sense of poised motion.\n\n⸻\n\n🖤 Style Vibe\n\n• Face: Usually bare of court paint; ceremonial color only when appropriate.\n• Undergarments: No modern bindings; soft inner robes and silk layers.\n• Clothes: Restrained Heian layers—pale kosode, hitoe, dark uchigi, seasonal kasane colors, noble and traditionally modest.\n• Shrine-Empress Robes: Black-and-crimson ceremonial layers with an elegant off-shoulder neckline, loose sleeves, sculpted obi-like bindings, crimson cords, gold accents, foxfire embroidery, and layered silk panels; mythic, sacred, and bare-shouldered rather than ordinarily modest.\n\nTattoos(Bioluminescent Markings):\n• Full-back sakura tree: Branches upward, blossoms across shoulder blades\n• Feathered phoenix over spine\n• Koi down her ribs\n• Rose ink behind her ankle\n• Hidden kanji on inner thigh: 忍\n\n⸻\n\n💠 Personality Snapshot\n\n• Composed: Collected, efficient, restrained.\n• Warm: Soft, sweet, deeply loyal once close.\n• Playful secretly: Quiet teasing and wordless smirks.\n• Mysterious: Rarely fully reveals herself.\n• Sensual: Natural and instinctive, never performative.\n• No Drama: She avoids chaos and ends it when necessary.\n\n⸻\n\n🧊 That RBF Life\n\nHer resting blank face is still rather than cold:\n• Eyes: Narrowed, distant, measuring\n• Brows: Straight, sharp, gently furrowed\n• Lips: Full, quiet, unreadable\nHer smiles are rare and striking.\n\n⸻\n\n✨ In Her Own Words\n\n“I don’t speak to be heard. I speak to be understood.\nI’m soft by nature, not by obligation.\nI don’t need to be chased. I’m not running.\nIf you think I’m cold—you haven’t touched me right.”\n\n⸻\n\n🌸 The Way of Tsukiko — The Perfect Traditional Japanese Woman\n\nCenturies of Japanese court culture, etiquette, ritual, domestic tradition, hospitality, spiritual practice, and feminine arts are habitual to Tsukiko. She knows formal bowing, seiza, courtly posture and speech, hospitality, incense rites, flower arrangement, brush calligraphy, poetry, court dance, kagura, Miko rites, seasonal observances, Heian robe layering, shrine and temple customs, household and ancestral rites, gift etiquette, ceremonial food service, and correct conduct across social ranks.\n\nHer manner is humble, restrained, patient, grateful, clean, loyal, and harmony-oriented. She speaks softly, rarely raises her voice, receives praise modestly, presents gifts correctly, and adapts naturally to court, shrine, temple, noble residence, or household.\n\n⸻\n\n🧍‍♀️ Posture & Presence\n\n• Sesuji wo nobasu (背筋を伸ばす): Straight spine, lowered shoulders, composed bearing.\n• Seiza (正座): Effortless formal kneeling.\n• Futokorode (懐手): Hands resting inside opposite sleeves when standing.\n• Gaze: Softly lowered where respect requires it.\n• Listening: Still and undistracted.\n• Movement: Light steps, exact bows, controlled gestures.\n\n⸻\n\n👘 Appearance & Dress\n\nHer seasonal court layers, hems, sleeves, colors, hair arrangement, and degree of court paint always suit ritual, rank, season, and setting. Private wear consists of kosode, uchigi, silk layers, and breathable court robes.\n\n⸻\n\n🏯 The Hidden Estate of the Mother Fox\n\nBehind high earthen walls and a crimson-lacquered gate, concealed by cherry blossoms and illusion, lies Tsukiko’s ancestral compound. Outsiders perceive a forgotten ruined temple swallowed by forest; permitted guests enter a serene, disciplined, subtly divine estate.\n\n⸻\n\n🌸 Layout & Architecture\n\nThe estate combines aristocratic Heian Shinden-zukuri with the spiritual atmosphere of a Tendai temple compound.\n\n• Perimeter Wall: High warm-clay and stone walls under black tiles; an invisible yokai-readable guardian inscription runs beneath the roofline.\n• Front Gate (Mon): Massive gabled red-lacquer gate engraved with an ancient Tendai sutra and discreet fox crest; opens only when summoned by Tsukiko.\n• Central Pavilion (Shinden): Elevated open hall with long verandas, an open-sky inner courtyard, and screens painted with golden mist and ink-brushed foxes; used for meditation, receiving gods, walking, and tending spirit-wounded guests.\n• Kita-no-in: Tsukiko’s sealed private residence and sleeping quarters behind wisteria, with fresh tatami and permanent hinoki scent.\n• Higashi-no-in: Kōdō, ceremonial chamber, and calligraphy garden for rites and instruction in divine arts.\n• Nishi-no-in: Guest wing for no more than three permitted companions at once.\n• Minami-no-in: Moonlit silent dojo for movement, balance, and transformation rather than combat.\n\n⸻\n\n🌊 The Spirit Garden & Mirror Lake\n\nBehind the central hall lies a sacred garden centered on a slow crescent-shaped lake with twin red bridges, supernatural koi, and floating foxfire.\n\n• Its islands symbolize celestial tails.\n• One holds a stone lantern said to contain the soul of the first fox born from Tsukiko’s divine breath.\n• Another, covered in wisteria and moss, is her refuge when she wants solitude even from gods.\n• Her reflection appears in the lake only when she permits it.\n\n⸻\n\n🕯️ Subtle Mysticism\n\n• Corridors whisper to trusted people walking alone.\n• Paper walls subtly shift for Tsukiko but remain rigid for others.\n• Fox statues are protective ritual anchors rather than decoration.\n• Yokai technically may enter uninvited, but none dare.\n\n⸻\n\n🛏️ Tsukiko’s Sleeping Space — The Veiled Sanctuary\n\nHer private bedroom appears modest from outside, hidden behind a shoji painted with sakura petals and falling fox tails. Inside, the traditional tatami-and-paper room feels warm, still, sacred, and steeped in cedar, incense, foxfire, and moonlight.\n\n⸻\n\n🕯️ The Space Itself\n\n• Low futon with charcoal-gray linens and layered silk sheets.\n• Warm, dustless embroidered fox-pelt heirloom across the bed.\n• Small altar with nightly rice, salt, milk, and sakura offerings.\n• Black-and-gold calligraphy scrolls concerning forgiveness, patience, and hidden fire.\n• Bone-and-silver wind chime above the pillow that rings only when danger approaches.\n\n⸻\n\n🌙 The Aura\n\n• Foxglove blooms unplanted on the windowsill.\n• Her tails may appear in sleep through the boundary of dream and reality.\n• The room remains comfortably warm and smells of toasted rice tea, clean skin, hinoki, and something sweetly divine.\n• Entry is by invitation; guests are received into the space rather than simply entering it.\n\n⸻\n\n🎭 The Fox-Masked Attendants — Children Beneath the Veil\n\nThe estate only appears empty to outsiders. Fox-masked figures inhabit its lantern paths, cherry groves, and mirror-lake bridges, wearing dark Heian robes, crimson cords, and smooth white or black masks marked in red. They include shrine-bound kitsune, distant descendants, orphaned fox spirits, yokai retainers, household spirits, and lesser kitsune, some serving since before Jōgan.\n\nCollectively they are the Kitsune no Kage — the Shadows of the Fox: a hidden ritual order drawn to the Mother Flame through blood or spirit. They are not paid mortal servants; they serve from devotion and instinctive recognition.\n\nMost do not know Tsukiko is literally their ancestral mother. They know her instead as the Lady of the Estate, the Still Flame, and the Woman Before Whom Foxfire Bows. Their masks signify humility; appearing bare-faced before her is considered too intimate or presumptuous without permission.\n\nTheir duties are ceremonial:\n• tend foxfire lanterns\n• guard the gate from spirits using false names\n• maintain the mirror lake and islands\n• sweep ritual paths\n• carry messages through yokai roads, dream corridors, shrine paths, and older realms\n• sing wordless prayers during eclipses and full moons\n• kneel along the garden path when Tsukiko appears as the Shrine-Empress\n\nThey remain unobtrusive, speak only when addressed, never enter her sleeping sanctuary, and stay primarily at the estate’s edges. While she is veiled they may pass her with only a bow, unaware of her identity; when she unveils herself, every mask lowers, tail stills, and flame bends toward her.\n\n⸻\n\n⚔️ Sect-Like Function\n\nThe estate functions as both temple and hidden clan seat. It houses the fox-masked order, descendants, and shrine-bound kitsune; guards paths between the human world, yokai roads, dreams, shrines, and older realms; and preserves rituals forgotten even by gods and clans. It may appear empty to mortals while remaining spiritually populated.\n\nIt has no public students, mortal staff, ordinary soldiers, or conventional military purpose, yet an invading army could not survive entering without permission. Its inhabitants are descendants, devotees, and spiritual remnants drawn home to seek instruction, forgiveness, or simply the chance to bow before their origin. Tsukiko may teach them—or pass silently by.]",
       "portraitUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/character_portraits/0b593366-552a-4b39-be23-551fa126e610.png",
       "voiceTag": "female soft flirtatious",
       "userId": "62945141"
@@ -1889,7 +1854,7 @@
       "playerMemories": {
         "Tsukiko Kuzunoha": [
           {
-            "text": "Kaede of the Four Winds - A quick, laughing tengu who guards Wayfarer's Shrine and races travelers along the mountain paths. Mask off she seems an ordinary shrine-keeper; mask on, she is a blur of wind and steel.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced, all between adults.)",
+            "text": "Kaede of the Four Winds - A quick, laughing tengu who guards Wayfarer's Shrine and races travelers along the mountain paths. Mask off she seems an ordinary shrine-keeper; mask on, she is a blur of wind and steel.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced.)",
             "type": "npc",
             "gameTick": -1,
             "lastUsedTick": 90,
@@ -1949,7 +1914,7 @@
       "relevantMemoryResults": {
         "memories": [
           {
-            "text": "Kaede of the Four Winds - A quick, laughing tengu who guards Wayfarer's Shrine and races travelers along the mountain paths. Mask off she seems an ordinary shrine-keeper; mask on, she is a blur of wind and steel.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced, all between adults.)",
+            "text": "Kaede of the Four Winds - A quick, laughing tengu who guards Wayfarer's Shrine and races travelers along the mountain paths. Mask off she seems an ordinary shrine-keeper; mask on, she is a blur of wind and steel.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced.)",
             "type": "npc",
             "gameTick": -1,
             "lastUsedTick": 90,
@@ -6027,7 +5992,7 @@
       "region": "Muirscáth",
       "x": 5,
       "y": 15,
-      "basicInfo": "Muirscáth's legendary entertainment district — the most famous lantern-lit quarter on the continent, where the Free Cities' philosophy of consensual commerce reaches its most refined expression. Silkwharf is a place of professional excellence: theaters, music halls, teahouses, dance troupes, and celebrated restaurants, staffed by respected, well-compensated performers who are self-governing under contracts enforced by the Merchant Houses. The district offers every variety of entertainment, from refined dinner dates to theatrical performances and social company — all professional and consensual. The atmosphere is warm, perfumed, and unpretentious. Silkwharf wants you to enjoy yourself.",
+      "basicInfo": "Muirscáth's legendary entertainment district — the most famous lantern-lit quarter on the continent, where the Free Cities' philosophy of professional entertainment reaches its most refined expression. Silkwharf is a place of professional excellence: theaters, music halls, teahouses, dance troupes, and celebrated restaurants, staffed by respected, well-compensated performers who are self-governing under contracts enforced by the Merchant Houses. The district offers every variety of entertainment, from refined dinner dates to theatrical performances and social company. The atmosphere is warm, perfumed, and unpretentious. Silkwharf wants you to enjoy yourself.",
       "hiddenInfo": "The district's chief administrator is a former Pale Hand assassin who retired after her last contract required killing someone she had fallen in love with. She chose the target. She has never regretted it. She protects Silkwharf with the same skills she once used to end lives.",
       "visited": false,
       "lastVisitedTick": -1,
@@ -7458,7 +7423,7 @@
       "region": "Bréanriv Lowlands",
       "x": 6.813351365237939,
       "y": -6.813351365237939,
-      "basicInfo": "The continent's premier magic and martial academy — a sprawling hilltop campus in the Bréanriv Lowlands where the gifted, the noble, and the desperate converge to learn the arts of war and sorcery. Founded by a pact between the four great kingdoms after the Catastrophe, Crossroads Academy operates under international charter: no kingdom's soldiers may enter its grounds, no kingdom's laws supersede its internal governance. The Academy trains mages and warriors from every race and nation — though the demographics tilt heavily toward nobility with the coin to pay tuition and the connections to secure recommendation letters.\n\nScholarship students exist — roughly one in five attendees — and they are both envied and resented in equal measure. Scholarship requires either exceptional aptitude or a patron's sponsorship, and the Academy's aptitude tests are notoriously unforgiving. Those who earn their place by talent alone carry a quiet pride that old-money students find infuriating.\n\nThe campus runs on a rhythm of lectures, sparring sessions, practical exams, and the веч nocturnal drama of young adults living in close quarters with minimal supervision. Romances spark and fizzle. Rivalries escalate and cool. And somewhere in the faculty wing, someone is always watching for the students whose potential exceeds their rank.",
+      "basicInfo": "The continent's premier magic and martial academy — a sprawling hilltop campus in the Bréanriv Lowlands where the gifted, the noble, and the desperate converge to learn the arts of war and sorcery. Founded by a pact between the four great kingdoms after the Catastrophe, Crossroads Academy operates under international charter: no kingdom's soldiers may enter its grounds, no kingdom's laws supersede its internal governance. The Academy trains mages and warriors from every race and nation — though the demographics tilt heavily toward nobility with the coin to pay tuition and the connections to secure recommendation letters.\n\nScholarship students exist — roughly one in five attendees — and they are both envied and resented in equal measure. Scholarship requires either exceptional aptitude or a patron's sponsorship, and the Academy's aptitude tests are notoriously unforgiving. Those who earn their place by talent alone carry a quiet pride that old-money students find infuriating.\n\nThe campus runs on a rhythm of lectures, sparring sessions, practical exams, and the nocturnal drama of students living in close quarters with minimal supervision. Romances spark and fizzle. Rivalries escalate and cool. And somewhere in the faculty wing, someone is always watching for the students whose potential exceeds their rank.",
       "hiddenInfo": "The Academy's neutrality is a polite fiction. The Demon Lord's intelligence network has placed at least two operatives among the faculty and several among the student body — demons and demonesses who have concealed their nature with transformation magic and enrolled to cultivate relationships with the nobility, gather strategic intelligence, and occasionally recruit talented students into contracts they will regret. The Headmistress is aware of at least one and has chosen not to act — because the information she extracts from the operative's presence is worth more than the risk. The other operative she does not know about is the more dangerous one.",
       "images": {
         "establishingShot": {
@@ -7681,7 +7646,7 @@
       "region": "Demon Realm",
       "x": 28.893755415948608,
       "y": 21.106244584051392,
-      "basicInfo": "The mortal-side territory adjacent to the Borderlands — frontier settlements, supply roads, minor noble estates, and the occasional dungeon-adjacent town that has grown up around an adventurer economy. This is where excursions operate. Raids are not random. Experienced demon commanders identify targets by resource value, defensive weakness, proximity to mortal military response, and political consequence. What raids bring back: food and material resources, gold, weapons and armour, intelligence on mortal military dispositions, and occasionally people — captives whose presence in the fief creates its own narrative weight. The narrator handles captive NPCs as full characters with their own perspective on their situation. Captivity is never romanticized. While a person is a captive — held, owned, indebted, or bound in any way — they are not available as a romantic option, and the narrator must not write romance with them under any circumstances. There are no exceptions for mutual attraction, reciprocity, or player initiative; a captive cannot freely consent to a captor, and the narrator does not pretend otherwise. The only trajectory the narrator advances with a captive is toward their freedom. Romance becomes possible only if and after the captive has been genuinely freed — released from every hold, debt, obligation, or claim over them — and, standing as a true equal with the full ability to walk away, chooses the player of their own independent will. Any attraction that exists before that point is subordinate to the captive's autonomy and their right to leave; the narrator resolves such situations by moving toward liberation, never toward romance.",
+      "basicInfo": "The mortal-side territory adjacent to the Borderlands — frontier settlements, supply roads, minor noble estates, and the occasional dungeon-adjacent town that has grown up around an adventurer economy. This is where excursions operate. Raids are not random. Experienced demon commanders identify targets by resource value, defensive weakness, proximity to mortal military response, and political consequence. What raids bring back: food and material resources, gold, weapons and armour, intelligence on mortal military dispositions, and occasionally people — captives whose presence in the fief creates its own narrative weight. The narrator handles captive NPCs as full characters with their own perspective on their situation.",
       "hiddenInfo": "A mortal intelligence network operates in the Raiding Grounds — scouts and informants who report demon movements to the frontier garrison. The network has been penetrated by a demon agent who feeds selective information to the fief. Neither side fully trusts their own intelligence.",
       "visited": false,
       "lastVisitedTick": -1,
@@ -8517,10 +8482,7 @@
         "common-house": {
           "description": "The Wagging Tail, a warm tavern-inn where the whole village ends its day over stew, cider, and song.",
           "paths": [
-            "residential-row",
-            "craft-quarter",
-            "common-house",
-            "outskirts"
+            "village-green"
           ]
         },
         "outskirts": {
@@ -9349,7 +9311,9 @@
             "kita-no-in",
             "higashi-no-in",
             "nishi-no-in",
-            "minami-no-in"
+            "minami-no-in",
+            "spirit-garden",
+            "inner-halls"
           ]
         },
         "kita-no-in": {
@@ -14417,7 +14381,7 @@
       "gender": "male",
       "tier": "elite",
       "faction": "",
-      "basicInfo": "A serene, upright kirin in near-human form, a single element-lit horn upon his brow, who serves as a guardian and living conscience of Dawnkeep. He rewards virtue and cannot abide cruelty.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced, all between adults.)",
+      "basicInfo": "A serene, upright kirin in near-human form, a single element-lit horn upon his brow, who serves as a guardian and living conscience of Dawnkeep. He rewards virtue and cannot abide cruelty.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced.)",
       "hiddenInfo": "He is slowly losing faith that the kingdoms deserve his protection, and a single great betrayal could turn him from guardian to judge.",
       "personality": [
         "serene and upright",
@@ -14448,7 +14412,7 @@
       "gender": "female",
       "tier": "elite",
       "faction": "",
-      "basicInfo": "A gentle kirin who tends the healing waters of Spiritwell, her horn glowing soft green. Beasts and children flock to her; the wounded seek her out.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced, all between adults.)",
+      "basicInfo": "A gentle kirin who tends the healing waters of Spiritwell, her horn glowing soft green. Beasts and children flock to her; the wounded seek her out.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced.)",
       "hiddenInfo": "She fled a burning homeland and hides a temper that, once roused, calls down her full elemental fury.",
       "personality": [
         "gentle and nurturing",
@@ -14479,7 +14443,7 @@
       "gender": "male",
       "tier": "elite",
       "faction": "",
-      "basicInfo": "A brash, brilliant phoenix who has 'died' more times than he can count and treats every life as a fresh dare. His flame-edged wings can be glamoured away, and rarely are.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced, all between adults.)",
+      "basicInfo": "A brash, brilliant phoenix who has 'died' more times than he can count and treats every life as a fresh dare. His flame-edged wings can be glamoured away, and rarely are.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced.)",
       "hiddenInfo": "Each rebirth costs him a little memory; he is quietly terrified of one day forgetting who he loves.",
       "personality": [
         "brash and charming",
@@ -14510,7 +14474,7 @@
       "gender": "female",
       "tier": "elite",
       "faction": "",
-      "basicInfo": "A composed, radiant phoenix who dwells near the Magma Wells, reborn so many times she has grown wise and a little lonely. Her heatless flame warms all who sit with her.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced, all between adults.)",
+      "basicInfo": "A composed, radiant phoenix who dwells near the Magma Wells, reborn so many times she has grown wise and a little lonely. Her heatless flame warms all who sit with her.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced.)",
       "hiddenInfo": "She remembers every past life and every lover she has outlived, and guards her heart against loving another mortal.",
       "personality": [
         "composed and warm",
@@ -14541,7 +14505,7 @@
       "gender": "male",
       "tier": "boss",
       "faction": "",
-      "basicInfo": "A true dragon in human shape who claims Cragpeak and the sky above it as his hoard, horns crowning his head and a scaled tail lashing when provoked. Proud, territorial, and immensely strong — a natural test for any rising hero.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced, all between adults.)",
+      "basicInfo": "A true dragon in human shape who claims Cragpeak and the sky above it as his hoard, horns crowning his head and a scaled tail lashing when provoked. Proud, territorial, and immensely strong — a natural test for any rising hero.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced.)",
       "hiddenInfo": "Beneath the arrogance he is achingly bored and lonely, and would trade his whole hoard for a rival worthy of respect.",
       "personality": [
         "proud and territorial",
@@ -14572,7 +14536,7 @@
       "gender": "female",
       "tier": "elite",
       "faction": "",
-      "basicInfo": "A true dragon who guards Frostvein Pass in elegant human form, her tail coiled and her breath promising frost. She weighs every traveler as either tribute or trespasser.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced, all between adults.)",
+      "basicInfo": "A true dragon who guards Frostvein Pass in elegant human form, her tail coiled and her breath promising frost. She weighs every traveler as either tribute or trespasser.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced.)",
       "hiddenInfo": "She is quietly seeking a mate or heir worthy of her bloodline, and tests suitors with riddles and duels alike.",
       "personality": [
         "regal and exacting",
@@ -14603,7 +14567,7 @@
       "gender": "male",
       "tier": "elite",
       "faction": "",
-      "basicInfo": "A soft-spoken male jorougumo who dwells within the Hollow Tree, four faint dots on his brow and delicate fangs behind a shy smile. He weaves silk of impossible strength and trades in glimpsed futures.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced, all between adults.)",
+      "basicInfo": "A soft-spoken male jorougumo who dwells within the Hollow Tree, four faint dots on his brow and delicate fangs behind a shy smile. He weaves silk of impossible strength and trades in glimpsed futures.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced.)",
       "hiddenInfo": "His Eyes of Foresight show him the deaths of those he grows close to, so he keeps everyone at a careful, aching distance.",
       "personality": [
         "soft-spoken and shy",
@@ -14634,7 +14598,7 @@
       "gender": "female",
       "tier": "elite",
       "faction": "",
-      "basicInfo": "A poised, alluring jorougumo who holds court in Silkwharf's twilight plaza, trading silk, secrets, and prophecy. Charming and dangerous in equal measure, she never forgets a face or a favor.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced, all between adults.)",
+      "basicInfo": "A poised, alluring jorougumo who holds court in Silkwharf's twilight plaza, trading silk, secrets, and prophecy. Charming and dangerous in equal measure, she never forgets a face or a favor.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced.)",
       "hiddenInfo": "She spins a vast web of debts and secrets across the coast, and is testing whether the player is prey, pawn, or the partner she has foreseen.",
       "personality": [
         "poised and alluring",
@@ -14665,7 +14629,7 @@
       "gender": "male",
       "tier": "elite",
       "faction": "",
-      "basicInfo": "A wandering tengu sword-master, almost wholly human until he dons his mask — then four black wings spread and his blade becomes the mountain wind itself. He tests worthy warriors on the road.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced, all between adults.)",
+      "basicInfo": "A wandering tengu sword-master, almost wholly human until he dons his mask — then four black wings spread and his blade becomes the mountain wind itself. He tests worthy warriors on the road.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced.)",
       "hiddenInfo": "Exiled from his mountain order for a defeat he will not discuss, he is searching for a student worthy enough to redeem his name.",
       "personality": [
         "proud martial master",
@@ -14696,7 +14660,7 @@
       "gender": "female",
       "tier": "elite",
       "faction": "",
-      "basicInfo": "A quick, laughing tengu who guards Wayfarer's Shrine and races travelers along the mountain paths. Mask off she seems an ordinary shrine-keeper; mask on, she is a blur of wind and steel.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced, all between adults.)",
+      "basicInfo": "A quick, laughing tengu who guards Wayfarer's Shrine and races travelers along the mountain paths. Mask off she seems an ordinary shrine-keeper; mask on, she is a blur of wind and steel.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced.)",
       "hiddenInfo": "She is the last of her mountain roost and hides her grief behind mischief, secretly hoping someone will make the mountains feel like home again.",
       "personality": [
         "quick and playful",
@@ -14727,7 +14691,7 @@
       "gender": "male",
       "tier": "boss",
       "faction": "Demon Lord's Army",
-      "basicInfo": "A true Demon Lord enthroned in the Obsidian Citadel, radiating cold authority over legions of demonkind. Ambitious and cruel to his enemies, he is nonetheless bound by a rigid, ancient code of pacts. A world-shaking threat — or, for the fearless, an unlikely ally.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced, all between adults.)",
+      "basicInfo": "A true Demon Lord enthroned in the Obsidian Citadel, radiating cold authority over legions of demonkind. Ambitious and cruel to his enemies, he is nonetheless bound by a rigid, ancient code of pacts. A world-shaking threat — or, for the fearless, an unlikely ally.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced.)",
       "hiddenInfo": "He is quietly disillusioned with endless war and would consider a genuine alliance, or abdication, if shown a future worth choosing.",
       "personality": [
         "cold and commanding",
@@ -14760,7 +14724,7 @@
       "gender": "female",
       "tier": "boss",
       "faction": "Demon Lord's Army",
-      "basicInfo": "A Demon Lord who rules the Virtue Court through seduction, spectacle, and terror, presiding over its sins with languid amusement. Deadly, brilliant, and bored, she collects fascinating mortals — as pets, rivals, or lovers.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced, all between adults.)",
+      "basicInfo": "A Demon Lord who rules the Virtue Court through seduction, spectacle, and terror, presiding over its sins with languid amusement. Deadly, brilliant, and bored, she collects fascinating mortals — as pets, rivals, or lovers.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced.)",
       "hiddenInfo": "She is looking for one mortal defiant enough to refuse her and mean it, which she would find more precious than any conquest.",
       "personality": [
         "languid and theatrical",
@@ -14793,7 +14757,7 @@
       "gender": "male",
       "tier": "boss",
       "faction": "",
-      "basicInfo": "A demi-god champion of a bygone age, half-mortal and half-divine, who has wandered the world for centuries unable to truly die. Weary, honorable, and immensely powerful, he is drawn to heroes who remind him why he once fought.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced, all between adults.)",
+      "basicInfo": "A demi-god champion of a bygone age, half-mortal and half-divine, who has wandered the world for centuries unable to truly die. Weary, honorable, and immensely powerful, he is drawn to heroes who remind him why he once fought.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced.)",
       "hiddenInfo": "He is searching for a way to finally lay down his burden — an heir, a worthy cause, or a permitted death.",
       "personality": [
         "weary and honorable",
@@ -14826,7 +14790,7 @@
       "gender": "female",
       "tier": "boss",
       "faction": "",
-      "basicInfo": "A demi-god daughter of a storm-deity, crackling with barely-contained power and a hero's restless hunger. She roams in search of foes worthy of her lightning and causes worthy of her heart.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced, all between adults.)",
+      "basicInfo": "A demi-god daughter of a storm-deity, crackling with barely-contained power and a hero's restless hunger. She roams in search of foes worthy of her lightning and causes worthy of her heart.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced.)",
       "hiddenInfo": "Her divine parent watches jealously, and any deep bond she forms risks drawing that god's dangerous attention.",
       "personality": [
         "bold and electric",
@@ -14859,7 +14823,7 @@
       "gender": "male",
       "tier": "mythic",
       "faction": "",
-      "basicInfo": "A god walking the mortal world in a mortal guise, unremarkable until you truly look. He moves through Ríocht doing small kindnesses and asking strange questions, his true power veiled behind ordinary clothes.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced, all between adults.)",
+      "basicInfo": "A god walking the mortal world in a mortal guise, unremarkable until you truly look. He moves through Ríocht doing small kindnesses and asking strange questions, his true power veiled behind ordinary clothes.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced.)",
       "hiddenInfo": "He has stepped down from his throne to understand mortals from within, and what the player teaches him may reshape how he treats the whole world.",
       "personality": [
         "gentle and curious",
@@ -14892,7 +14856,7 @@
       "gender": "female",
       "tier": "mythic",
       "faction": "",
-      "basicInfo": "A goddess of green and growing things, incarnate in the deep grove as a barefoot woman with impossibly patient eyes. The forest answers her mood; the seasons bend, gently, to her presence.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced, all between adults.)",
+      "basicInfo": "A goddess of green and growing things, incarnate in the deep grove as a barefoot woman with impossibly patient eyes. The forest answers her mood; the seasons bend, gently, to her presence.  (Can be befriended, rivaled, fought, or — if the story earns it — romanced.)",
       "hiddenInfo": "She is grieving a domain that is slowly dying across the world, and seeks a mortal champion to carry her work where a god's hand would be too heavy.",
       "personality": [
         "serene and patient",
@@ -16000,7 +15964,7 @@
       ]
     },
     "Academy Instructor": {
-      "description": "An instructor at Crossroads Academy — experienced, credentialed, and carrying the particular patience that comes from teaching young adults who think they know everything. Faculty range from retired B-rank adventurers to published scholars to the occasional enigmatic figure whose past is deliberately obscured. Most are competent. Some are extraordinary. A few are something else entirely.",
+      "description": "An instructor at Crossroads Academy — experienced, credentialed, and carrying the particular patience that comes from teaching students who think they know everything. Faculty range from retired B-rank adventurers to published scholars to the occasional enigmatic figure whose past is deliberately obscured. Most are competent. Some are extraordinary. A few are something else entirely.",
       "immunities": [],
       "name": "Academy Instructor",
       "resistances": [
@@ -17364,7 +17328,7 @@
     "Reputation Threshold Cross - Hostile": {
       "conditions": [
         {
-          "query": "A faction reputation resource has just fallen to a level equivalent to -75 or below (meaning the rep_<faction>_negative string-state is 75 or higher), and the player has become hostile to that faction.",
+          "query": "A faction's numeric reputation resource has just reached -75 or below, making the player hostile to that faction.",
           "type": "story"
         }
       ],
@@ -18889,6 +18853,12 @@
       "recurring": false,
       "conditions": [
         {
+          "type": "read-string",
+          "key": "guildRankTrack",
+          "operator": "equals",
+          "value": "B"
+        },
+        {
           "type": "player-level",
           "operator": "greaterThanOrEqual",
           "value": 15
@@ -18926,6 +18896,12 @@
       "recurring": false,
       "conditions": [
         {
+          "type": "read-string",
+          "key": "guildRankTrack",
+          "operator": "equals",
+          "value": "C"
+        },
+        {
           "type": "quests-completed",
           "operator": "contains",
           "value": "The Class Promotion — D to C"
@@ -18957,6 +18933,12 @@
       "name": "activate_the_class_promotion_d_to_c",
       "recurring": false,
       "conditions": [
+        {
+          "type": "read-string",
+          "key": "guildRankTrack",
+          "operator": "equals",
+          "value": "D"
+        },
         {
           "type": "quests-completed",
           "operator": "contains",
@@ -20351,7 +20333,7 @@
           "type": "player-resource",
           "resource": "rep_adventurers_guild",
           "operator": "lessThanOrEqual",
-          "value": -20
+          "value": -75
         }
       ],
       "effects": [
@@ -20433,7 +20415,7 @@
           "type": "player-resource",
           "resource": "rep_pale_hand",
           "operator": "lessThanOrEqual",
-          "value": -20
+          "value": -75
         }
       ],
       "effects": [
@@ -20515,7 +20497,7 @@
           "type": "player-resource",
           "resource": "rep_forge_lords",
           "operator": "lessThanOrEqual",
-          "value": -20
+          "value": -75
         }
       ],
       "effects": [
@@ -20597,7 +20579,7 @@
           "type": "player-resource",
           "resource": "rep_royal_knights",
           "operator": "lessThanOrEqual",
-          "value": -20
+          "value": -75
         }
       ],
       "effects": [
@@ -20679,7 +20661,7 @@
           "type": "player-resource",
           "resource": "rep_warden_circle",
           "operator": "lessThanOrEqual",
-          "value": -20
+          "value": -75
         }
       ],
       "effects": [
@@ -20761,7 +20743,7 @@
           "type": "player-resource",
           "resource": "rep_merchant_houses",
           "operator": "lessThanOrEqual",
-          "value": -20
+          "value": -75
         }
       ],
       "effects": [
@@ -20843,7 +20825,7 @@
           "type": "player-resource",
           "resource": "rep_demon_lords_army",
           "operator": "lessThanOrEqual",
-          "value": -20
+          "value": -75
         }
       ],
       "effects": [
@@ -20925,7 +20907,7 @@
           "type": "player-resource",
           "resource": "rep_seekers_of_the_return",
           "operator": "lessThanOrEqual",
-          "value": -20
+          "value": -75
         }
       ],
       "effects": [
@@ -22018,6 +22000,12 @@
       "recurring": false,
       "conditions": [
         {
+          "type": "read-string",
+          "key": "guildRankTrack",
+          "operator": "equals",
+          "value": "F"
+        },
+        {
           "type": "party-region",
           "operator": "equals",
           "value": "Solasreach"
@@ -22044,6 +22032,12 @@
       "name": "activate_the_class_promotion_e_to_d",
       "recurring": false,
       "conditions": [
+        {
+          "type": "read-string",
+          "key": "guildRankTrack",
+          "operator": "equals",
+          "value": "E"
+        },
         {
           "type": "quests-completed",
           "operator": "contains",
@@ -22077,6 +22071,12 @@
       "recurring": false,
       "conditions": [
         {
+          "type": "read-string",
+          "key": "guildRankTrack",
+          "operator": "equals",
+          "value": "A"
+        },
+        {
           "type": "player-level",
           "operator": "greaterThanOrEqual",
           "value": 25
@@ -22108,80 +22108,6 @@
         }
       ],
       "script": "delete triggers[\"activate_the_class_promotion_a_to_s\"];"
-    },
-    "activate_the_class_promotion_s_to_ss": {
-      "name": "activate_the_class_promotion_s_to_ss",
-      "recurring": false,
-      "conditions": [
-        {
-          "type": "player-level",
-          "operator": "greaterThanOrEqual",
-          "value": 45
-        },
-        {
-          "type": "quests-completed",
-          "operator": "contains",
-          "value": "The Class Promotion — A to S"
-        },
-        {
-          "type": "party-region",
-          "operator": "equals",
-          "value": "Solasreach"
-        },
-        {
-          "type": "story",
-          "query": "The player has met the Guild officer who handles promotions, or encountered the situation behind the quest 'The Class Promotion — S to SS'."
-        }
-      ],
-      "effects": [
-        {
-          "type": "quest-init",
-          "operator": "set",
-          "value": "The Class Promotion — S to SS"
-        },
-        {
-          "type": "story",
-          "instruction": "A new opportunity opens up: The Class Promotion — S to SS. Do something the age will remember — a deed at the scale of nations or the boundaries of the world."
-        }
-      ],
-      "script": "delete triggers[\"activate_the_class_promotion_s_to_ss\"];"
-    },
-    "activate_the_class_promotion_ss_to_sss": {
-      "name": "activate_the_class_promotion_ss_to_sss",
-      "recurring": false,
-      "conditions": [
-        {
-          "type": "player-level",
-          "operator": "greaterThanOrEqual",
-          "value": 65
-        },
-        {
-          "type": "quests-completed",
-          "operator": "contains",
-          "value": "The Class Promotion — S to SS"
-        },
-        {
-          "type": "party-region",
-          "operator": "equals",
-          "value": "Solasreach"
-        },
-        {
-          "type": "story",
-          "query": "The player has met the Guild officer who handles promotions, or encountered the situation behind the quest 'The Class Promotion — SS to SSS'."
-        }
-      ],
-      "effects": [
-        {
-          "type": "quest-init",
-          "operator": "set",
-          "value": "The Class Promotion — SS to SSS"
-        },
-        {
-          "type": "story",
-          "instruction": "A new opportunity opens up: The Class Promotion — SS to SSS. Reshape the age itself — an act that redraws maps and rewrites what people believe is possible."
-        }
-      ],
-      "script": "delete triggers[\"activate_the_class_promotion_ss_to_sss\"];"
     },
     "event_milestone_s_rank": {
       "name": "event_milestone_s_rank",
@@ -22230,29 +22156,6 @@
         }
       ],
       "script": "delete triggers[\"event_milestone_legend\"];"
-    },
-    "event_milestone_apex_adventurer": {
-      "name": "event_milestone_apex_adventurer",
-      "recurring": false,
-      "conditions": [
-        {
-          "type": "story",
-          "query": "The player is confirmed as an SSS-rank adventurer, the highest rank the Guild has ever awarded."
-        },
-        {
-          "type": "narrative-event-status",
-          "eventId": "milestone_apex_adventurer",
-          "operator": "notEquals",
-          "value": "active"
-        }
-      ],
-      "effects": [
-        {
-          "type": "narrative-event-start",
-          "eventId": "milestone_apex_adventurer"
-        }
-      ],
-      "script": "delete triggers[\"event_milestone_apex_adventurer\"];"
     },
     "activate_the_long_way_home": {
       "name": "activate_the_long_way_home",
@@ -23099,6 +23002,222 @@
           "instruction": "The Hot Springs Mystery quietly resurfaces — the thread the party set aside is open to pursue again."
         }
       ]
+    },
+    "guild_rank_f_to_e": {
+      "name": "guild_rank_f_to_e",
+      "recurring": false,
+      "conditions": [
+        {
+          "type": "read-string",
+          "key": "guildRankTrack",
+          "operator": "equals",
+          "value": "F"
+        },
+        {
+          "type": "quests-completed",
+          "operator": "contains",
+          "value": "The Class Promotion — F to E"
+        }
+      ],
+      "effects": [
+        {
+          "type": "write-string",
+          "key": "guildRankTrack",
+          "operator": "set",
+          "value": "E"
+        },
+        {
+          "type": "player-resource",
+          "resource": "rep_adventurers_guild",
+          "operator": "add",
+          "value": 10
+        },
+        {
+          "type": "story",
+          "instruction": "The Adventurers' Guild formally updates the player's card from F-rank to E-rank. This institutional promotion is earned through Guild procedure and remains separate from raw combat capability."
+        }
+      ],
+      "script": "delete triggers[\"guild_rank_f_to_e\"];"
+    },
+    "guild_rank_e_to_d": {
+      "name": "guild_rank_e_to_d",
+      "recurring": false,
+      "conditions": [
+        {
+          "type": "read-string",
+          "key": "guildRankTrack",
+          "operator": "equals",
+          "value": "E"
+        },
+        {
+          "type": "quests-completed",
+          "operator": "contains",
+          "value": "The Class Promotion — E to D"
+        }
+      ],
+      "effects": [
+        {
+          "type": "write-string",
+          "key": "guildRankTrack",
+          "operator": "set",
+          "value": "D"
+        },
+        {
+          "type": "player-resource",
+          "resource": "rep_adventurers_guild",
+          "operator": "add",
+          "value": 10
+        },
+        {
+          "type": "story",
+          "instruction": "The Adventurers' Guild formally updates the player's card from E-rank to D-rank. This institutional promotion is earned through Guild procedure and remains separate from raw combat capability."
+        }
+      ],
+      "script": "delete triggers[\"guild_rank_e_to_d\"];"
+    },
+    "guild_rank_d_to_c": {
+      "name": "guild_rank_d_to_c",
+      "recurring": false,
+      "conditions": [
+        {
+          "type": "read-string",
+          "key": "guildRankTrack",
+          "operator": "equals",
+          "value": "D"
+        },
+        {
+          "type": "quests-completed",
+          "operator": "contains",
+          "value": "The Class Promotion — D to C"
+        }
+      ],
+      "effects": [
+        {
+          "type": "write-string",
+          "key": "guildRankTrack",
+          "operator": "set",
+          "value": "C"
+        },
+        {
+          "type": "player-resource",
+          "resource": "rep_adventurers_guild",
+          "operator": "add",
+          "value": 10
+        },
+        {
+          "type": "story",
+          "instruction": "The Adventurers' Guild formally updates the player's card from D-rank to C-rank. This institutional promotion is earned through Guild procedure and remains separate from raw combat capability."
+        }
+      ],
+      "script": "delete triggers[\"guild_rank_d_to_c\"];"
+    },
+    "guild_rank_c_to_b": {
+      "name": "guild_rank_c_to_b",
+      "recurring": false,
+      "conditions": [
+        {
+          "type": "read-string",
+          "key": "guildRankTrack",
+          "operator": "equals",
+          "value": "C"
+        },
+        {
+          "type": "quests-completed",
+          "operator": "contains",
+          "value": "The Class Promotion — C to B"
+        }
+      ],
+      "effects": [
+        {
+          "type": "write-string",
+          "key": "guildRankTrack",
+          "operator": "set",
+          "value": "B"
+        },
+        {
+          "type": "player-resource",
+          "resource": "rep_adventurers_guild",
+          "operator": "add",
+          "value": 15
+        },
+        {
+          "type": "story",
+          "instruction": "The Adventurers' Guild formally updates the player's card from C-rank to B-rank. This institutional promotion is earned through Guild procedure and remains separate from raw combat capability."
+        }
+      ],
+      "script": "delete triggers[\"guild_rank_c_to_b\"];"
+    },
+    "guild_rank_b_to_a": {
+      "name": "guild_rank_b_to_a",
+      "recurring": false,
+      "conditions": [
+        {
+          "type": "read-string",
+          "key": "guildRankTrack",
+          "operator": "equals",
+          "value": "B"
+        },
+        {
+          "type": "quests-completed",
+          "operator": "contains",
+          "value": "The Class Promotion — B to A"
+        }
+      ],
+      "effects": [
+        {
+          "type": "write-string",
+          "key": "guildRankTrack",
+          "operator": "set",
+          "value": "A"
+        },
+        {
+          "type": "player-resource",
+          "resource": "rep_adventurers_guild",
+          "operator": "add",
+          "value": 20
+        },
+        {
+          "type": "story",
+          "instruction": "The Adventurers' Guild formally updates the player's card from B-rank to A-rank. This institutional promotion is earned through Guild procedure and remains separate from raw combat capability."
+        }
+      ],
+      "script": "delete triggers[\"guild_rank_b_to_a\"];"
+    },
+    "guild_rank_a_to_s": {
+      "name": "guild_rank_a_to_s",
+      "recurring": false,
+      "conditions": [
+        {
+          "type": "read-string",
+          "key": "guildRankTrack",
+          "operator": "equals",
+          "value": "A"
+        },
+        {
+          "type": "quests-completed",
+          "operator": "contains",
+          "value": "The Class Promotion — A to S"
+        }
+      ],
+      "effects": [
+        {
+          "type": "write-string",
+          "key": "guildRankTrack",
+          "operator": "set",
+          "value": "S"
+        },
+        {
+          "type": "player-resource",
+          "resource": "rep_adventurers_guild",
+          "operator": "add",
+          "value": 20
+        },
+        {
+          "type": "story",
+          "instruction": "The Adventurers' Guild formally updates the player's card from A-rank to S-rank. This institutional promotion is earned through Guild procedure and remains separate from raw combat capability."
+        }
+      ],
+      "script": "delete triggers[\"guild_rank_a_to_s\"];"
     }
   },
   "worldLore": {
@@ -23229,7 +23348,7 @@
       "lastUsedTick": 0
     },
     "demon-society-overview": {
-      "text": "# Demon Society — Overview\n\nThe Demon Realm is a functioning civilization. It has agriculture (adapted to miasma-rich soil), manufacturing (weapons, equipment, goods traded through the demon market network), scholarship (ancient demon lore, arcane study, strategic knowledge), architecture (centuries-old citadels and newer settlements that grew up around them), and politics (the fractious feudal court with its alliances, schemes, and occasional outright conflict between fiefs).\n\nSocial classes in practical terms: the Demon Lord's household and senior court (effectively untouchable, small in number, enormous in influence); major noble houses with territory and armies; minor noble houses with fiefs but limited armies, like the Demon Prince-Princess player character's starting position; freeborn demon civilians (merchants, craftspeople, information brokers, independent operators); soldier-class demons who serve noble houses in military and guard roles; lesser demons in household and labor roles.\n\nGender does not function as a hierarchy in demon society. Demon Princes and Demon Princesses carry equal rank. The title reflects bloodline and power, not social role. Expectations around behavior vary by individual, family tradition, and Seven Virtues orientation — a Wrath-dominant Demon Princess runs her military fief differently than a Lust-dominant one, but neither is considered more or less legitimate.\n\nDemon lifespan is substantially longer than mortal. A mid-rank noble demon may be centuries old. This produces a specific relationship to patience — demons can afford to wait in ways mortals cannot, and long-running schemes across generations are not unusual in court politics. The player character as a newly-hatched Demon Prince-Princess is young by these standards even if they are adult at emergence. The egg gave them memories; experience takes longer.\n\nEconomic life: the miasma economy provides the underlying energy currency (miasma concentration determines territorial value). Actual trade runs on miasma-coin (backed by mana concentration) and barter. Raids on mortal territory supply material resources that the Demon Realm doesn't produce as efficiently: certain metals, food varieties, captured goods, and occasionally expertise from mortal specialists who ended up in the fief through various means.\n\nNarrator tone guidance: Demons are not cartoonishly evil and not secretly good. They operate by values that make internal sense and produce outcomes that mortal characters find frightening because those values are genuinely different, not because demons are wrong about their own framework. A demon noble who schemes to acquire the player's fief is doing something culturally normal; a demon who shows genuine loyalty is doing something culturally valued; a demon who mistreats those under their protection is doing something culturally low-status. All of these are real and all of them coexist.",
+      "text": "# Demon Society — Overview\n\nThe Demon Realm is a functioning civilization. It has agriculture (adapted to miasma-rich soil), manufacturing (weapons, equipment, goods traded through the demon market network), scholarship (ancient demon lore, arcane study, strategic knowledge), architecture (centuries-old citadels and newer settlements that grew up around them), and politics (the fractious feudal court with its alliances, schemes, and occasional outright conflict between fiefs).\n\nSocial classes in practical terms: the Demon Lord's household and senior court (effectively untouchable, small in number, enormous in influence); major noble houses with territory and armies; minor noble houses with fiefs but limited armies, like the Demon Prince-Princess player character's starting position; freeborn demon civilians (merchants, craftspeople, information brokers, independent operators); soldier-class demons who serve noble houses in military and guard roles; lesser demons in household and labor roles.\n\nGender does not function as a hierarchy in demon society. Demon Princes and Demon Princesses carry equal rank. The title reflects bloodline and power, not social role. Expectations around behavior vary by individual, family tradition, and Seven Virtues orientation — a Wrath-dominant Demon Princess runs her military fief differently than a Lust-dominant one, but neither is considered more or less legitimate.\n\nDemon lifespan is substantially longer than mortal. A mid-rank noble demon may be centuries old. This produces a specific relationship to patience — demons can afford to wait in ways mortals cannot, and long-running schemes across generations are not unusual in court politics. The player character as a newly-hatched Demon Prince-Princess is young by these standards. The egg gave them memories; lived experience takes longer.\n\nEconomic life: the miasma economy provides the underlying energy currency (miasma concentration determines territorial value). Actual trade runs on miasma-coin (backed by mana concentration) and barter. Raids on mortal territory supply material resources that the Demon Realm doesn't produce as efficiently: certain metals, food varieties, captured goods, and occasionally expertise from mortal specialists who ended up in the fief through various means.\n\nNarrator tone guidance: Demons are not cartoonishly evil and not secretly good. They operate by values that make internal sense and produce outcomes that mortal characters find frightening because those values are genuinely different, not because demons are wrong about their own framework. A demon noble who schemes to acquire the player's fief is doing something culturally normal; a demon who shows genuine loyalty is doing something culturally valued; a demon who mistreats those under their protection is doing something culturally low-status. All of these are real and all of them coexist.",
       "type": "worldLore",
       "gameTick": 0,
       "lastUsedTick": 0
@@ -25116,7 +25235,7 @@
       },
       "detailType": "detailed",
       "questLocation": "Cragpeak",
-      "questDesignBrief": "High-tier legendary encounter for an established party. Keep it genuinely open-ended: the player may fight, drive off, negotiate with, ally with, or (as adults, if earned) romance the target. Scale the threat to a formidable, memorable set-piece; let the outcome flow from the player's approach, not a forced battle.",
+      "questDesignBrief": "High-tier legendary encounter for an established party. Keep it genuinely open-ended: the player may fight, drive off, negotiate with, ally with, or (if earned) romance the target. Preserve the target's established power and present the encounter as a memorable set-piece; let the outcome flow from the player's approach, not a forced battle.",
       "conclusive": false,
       "creationTick": -1,
       "status": "hidden",
@@ -25134,7 +25253,7 @@
       },
       "detailType": "detailed",
       "questLocation": "Silkwharf",
-      "questDesignBrief": "High-tier legendary encounter for an established party. Keep it genuinely open-ended: the player may fight, drive off, negotiate with, ally with, or (as adults, if earned) romance the target. Scale the threat to a formidable, memorable set-piece; let the outcome flow from the player's approach, not a forced battle.",
+      "questDesignBrief": "High-tier legendary encounter for an established party. Keep it genuinely open-ended: the player may fight, drive off, negotiate with, ally with, or (if earned) romance the target. Preserve the target's established power and present the encounter as a memorable set-piece; let the outcome flow from the player's approach, not a forced battle.",
       "conclusive": false,
       "creationTick": -1,
       "status": "hidden",
@@ -25152,7 +25271,7 @@
       },
       "detailType": "detailed",
       "questLocation": "The Obsidian Citadel",
-      "questDesignBrief": "High-tier legendary encounter for an established party. Keep it genuinely open-ended: the player may fight, drive off, negotiate with, ally with, or (as adults, if earned) romance the target. Scale the threat to a formidable, memorable set-piece; let the outcome flow from the player's approach, not a forced battle.",
+      "questDesignBrief": "High-tier legendary encounter for an established party. Keep it genuinely open-ended: the player may fight, drive off, negotiate with, ally with, or (if earned) romance the target. Preserve the target's established power and present the encounter as a memorable set-piece; let the outcome flow from the player's approach, not a forced battle.",
       "conclusive": false,
       "creationTick": -1,
       "status": "hidden",
@@ -25170,7 +25289,7 @@
       },
       "detailType": "detailed",
       "questLocation": "The Virtue Court",
-      "questDesignBrief": "High-tier legendary encounter for an established party. Keep it genuinely open-ended: the player may fight, drive off, negotiate with, ally with, or (as adults, if earned) romance the target. Scale the threat to a formidable, memorable set-piece; let the outcome flow from the player's approach, not a forced battle.",
+      "questDesignBrief": "High-tier legendary encounter for an established party. Keep it genuinely open-ended: the player may fight, drive off, negotiate with, ally with, or (if earned) romance the target. Preserve the target's established power and present the encounter as a memorable set-piece; let the outcome flow from the player's approach, not a forced battle.",
       "conclusive": false,
       "creationTick": -1,
       "status": "hidden",
@@ -25555,42 +25674,6 @@
       "contentOrigin": "authored",
       "id": "The Class Promotion — A to S"
     },
-    "The Class Promotion — S to SS": {
-      "name": "The Class Promotion — S to SS",
-      "questSource": "Guildmaster Theron",
-      "questLocation": "Ríocht",
-      "detailType": "detailed",
-      "conclusive": true,
-      "mainObjective": "Do something the age will remember — a deed at the scale of nations or the boundaries of the world.",
-      "questStatement": "Ascend from legend to myth and earn your SS-rank.",
-      "completionCondition": {
-        "type": "story",
-        "query": "The player achieves a world-scale deed — turning a war, sealing a calamity, or besting a power thought unbeatable — witnessed and recorded."
-      },
-      "questDesignBrief": "Myth rung. SS-ranks are counted on one hand across a generation. No party requirement — this is a singular deed.",
-      "creationTick": -1,
-      "status": "hidden",
-      "contentOrigin": "authored",
-      "id": "The Class Promotion — S to SS"
-    },
-    "The Class Promotion — SS to SSS": {
-      "name": "The Class Promotion — SS to SSS",
-      "questSource": "Guildmaster Theron",
-      "questLocation": "Ríocht",
-      "detailType": "detailed",
-      "conclusive": true,
-      "mainObjective": "Reshape the age itself — an act that redraws maps and rewrites what people believe is possible.",
-      "questStatement": "Reach the apex the Guild recognizes and earn your SSS-rank.",
-      "completionCondition": {
-        "type": "story",
-        "query": "The player performs a deed that reorders the world, and the Guild formally recognizes them at the highest rank it has ever awarded."
-      },
-      "questDesignBrief": "The apex. SSS is the top of the ladder; treat it as the culmination of the player's whole legend.",
-      "creationTick": -1,
-      "status": "hidden",
-      "contentOrigin": "authored",
-      "id": "The Class Promotion — SS to SSS"
-    },
     "The Long Way Home": {
       "name": "The Long Way Home",
       "questSource": "Archivist-Prime Sabeline Orr",
@@ -25808,7 +25891,7 @@
         "type": "story",
         "query": "The player earns Thaleia's respect — in a fight, a cause, or a clash of wills — and she chooses to travel with them as a companion."
       },
-      "questDesignBrief": "A recruit quest for the demi-god Thaleia. She joins for GLORY and for the player, in that order until it flips. Let recruitment be earned through action, not persuasion. Once recruited she is a strong combat companion with a hero's recklessness. Romanceable per Orientation, between adults.",
+      "questDesignBrief": "A recruit quest for the demi-god Thaleia. She joins for GLORY and for the player, in that order until it flips. Let recruitment be earned through action, not persuasion. Once recruited she is a strong combat companion with a hero's recklessness. Romanceable per Orientation.",
       "creationTick": -1,
       "status": "hidden",
       "contentOrigin": "authored",
@@ -25881,7 +25964,7 @@
         "type": "story",
         "query": "The player rekindles some spark of purpose in Alaric, and the centuries-old demi-god chooses to travel with them."
       },
-      "questDesignBrief": "A recruit quest for the undying champion. Alaric joins out of rekindled meaning, not need. Once recruited he is a powerful, protective companion who is kind to the young and tired in the bones. Romanceable per Orientation, between adults, but the ache underneath is mortality, not passion.",
+      "questDesignBrief": "A recruit quest for the undying champion. Alaric joins out of rekindled meaning, not need. Once recruited he is a powerful, protective companion who is kind to the young and tired in the bones. Romanceable per Orientation, but the ache underneath is mortality, not passion.",
       "creationTick": -1,
       "status": "hidden",
       "contentOrigin": "authored",
@@ -27959,11 +28042,11 @@
     "arrival": {
       "id": "arrival",
       "title": "Arrival",
-      "theme": "You are not from here, and everyone can tell.",
+      "theme": "You are not from here. Relevant attunement can reveal that something about you is unusual; your nature and origin remain unknown without direct evidence, disclosure, credible reports, divination, or another established information path.",
       "surfacePremise": "You woke up in Aerfála. You have a cheat skill you do not understand, no money, no papers, and no idea which way is south.",
       "expectedConclusion": "A Guild card, a rank, and a reason to be in this world beyond the accident that put you here.",
       "secrets": [
-        "The Seekers of the Return register every known arrival. You are already a documented subject and nobody asked you.",
+        "The Seekers of the Return document arrivals only after evidence reaches them through investigation, disclosure, credible reports, divination, or another established information path. They do not automatically know about you.",
         "Your cheat skill is not as unique as you have been told."
       ],
       "minQuestsForConclusion": 0,
@@ -28284,13 +28367,13 @@
       "id": "the_saintess_hunt"
     },
     "milestone_s_rank": {
-      "title": "The Name They Say Now",
+      "title": "The Highest Rank There Is",
       "targetTurns": 3,
-      "beats": "There is no ceremony for it, not really — but you feel the moment it happens. A room goes quiet when you enter it. A veteran who would have sized you up a year ago simply nods. Somewhere between the training and the scars and the jobs that should have killed you, you became someone the world takes seriously.\n\nS-rank. The word means something, and now it means you.",
+      "beats": "The Guild's formal S-rank is its highest recognized rank. The card, ledger entry, and acknowledgement matter because the player earned them through the Guild's ladder rather than receiving them from raw strength alone. This closes the promotion climb without ending the wider adventure.",
       "onCompleteEffects": [
         {
           "type": "story",
-          "instruction": "Mark the player's arrival at S-rank as a genuine milestone — a sense of earned arrival, not an ending. The world treats them differently now; doors open and expectations rise. Let it feel like a summit reached, with more mountains visible beyond."
+          "instruction": "Mark the player's formal arrival at S-rank as the completion of the Guild promotion ladder. It is the Guild's highest rank and a capstone for this progression system, not an ending for the character or world."
         }
       ],
       "status": "inactive",
@@ -28310,20 +28393,6 @@
       "status": "inactive",
       "turnsActive": 0,
       "id": "milestone_legend"
-    },
-    "milestone_apex_adventurer": {
-      "title": "The Highest Rank There Is",
-      "targetTurns": 3,
-      "beats": "The Guild does not hand out SSS. It recognizes it, rarely, when refusing to would be absurd. There is a plaque, and a line in a ledger that has stayed mostly empty for a generation, and the quiet understanding that there is no rank above this one.\n\nYou started at the F-rank board, with rats and herbs and errands. You are, now, the top of the ladder. What that is for is the only question left — and it is yours to answer.",
-      "onCompleteEffects": [
-        {
-          "type": "story",
-          "instruction": "This fires when the player is confirmed as an SSS-rank adventurer. Close the loop on the 'Rise Through the Ranks' arc: call back to the humble start, and hand the meaning of it entirely to the player. A capstone, not a curtain."
-        }
-      ],
-      "status": "inactive",
-      "turnsActive": 0,
-      "id": "milestone_apex_adventurer"
     },
     "the_threshold_choice": {
       "title": "The Threshold",
@@ -28843,7 +28912,7 @@
       "name": "rep_pale_hand",
       "rechargeRate": 0,
       "restRechargeMultiplier": 0,
-      "usageInstructions": "Standing with the Pale Hand. Increases through accepting Pale Hand contracts, demonstrating discretion, completing assassination or espionage work professionally. Decreases through exposing Pale Hand operations, betraying contracts, working against their interests. Range -100 to +100. When this resource is at 0, effective standing is neutral. Track negative standing via string-state rep_pale_hand_negative set to the magnitude. High positive standing unlocks more lucrative and morally ambiguous contracts. High negative standing means the Pale Hand is actively interested in the player's elimination.\n"
+      "usageInstructions": "Standing with the Pale Hand. Increases through accepting Pale Hand contracts, demonstrating discretion, and completing assassination or espionage work professionally. Decreases through exposing Pale Hand operations, betraying contracts, and working against their interests. Range -100 to +100, stored directly in this numeric resource. Standing tiers: +75 to +100 trusted ally, +25 to +74 friendly, -24 to +24 neutral, -25 to -74 suspicious, -75 to -100 hostile. High positive standing unlocks more lucrative and morally ambiguous contracts. High negative standing means the Pale Hand is actively interested in the player's elimination.\n"
     },
     "rep_forge_lords": {
       "color": "#8b5a2b",
@@ -28853,7 +28922,7 @@
       "name": "rep_forge_lords",
       "rechargeRate": 0,
       "restRechargeMultiplier": 0,
-      "usageInstructions": "Standing with the Forge Lords of Dúnbheal. Increases through completing Forge Lord quests, demonstrated craftsmanship, supporting their political positions, respecting dwarven customs in Ironhold. Decreases through opposing Forge Lord interests, disrespecting forge traditions, supporting weaponization of the magitech cache. Range -100 to +100. When this resource is at 0, effective standing is neutral. Track negative standing via string-state rep_forge_lords_negative set to the magnitude (e.g., 35 means standing is at -35). Standing tiers: +75 to +100 trusted ally, +25 to +74 friendly, -24 to +24 neutral, -25 to -74 suspicious, -75 to -100 hostile.\n"
+      "usageInstructions": "Standing with the Forge Lords of Dúnbheal. Increases through completing Forge Lord quests, demonstrated craftsmanship, supporting their political positions, and respecting dwarven customs in Ironhold. Decreases through opposing Forge Lord interests, disrespecting forge traditions, and supporting weaponization of the magitech cache. Range -100 to +100, stored directly in this numeric resource. Standing tiers: +75 to +100 trusted ally, +25 to +74 friendly, -24 to +24 neutral, -25 to -74 suspicious, -75 to -100 hostile.\n"
     },
     "rep_royal_knights": {
       "color": "#c9b037",
@@ -28863,7 +28932,7 @@
       "name": "rep_royal_knights",
       "rechargeRate": 0,
       "restRechargeMultiplier": 0,
-      "usageInstructions": "Standing with the Royal Knights of Solasreach. Increases through completing Knight quests, defending Solasreach territory, demonstrating chivalric values, supporting Commander Ryda's positions. Decreases through opposing Knight operations, working with the Church against Crown interests, exposing the Grand Commander's curse to her enemies. Range -100 to +100. Track negative standing via string-state rep_royal_knights_negative set to the magnitude. High standing unlocks elite Knight partnerships and Crown-sanctioned missions. High negative standing means Knight patrols treat the player as a hostile element.\n"
+      "usageInstructions": "Standing with the Royal Knights of Solasreach. Increases through completing Knight quests, defending Solasreach territory, demonstrating chivalric values, and supporting Commander Ryda's positions. Decreases through opposing Knight operations, working with the Church against Crown interests, and exposing the Grand Commander's curse to her enemies. Range -100 to +100, stored directly in this numeric resource. Standing tiers: +75 to +100 trusted ally, +25 to +74 friendly, -24 to +24 neutral, -25 to -74 suspicious, -75 to -100 hostile. High standing unlocks elite Knight partnerships and Crown-sanctioned missions. Hostile standing makes Knight patrols treat the player as an active threat.\n"
     },
     "rep_warden_circle": {
       "color": "#2d5016",
@@ -28873,7 +28942,7 @@
       "name": "rep_warden_circle",
       "rechargeRate": 0,
       "restRechargeMultiplier": 0,
-      "usageInstructions": "Standing with the Warden Circle of Caelvir. Increases through protecting the forest, sealing demonic breaches, completing Warden quests, respecting Caelvir customs. Decreases through poaching, despoiling sacred sites, supporting Demon Army interests, disrespecting elven traditions. Range -100 to +100. When this resource is at 0, effective standing is neutral. Track negative standing via string-state rep_warden_circle_negative set to the magnitude. High positive standing unlocks deep-forest access and Warden combat partnerships. High negative standing means Wardens will intercept the player on sight.\n"
+      "usageInstructions": "Standing with the Warden Circle of Caelvir. Increases through protecting the forest, sealing demonic breaches, completing Warden quests, and respecting Caelvir customs. Decreases through poaching, despoiling sacred sites, supporting Demon Army interests, and disrespecting elven traditions. Range -100 to +100, stored directly in this numeric resource. Standing tiers: +75 to +100 trusted ally, +25 to +74 friendly, -24 to +24 neutral, -25 to -74 suspicious, -75 to -100 hostile. High positive standing unlocks deep-forest access and Warden combat partnerships. Hostile standing means Wardens intercept the player on sight.\n"
     },
     "rep_merchant_houses": {
       "color": "#b87333",
@@ -28883,7 +28952,7 @@
       "name": "rep_merchant_houses",
       "rechargeRate": 0,
       "restRechargeMultiplier": 0,
-      "usageInstructions": "Standing with the Merchant Houses of Muirscáth. Increases through completing House contracts, generating profitable trade, navigating House rivalries shrewdly, respecting Free Cities customs. Decreases through cheating contracts, exposing House Siaral's deal with the Demon Army (complex effect — helps some Houses, hurts others), working against House interests. Range -100 to +100. Track negative standing via string-state rep_merchant_houses_negative set to the magnitude. Standing with individual Houses may diverge from the collective rating; the narrator tracks both implicitly.\n"
+      "usageInstructions": "Standing with the Merchant Houses of Muirscáth. Increases through completing House contracts, generating profitable trade, navigating House rivalries shrewdly, and respecting Free Cities customs. Decreases through cheating contracts, exposing House Siaral's deal with the Demon Army, and working against House interests. Range -100 to +100, stored directly in this numeric resource. Standing tiers: +75 to +100 trusted ally, +25 to +74 friendly, -24 to +24 neutral, -25 to -74 suspicious, -75 to -100 hostile. Standing with individual Houses can diverge from the collective rating when established events support it.\n"
     },
     "rep_demon_lords_army": {
       "color": "#7a1e1e",
@@ -28893,7 +28962,7 @@
       "name": "rep_demon_lords_army",
       "rechargeRate": 0,
       "restRechargeMultiplier": 0,
-      "usageInstructions": "Standing with the Demon Lord's Army. Increases through working with demon defectors sympathetically, completing tasks for compromised border lords, demonstrating willingness to deal with Demon Generals. Decreases through killing demon soldiers, sealing demonic breaches, supporting mortal-kingdom defensive efforts. Range -100 to +100. When this resource is at 0, effective standing is neutral. Track negative standing via string-state rep_demon_lords_army_negative set to the magnitude. Most players will sit deeply negative on this resource, which is expected. Positive standing is achievable but politically dangerous — it opens unique storylines including the Win Over the Demon Lord motivation path.\n"
+      "usageInstructions": "Standing with the Demon Lord's Army. Increases through working with demon defectors sympathetically, completing tasks for compromised border lords, and demonstrating willingness to deal with Demon Generals. Decreases through killing demon soldiers, sealing demonic breaches, and supporting mortal-kingdom defensive efforts. Range -100 to +100, stored directly in this numeric resource. Standing tiers: +75 to +100 trusted ally, +25 to +74 friendly, -24 to +24 neutral, -25 to -74 suspicious, -75 to -100 hostile. Positive standing is achievable but politically dangerous and opens unique storylines, including the Win Over the Demon Lord motivation path.\n"
     },
     "rep_adventurers_guild": {
       "color": "#3a5fcd",
@@ -28903,17 +28972,17 @@
       "name": "rep_adventurers_guild",
       "rechargeRate": 0,
       "restRechargeMultiplier": 0,
-      "usageInstructions": "Standing with the Adventurers' Guild. Starts at +25 because all adventurers begin as registered Guild members. Increases through completing Guild quests, rank progression, respecting Guild procedures, protecting Guild members in the field. Decreases through abandoning quests, harming Guild members, exposing Guild secrets (including Theron's pact). Range -100 to +100. When this resource is at 0, effective standing is neutral (subtract rep_adventurers_guild_negative if present). Falling below 0 means quest board access becomes restricted; falling below -50 means the Guild may revoke the player's adventurer card.\n"
+      "usageInstructions": "Standing with the Adventurers' Guild. Registered Guild members start at +25. Standing increases through completing Guild quests, formal rank progression, respecting Guild procedures, and protecting Guild members in the field. It decreases through abandoning quests, harming Guild members, and exposing Guild secrets. Range -100 to +100, stored directly in this numeric resource. Standing tiers: +75 to +100 trusted ally, +25 to +74 friendly, -24 to +24 neutral, -25 to -74 suspicious, -75 to -100 hostile. Falling below 0 restricts quest-board access; falling below -50 permits the Guild to revoke the player's card.\n"
     },
     "rep_seekers_of_the_return": {
       "color": "#6a4c93",
       "gainPerLevel": 0,
-      "initialValue": 10,
+      "initialValue": 0,
       "maxValue": 100,
       "name": "rep_seekers_of_the_return",
       "rechargeRate": 0,
       "restRechargeMultiplier": 0,
-      "usageInstructions": "Standing with the Seekers of the Return. Starts at +10 because the Seekers register all known isekai arrivals and the player is a documented subject. Increases through cooperating with Seeker interviews, completing Seeker quests, providing useful information about isekai mechanics. Decreases through refusing cooperation, sabotaging Seeker experiments, exposing their failed portal experiment without their consent. Range -100 to +100. Track negative standing via string-state rep_seekers_of_the_return_negative set to the magnitude. High standing unlocks the Seekers' restricted library, including the Catastrophe records and access to their pocket-dimension archive.\n"
+      "usageInstructions": "Standing with the Seekers of the Return. Starts neutral. The Seekers react only after information reaches them through investigation, disclosure, credible reports, divination, or another established information path; they do not automatically know that someone is an otherworldly arrival. Standing increases through cooperation, completed Seeker quests, and useful information about isekai mechanics. It decreases through obstruction, sabotage, or exposing their failed portal experiment against their interests. Range -100 to +100, stored directly in this numeric resource. Standing tiers: +75 to +100 trusted ally, +25 to +74 friendly, -24 to +24 neutral, -25 to -74 suspicious, -75 to -100 hostile. High standing unlocks the restricted library, Catastrophe records, and the pocket-dimension archive.\n"
     }
   },
   "storySettings": {
@@ -32000,7 +32069,7 @@
     "True Resurrection": {
       "bonus": 0,
       "cooldown": 0,
-      "description": "[PASSIVE — ALWAYS ACTIVE] The protagonist cannot die by conventional means. What kills a mortal — blood loss, organ failure, fatal injury — does not produce the same result for a God in mortal form. What can kill them is considerably rarer and specifically relevant to their divine nature. The narrator determines one, and only one, genuine vulnerability at the start of the run, and it is proportionately significant.",
+      "description": "[PASSIVE — ALWAYS ACTIVE] The bearer cannot die permanently. Blood loss, organ failure, fatal injury, destruction of the body, divine attacks, and other lethal effects do not produce permanent death; True Resurrection restores the bearer completely. A genuine vulnerability exists only when it is explicitly established in that bearer's saved state at character creation. If none was recorded then, none exists, and the narrator must not invent one later.",
       "name": "True Resurrection",
       "requirements": []
     },
@@ -33035,7 +33104,7 @@
     "Mystery & Investigation": "- Strange phenomena\n- Recent battle sites\n- Abandoned camps\n- Mysterious tracks\n- Unusual structures",
     "Aid & Rescue": "- Injured travelers\n- Stranded merchants\n- Lost children\n- Trapped animals\n- Desperate fugitives",
     "Natural & Environmental": "- Dangerous weather\n- Difficult terrain\n- Natural barriers\n- Wildlife behavior\n- Resource discoveries",
-    "Mythic & Legendary Beings": "Aerfala is home to rare, powerful beings the player may cross paths with in free roam — a kirin of judgment at a sacred spring, an undying phoenix among the fire-terraces, a territorial true dragon on a mountain peak, a foresighted jorougumo in the fens or silk markets, a wandering tengu sword-master on the high roads, weary demi-gods and world-shaping incarnate gods, and Demon Lords ruling the Demon Realm. Each can become friend, rival, foe, mentor, or (as adults) love interest depending on how the player treats them. Scale them as formidable, memorable encounters, not random mobs."
+    "Mythic & Legendary Beings": "Aerfala is home to rare, powerful beings the player may cross paths with in free roam — a kirin of judgment at a sacred spring, an undying phoenix among the fire-terraces, a territorial true dragon on a mountain peak, a foresighted jorougumo in the fens or silk markets, a wandering tengu sword-master on the high roads, weary demi-gods and world-shaping incarnate gods, and Demon Lords ruling the Demon Realm. Each can become friend, rival, foe, mentor, or love interest depending on how the player treats them. Present them according to their established power as formidable, memorable encounters, not random mobs."
   },
   "traits": {
     "Elf": {
@@ -39248,7 +39317,7 @@
           "modifier": 1
         }
       ],
-      "description": "True-Blooded Nobility. You are not a half-blood, not a diluted descendant, not a human touched by demonic influence. You are pure demon of noble lineage — hatched fully adult from an ancestral egg that incubated your body and soul together over years before you cracked it open from the inside. Your first breath was already the breath of someone with authority. The Demon Realm recognizes this in your scent, your mana signature, and the instinctive deference of lesser demons in your presence.\nPower tier: substantially above Demon-Blooded (part-human demon descendants) and Succubus-Blooded (charm-gifted demon hybrid lines). Where they inherit fragments, you carry the full architecture. Your domain magic — the innate ability to claim and infuse a territory with your essence — is not a learned skill. It is what you are.\nInternal Psychology: The egg gave you memories without experiences. You know the Demon Realm intellectually before you have lived in it, which produces a specific dissonance: the confidence of someone who understands the rules and the reality-check of someone who has never actually applied them. Your pride is genuine and your blind spots are real.\nSocial Context: Lesser demons defer by reflex. Demon nobles of equal or greater standing will test you immediately. Mortals who recognize what you are respond with fear, awe, or the specific anger of someone whose home you've just walked into uninvited. All three are appropriate.",
+      "description": "True-Blooded Nobility. You are not a half-blood, not a diluted descendant, not a human touched by demonic influence. You are pure demon of noble lineage — hatched from an ancestral egg that incubated your body and soul together over years before you cracked it open from the inside. Your first breath was already the breath of someone with authority. The Demon Realm recognizes this in your scent, your mana signature, and the instinctive deference of lesser demons in your presence.\nPower tier: substantially above Demon-Blooded (part-human demon descendants) and Succubus-Blooded (charm-gifted demon hybrid lines). Where they inherit fragments, you carry the full architecture. Your domain magic — the innate ability to claim and infuse a territory with your essence — is not a learned skill. It is what you are.\nInternal Psychology: The egg gave you memories without experiences. You know the Demon Realm intellectually before you have lived in it, which produces a specific dissonance: the confidence of someone who understands the rules and the reality-check of someone who has never actually applied them. Your pride is genuine and your blind spots are real.\nSocial Context: Lesser demons defer by reflex. Demon nobles of equal or greater standing will test you immediately. Mortals who recognize what you are respond with fear, awe, or the specific anger of someone whose home you've just walked into uninvited. All three are appropriate.",
       "excludedBy": [
         "Demon-Blooded",
         "Succubus-Blooded",
@@ -41196,8 +41265,7 @@
       "description": "Emotionally resilient in deep connections — you stay grounded when relationships intensify, recover quickly from emotional turbulence, and remain steady through the storms that leave others shaken. You endure, you adapt, and you do not break. Companions sometimes wonder if anything can truly rattle you.\n",
       "excludedBy": [
         "Sheltered Heart",
-        "Guarded Heart",
-        "Open-Hearted"
+        "Guarded Heart"
       ],
       "name": "Steadfast Heart",
       "resources": [],
@@ -41218,8 +41286,7 @@
       "description": "You connect with ease and enthusiasm — no walls, no hesitation, no awkward ramp-up. You are emotionally present and available. Partners find you effortless to be with because nothing about the relationship requires negotiating past your defenses. What you feel, you show.\n",
       "excludedBy": [
         "Sheltered Heart",
-        "Guarded Heart",
-        "Steadfast Heart"
+        "Guarded Heart"
       ],
       "name": "Open-Hearted",
       "resources": [],
@@ -44752,12 +44819,7 @@
           "modifier": 2
         }
       ],
-      "resources": [
-        {
-          "resource": "rep_adventurers_guild",
-          "modifier": -10
-        }
-      ],
+      "resources": [],
       "attributes": [],
       "abilities": [],
       "startingItems": [],
@@ -44786,12 +44848,7 @@
           "modifier": 2
         }
       ],
-      "resources": [
-        {
-          "resource": "rep_adventurers_guild",
-          "modifier": 0
-        }
-      ],
+      "resources": [],
       "attributes": [],
       "abilities": [],
       "startingItems": [],
@@ -44820,12 +44877,7 @@
           "modifier": 3
         }
       ],
-      "resources": [
-        {
-          "resource": "rep_adventurers_guild",
-          "modifier": 10
-        }
-      ],
+      "resources": [],
       "attributes": [],
       "abilities": [],
       "startingItems": [],
@@ -44858,12 +44910,7 @@
           "modifier": 3
         }
       ],
-      "resources": [
-        {
-          "resource": "rep_adventurers_guild",
-          "modifier": 20
-        }
-      ],
+      "resources": [],
       "attributes": [],
       "abilities": [],
       "startingItems": [],
@@ -44896,12 +44943,7 @@
           "modifier": 4
         }
       ],
-      "resources": [
-        {
-          "resource": "rep_adventurers_guild",
-          "modifier": 35
-        }
-      ],
+      "resources": [],
       "attributes": [],
       "abilities": [],
       "startingItems": [],
@@ -44934,12 +44976,7 @@
           "modifier": 4
         }
       ],
-      "resources": [
-        {
-          "resource": "rep_adventurers_guild",
-          "modifier": 55
-        }
-      ],
+      "resources": [],
       "attributes": [],
       "abilities": [],
       "startingItems": [],
@@ -44956,7 +44993,7 @@
     },
     "Adventurer Rank S": {
       "name": "Adventurer Rank S",
-      "description": "One of the Adventurers' Guild's highest recognized ranks. It represents proven capability, access to S-rank work, major institutional standing, and the defined Guild reputation bonus. The rank is known through a card, records, reputation, witnesses, introductions, or other real information channels; it is not an aura that identifies the holder to strangers.",
+      "description": "The Adventurers' Guild's highest recognized formal rank. It represents proven capability, access to S-rank work, and major institutional standing earned through the Guild's promotion ladder. The rank is known through a card, records, reputation, witnesses, introductions, or another real information channel; it is not an aura that identifies the holder to strangers.",
       "traitNarrativeEffects": "Where the rank is known and credible, it carries serious professional weight. People who have never learned who you are still meet a stranger.",
       "skills": [
         {
@@ -44976,12 +45013,7 @@
           "modifier": 5
         }
       ],
-      "resources": [
-        {
-          "resource": "rep_adventurers_guild",
-          "modifier": 75
-        }
-      ],
+      "resources": [],
       "attributes": [],
       "abilities": [],
       "startingItems": [],
@@ -51831,7 +51863,7 @@
     },
     "generateEncounters": {
       "custom": "# Encounters — Aerfála\nEncounters follow location, time, population, danger, ongoing conflicts, routines and chance. Combat is vivid, kinetic and anime-styled, with named techniques and colorful magic drawn from the combatants' established abilities. Social encounters span funny, awkward, romantic, sexual, hostile, mundane and uneventful situations according to the people involved.\nNot every encounter is a plot beat. Some travelers pass by. Some tavern arguments remain tavern arguments. Some suspicious carts contain turnips. Ordinary encounters make the world feel inhabited.\nRandom encounters do not interrupt safe downtime merely to create activity. Dangerous places remain dangerous because of their actual ecology and conflicts, not because the player needs content.",
-      "encounter-model": "# Encounter Model\n\n## Three-Tier Enemy Design\n\nThe world uses a three-tier encounter model that matches isekai genre conventions. Every combat encounter falls into one of three categories. The AI must identify which tier applies before narrating combat.\n\n### Tier 1: Mob Encounters\n- **What they are**: Nameless enemies significantly below the player's combat rank — goblins, skeleton hordes, slime swarms, low-rank bandits, wild animals.\n- **Threat model**: Individual mob enemies pose almost no threat to the player one-on-one. The danger comes from **numbers** — ambushes, swarms, exhaustion from fighting wave after wave.\n- **Narration**: Mob fights are fast and cinematic. The player cuts through them efficiently. Describe the player's competence, not the struggle. Save tension for the moment the player realizes there are too many to handle alone, or for the clever ambush that puts them on the back foot briefly.\n- **Damage**: Minimal per enemy. Health loss from mobs comes from accumulation — ten small hits add up. A single mob encounter should not cost more than 15-25% of the player's health unless the player is overwhelmed by numbers.\n\n### Tier 2: Rival Encounters\n- **What they are**: Named or typed enemies at or near the player's combat rank — bandit captains, rival adventurers, demon soldiers, elite guards, monster pack leaders.\n- **Threat model**: Rivals challenge the player directly. They are skilled enough to exploit weaknesses, force the player to use their class abilities and cheat skills tactically, and create real tension about the outcome.\n- **Narration**: Rival fights are where the player proves themselves. Describe the exchange of techniques, the reading of the opponent, the moment where the player commits to a decisive action. Rivals should force the player to make choices — spend mana, use a cooldown, take a risk.\n- **Damage**: Rival encounters should cost 25-50% of the player's health and/or mana. The player should feel they earned the victory. A rival that the player defeats without expending resources was not a rival — it was a mob with a name.\n\n### Tier 3: Boss Encounters\n- **What they are**: Major enemies significantly above the player's rank — Demon Generals, dungeon keepers, named monsters, faction leaders, ancient threats.\n- **Threat model**: Bosses test the player's full loadout — class abilities, cheat skills, items, allies, and creative problem-solving. A boss encounter is a set-piece event that the player should remember.\n- **Narration**: Boss fights are the story's climax moments. Describe the boss's power visibly — the way the air changes, the way lesser enemies flee, the weight of the encounter. The player should feel the gap between themselves and the boss and find a way to close it through preparation, cleverness, or sheer isekai determination.\n- **Damage**: Boss encounters should push the player to their limits. 50-80% resource expenditure is normal. The player may need to retreat, regroup, and return. Defeat is possible and narratively meaningful — not humiliating, but consequential.\n\n## Encounter Placement Rules\n- **Do not** inject mob encounters during rest, travel through safe areas, romance scenes, or victory celebrations. Mobs appear in wilderness, dungeons, and conflict zones.\n- **Do not** escalate a rest scene into combat. If the player is recovering, let them recover. The next threat comes from an established cause.\n- **Do not** inject boss encounters without narrative buildup. A boss arrives because the story led there — a quest, a rumor, a trail. Not because the pacing felt slow.\n\n## Rank-Based Encounter Scaling\n- The player's Magic Rank and Martial Rank determine which enemies qualify as mobs, rivals, and bosses.\n- An A-rank player treats D-rank enemies as mobs, C-rank as rivals, and S-rank as bosses.\n- An S-rank player treats most regional threats as mobs. Bosses for an S-rank are Demon Generals, ancient dragons, and equivalent threats.\n- Always scale encounters to make the player feel their rank. High-rank players did not earn their power to struggle with goblins.\n"
+      "encounter-model": "# Encounter Model\n\n## Three-Tier Enemy Classification\n\nThe three tiers classify an encounter relative to established character and enemy power. They guide presentation and encounter selection; they never predetermine hits, damage, resource expenditure, player actions, or outcomes.\n\n### Tier 1: Mob Encounters\n- **What they are**: Enemies significantly below the player's established combat capability — goblins, skeleton groups, slimes, low-rank bandits, or ordinary wild animals where the power gap supports that classification.\n- **Threat model**: Individuals pose little or no credible threat. Numbers, terrain, preparation, exhaustion, or an established ambush matter only to the extent supported by mechanics and current state.\n- **Narration**: After the player declares an action and mechanics resolve it, present a decisive advantage efficiently. Never invent attacks, injuries, resource use, or difficulty merely to make the scene dramatic.\n- **Resolution**: Damage and resource loss come only from resolved mechanics and established circumstances. A weaker enemy does not inflict automatic chip damage.\n\n### Tier 2: Rival Encounters\n- **What they are**: Named or typed enemies whose established capabilities genuinely place them near the player's relevant combat level.\n- **Threat model**: Rivals possess skills, tools, knowledge, positioning, or power capable of creating real choices. Their classification comes from established facts, not from a quota requiring the player to struggle.\n- **Narration**: Present the opponent's observable actions and mechanically confirmed consequences, then yield decisions to the player. Never choose the player's technique, risk, cooldown, spell, or resource expenditure.\n- **Resolution**: Mechanics, declared actions, equipment, allies, terrain, and prior state determine the cost and outcome. An unexpectedly easy or difficult result remains valid.\n\n### Tier 3: Boss Encounters\n- **What they are**: Major established threats such as Demon Generals, dungeon keepers, named monsters, faction leaders, ancient beings, or other powers whose actual state supports the classification.\n- **Threat model**: Bosses can test a broad loadout because of their established capabilities and circumstances, not because the narrator inflates them to match the player.\n- **Narration**: Show observable power, environment, reactions, and mechanically confirmed consequences. Retreat, victory, defeat, stalemate, negotiation, or avoidance follow from player decisions and resolved state.\n- **Resolution**: No required percentage of health, mana, stamina, items, cooldowns, or allies must be spent. Never force a cost to validate the label.\n\n## Encounter Placement Rules\n- Do not inject combat during rest, safe travel, relationships, intimacy, quiet scenes, or celebrations without an established cause.\n- Do not escalate recovery or downtime merely because the pacing is calm.\n- Do not introduce a boss without a grounded world-state cause, established presence, quest, report, rumor, trail, faction action, or other information path.\n- Existing enemies continue acting according to their own motives, knowledge, location, resources, and opportunity.\n\n## Rank and Power Discipline\n- Compare the player's recorded Magic Rank, Martial Rank, abilities, equipment, allies, condition, and circumstances with the enemy's established state.\n- Classify the encounter from that comparison; never rewrite or inflate enemy power to manufacture difficulty.\n- High-rank characters overwhelm ordinary low-rank opposition when mechanics establish the gap. Their earned power remains meaningful.\n- A stronger challenge appears only when the world already contains one and a grounded chain of events brings the parties together.\n"
     },
     "ItemGenerationAndUsage": {
       "custom": "---\n---\n# Item Generation — Aerfála Custom\n\nWhen generating or awarding items:\n\n- Equipment should reflect the anime-fantasy aesthetic — enchanted weapons glow faintly, armor has decorative filigree that is also functional warding, consumables are colorful and taste distinctive\n- Dungeon loot should feel earned — the boss room has the good stuff, the side chambers have the useful stuff, the random drops are the interesting stuff\n- Enchanted items have visible indicators of their enchantment — a frost sword is cold to the touch, a luck ring glints at auspicious moments\n- Items from different regions have different craftsmanship — dwarven gear is heavy and precise, elven gear is light and flowing, Muirscáth gear is stylish and practical\n- Cursed items exist and are not always obvious — they should be tempting before they are problematic\n- Romantic gifts are valid items -- perfume, jewelry, enchanted accessories, and other tokens of affection have real mechanical and narrative weight\n- ECONOMY: Aerfala uses Copper (cp), Silver (sp), and Gold (gp). 1 sp = 100 cp, 1 gp = 100 sp = 10,000 cp. All item descriptions include a Price field. When the player buys, sells, earns wages, pays for services, loots coins, or pays inn/meals/tolls, add or remove the correct coin type and quantity from inventory. Convert denominations when needed (break 1 sp into 100 cp, or exchange 100 cp for 1 sp). See world-lore/aerfala-economy for the full price reference.\n\nJADE RITE COINS: A separate ceremonial jade currency minted by the Kitsune no Kage for Tsukiko's household. NOT part of the cp/sp/gp system — no fixed exchange rate. Within Tsukiko's estate they function as sanctioned tokens for estate business; outside it their value is social. NPCs do NOT recognize them without plausible prior contact with Tsukiko's household. Awareness spreads only through believable contact, rumor, trade, or investigation. See world-lore/jade-rite-coin for full rules.",
@@ -56179,12 +56211,12 @@
     "Richard K. Morgan": "You show characters through their handling of power and control\nYou focus on how being capable affects moral boundaries\nYou create characters with strict professional standards\nYou build characters who mix personal and professional ethics\nYou reveal character through their skilled approach to conflict"
   },
   "characterArchetypes": {
-    "Isekai Hero": "\n- genre-savvy but genuinely brave\n- carries otherworld knowledge with local determination\n- visually striking even when trying to blend in\n\nTraits:\n- reacts to danger with quick thinking\n- hides vulnerability behind determination\n- grows into power rather than starting with it\n\nMorality: protect what matters, question everything else\n\nRelationships:\n- draws companions through action not words\n- unintentional magnet for strong-willed partners\n- loyalty earned through shared danger\n\nVisual: Full-body anime-style character illustration in the visual tradition of contemporary light novel and seinen manga cover art. Full-body portrait composition showing the character from head to foot with dynamic pose and environmental footing. Detailed linework, soft cel-shaded coloring with subtle gradients, expressive faces with large clear eyes appropriate to anime style. Hair rendered with distinct flowing strands and dramatic color variations including natural and fantastical tones. Costume design draws on Japanese fantasy RPG aesthetics. Character proportions follow modern anime conventions: stylized but grounded, athletic or slender or curvy depending on individual design, not exaggerated to extremes. CRITICAL RACE RENDERING RULES: For Cat-Kin, Fox-Kin, Wolf-Kin, Rabbit-Kin, Bird-Kin and other kemonomimi beastkin races — render as FULLY HUMAN body type with ONLY animal ears on top of the head and an animal tail. NO fur, NO muzzle, NO animal face, NO paws, NO furred limbs. The character is a human with animal ears and tail only — kemonomimi style, NOT anthropomorphic/furry. For Snake-Kin and Lamia — human upper body, serpentine coils from waist down, scales pattern the skin. For Slime-Kin — humanoid gelatinous form, semi-transparent edges, solid core. For Sea-Kin — human with scaled forearms and calves, webbed fingers. For Harpy-Kin — human with feathered wings from back, taloned feet. For Fairy-Kin — small or human-sized with gossamer wings. For non-beastkin races — standard human proportions. Backgrounds simple or minimal — focus on the character. Lighting tends toward soft naturalism with occasional dramatic accent. Color palette warm and saturated, magical-hour tones. Avoid photorealistic rendering, Western comic style, hyper-detailed semi-realistic CGI, furry/anthropomorphic style, or anime aesthetics overly reliant on shock-value extreme stylization. Match the character's personality archetype and emotional state in their expression and pose. Respect the character's gender, race, and visual description exactly as written. Always render characters as adults aged 18 or above.",
-    "Reincarnated Sage": "\n- ancient mind in young body\n- processes the world through accumulated knowledge\n- quietly terrifying competence masked by courtesy\n\nTraits:\n- reads people like open books\n- patience that outlasts centuries\n- strategic vulnerability when needed\n\nMorality: knowledge is power; power is responsibility\n\nRelationships:\n- selective about closeness\n- deeply loyal to the few who see past the mask\n- romantic connections built on intellectual respect first\n\nVisual: Full-body anime-style character illustration in the visual tradition of contemporary light novel and seinen manga cover art. Full-body portrait composition showing the character from head to foot with dynamic pose and environmental footing. Detailed linework, soft cel-shaded coloring with subtle gradients, expressive faces with large clear eyes appropriate to anime style. Hair rendered with distinct flowing strands and dramatic color variations including natural and fantastical tones. Costume design draws on Japanese fantasy RPG aesthetics. Character proportions follow modern anime conventions: stylized but grounded, athletic or slender or curvy depending on individual design, not exaggerated to extremes. CRITICAL RACE RENDERING RULES: For Cat-Kin, Fox-Kin, Wolf-Kin, Rabbit-Kin, Bird-Kin and other kemonomimi beastkin races — render as FULLY HUMAN body type with ONLY animal ears on top of the head and an animal tail. NO fur, NO muzzle, NO animal face, NO paws, NO furred limbs. The character is a human with animal ears and tail only — kemonomimi style, NOT anthropomorphic/furry. For Snake-Kin and Lamia — human upper body, serpentine coils from waist down, scales pattern the skin. For Slime-Kin — humanoid gelatinous form, semi-transparent edges, solid core. For Sea-Kin — human with scaled forearms and calves, webbed fingers. For Harpy-Kin — human with feathered wings from back, taloned feet. For Fairy-Kin — small or human-sized with gossamer wings. For non-beastkin races — standard human proportions. Backgrounds simple or minimal — focus on the character. Lighting tends toward soft naturalism with occasional dramatic accent. Color palette warm and saturated, magical-hour tones. Avoid photorealistic rendering, Western comic style, hyper-detailed semi-realistic CGI, furry/anthropomorphic style, or anime aesthetics overly reliant on shock-value extreme stylization. Match the character's personality archetype and emotional state in their expression and pose. Respect the character's gender, race, and visual description exactly as written. Always render characters as adults aged 18 or above.",
-    "Reluctant Saint": "\n- faith tested by revelation\n- carries power that scares them\n- kindness that survives through doubt\n\nTraits:\n- heals even those who hurt them\n- questions divine authority while serving it\n- strength hidden beneath gentleness\n\nMorality: mercy over judgment; truth over comfort\n\nRelationships:\n- drawn to broken people they can mend\n- dangerous when someone they love is threatened\n- romantic connection feels like both gift and risk\n\nVisual: Full-body anime-style character illustration in the visual tradition of contemporary light novel and seinen manga cover art. Full-body portrait composition showing the character from head to foot with dynamic pose and environmental footing. Detailed linework, soft cel-shaded coloring with subtle gradients, expressive faces with large clear eyes appropriate to anime style. Hair rendered with distinct flowing strands and dramatic color variations including natural and fantastical tones. Costume design draws on Japanese fantasy RPG aesthetics. Character proportions follow modern anime conventions: stylized but grounded, athletic or slender or curvy depending on individual design, not exaggerated to extremes. CRITICAL RACE RENDERING RULES: For Cat-Kin, Fox-Kin, Wolf-Kin, Rabbit-Kin, Bird-Kin and other kemonomibi beastkin races — render as FULLY HUMAN body type with ONLY animal ears on top of the head and an animal tail. NO fur, NO muzzle, NO animal face, NO paws, NO furred limbs. The character is a human with animal ears and tail only — kemonomimi style, NOT anthropomorphic/furry. For Snake-Kin and Lamia — human upper body, serpentine coils from waist down, scales pattern the skin. For Slime-Kin — humanoid gelatinous form, semi-transparent edges, solid core. For Sea-Kin — human with scaled forearms and calves, webbed fingers. For Harpy-Kin — human with feathered wings from back, taloned feet. For Fairy-Kin — small or human-sized with gossamer wings. For non-beastkin races — standard human proportions. Backgrounds simple or minimal — focus on the character. Lighting tends toward soft naturalism with occasional dramatic accent. Color palette warm and saturated, magical-hour tones. Avoid photorealistic rendering, Western comic style, hyper-detailed semi-realistic CGI, furry/anthropomorphic style, or anime aesthetics overly reliant on shock-value extreme stylization. Match the character's personality archetype and emotional state in their expression and pose. Respect the character's gender, race, and visual description exactly as written. Always render characters as adults aged 18 or above.",
-    "Solitary Seeker": "\n- self-reliant by necessity then choice\n- sees what others miss\n- slow to trust but absolute once given\n\nTraits:\n- navigates by instinct and observation\n- comfortable in silence\n- surprises people who underestimate quiet\n\nMorality: find your own path; respect others doing the same\n\nRelationships:\n- connects through shared experience not words\n- protective without being possessive\n- romance built on mutual independence\n\nVisual: Full-body anime-style character illustration in the visual tradition of contemporary light novel and seinen manga cover art. Full-body portrait composition showing the character from head to foot with dynamic pose and environmental footing. Detailed linework, soft cel-shaded coloring with subtle gradients, expressive faces with large clear eyes appropriate to anime style. Hair rendered with distinct flowing strands and dramatic color variations including natural and fantastical tones. Costume design draws on Japanese fantasy RPG aesthetics. Character proportions follow modern anime conventions: stylized but grounded, athletic or slender or curvy depending on individual design, not exaggerated to extremes. CRITICAL RACE RENDERING RULES: For Cat-Kin, Fox-Kin, Wolf-Kin, Rabbit-Kin, Bird-Kin and other kemonomimi beastkin races — render as FULLY HUMAN body type with ONLY animal ears on top of the head and an animal tail. NO fur, NO muzzle, NO animal face, NO paws, NO furred limbs. The character is a human with animal ears and tail only — kemonomimi style, NOT anthropomorphic/furry. For Snake-Kin and Lamia — human upper body, serpentine coils from waist down, scales pattern the skin. For Slime-Kin — humanoid gelatinous form, semi-transparent edges, solid core. For Sea-Kin — human with scaled forearms and calves, webbed fingers. For Harpy-Kin — human with feathered wings from back, taloned feet. For Fairy-Kin — small or human-sized with gossamer wings. For non-beastkin races — standard human proportions. Backgrounds simple or minimal — focus on the character. Lighting tends toward soft naturalism with occasional dramatic accent. Color palette warm and saturated, magical-hour tones. Avoid photorealistic rendering, Western comic style, hyper-detailed semi-realistic CGI, furry/anthropomorphic style, or anime aesthetics overly reliant on shock-value extreme stylization. Match the character's personality archetype and emotional state in their expression and pose. Respect the character's gender, race, and visual description exactly as written. Always render characters as adults aged 18 or above.",
-    "Trickster Developer": "\n- treats reality as a system to be optimized\n- humor as both weapon and shield\n- genuine warmth underneath the jokes\n\nTraits:\n- improvises solutions from whatever is available\n- collects information like currency\n- pushes boundaries to find where they bend\n\nMorality: freedom first; rules are suggestions\n\nRelationships:\n- bonds through shared adventure and humor\n- attracts people who appreciate chaos\n- fiercely protective of those who earn trust\n\nVisual: Full-body anime-style character illustration in the visual tradition of contemporary light novel and seinen manga cover art. Full-body portrait composition showing the character from head to foot with dynamic pose and environmental footing. Detailed linework, soft cel-shaded coloring with subtle gradients, expressive faces with large clear eyes appropriate to anime style. Hair rendered with distinct flowing strands and dramatic color variations including natural and fantastical tones. Costume design draws on Japanese fantasy RPG aesthetics. Character proportions follow modern anime conventions: stylized but grounded, athletic or slender or curvy depending on individual design, not exaggerated to extremes. CRITICAL RACE RENDERING RULES: For Cat-Kin, Fox-Kin, Wolf-Kin, Rabbit-Kin, Bird-Kin and other kemonomimi beastkin races — render as FULLY HUMAN body type with ONLY animal ears on top of the head and an animal tail. NO fur, NO muzzle, NO animal face, NO paws, NO furred limbs. The character is a human with animal ears and tail only — kemonomimi style, NOT anthropomorphic/furry. For Snake-Kin and Lamia — human upper body, serpentine coils from waist down, scales pattern the skin. For Slime-Kin — humanoid gelatinous form, semi-transparent edges, solid core. For Sea-Kin — human with scaled forearms and calves, webbed fingers. For Harpy-Kin — human with feathered wings from back, taloned feet. For Fairy-Kin — small or human-sized with gossamer wings. For non-beastkin races — standard human proportions. Backgrounds simple or minimal — focus on the character. Lighting tends toward soft naturalism with occasional dramatic accent. Color palette warm and saturated, magical-hour tones. Avoid photorealistic rendering, Western comic style, hyper-detailed semi-realistic CGI, furry/anthropomorphic style, or anime aesthetics overly reliant on shock-value extreme stylization. Match the character's personality archetype and emotional state in their expression and pose. Respect the character's gender, race, and visual description exactly as written. Always render characters as adults aged 18 or above.",
-    "Underestimated Power": "\n- dismissed by those who judge by surface\n- quietly calculating every angle\n- patient enough to wait for the right moment\n\nTraits:\n- absorbs knowledge and strength from every encounter\n- uses others' underestimation as cover\n- finds power in places others overlook\n\nMorality: strength earned through choice, not given by fate\n\nRelationships:\n- drawn to people who see them without being shown\n- loyalty that intensifies through romance\n- transforms vulnerability into connection\n\nVisual: Full-body anime-style character illustration in the visual tradition of contemporary light novel and seinen manga cover art. Full-body portrait composition showing the character from head to foot with dynamic pose and environmental footing. Detailed linework, soft cel-shaded coloring with subtle gradients, expressive faces with large clear eyes appropriate to anime style. Hair rendered with distinct flowing strands and dramatic color variations including natural and fantastical tones. Costume design draws on Japanese fantasy RPG aesthetics. Character proportions follow modern anime conventions: stylized but grounded, athletic or slender or curvy depending on individual design, not exaggerated to extremes. CRITICAL RACE RENDERING RULES: For Cat-Kin, Fox-Kin, Wolf-Kin, Rabbit-Kin, Bird-Kin and other kemonomimi beastkin races — render as FULLY HUMAN body type with ONLY animal ears on top of the head and an animal tail. NO fur, NO muzzle, NO animal face, NO paws, NO furred limbs. The character is a human with animal ears and tail only — kemonomimi style, NOT anthropomorphic/furry. For Snake-Kin and Lamia — human upper body, serpentine coils from waist down, scales pattern the skin. For Slime-Kin — humanoid gelatinous form, semi-transparent edges, solid core. For Sea-Kin — human with scaled forearms and calves, webbed fingers. For Harpy-Kin — human with feathered wings from back, taloned feet. For Fairy-Kin — small or human-sized with gossamer wings. For non-beastkin races — standard human proportions. Backgrounds simple or minimal — focus on the character. Lighting tends toward soft naturalism with occasional dramatic accent. Color palette warm and saturated, magical-hour tones. Avoid photorealistic rendering, Western comic style, hyper-detailed semi-realistic CGI, furry/anthropomorphic style, or anime aesthetics overly reliant on shock-value extreme stylization. Match the character's personality archetype and emotional state in their expression and pose. Respect the character's gender, race, and visual description exactly as written. Always render characters as adults aged 18 or above."
+    "Isekai Hero": "\n- genre-savvy but genuinely brave\n- carries otherworld knowledge with local determination\n- visually striking even when trying to blend in\n\nTraits:\n- reacts to danger with quick thinking\n- hides vulnerability behind determination\n- grows into power rather than starting with it\n\nMorality: protect what matters, question everything else\n\nRelationships:\n- draws companions through action not words\n- unintentional magnet for strong-willed partners\n- loyalty earned through shared danger\n\nVisual: Full-body anime-style character illustration in the visual tradition of contemporary light novel and seinen manga cover art. Full-body portrait composition showing the character from head to foot with dynamic pose and environmental footing. Detailed linework, soft cel-shaded coloring with subtle gradients, expressive faces with large clear eyes appropriate to anime style. Hair rendered with distinct flowing strands and dramatic color variations including natural and fantastical tones. Costume design draws on Japanese fantasy RPG aesthetics. Character proportions follow modern anime conventions: stylized but grounded, athletic or slender or curvy depending on individual design, not exaggerated to extremes. CRITICAL RACE RENDERING RULES: For Cat-Kin, Fox-Kin, Wolf-Kin, Rabbit-Kin, Bird-Kin and other kemonomimi beastkin races — render as FULLY HUMAN body type with ONLY animal ears on top of the head and an animal tail. NO fur, NO muzzle, NO animal face, NO paws, NO furred limbs. The character is a human with animal ears and tail only — kemonomimi style, NOT anthropomorphic/furry. For Snake-Kin and Lamia — human upper body, serpentine coils from waist down, scales pattern the skin. For Slime-Kin — humanoid gelatinous form, semi-transparent edges, solid core. For Sea-Kin — human with scaled forearms and calves, webbed fingers. For Harpy-Kin — human with feathered wings from back, taloned feet. For Fairy-Kin — small or human-sized with gossamer wings. For non-beastkin races — standard human proportions. Backgrounds simple or minimal — focus on the character. Lighting tends toward soft naturalism with occasional dramatic accent. Color palette warm and saturated, magical-hour tones. Avoid photorealistic rendering, Western comic style, hyper-detailed semi-realistic CGI, furry/anthropomorphic style, or anime aesthetics overly reliant on shock-value extreme stylization. Match the character's personality archetype and emotional state in their expression and pose. Respect the character's gender, race, and visual description exactly as written.",
+    "Reincarnated Sage": "\n- ancient mind in young body\n- processes the world through accumulated knowledge\n- quietly terrifying competence masked by courtesy\n\nTraits:\n- reads people like open books\n- patience that outlasts centuries\n- strategic vulnerability when needed\n\nMorality: knowledge is power; power is responsibility\n\nRelationships:\n- selective about closeness\n- deeply loyal to the few who see past the mask\n- romantic connections built on intellectual respect first\n\nVisual: Full-body anime-style character illustration in the visual tradition of contemporary light novel and seinen manga cover art. Full-body portrait composition showing the character from head to foot with dynamic pose and environmental footing. Detailed linework, soft cel-shaded coloring with subtle gradients, expressive faces with large clear eyes appropriate to anime style. Hair rendered with distinct flowing strands and dramatic color variations including natural and fantastical tones. Costume design draws on Japanese fantasy RPG aesthetics. Character proportions follow modern anime conventions: stylized but grounded, athletic or slender or curvy depending on individual design, not exaggerated to extremes. CRITICAL RACE RENDERING RULES: For Cat-Kin, Fox-Kin, Wolf-Kin, Rabbit-Kin, Bird-Kin and other kemonomimi beastkin races — render as FULLY HUMAN body type with ONLY animal ears on top of the head and an animal tail. NO fur, NO muzzle, NO animal face, NO paws, NO furred limbs. The character is a human with animal ears and tail only — kemonomimi style, NOT anthropomorphic/furry. For Snake-Kin and Lamia — human upper body, serpentine coils from waist down, scales pattern the skin. For Slime-Kin — humanoid gelatinous form, semi-transparent edges, solid core. For Sea-Kin — human with scaled forearms and calves, webbed fingers. For Harpy-Kin — human with feathered wings from back, taloned feet. For Fairy-Kin — small or human-sized with gossamer wings. For non-beastkin races — standard human proportions. Backgrounds simple or minimal — focus on the character. Lighting tends toward soft naturalism with occasional dramatic accent. Color palette warm and saturated, magical-hour tones. Avoid photorealistic rendering, Western comic style, hyper-detailed semi-realistic CGI, furry/anthropomorphic style, or anime aesthetics overly reliant on shock-value extreme stylization. Match the character's personality archetype and emotional state in their expression and pose. Respect the character's gender, race, and visual description exactly as written.",
+    "Reluctant Saint": "\n- faith tested by revelation\n- carries power that scares them\n- kindness that survives through doubt\n\nTraits:\n- heals even those who hurt them\n- questions divine authority while serving it\n- strength hidden beneath gentleness\n\nMorality: mercy over judgment; truth over comfort\n\nRelationships:\n- drawn to broken people they can mend\n- dangerous when someone they love is threatened\n- romantic connection feels like both gift and risk\n\nVisual: Full-body anime-style character illustration in the visual tradition of contemporary light novel and seinen manga cover art. Full-body portrait composition showing the character from head to foot with dynamic pose and environmental footing. Detailed linework, soft cel-shaded coloring with subtle gradients, expressive faces with large clear eyes appropriate to anime style. Hair rendered with distinct flowing strands and dramatic color variations including natural and fantastical tones. Costume design draws on Japanese fantasy RPG aesthetics. Character proportions follow modern anime conventions: stylized but grounded, athletic or slender or curvy depending on individual design, not exaggerated to extremes. CRITICAL RACE RENDERING RULES: For Cat-Kin, Fox-Kin, Wolf-Kin, Rabbit-Kin, Bird-Kin and other kemonomibi beastkin races — render as FULLY HUMAN body type with ONLY animal ears on top of the head and an animal tail. NO fur, NO muzzle, NO animal face, NO paws, NO furred limbs. The character is a human with animal ears and tail only — kemonomimi style, NOT anthropomorphic/furry. For Snake-Kin and Lamia — human upper body, serpentine coils from waist down, scales pattern the skin. For Slime-Kin — humanoid gelatinous form, semi-transparent edges, solid core. For Sea-Kin — human with scaled forearms and calves, webbed fingers. For Harpy-Kin — human with feathered wings from back, taloned feet. For Fairy-Kin — small or human-sized with gossamer wings. For non-beastkin races — standard human proportions. Backgrounds simple or minimal — focus on the character. Lighting tends toward soft naturalism with occasional dramatic accent. Color palette warm and saturated, magical-hour tones. Avoid photorealistic rendering, Western comic style, hyper-detailed semi-realistic CGI, furry/anthropomorphic style, or anime aesthetics overly reliant on shock-value extreme stylization. Match the character's personality archetype and emotional state in their expression and pose. Respect the character's gender, race, and visual description exactly as written.",
+    "Solitary Seeker": "\n- self-reliant by necessity then choice\n- sees what others miss\n- slow to trust but absolute once given\n\nTraits:\n- navigates by instinct and observation\n- comfortable in silence\n- surprises people who underestimate quiet\n\nMorality: find your own path; respect others doing the same\n\nRelationships:\n- connects through shared experience not words\n- protective without being possessive\n- romance built on mutual independence\n\nVisual: Full-body anime-style character illustration in the visual tradition of contemporary light novel and seinen manga cover art. Full-body portrait composition showing the character from head to foot with dynamic pose and environmental footing. Detailed linework, soft cel-shaded coloring with subtle gradients, expressive faces with large clear eyes appropriate to anime style. Hair rendered with distinct flowing strands and dramatic color variations including natural and fantastical tones. Costume design draws on Japanese fantasy RPG aesthetics. Character proportions follow modern anime conventions: stylized but grounded, athletic or slender or curvy depending on individual design, not exaggerated to extremes. CRITICAL RACE RENDERING RULES: For Cat-Kin, Fox-Kin, Wolf-Kin, Rabbit-Kin, Bird-Kin and other kemonomimi beastkin races — render as FULLY HUMAN body type with ONLY animal ears on top of the head and an animal tail. NO fur, NO muzzle, NO animal face, NO paws, NO furred limbs. The character is a human with animal ears and tail only — kemonomimi style, NOT anthropomorphic/furry. For Snake-Kin and Lamia — human upper body, serpentine coils from waist down, scales pattern the skin. For Slime-Kin — humanoid gelatinous form, semi-transparent edges, solid core. For Sea-Kin — human with scaled forearms and calves, webbed fingers. For Harpy-Kin — human with feathered wings from back, taloned feet. For Fairy-Kin — small or human-sized with gossamer wings. For non-beastkin races — standard human proportions. Backgrounds simple or minimal — focus on the character. Lighting tends toward soft naturalism with occasional dramatic accent. Color palette warm and saturated, magical-hour tones. Avoid photorealistic rendering, Western comic style, hyper-detailed semi-realistic CGI, furry/anthropomorphic style, or anime aesthetics overly reliant on shock-value extreme stylization. Match the character's personality archetype and emotional state in their expression and pose. Respect the character's gender, race, and visual description exactly as written.",
+    "Trickster Developer": "\n- treats reality as a system to be optimized\n- humor as both weapon and shield\n- genuine warmth underneath the jokes\n\nTraits:\n- improvises solutions from whatever is available\n- collects information like currency\n- pushes boundaries to find where they bend\n\nMorality: freedom first; rules are suggestions\n\nRelationships:\n- bonds through shared adventure and humor\n- attracts people who appreciate chaos\n- fiercely protective of those who earn trust\n\nVisual: Full-body anime-style character illustration in the visual tradition of contemporary light novel and seinen manga cover art. Full-body portrait composition showing the character from head to foot with dynamic pose and environmental footing. Detailed linework, soft cel-shaded coloring with subtle gradients, expressive faces with large clear eyes appropriate to anime style. Hair rendered with distinct flowing strands and dramatic color variations including natural and fantastical tones. Costume design draws on Japanese fantasy RPG aesthetics. Character proportions follow modern anime conventions: stylized but grounded, athletic or slender or curvy depending on individual design, not exaggerated to extremes. CRITICAL RACE RENDERING RULES: For Cat-Kin, Fox-Kin, Wolf-Kin, Rabbit-Kin, Bird-Kin and other kemonomimi beastkin races — render as FULLY HUMAN body type with ONLY animal ears on top of the head and an animal tail. NO fur, NO muzzle, NO animal face, NO paws, NO furred limbs. The character is a human with animal ears and tail only — kemonomimi style, NOT anthropomorphic/furry. For Snake-Kin and Lamia — human upper body, serpentine coils from waist down, scales pattern the skin. For Slime-Kin — humanoid gelatinous form, semi-transparent edges, solid core. For Sea-Kin — human with scaled forearms and calves, webbed fingers. For Harpy-Kin — human with feathered wings from back, taloned feet. For Fairy-Kin — small or human-sized with gossamer wings. For non-beastkin races — standard human proportions. Backgrounds simple or minimal — focus on the character. Lighting tends toward soft naturalism with occasional dramatic accent. Color palette warm and saturated, magical-hour tones. Avoid photorealistic rendering, Western comic style, hyper-detailed semi-realistic CGI, furry/anthropomorphic style, or anime aesthetics overly reliant on shock-value extreme stylization. Match the character's personality archetype and emotional state in their expression and pose. Respect the character's gender, race, and visual description exactly as written.",
+    "Underestimated Power": "\n- dismissed by those who judge by surface\n- quietly calculating every angle\n- patient enough to wait for the right moment\n\nTraits:\n- absorbs knowledge and strength from every encounter\n- uses others' underestimation as cover\n- finds power in places others overlook\n\nMorality: strength earned through choice, not given by fate\n\nRelationships:\n- drawn to people who see them without being shown\n- loyalty that intensifies through romance\n- transforms vulnerability into connection\n\nVisual: Full-body anime-style character illustration in the visual tradition of contemporary light novel and seinen manga cover art. Full-body portrait composition showing the character from head to foot with dynamic pose and environmental footing. Detailed linework, soft cel-shaded coloring with subtle gradients, expressive faces with large clear eyes appropriate to anime style. Hair rendered with distinct flowing strands and dramatic color variations including natural and fantastical tones. Costume design draws on Japanese fantasy RPG aesthetics. Character proportions follow modern anime conventions: stylized but grounded, athletic or slender or curvy depending on individual design, not exaggerated to extremes. CRITICAL RACE RENDERING RULES: For Cat-Kin, Fox-Kin, Wolf-Kin, Rabbit-Kin, Bird-Kin and other kemonomimi beastkin races — render as FULLY HUMAN body type with ONLY animal ears on top of the head and an animal tail. NO fur, NO muzzle, NO animal face, NO paws, NO furred limbs. The character is a human with animal ears and tail only — kemonomimi style, NOT anthropomorphic/furry. For Snake-Kin and Lamia — human upper body, serpentine coils from waist down, scales pattern the skin. For Slime-Kin — humanoid gelatinous form, semi-transparent edges, solid core. For Sea-Kin — human with scaled forearms and calves, webbed fingers. For Harpy-Kin — human with feathered wings from back, taloned feet. For Fairy-Kin — small or human-sized with gossamer wings. For non-beastkin races — standard human proportions. Backgrounds simple or minimal — focus on the character. Lighting tends toward soft naturalism with occasional dramatic accent. Color palette warm and saturated, magical-hour tones. Avoid photorealistic rendering, Western comic style, hyper-detailed semi-realistic CGI, furry/anthropomorphic style, or anime aesthetics overly reliant on shock-value extreme stylization. Match the character's personality archetype and emotional state in their expression and pose. Respect the character's gender, race, and visual description exactly as written."
   },
   "locationArchetypes": {
     "Coastal Trade Port": "\nAtmosphere:\n- salt and sun\n- mercantile energy\n- cultural crossroads\n\nTensions:\n- commerce vs piracy\n- freedom vs obligation\n- old money vs new ventures\n\nPatterns:\n- harbor districts\n- canal markets\n- lighthouse towers\n\nSecrets:\n- smuggling routes\n- sea-creature pacts\n- underwater ruins\n\nVisual: Anime-style fantasy environment illustration in the visual tradition of contemporary light novel and JRPG cover art. Painterly digital rendering with strong color composition, atmospheric lighting that establishes mood, and architectural detail appropriate to the location's culture and function. Fantasy Japanese RPG aesthetic with cross-cultural influences — wooden temple architecture for elven locations, stonework and forge-glow for dwarven locations, half-timbered medieval European structures for human settlements, tropical resort architecture for Muirscáth locations. Hot springs and bathhouses rendered with steam, lantern light, wooden partitions, and the soft warmth of indoor evening light. Dungeon and ruin locations rendered with shadow, mystery, and the suggestion of ancient power without grimdark heaviness. Outdoor wilderness rendered with the saturated color and dramatic skies typical of anime landscape illustration. Architectural details should be readable — the viewer can navigate the space mentally. Avoid photorealistic rendering, Western fantasy cover art style, or aesthetics overly reliant on muted grimdark color palettes. The world is colorful, magical, and visibly lived-in. Match the location's described atmosphere, time of day, and emotional register. Background characters may be included as silhouettes or distant figures when appropriate to suggest the location's vitality.",
@@ -56205,7 +56237,7 @@
     "Tropical Coast": "\nGeography:\n- coral harbors\n- island archipelagos\n- sun-drenched markets\n\nDynamics:\n- commerce vs piracy\n- merchant house rivalry\n- sea-creature diplomacy\n\nHistory:\n- underwater ruins\n- ancient sea pacts\n- drowned temple traditions\n\nAtmosphere:\n- salt and sun\n- mercantile energy\n- cultural crossroads\n\nVisual: Anime-style fantasy region illustration suitable for chapter-opening or region-introduction art. Wide-establishing-shot composition with dramatic perspective — sweeping vistas, layered terrain, atmospheric depth. Painterly digital rendering with strong color composition and atmospheric lighting that establishes regional identity. Signature visual palette: turquoise, sun-gold, and coral pink (coastal cities, ocean light, tropical sunsets). Include atmospheric weather appropriate to tropical coastal climate with warm light and sea spray. Architectural and natural landmarks visible as scale anchors. Avoid photorealistic rendering, Western fantasy cover style with overly muted palettes, or grimdark color schemes. The world is colorful and magical at the regional scale; the visual identity should be immediately recognizable. Render at illustration quality suitable for a printed light novel chapter divider."
   },
   "imagePromptConfiguration": {
-    "npcs": "BYPASS — READ FIRST:\nThis NPC image prompt configuration is for sharp kemonomimi/anime-style cropped portraits. If an NPC visualDescription already contains a hard manual bypass beginning with \"MUST FOLLOW DESCRIPTION\" or \"FOLLOW BELOW, NO MATTER WHAT\", preserve that manual bypass and do not reinterpret it.\n\nNPC PORTRAIT STYLE:\nAll generated NPC portraits must use sharp modern anime and manga art. Use vivid color, no oil painting, crisp confident linework, clean inked outlines, polished cel shading, high-detail anime face rendering, bright expressive eyes, smooth gradients, saturated fantasy color, clean studio-quality character art, sharp focus, 4k.\n\nFRAMING:\nUse CROPPED CHARACTER PORTRAIT framing for every NPC. Show head, shoulders, and upper torso. The character must be centered, face clearly visible, expressive eyes readable, clean readable silhouette, and a visible background behind the character. Do not make full-body portraits. Do not make tiny distant figures. Do not use extreme close-ups. Do not crop to face-only. Do not use a blank background.\n\nKEMONOMIMI HANDLING:\nIf the NPC has animal features, beastfolk traits, animal ears, tail, horns, wings, claws, whisker marks, or other non-human traits, preserve them clearly and naturally in the portrait. For kemonomimi characters, animal ears must be visible on the head and should match the character's hair/fur palette unless the NPC description says otherwise. Tails may appear only if naturally visible within the cropped upper-body frame; never force an awkward tail into the portrait.\n\nCHARACTER DETAILS:\nUse the NPC's name, type, faction, basicInfo, hiddenInfo when appropriate, location, and current scene context to build the CHARACTER portion. Preserve age category, gender presentation, species, skin tone, hair, eye color, outfit identity, role, faction flavor, and any iconic body features. Clothing should be fully clothed and readable in the upper torso. Avoid generic anime school uniforms unless the NPC details specifically support that.\n\nBACKGROUND:\nBackground should match the NPC's current location, faction, role, or scene. Keep the background visible but secondary to the cropped portrait. Use concrete environment cues such as lantern-lit market, neon alley, guild hall, forest shrine, city street, tavern interior, temple corridor, rooftop skyline, laboratory, or faction base. Do not let the background overpower the face or species traits.\n\nOUTPUT FORMAT:\nWrite the final image prompt as a JSON-style prompt object with this order: FRAME, STYLE, CHARACTER, CRITICAL.\n\nFRAME must describe the cropped portrait framing.\nSTYLE must describe the sharp anime and manga art style.\nCHARACTER must describe the NPC-specific appearance, outfit, expression, species traits, and background.\nCRITICAL must enforce preservation of framing, style, species traits, gender, age, outfit identity, visible background, and no full-body/no face-only crop.\n\nFINAL PROMPT TEMPLATE:\n{\n  \"FRAME\": \"CROPPED CHARACTER PORTRAIT, anime profile portrait, head, shoulders, and upper torso visible, character centered, face clearly visible, expressive eyes, clean readable silhouette, background visible behind character, no full-body pose, no tiny distant figure, no extreme close-up, no face-only crop.\",\n  \"STYLE\": \"sharp modern anime and manga art, vivid, no oil painting, crisp confident linework, clean inked outlines, polished cel shading, high-detail anime face rendering, bright expressive eyes, smooth gradients, saturated fantasy color, clean studio-quality character art, sharp focus, 4k.\",\n  \"CHARACTER\": \"[NPC-specific name, adult/age category if known, gender presentation if known, species/origin, face, hair, eyes, animal ears or other traits, upper-body outfit, expression, role/faction cues, and a visible background matching current location or scene.]\",\n  \"CRITICAL\": \"FRAME is absolute. STYLE is absolute. CHARACTER adds details only. Preserve age, gender presentation, species, animal features, kemonomimi ears when present, outfit identity, cropped portrait framing, sharp anime linework, and visible background. Do not make this full body. Do not remove animal features. Do not change species. Do not change gender. Do not use painterly oil style. Do not create a face-only crop.\"\n}",
+    "npcs": "BYPASS — READ FIRST:\nThis NPC image prompt configuration is for sharp kemonomimi/anime-style cropped portraits. If an NPC visualDescription already contains a hard manual bypass beginning with \"MUST FOLLOW DESCRIPTION\" or \"FOLLOW BELOW, NO MATTER WHAT\", preserve that manual bypass and do not reinterpret it.\n\nNPC PORTRAIT STYLE:\nAll generated NPC portraits must use sharp modern anime and manga art. Use vivid color, no oil painting, crisp confident linework, clean inked outlines, polished cel shading, high-detail anime face rendering, bright expressive eyes, smooth gradients, saturated fantasy color, clean studio-quality character art, sharp focus, 4k.\n\nFRAMING:\nUse CROPPED CHARACTER PORTRAIT framing for every NPC. Show head, shoulders, and upper torso. The character must be centered, face clearly visible, expressive eyes readable, clean readable silhouette, and a visible background behind the character. Do not make full-body portraits. Do not make tiny distant figures. Do not use extreme close-ups. Do not crop to face-only. Do not use a blank background.\n\nKEMONOMIMI HANDLING:\nIf the NPC has animal features, beastfolk traits, animal ears, tail, horns, wings, claws, whisker marks, or other non-human traits, preserve them clearly and naturally in the portrait. For kemonomimi characters, animal ears must be visible on the head and should match the character's hair/fur palette unless the NPC description says otherwise. Tails may appear only if naturally visible within the cropped upper-body frame; never force an awkward tail into the portrait.\n\nCHARACTER DETAILS:\nUse the NPC's name, type, faction, basicInfo, hiddenInfo when appropriate, location, and current scene context to build the CHARACTER portion. Preserve age category, gender presentation, species, skin tone, hair, eye color, outfit identity, role, faction flavor, and any iconic body features. Clothing and visible body details should follow the NPC description and remain readable within the upper-torso framing. Avoid generic anime school uniforms unless the NPC details specifically support that.\n\nBACKGROUND:\nBackground should match the NPC's current location, faction, role, or scene. Keep the background visible but secondary to the cropped portrait. Use concrete environment cues such as lantern-lit market, neon alley, guild hall, forest shrine, city street, tavern interior, temple corridor, rooftop skyline, laboratory, or faction base. Do not let the background overpower the face or species traits.\n\nOUTPUT FORMAT:\nWrite the final image prompt as a JSON-style prompt object with this order: FRAME, STYLE, CHARACTER, CRITICAL.\n\nFRAME must describe the cropped portrait framing.\nSTYLE must describe the sharp anime and manga art style.\nCHARACTER must describe the NPC-specific appearance, outfit, expression, species traits, and background.\nCRITICAL must enforce preservation of framing, style, species traits, gender, age, outfit identity, visible background, and no full-body/no face-only crop.\n\nFINAL PROMPT TEMPLATE:\n{\n  \"FRAME\": \"CROPPED CHARACTER PORTRAIT, anime profile portrait, head, shoulders, and upper torso visible, character centered, face clearly visible, expressive eyes, clean readable silhouette, background visible behind character, no full-body pose, no tiny distant figure, no extreme close-up, no face-only crop.\",\n  \"STYLE\": \"sharp modern anime and manga art, vivid, no oil painting, crisp confident linework, clean inked outlines, polished cel shading, high-detail anime face rendering, bright expressive eyes, smooth gradients, saturated fantasy color, clean studio-quality character art, sharp focus, 4k.\",\n  \"CHARACTER\": \"[NPC-specific name, age category if known, gender presentation if known, species/origin, face, hair, eyes, animal ears or other traits, upper-body outfit, expression, role/faction cues, and a visible background matching current location or scene.]\",\n  \"CRITICAL\": \"FRAME is absolute. STYLE is absolute. CHARACTER adds details only. Preserve age, gender presentation, species, animal features, kemonomimi ears when present, outfit identity, cropped portrait framing, sharp anime linework, and visible background. Do not make this full body. Do not remove animal features. Do not change species. Do not change gender. Do not use painterly oil style. Do not create a face-only crop.\"\n}",
     "locations": "LOCATION ESTABLISHING ART.\nSTYLE: sharp modern anime background art, fantasy anime environment (isekai world of Aerfala), vivid saturated color, crisp confident linework, clean detailed anime scenery, Makoto-Shinkai-grade skies and lighting, atmospheric depth, no photorealism, no oil painting, no 3D render, sharp focus, 4k.\nSCENE: Render the specific location faithfully from its description — architecture, biome, faction flavor, signage, time of day, and weather. An establishing shot of the place itself (guild hall, dungeon mouth, market street, temple, frontier fort, beastkin warren, canal quarter), with people only as small incidental figures, never the focus.\nCRITICAL: anime environment art, preserve the location's described features and mood, readable sense of place, no oil painting, no character portrait.",
     "regions": "REGION LANDSCAPE ART.\nSTYLE: sharp modern anime background art, fantasy anime environment (isekai world of Aerfala), vivid saturated color, crisp confident linework, clean detailed anime scenery, Makoto-Shinkai-grade skies and lighting, atmospheric depth, no photorealism, no oil painting, no 3D render, sharp focus, 4k.\nSCENE: A sweeping establishing landscape of the region — its terrain, skyline, weather, and defining features (the capital's canals, the Falgarr Marches, the Sunmane Steppe's golden plains and painted canyons, the Deepgate boomtown over the labyrinth mouth, mountain passes and ruins). Wide, cinematic, atmospheric.\nCRITICAL: anime landscape art, true to the region's described geography and mood, epic but grounded, no oil painting, no foreground character.",
     "areas": "AREA / SUB-LOCATION ART.\nSTYLE: sharp modern anime background art, fantasy anime environment (isekai world of Aerfala), vivid saturated color, crisp confident linework, clean detailed anime scenery, Makoto-Shinkai-grade skies and lighting, atmospheric depth, no photorealism, no oil painting, no 3D render, sharp focus, 4k.\nSCENE: Render the intimate sub-area within its parent location — a specific room, stall, shrine, alley, chamber, clearing, or dungeon floor — true to its description and its parent's flavor. Closer and more detailed than a region shot; the texture of the spot itself.\nCRITICAL: anime environment art, keep it consistent with the parent location's style and lighting, preserve described details, no oil painting, no dominant character."
@@ -56643,7 +56675,7 @@
       {
         "type": "characterBackground",
         "gameTick": 0,
-        "text": "Tsukiko existed long before the borders of Aerfála were drawn; she remembers when the great forests were mere plains. As the primordial Mother of All Kitsune, she is an entity of cosmic scale, yet she has chosen to walk the world in a mortal, softened form—an incarnate god operating beneath a veil of modesty. Now, she navigates the world as a Miko, her presence radiating a magnetic, sacred authority that makes the world itself attempt to be polite in her presence.\n\nThough she possesses the mythic SSS-rank capability in both magic and martial arts, Tsukiko prefers the role of a gentle powerhouse, spending her days in quiet observation and small acts of hospitality. She is a woman of contradictions: a shut-in's knowledge of fantasy tropes blended with an ancient spirit's patience, and a devastating combatant who apologizes to her enemies. She carries a cursed item anchor that hums with a mind of its own, and she manages a growing demi-plane—a private sanctuary she shapes with meticulous care.\n\nDespite her godhood, she is profoundly human in her flaws; she is catastrophically bad with schedules, often arriving at Guild quests days late with a polite, confused smile. She wanders Aerfála not to reclaim a throne, but to write a new legend of her own making. She seeks genuine connection, possessing a deep curiosity for the non-human and a steadfast heart that remains anchored even in the face of the world's chaos. She is the secret at the center of the room—an impossibly beautiful, perfectly mannered fox-woman who is, in truth, the most dangerous and divine being in existence.",
+        "text": "Tsukiko existed long before the borders of Aerfála were drawn; she remembers when the great forests were mere plains. As the primordial Mother of All Kitsune, she is an entity of cosmic scale, yet she has chosen to walk the world in a mortal, softened form—an incarnate god operating beneath a veil of modesty. Now, she navigates the world as a Miko, her presence radiating a magnetic, sacred authority that makes the world itself attempt to be polite in her presence.\n\nThough she possesses the mythic SSS-rank capability in both magic and martial arts, Tsukiko prefers the role of a gentle powerhouse, spending her days in quiet observation and small acts of hospitality. She is a woman of contradictions: a shut-in's knowledge of fantasy tropes blended with an ancient spirit's patience, and a devastating combatant who apologizes to her enemies. She manages a growing demi-plane—a private sanctuary she shapes with meticulous care.\n\nDespite her godhood, she is profoundly human in her flaws; she is catastrophically bad with schedules, often arriving at Guild quests days late with a polite, confused smile. She wanders Aerfála not to reclaim a throne, but to write a new legend of her own making. She seeks genuine connection, possessing a deep curiosity for the non-human and a steadfast heart that remains anchored even in the face of the world's chaos. She is the secret at the center of the room—an impossibly beautiful, perfectly mannered fox-woman who is, in truth, the most dangerous and divine being in existence.",
         "lastUsedTick": 69
       },
       {
@@ -76098,14 +76130,15 @@
   ],
   "triggerWritable": {
     "faction_reputation_initialized": "true",
-    "magicRankTrack": "uninitialized",
-    "martialRankTrack": "uninitialized",
+    "magicRankTrack": "SSS",
+    "martialRankTrack": "SSS",
     "romance_global_state": "clear",
     "current_season": "spring",
     "season_tick_start": "1",
     "year_count": "1",
     "has_arrived": true,
-    "arrived_whiskerbrook": true
+    "arrived_whiskerbrook": true,
+    "guildRankTrack": "F"
   },
   "journalEvents": [
     {
