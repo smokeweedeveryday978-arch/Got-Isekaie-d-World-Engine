@@ -1,0 +1,29 @@
+name: Final World Engine Cleanup
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - final_engine_cleanup.py
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply final cleanup
+        run: python final_engine_cleanup.py
+      - name: Commit cleaned engine
+        run: |
+          if git diff --quiet -- "World Engine"; then
+            echo "No engine changes needed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "World Engine"
+          git commit -m "Finalize realistic persistent world instructions"
+          git push
