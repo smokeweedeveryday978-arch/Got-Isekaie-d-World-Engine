@@ -2404,5 +2404,587 @@
       }
     ],
     "description": "Heartgate mana fruit simmered with Dusk Honey and sealed under lantern-tree lacquer, the preserve holding violet, gold, and pearl ribbons in a dark glass jar. One serving restores 5 mana with the same gentle charge as fresh fruit and tastes of white peach, yuzu, cedar, and honey; extra servings remain excellent food without multiplying the immediate effect. Price: 1-3 sp per small jar."
+  },
+  "Dawnfield Softfur": {
+    "name": "Dawnfield Softfur",
+    "category": "Material",
+    "description": "A palmful of pale-gold underfur shed by Dawnfield Hares in spring or recovered from a hunted animal. It stays warm while remaining exceptionally light, making it useful for glove linings, infant blankets, spell-pouches, and wind-sensitive fletching. Price: 10–25 cp per cleaned tuft.",
+    "bonuses": []
+  },
+  "Grainback Tusk": {
+    "name": "Grainback Tusk",
+    "category": "Material",
+    "description": "A cream-colored tusk from a mature Grainback Boar, marked by fine gold growth rings produced by mana-rich grain. Ground tusk reinforces stamina tonics; whole curves become durable knife handles, agricultural charms, and horn bows. Price: 30–80 cp each.",
+    "bonuses": []
+  },
+  "Riverglass Pelt": {
+    "name": "Riverglass Pelt",
+    "category": "Material",
+    "description": "The water-shedding outer pelt of a Riverglass Otter, legally traded from managed hunts or collected as molted guard-hair felt. Properly cured material remains dry after immersion and is prized for gloves, satchels, fishing gear, and water-resistant spellbook covers. Price: 1–3 sp.",
+    "bonuses": []
+  },
+  "Suncrest Spur": {
+    "name": "Suncrest Spur",
+    "category": "Material",
+    "description": "A hollow copper-red heel spur from a Suncrest Cockatrice. The dried venom inside causes brief muscular rigidity and is used in measured paralytic antidote research, trap coatings, and stiffness curses; careless handling can numb an entire hand. Price: 2–6 sp.",
+    "bonuses": []
+  },
+  "Grifonmere Serpent Scale": {
+    "name": "Grifonmere Serpent Scale",
+    "category": "Material",
+    "description": "A hand-sized silver-blue scale shed during a Grifonmere Lake Serpent's seasonal molt. Its overlapping grain disperses water pressure and cold, making it valuable for lake armor, diving wards, shields, and durable fishing blades. Price: 6–15 sp per intact scale.",
+    "bonuses": []
+  },
+  "Pale Charger Mane": {
+    "name": "Pale Charger Mane",
+    "category": "Material",
+    "description": "Long silver-white mane hair gathered from natural snag sites or grooming a bonded Pale Steppe Charger. Braided fibers remain strong under sweat and rain and are used for reins, bowstrings, weather charms, and prestigious horse-clan cords. Price: 40–90 cp per braid.",
+    "bonuses": []
+  },
+  "Orehide Horn Core": {
+    "name": "Orehide Horn Core",
+    "category": "Material",
+    "description": "The dense inner core of a naturally shed Orehide Ram horn, streaked with whichever metals dominated its range. Smiths grind it into flux or carve it into prospecting handles that grow faintly warm near matching ore. Price: 1–4 sp.",
+    "bonuses": []
+  },
+  "Furnace Salamander Gland": {
+    "name": "Furnace Salamander Gland",
+    "category": "Material",
+    "description": "A heat-storing throat gland harvested from a dead Furnace Salamander or collected after rare natural shedding. Sealed in ceramic, it warms a small container for days; alchemists use its oil in fire-resistance salves and reliable ignition paste. Price: 2–5 sp.",
+    "bonuses": []
+  },
+  "Frostvein Roc Pinion": {
+    "name": "Frostvein Roc Pinion",
+    "category": "Material",
+    "description": "A broad slate-blue flight feather from a Frostvein Roc, usually recovered below a molt site rather than taken from a living bird. It stays rigid in sleet and channels cold air cleanly, suiting heavy arrows, wind fans, and mountain-weather instruments. Price: 8–20 sp.",
+    "bonuses": []
+  },
+  "Magma Burrower Plate": {
+    "name": "Magma Burrower Plate",
+    "category": "Material",
+    "description": "A dark hexagonal armor plate cast from a Magma Burrower's body as it grows. It tolerates extreme heat and slowly releases stored warmth, making it valuable for forge shields, furnace doors, heated armor layers, and geothermal construction. Price: 10–30 sp.",
+    "bonuses": []
+  },
+  "Deepstone Basilisk Lens": {
+    "name": "Deepstone Basilisk Lens",
+    "category": "Material",
+    "description": "A dark translucent eye-lens from a slain Deepstone Basilisk, clouded with branching mineral veins. Properly stabilized, it supports petrification wards, stone-shaping tools, and antidotes to progressive mineralization; untreated lenses remain dangerous to handle. Price: 2–6 gp.",
+    "bonuses": []
+  },
+  "Warden Gearheart": {
+    "name": "Warden Gearheart",
+    "category": "Material",
+    "description": "The interlocked rune-drive at the center of a disabled Khad Varr Gear Warden. When intact it supplies measured motive force to constructs, lifts, locks, and workshop machinery; damaged hearts stutter violently and require a master artificer. Price: 3–10 gp.",
+    "bonuses": []
+  },
+  "Lantern Toad Glow-Sac": {
+    "name": "Lantern Toad Glow-Sac",
+    "category": "Material",
+    "description": "A translucent throat membrane naturally shed in fragments as a Lantern Toad matures, or harvested intact from a dead specimen. Treated with salt and glycerin, it becomes a soft lamp bladder that glows when flexed and is useful in fog lanterns and alchemical indicators. Price: 20–60 cp.",
+    "bonuses": []
+  },
+  "Mirejaw Scute": {
+    "name": "Mirejaw Scute",
+    "category": "Material",
+    "description": "A ridged black-green back plate from a Mirejaw Crocodile. Properly boiled and scraped, it becomes tough water-resistant armor material; powdered outer keratin thickens marsh salves and waterproofing compounds. Price: 1–4 sp.",
+    "bonuses": []
+  },
+  "Corpse-Reed Anticoagulant": {
+    "name": "Corpse-Reed Anticoagulant",
+    "category": "Material",
+    "description": "A sealed vial of clear enzyme taken from a Corpse-Reed Leech's feeding sac. Healers use minute doses to prevent dangerous clotting and alchemists use it in blood-working preparations; an overdose causes prolonged bleeding. Price: 50–120 cp per vial.",
+    "bonuses": []
+  },
+  "Fen Widow Silk": {
+    "name": "Fen Widow Silk",
+    "category": "Material",
+    "description": "Grey-green silk reeled from an abandoned Fen Widow web after the spider moves on or from a cleared nest. It remains adhesive when wet and is prized for marsh rope, wound closure, trapcraft, and waterproof textile reinforcement. Price: 2–7 sp per usable skein.",
+    "bonuses": []
+  },
+  "Bog Wyrm Bile-Stone": {
+    "name": "Bog Wyrm Bile-Stone",
+    "category": "Material",
+    "description": "A green-black mineral concretion formed inside a mature Bog Wyrm as it neutralizes toxic marsh mana. Refined fragments strengthen poison antidotes, acid-resistant coatings, and wetland purification charms. Price: 10–25 sp.",
+    "bonuses": []
+  },
+  "Wisp Heron Plume": {
+    "name": "Wisp Heron Plume",
+    "category": "Material",
+    "description": "A smoke-grey plume naturally shed by a Wisp Heron, its tip holding a small green reflection that points toward nearby free-floating light. Used in fog compasses, witch lanterns, fishing charms, and delicate illusion brushes. Price: 60–150 cp.",
+    "bonuses": []
+  },
+  "Silverhorn Cast Antler": {
+    "name": "Silverhorn Cast Antler",
+    "category": "Material",
+    "description": "A naturally shed antler from a Silverhorn Hart, pale as moonlit bark and threaded with living moss. It conducts gentle nature magic and is carved into healing foci, bows, ritual handles, and Warden tokens. Price: 2–6 sp.",
+    "bonuses": []
+  },
+  "Thornback Quill": {
+    "name": "Thornback Quill",
+    "category": "Material",
+    "description": "A leaf-shaped keratin quill shed from a Thornback Lynx's shoulder mantle. It holds poison, dye, or spell-ink without absorbing it and makes excellent darts, needles, engraving points, and nature-alchemy stirrers. Price: 40–100 cp each.",
+    "bonuses": []
+  },
+  "Moonpetal Wingdust": {
+    "name": "Moonpetal Wingdust",
+    "category": "Material",
+    "description": "Fine silver dust gathered beneath a completed Moonpetal Moth emergence. It causes night-blooming plants to open and gives ink or cosmetics a cool lunar sheen; concentrated dust supports sleep remedies and moonlight illusions. Price: 30–90 cp per vial.",
+    "bonuses": []
+  },
+  "Rootcoil Scent Gland": {
+    "name": "Rootcoil Scent Gland",
+    "category": "Material",
+    "description": "A knotted musk gland from a mature Rootcoil Serpent, carrying the scent pattern of living elder roots. Diluted oil calms many burrowing forest beasts and helps Wardens mask fresh pruning from pests; concentrated oil causes heavy drowsiness. Price: 4–10 sp.",
+    "bonuses": []
+  },
+  "Barkmantle Moss-Hide": {
+    "name": "Barkmantle Moss-Hide",
+    "category": "Material",
+    "description": "A section of naturally sloughed mossy hide or carefully cured pelt from a dead Barkmantle Bear. The living moss layer insulates, slowly closes small cuts in leather, and supports camouflage in woodland when kept damp. Price: 12–30 sp.",
+    "bonuses": []
+  },
+  "Whisperwing Flight Feather": {
+    "name": "Whisperwing Flight Feather",
+    "category": "Material",
+    "description": "A broad pale feather shed by a Whisperwing Owl, with a serrated edge that disperses air vibration. It is prized for silent fletching, acoustic wards, recording rooms, and fans that move air with almost no noise. Price: 2–5 sp.",
+    "bonuses": []
+  },
+  "Tideglass Carapace": {
+    "name": "Tideglass Carapace",
+    "category": "Material",
+    "description": "A translucent shell cast during a Tideglass Crab's molt. It is light, waterproof, and breaks light into aquatic colors, making it useful for jewelry, potion windows, signal mirrors, and decorative armor inlay. Price: 20–70 cp.",
+    "bonuses": []
+  },
+  "Reefback Coral Plate": {
+    "name": "Reefback Coral Plate",
+    "category": "Material",
+    "description": "A naturally detached piece of coral-sheathed scute from a Reefback Turtle. The living coral accepts water enchantments and can be maintained in a saltwater setting for filtration, reef restoration, or shield inlay. Price: 2–6 sp.",
+    "bonuses": []
+  },
+  "Brinecoil Capacitor Organ": {
+    "name": "Brinecoil Capacitor Organ",
+    "category": "Material",
+    "description": "A layered electric organ from a Brinecoil Eel, preserved in brine immediately after harvest. It stores a modest magical or electrical charge for tools, traps, medical stimulation, and storm research; overfilling ruptures it. Price: 4–12 sp.",
+    "bonuses": []
+  },
+  "Stormray Sail": {
+    "name": "Stormray Sail",
+    "category": "Material",
+    "description": "A flexible strip of wing membrane naturally shed along a Stormray's trailing edge. It stiffens under electrical charge and channels wind cleanly, suiting storm cloaks, glider vanes, lightning rods, and weather instruments. Price: 8–20 sp.",
+    "bonuses": []
+  },
+  "Mimic Coral Nodule": {
+    "name": "Mimic Coral Nodule",
+    "category": "Material",
+    "description": "A fist-sized living nodule cut from a disabled Coral Mimic and rendered dormant in treated salt. Alchemists use its adaptive pigment in camouflage dyes and its regenerative lattice in coral repair; improper storage lets the feeding pores reopen. Price: 5–15 sp.",
+    "bonuses": []
+  },
+  "Deepwake Pressure Plate": {
+    "name": "Deepwake Pressure Plate",
+    "category": "Material",
+    "description": "A dense midnight-blue dermal plate from a slain or naturally deceased Deepwake Leviathan. It remains stable under crushing pressure and can anchor elite naval armor, deep-diving vessels, fortress wards, and masterwork shields. Price: 8–25 gp per intact plate; whole specimens never enter an ordinary market.",
+    "bonuses": []
+  },
+  "Howling Direwolf Throat-Ring": {
+    "name": "Howling Direwolf Throat-Ring",
+    "category": "Material",
+    "description": "A ridged cartilage ring from a Howling Direwolf's resonant throat chamber. Dried and lacquered, it amplifies a narrow band of sound for signal horns, ward alarms, intimidation instruments, and acoustic research. Price: 1–4 sp.",
+    "bonuses": []
+  },
+  "Bramblehide Thorn-Leather": {
+    "name": "Bramblehide Thorn-Leather",
+    "category": "Material",
+    "description": "Tough boar hide cured with its embedded thorn roots intact. The roots harden outward under sudden impact, providing reactive protection for gloves, greaves, pack panels, and beast armor; neglected material dies and becomes ordinary stiff leather. Price: 3–9 sp.",
+    "bonuses": []
+  },
+  "Crawler Adhesive Pad": {
+    "name": "Crawler Adhesive Pad",
+    "category": "Material",
+    "description": "A pale gripping pad from an Aqueduct Crawler's foot, preserved in mineral water. Its layered hairs adhere to wet stone without glue and inspire climbing gear, repair clamps, wall-walking alchemy, and secure underwater tool grips. Price: 2–6 sp.",
+    "bonuses": []
+  },
+  "Gilded Chimera Core": {
+    "name": "Gilded Chimera Core",
+    "category": "Material",
+    "description": "A gold-veined composite mana core from a defeated Gilded Chimera. Its three interacting channels support advanced hybrid enchantments, multi-element weapons, and mutation research, but a cracked core cycles fire, venom, and kinetic force unpredictably. Price: 1–4 gp.",
+    "bonuses": []
+  },
+  "Drowned Grave-Salt": {
+    "name": "Drowned Grave-Salt",
+    "category": "Material",
+    "description": "Blue-grey salt crystallized inside the wrappings or joints of a destroyed Crypt Drowned. It absorbs grave-cold and residual necromancy, making it useful for ward circles, undead detection compounds, and preservation research; it must be sealed away from food. Price: 1–3 sp per vial.",
+    "bonuses": []
+  },
+  "Towerclaw Wyvern Barb": {
+    "name": "Towerclaw Wyvern Barb",
+    "category": "Material",
+    "description": "A black hooked tail barb from a mature Towerclaw Wyvern. Its venom channel remains intact after cleaning, allowing controlled use in antidote production, specialized spearheads, climbing picks, and toxin research. Price: 5–14 sp.",
+    "bonuses": []
+  },
+  "River Drake Keel Scale": {
+    "name": "River Drake Keel Scale",
+    "category": "Material",
+    "description": "A long blue-green belly scale cast by a growing River Drake. Its keeled grain cuts water cleanly and makes excellent boat fittings, light armor strips, fishing knives, and current-sensitive charms. Price: 1–4 sp.",
+    "bonuses": []
+  },
+  "Barrow Hound Grave-Iron": {
+    "name": "Barrow Hound Grave-Iron",
+    "category": "Material",
+    "description": "A cold black splinter of iron left after a Barrow Hound is properly dispersed, usually shaped like part of an ancient collar link. It resonates with disturbed graves and is used in funerary wards, necromancy alarms, and weapons meant to strike incorporeal undead. Price: 3–8 sp.",
+    "bonuses": []
+  },
+  "Redthorn Velvet": {
+    "name": "Redthorn Velvet",
+    "category": "Material",
+    "description": "Dark crimson antler velvet collected during the Redthorn Stag's natural shedding season. It contains a moderated form of the vine's irritant and is used in antidotes, circulation tonics, aggressive plant-growth alchemy, and red dye. Price: 1–3 sp per strip.",
+    "bonuses": []
+  },
+  "Gorge Wyvern Wing-Rib": {
+    "name": "Gorge Wyvern Wing-Rib",
+    "category": "Material",
+    "description": "A hollow but extraordinarily strong rib from a Gorge Wyvern's wing, recovered from a slain animal or old nesting remains. Bowyers, glider-builders, and artificers use it for light structural frames that flex without snapping. Price: 10–25 sp.",
+    "bonuses": []
+  },
+  "Millfield Slime Gel": {
+    "name": "Millfield Slime Gel",
+    "category": "Material",
+    "description": "Clean green gel collected from a neutralized Millfield Slime. It breaks down food residue without corroding metal or fired ceramic, making it useful for mill cleaning, compost starters, stain removers, and low-grade alchemy. Price: 5–15 cp per jar.",
+    "bonuses": []
+  },
+  "Carrion Crow Gravefeather": {
+    "name": "Carrion Crow Gravefeather",
+    "category": "Material",
+    "description": "A black feather with a steel-grey shaft shed by a Battlefield Carrion Crow. It curls toward fresh necromantic activity when laid on still ground and is used in grave surveys, funerary ink, and undead-warning bundles. Price: 30–80 cp.",
+    "bonuses": []
+  },
+  "Ashmane Emberfur": {
+    "name": "Ashmane Emberfur",
+    "category": "Material",
+    "description": "Charcoal-black mane fur shed after an Ashmane Hound's heat cycle or taken from a hunted beast. It warms under adrenaline and makes effective cold-weather lining, ignition cord, emotion-reactive costume trim, and miasma-safe tinder. Price: 3–8 sp per bundle.",
+    "bonuses": []
+  },
+  "Miasma Viper Venom": {
+    "name": "Miasma Viper Venom",
+    "category": "Material",
+    "description": "A sealed vial of violet-black venom from a Miasma Viper. Carefully diluted, it supports nerve medicine, miasma adaptation research, and emotion-amplifying enchantment; untreated exposure intensifies an existing emotion rather than inventing one. Price: 8–20 sp per vial.",
+    "bonuses": []
+  },
+  "Obsidian Beetle Carapace": {
+    "name": "Obsidian Beetle Carapace",
+    "category": "Material",
+    "description": "A glossy black plate cast during an Obsidian Carapace Beetle's molt. It resists heat, acid, and miasma weathering while taking an unnaturally sharp edge, making it valuable for armor, cutting tools, dock plating, and volcanic construction. Price: 5–15 sp.",
+    "bonuses": []
+  },
+  "Sulfur Drake Lungstone": {
+    "name": "Sulfur Drake Lungstone",
+    "category": "Material",
+    "description": "A porous yellow-black stone grown inside a Sulfur Drake's secondary lung to filter vent gases. Properly cleaned, it purifies sulfurous air and supports respirators, alchemical furnaces, poison filters, and hostile-environment armor. Price: 15–40 sp.",
+    "bonuses": []
+  },
+  "Velvet Maw Pelt": {
+    "name": "Velvet Maw Pelt",
+    "category": "Material",
+    "description": "A section of deep-violet pelt from a slain Velvet Maw. Its fibers swallow weak light and soften miasma glare, making it prized for stealth cloaks, theater curtains, spell chambers, and Demon Realm travel gear. Price: 1–4 gp.",
+    "bonuses": []
+  },
+  "Cinderfin Scale Slab": {
+    "name": "Cinderfin Scale Slab",
+    "category": "Material",
+    "description": "A red-edged black scale shed by a Cinderfin Leviathan or cut from a slain specimen. It resists acid, high heat, and miasma corrosion, making it a premium material for volcanic ships, shields, armor, and chemical vats. Price: 3–10 gp per slab.",
+    "bonuses": []
+  },
+  "Sunhorn Tip": {
+    "name": "Sunhorn Tip",
+    "category": "Material",
+    "description": "The translucent tip of a naturally shed Sunhorn Antelope horn, holding a faint dawn warmth. It is carved into weather beads, arrow nocks, light charms, and clan ornaments that brighten shortly before sunrise. Price: 40–120 cp.",
+    "bonuses": []
+  },
+  "Thunderhoof Horn": {
+    "name": "Thunderhoof Horn",
+    "category": "Material",
+    "description": "A dense black horn from a Thunderhoof Bison, commonly recovered from natural deaths after clan-approved harvest. It holds static charge along carved grooves and is used for war horns, grounding rods, heavy bow limbs, and storm charms. Price: 4–12 sp.",
+    "bonuses": []
+  },
+  "Plateau Glider Sail": {
+    "name": "Plateau Glider Sail",
+    "category": "Material",
+    "description": "A naturally shed strip of flexible glide membrane collected from Kithwood roosts. It catches air with little noise and is used in light gliders, foldable fans, aerodynamic clothing panels, and delicate wing repairs. Price: 1–3 sp.",
+    "bonuses": []
+  },
+  "Painted Lion Mane": {
+    "name": "Painted Lion Mane",
+    "category": "Material",
+    "description": "An ochre-striped mane lock from a mature Painted Gorge Lion, acquired through a dangerous hunt or recovered at seasonal rub stones. The hair holds mineral pigment permanently and is used in clan regalia, courage charms, camouflage weaving, and ritual brushes. Price: 6–15 sp.",
+    "bonuses": []
+  },
+  "Embermane Sparkfur": {
+    "name": "Embermane Sparkfur",
+    "category": "Material",
+    "description": "Red-black guard fur from an Embermane Direwolf, warm and faintly sparking when rubbed in one direction. Woven into cloaks, signal cords, fire-starting brushes, and clan trophies, it remains active for years if kept dry. Price: 8–20 sp per bundle.",
+    "bonuses": []
+  },
+  "Redland Wyvern Scale": {
+    "name": "Redland Wyvern Scale",
+    "category": "Material",
+    "description": "A rust-red scale with ochre mineral grain from a mature Redland Wyvern. It sheds heat quickly while resisting abrasion, making it valuable for desert armor, climbing guards, kiln tools, and dust-resistant machinery. Price: 12–30 sp.",
+    "bonuses": []
+  },
+  "Threshold Gel Nucleus": {
+    "name": "Threshold Gel Nucleus",
+    "category": "Material",
+    "description": "A pea-green bead left after a Threshold Gel is fully neutralized. It absorbs organic residue and weak ambient mana until full, supporting cleaning charms, starter alchemy, bait, and low-power dungeon lamps. Price: 15–40 cp.",
+    "bonuses": []
+  },
+  "Sporeback Colony Plate": {
+    "name": "Sporeback Colony Plate",
+    "category": "Material",
+    "description": "A cleaned dorsal plate carrying a dormant symbiotic mushroom colony from a Sporeback Stalker. With controlled warmth it produces medicinal, luminous, or toxic spores according to its feed medium, making it valuable and tightly regulated. Price: 3–9 sp.",
+    "bonuses": []
+  },
+  "Drowned Armor Core-Knot": {
+    "name": "Drowned Armor Core-Knot",
+    "category": "Material",
+    "description": "A blue cord of crystallized mana recovered from the chest of disabled Drowned Armor. Submerged, it animates linked metal joints with slow reliable force and is used in diving suits, pumps, underwater constructs, and pressure doors. Price: 8–20 sp.",
+    "bonuses": []
+  },
+  "Crystal Maw Resonator": {
+    "name": "Crystal Maw Resonator",
+    "category": "Material",
+    "description": "A forked jaw crystal from a defeated Crystal Maw. Struck or fed mana, it resonates with nearby worked crystal and enchanted metal, supporting ore surveys, tuning, anti-vibration frames, and dangerous equipment-tracking devices. Price: 15–40 sp.",
+    "bonuses": []
+  },
+  "Map-Eater Skin": {
+    "name": "Map-Eater Skin",
+    "category": "Material",
+    "description": "A pale flexible sheet from a defeated Map-Eater, covered in fragments of consumed lines that slowly rearrange. Properly treated, it can hold layered maps, conceal one diagram beneath another, or erase ordinary ink placed against it. Price: 1–4 gp.",
+    "bonuses": []
+  },
+  "Vaultborn Paradox Core": {
+    "name": "Vaultborn Paradox Core",
+    "category": "Material",
+    "description": "A sealed core taken from a defeated Vaultborn Aberrant, containing matter arranged in mutually incompatible geometries. It enables singular high-rank spatial research and masterwork enchantment, but mishandling warps nearby tools and distances. Legendary material with no ordinary market price.",
+    "bonuses": []
+  },
+  "Frost-Tail Wintercoat": {
+    "name": "Frost-Tail Wintercoat",
+    "category": "Material",
+    "description": "A bundle of hollow white underfur naturally shed by a Frost-Tail Fox during a violet thaw or recovered from a hunted animal. It remains cold and dry, insulating containers and clothing against heat while holding frost enchantment cleanly. Price: 3–8 sp.",
+    "bonuses": []
+  },
+  "Cast Glass Antler": {
+    "name": "Cast Glass Antler",
+    "category": "Material",
+    "description": "A translucent antler naturally cast by a Glass-Antler Elk after migration. Fine points of frostlight remain suspended inside, making it useful for cold lamps, divination frames, bows, and instruments that measure northern mana flow. Price: 4–12 sp.",
+    "bonuses": []
+  },
+  "Spiral Owl Pinion": {
+    "name": "Spiral Owl Pinion",
+    "category": "Material",
+    "description": "A corkscrew-curved flight feather shed by a Spiral Owl. Released in moving air, it turns toward the center of a vortex and is used in weather vanes, frost fletching, airflow wards, and delicate fanwork. Price: 1–4 sp.",
+    "bonuses": []
+  },
+  "Fogmouse Whisker": {
+    "name": "Fogmouse Whisker",
+    "category": "Material",
+    "description": "A nearly transparent whisker gathered from Fogmouse nests after natural shedding. It beads moisture from dimensional mist and bends toward nearby solid ground, useful in miniature fog compasses, alchemical droppers, and precision planar instruments. Price: 10–30 cp.",
+    "bonuses": []
+  },
+  "Stoneback Plate": {
+    "name": "Stoneback Plate",
+    "category": "Material",
+    "description": "A chalk-white dermal plate naturally cast from a growing Stoneback Grazer. It accepts raw dimensional mist without warping and serves as a stable base for blank charms, light shields, and experimental enchantment tablets. Price: 3–8 sp.",
+    "bonuses": []
+  },
+  "Veil-Skate Membrane": {
+    "name": "Veil-Skate Membrane",
+    "category": "Material",
+    "description": "A clear flexible strip naturally shed from a Veil Skate's wing edge. It transmits boundary light while filtering unstable residue and is used in ward screens, spirit lanterns, planar goggles, and silent glider vanes. Price: 6–15 sp.",
+    "bonuses": []
+  },
+  "Luminous Reed Velvet": {
+    "name": "Luminous Reed Velvet",
+    "category": "Material",
+    "description": "Soft blue velvet shed from a Reed Elk's growing antlers, threaded with natural channel light. Dried strips strengthen water-navigation charms, wetland medicine, soft ward bindings, and seed-cultivation mixtures. Price: 1–3 sp.",
+    "bonuses": []
+  },
+  "Lantern Goose Down": {
+    "name": "Lantern Goose Down",
+    "category": "Material",
+    "description": "Warm white down naturally shed at Lantern Goose resting sites, each tuft holding a dim point of gold light. It makes luminous bedding, insulated courier wraps, soft lantern wicks, and migration charms. Price: 30–80 cp per gathered pouch.",
+    "bonuses": []
+  },
+  "Channel Serpent Scale": {
+    "name": "Channel Serpent Scale",
+    "category": "Material",
+    "description": "A slim silver-blue scale shed along the bank after a Channel Serpent changes channels. It remains wet without leaking and is used in self-lubricating mechanisms, water wards, flexible armor, and divining rods for moving streams. Price: 3–9 sp.",
+    "bonuses": []
+  },
+  "Fold-Marten Fur": {
+    "name": "Fold-Marten Fur",
+    "category": "Material",
+    "description": "Copper-brown fur shed inside a Fold-Marten den, with tips that lean toward the nearest connected terrain crease. Woven into cuffs or map cases, it helps travelers notice an existing fold without creating one. Price: 4–10 sp.",
+    "bonuses": []
+  },
+  "Pleatback Scute": {
+    "name": "Pleatback Scute",
+    "category": "Material",
+    "description": "A shed geometric shell plate from a Pleatback Tortoise. Its overlapping angles distribute force and can hold a longer engraved line than its visible surface permits, useful in shields, compact runes, puzzle boxes, and spatial braces. Price: 5–12 sp.",
+    "bonuses": []
+  },
+  "Loop Hound Sinew": {
+    "name": "Loop Hound Sinew",
+    "category": "Material",
+    "description": "A dark elastic tendon from a slain Loop Hound, retaining tension through bends that should shorten it. Bowyers and artificers use it in recurved weapons, returning mechanisms, folded traps, and high-stress joints. Price: 6–16 sp.",
+    "bonuses": []
+  },
+  "Aurora Hare Fur": {
+    "name": "Aurora Hare Fur",
+    "category": "Material",
+    "description": "A small bundle of silver fur collected from seasonal rub sites. The tips cycle slowly through boundary colors and are used in responsive trim, aurora dyes, spirit-lure decoys, and low-light signaling cloth. Price: 1–4 sp.",
+    "bonuses": []
+  },
+  "Veil Moth Wing": {
+    "name": "Veil Moth Wing",
+    "category": "Material",
+    "description": "A clear wing fragment naturally shed beneath the Shimmering Curtain, carrying fine prism veins. It reacts to planar pressure by clouding at the edge and is used in boundary alarms, portal housings, delicate spirit fans, and planar research. Price: 4–12 sp.",
+    "bonuses": []
+  },
+  "Boundary Walker Hoofglass": {
+    "name": "Boundary Walker Hoofglass",
+    "category": "Material",
+    "description": "A thin crescent of opaline hoof material naturally cast where a Boundary Walker steps during its rare molt. It vibrates near active dimensional pressure and makes exceptional ward chimes, planar tuning forks, and stable observation lenses. Price: 1–3 gp.",
+    "bonuses": []
+  },
+  "Velvet Fox Shedfur": {
+    "name": "Velvet Fox Shedfur",
+    "category": "Material",
+    "description": "Exceptionally soft tail fur gathered from sanctuary sleeping hollows after natural shedding. It holds a mild foxfire scent and is used in spirit brushes, ward tassels, fine lining, and seed-pouches that discourage rot. It is never taken by harming a sanctuary fox. Price: 2–6 sp.",
+    "bonuses": []
+  },
+  "Moon-Antler Velvet": {
+    "name": "Moon-Antler Velvet",
+    "category": "Material",
+    "description": "Silver-lilac velvet naturally released from a Moon-Antler Deer's antlers. It calms unstable spirit reagents and supports lunar medicine, sanctuary incense, dreamless sleep charms, and ceremonial binding. Collection requires Tsukiko's permission. Price: 6–15 sp.",
+    "bonuses": []
+  },
+  "Lantern Crane Plume": {
+    "name": "Lantern Crane Plume",
+    "category": "Material",
+    "description": "A pearl-grey plume shed at a Lantern Crane resting site, its hollow shaft holding a warm point of light. It is used in route maps, water-and-wind charms, ceremonial fans, and fletching that remains visible in mist. Price: 2–5 sp.",
+    "bonuses": []
+  },
+  "Path Beetle Carapace": {
+    "name": "Path Beetle Carapace",
+    "category": "Material",
+    "description": "A pearl shell cast during a Path Beetle molt. Fine lines on its underside align with nearby mana flow, making it useful for path markers, simple diagnostic charms, garden tools, and low-power compasses. Price: 20–60 cp.",
+    "bonuses": []
+  },
+  "Moss-Horn Curl": {
+    "name": "Moss-Horn Curl",
+    "category": "Material",
+    "description": "A naturally broken outer horn curl carrying living Stone Rise lichen. It changes from emerald to cobalt to silver as local mana pressure increases, serving as a portable but regional structural indicator and a stable potion vessel. Price: 3–8 sp.",
+    "bonuses": []
+  },
+  "Glass Frog Slough": {
+    "name": "Glass Frog Slough",
+    "category": "Material",
+    "description": "A clear skin slough left on reeds after a Glass Frog grows. Its colored channels react differently to common toxins, excess mana, and clean water, making it useful in field test strips, potion vessels, and translucent decorative inlay. Price: 30–90 cp.",
+    "bonuses": []
+  },
+  "Reflection Heron Feather": {
+    "name": "Reflection Heron Feather",
+    "category": "Material",
+    "description": "A blue-grey feather shed by a Reflection Heron, one face reflecting normally and the other a heartbeat late. Illusionists, duelists, and instrument makers use it for timing charms, delayed-image effects, and precise water brushes. Price: 3–8 sp.",
+    "bonuses": []
+  },
+  "Glass Crab Shell": {
+    "name": "Glass Crab Shell",
+    "category": "Material",
+    "description": "A perfectly clear shell cast by a Quiet Shore Glass Crab. It accepts moonlight and boundary dew without clouding and is shaped into alchemical dishes, lenses, jewelry, and tiny one-use light reservoirs. Price: 1–4 sp.",
+    "bonuses": []
+  },
+  "Dewback Scute": {
+    "name": "Dewback Scute",
+    "category": "Material",
+    "description": "A blue-green shell plate naturally shed by a Dewback Tortoise. Its shallow channels collect and preserve dew, making it useful in irrigation charms, alchemical measuring trays, self-watering planters, and light armor. Price: 2–6 sp.",
+    "bonuses": []
+  },
+  "Brush-Tail Shedfur": {
+    "name": "Brush-Tail Shedfur",
+    "category": "Material",
+    "description": "Russet-gold fur gathered from Heartgate sleeping hollows after seasonal shedding. It carries a faint orchard scent, discourages common crop pests, and is used in seed bags, garden charms, brushwork, and warm lining. Price: 40–120 cp.",
+    "bonuses": []
+  },
+  "Redscale Sheath": {
+    "name": "Redscale Sheath",
+    "category": "Material",
+    "description": "A complete translucent-red skin shed by a Dawn Barrow Redscale Lizard. It conducts gentle heat and water glow together, suiting vitality salves, warm bandages, redstone lamps, and flexible enchantment wraps. Price: 50–150 cp.",
+    "bonuses": []
+  },
+  "Mossback Scale": {
+    "name": "Mossback Scale",
+    "category": "Material",
+    "description": "A moss-edged keratin scale naturally shed by a Hollow Vale Mossback Pangolin. It accepts inscriptions well before hardening, making durable charm blanks, flexible armor tiles, garden ward markers, and enchanted pottery reinforcement. Price: 2–5 sp.",
+    "bonuses": []
+  },
+  "Prairie Drake Wingfilm": {
+    "name": "Prairie Drake Wingfilm",
+    "category": "Material",
+    "description": "A translucent strip shed from the trailing edge of a Prairie Drake's wing. It is light, cut-resistant, and responsive to low airflow, making it useful for gliders, grassland armor, fans, and wind-sensitive trap vanes. Price: 6–15 sp.",
+    "bonuses": []
+  },
+  "Gilt Scarab Carapace": {
+    "name": "Gilt Scarab Carapace",
+    "category": "Material",
+    "description": "A mirror-gold shell cast by an Easthold Gilt Scarab. It reflects radiant heat and holds fine mana-stone dust safely, suiting forge goggles, heat shields, jewelry, cooling inlay, and small workshop components. Price: 40–120 cp.",
+    "bonuses": []
+  },
+  "Rift Crawler Claw": {
+    "name": "Rift Crawler Claw",
+    "category": "Material",
+    "description": "A hooked cobalt-black claw from a Rift Crawler. It grips darkstone even when wet and channels cold mana along its inner groove, making it useful for climbing tools, mining picks, surgical hooks, and rift-safe anchors. Price: 5–14 sp.",
+    "bonuses": []
+  },
+  "Bluejaw Drake Tooth": {
+    "name": "Bluejaw Drake Tooth",
+    "category": "Material",
+    "description": "A black tooth with a cobalt inner vein from a slain Bluejaw Cave Drake. It stores cold-blue mana without becoming brittle and is used in weapon points, cold-light lamps, rift wards, and high-grade carving tools. Price: 10–25 sp.",
+    "bonuses": []
+  },
+  "Hush-Moth Velvet": {
+    "name": "Hush-Moth Velvet",
+    "category": "Material",
+    "description": "Pale powder-soft scales gathered beneath an empty Hush Moth cocoon. Mixed into fabric or paint, they dampen rustle and weak vibration without creating true silence, serving stealth gear, preservation cases, sleep screens, and ritual rooms. Price: 2–6 sp.",
+    "bonuses": []
+  },
+  "Shade-Beast Dreamfur": {
+    "name": "Shade-Beast Dreamfur",
+    "category": "Material",
+    "description": "Charcoal-grey underfur from a defeated or naturally deceased Shade-Beast, cool and heavy despite its softness. It dampens movement and carries sleep magic well, making it valuable for stealth cloaks, bed wards, sedation foci, and quiet containers. Price: 10–30 sp.",
+    "bonuses": []
+  },
+  "Anchor Beetle Casing": {
+    "name": "Anchor Beetle Casing",
+    "category": "Material",
+    "description": "A heavy grey casing cast during an Anchor Beetle molt, flecked with wine-red mineral. It resists magical displacement and is used in lock plates, portal braces, survey weights, and anti-teleport evidence seals. Price: 3–9 sp.",
+    "bonuses": []
+  },
+  "Sky-Ray Sail": {
+    "name": "Sky-Ray Sail",
+    "category": "Material",
+    "description": "A translucent strip naturally shed from an Open Horizon Sky Ray. It stiffens into the wind and slackens in still air, making excellent glider skin, weather ribbons, floating ornaments, and air-pressure instruments. Price: 4–12 sp.",
+    "bonuses": []
+  },
+  "Fade-Beast Outline": {
+    "name": "Fade-Beast Outline",
+    "category": "Material",
+    "description": "A ribbon of half-real hide left where a defeated Fade-Beast finally becomes solid. Its edge refuses a fixed shape and supports advanced illusion borders, temporary seals, dissolving camouflage, and safe study of unfinished matter. Price: 1–4 gp.",
+    "bonuses": []
+  },
+  "Needle-Fox Quillfur": {
+    "name": "Needle-Fox Quillfur",
+    "category": "Material",
+    "description": "A small bundle of rigid silver-grey guard hair gathered from Last Edge rub stones. Each hair points along the nearest stable axis under spatial strain, making it valuable for anchor brushes, planar compasses, anti-drift seams, and precise ward calligraphy. Price: 8–20 sp.",
+    "bonuses": []
   }
 }
