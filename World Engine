@@ -1,7 +1,4 @@
-git clone https://github.com/smokeweedeveryday978-arch/Got-Isekaie-d-World-Engine.git
-cd Got-Isekaie-d-World-Engine
 jq empty "World Engine"
-python -m json.tool "World Engine" > /dev/null
 {
   "heroesVersion": 36,
   "engineState": {
@@ -17988,11 +17985,4 @@ python -m json.tool "World Engine" > /dev/null
           "instruction": "A new opportunity opens up: Meeting the Family. Visit the love interest's home, kin, or equivalent community and survive the inspection."
         }
       ],
-      "script": "delete triggers[\"activate_meeting_the_family\"];"
-    },
-    "activate_the_old_city_wakes": {
-      "name": "activate_the_old_city_wakes",
-      "recurring": false,
-      "conditions": [
-        {
-          "type": 
+      "script": "delete triggers[\"activate_me
