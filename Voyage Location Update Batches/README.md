@@ -1,23 +1,20 @@
-# Voyage Locations — Split Update Batches
+# Voyage Locations — Cumulative Full-State Checkpoints
 
-The canonical `Locations` file remains unchanged. These files divide only its 57 Demi-Plane location updates into smaller state edits so Voyage does not exceed its embedding-update limit.
+These are complete, valid `Locations` files created to avoid Voyage's per-edit embedding limit. Every checkpoint contains all 165 locations. Nothing needs to be merged, interpreted, appended, or reconstructed by the AI.
 
-## Apply each batch
+## Exact application process
 
-Apply the files in numeric order, one completed state edit at a time.
+1. Open `01-heartgate-basin.json`.
+2. Replace the complete contents of Voyage's `Locations` section with that file.
+3. Save and wait for the state edit to finish successfully.
+4. Repeat with files 02 through 11 in numerical order.
+5. Never combine checkpoints or submit more than one in the same edit.
 
-For every batch:
+Each checkpoint already includes every change from the preceding checkpoints. Voyage therefore sees only the 4–7 newly changed location entries at each step while still receiving a complete 165-location state.
 
-1. Open the JSON file.
-2. Merge its top-level entries into the existing `Locations` object by exact location name.
-3. Replace only the listed location entries.
-4. Preserve every location not listed in that batch.
-5. Save and finish that state edit before applying the next file.
-6. Do not replace the full `Locations` object with a batch.
+If an earlier attempt partially succeeded, applying the checkpoints from 01 remains safe: matching entries stay identical, absent progress is restored, and no duplicate locations are created.
 
-Each batch is idempotent: applying it again writes the same location values and does not create duplicates.
-
-| Batch | File | Locations | Regions |
+| Checkpoint | File | New changes from preceding state | Regions completed |
 |---:|---|---:|---|
 | 01 | `01-heartgate-basin.json` | 5 | Heartgate Basin |
 | 02 | `02-veiled-fox-sanctuary.json` | 4 | Veiled Fox Sanctuary |
@@ -31,4 +28,4 @@ Each batch is idempotent: applying it again writes the same location values and 
 | 10 | `10-southroll-rift-march-and-quiet-shore.json` | 6 | The Southroll, The Rift March, The Quiet Shore |
 | 11 | `11-westreach-dawn-barrow-and-easthold.json` | 7 | The Westreach, The Dawn Barrow, The Easthold |
 
-After batch 11, all 57 Demi-Plane location updates exactly match the canonical `Locations` file. No Aerfála location is included in these batches.
+Checkpoint 11 is exactly identical to the canonical `Locations` file on `main`. These checkpoints update only the 57 Demi-Plane locations. Aerfála locations remain identical throughout.
