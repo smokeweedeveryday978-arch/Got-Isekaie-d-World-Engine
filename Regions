@@ -1,0 +1,856 @@
+{
+  "Caelvir": {
+    "factions": [
+      "Warden Circle",
+      "Adventurers' Guild"
+    ],
+    "name": "Caelvir",
+    "npcLevelRange": {
+      "max": 40,
+      "min": 5
+    },
+    "realm": "Anime Fantasy",
+    "x": 2,
+    "y": 0,
+    "basicInfo": "The Caelvir Forest Commune encompasses the continent's eastern ancient forest — a vast canopy of silver-barked elder trees whose roots predate every human kingdom. The elves of Caelvir govern through a Circle of Elders who speak for the forest itself, and their society runs on consensus, ritual, and the slow patience of long-lived people. Outsiders see a beautiful, inscrutable woodland; residents see a living organism with moods, preferences, and boundaries that must be respected. The forest's deeper regions hold spirit groves, healing springs, and ruins from ages when the elves ruled half the continent. Border settlements trade cautiously with outsiders — furs, herbs, enchanted wood — while keeping the heartwood closed to all but the Wardens. The forest is gorgeous, dangerous, and extremely opinionated about guests.",
+    "hiddenInfo": "",
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/generated_content/0/images/generated/21761b0b-5260-4e56-b771-8df5807fa86b.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    }
+  },
+  "Dúnbheal": {
+    "factions": [
+      "Forge Lords",
+      "Adventurers' Guild"
+    ],
+    "name": "Dúnbheal",
+    "npcLevelRange": {
+      "max": 35,
+      "min": 5
+    },
+    "realm": "Anime Fantasy",
+    "x": 0,
+    "y": 0,
+    "basicInfo": "The Kingdom of Dúnbheal rises from the northwestern mountains — a vertical kingdom of stone halls, volcanic forges, and elevator-pulley cities carved into cliff faces. The dwarves of Dúnbheal measure wealth in craftsmanship, not coin, and their Forge Lords rule by demonstrated mastery rather than birthright alone. The surface is a thin skin of trade towns and mountain passes; the real kingdom lies below, in vast underground halls where magma rivers light forges that never cool. Dwarven hospitality is warm but earned — outsiders are welcome in the surface towns, admitted to the deep halls only by invitation or proven trust. The kingdom exports weapons, armor, enchanted tools, and geothermal products that fetch premium prices across the continent.",
+    "hiddenInfo": "",
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/generated_content/0/images/generated/5437a375-8da8-4cea-a168-de0b8128e2cb.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    }
+  },
+  "Muirscáth": {
+    "factions": [
+      "Merchant Houses of Muirscáth",
+      "Adventurers' Guild"
+    ],
+    "name": "Muirscáth",
+    "npcLevelRange": {
+      "max": 35,
+      "min": 3
+    },
+    "realm": "Anime Fantasy",
+    "x": 1,
+    "y": 4,
+    "basicInfo": "The Muirscáth Free Cities hug the southern coast — a chain of port cities and island settlements bound by commerce rather than blood. Five Great Merchant Houses govern through the Maritime Council, where votes are weighted by trade volume. Every race walks these streets: humans, elves, dwarves, beastkin of every breed, the occasional demon exile, and rarer things besides. The Free Cities are where cultures collide, fortunes are made and lost overnight, and the continent's best seafood is served in open-air markets at sunset. Entertainment districts, wizard towers, underwater markets, and smuggler coves coexist in cheerful anarchy. The law here is contract law; everything else is negotiation.",
+    "hiddenInfo": "",
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/generated_content/0/images/generated/199d484a-40e4-4a0e-9a3b-dc48eb98a882.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    }
+  },
+  "Scáthfenn": {
+    "factions": [
+      "Adventurers' Guild"
+    ],
+    "name": "Scáthfenn",
+    "npcLevelRange": {
+      "max": 30,
+      "min": 5
+    },
+    "realm": "Anime Fantasy",
+    "x": 0,
+    "y": 1,
+    "basicInfo": "The marshlands sprawl between Dúnbheal's southern foothills and Solasreach's northern border — a gray-green expanse of peat bogs, willow thickets, and fog that never fully lifts. Roads here are suggestions; the real paths shift with the water table and the season. Blackmire Fort anchors the region's military presence, but most of Scáthfenn belongs to the frog-beastkin of Mirehaven, the witch covens of Witchlight Hollow, and whatever lives in the water that locals do not name. Half-submerged keeps, sunken roads, and bog springs that steam in the cold make this region eerie, atmospheric, and oddly romantic if you do not mind the mosquitoes.",
+    "hiddenInfo": ""
+  },
+  "Solasreach": {
+    "factions": [
+      "Royal Knights of Solasreach",
+      "Adventurers' Guild"
+    ],
+    "name": "Solasreach",
+    "npcLevelRange": {
+      "max": 30,
+      "min": 1
+    },
+    "realm": "Anime Fantasy",
+    "x": 1,
+    "y": 2,
+    "basicInfo": "The human-majority Kingdom of Solasreach sprawls across the continent's central plains — golden farmland, rolling hills, and wide rivers under a sky that seems permanently bright. The capital Ríocht gleams white on the horizon, its cathedral spires visible for miles. Solasreach is the political heart of the continent: the Royal Court sets trends that ripple through every kingdom, the Adventurers' Guild maintains its headquarters here, and every merchant road leads eventually to its gates. Life is structured but not rigid — adventurers walk the same streets as knights, and a commoner with an S-rank card gets the same inn suite as a duchess. The kingdom's underbelly runs just as deep: noble intrigues, Guild politics, and a hot-spring culture that makes private conversations very public.",
+    "hiddenInfo": "",
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/generated_content/0/images/generated/3fdbbe1e-6091-488b-a3a8-049ae54228e5.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    }
+  },
+  "Demon Realm": {
+    "factions": [
+      "Demon Lord's Army"
+    ],
+    "name": "Demon Realm",
+    "realm": "Anime Fantasy",
+    "x": -1,
+    "y": 1,
+    "basicInfo": "The territory beyond the mortal frontier — a landscape of dark stone, sulfur-laced air, and miasma-thick atmosphere that sustains demon life the way sunlight sustains mortal crops. The Demon Lord's feudal hierarchy governs here: noble houses hold fiefs, generals command armies, and the fractious politics of the court are as dangerous as any battlefield. The borderlands are contested ground — demon patrols and mortal garrisons operate in the same rough terrain, and settlements on both sides have learned to coexist with varying degrees of hostility.",
+    "hiddenInfo": "",
+    "npcLevelRange": {
+      "min": 15,
+      "max": 45
+    },
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/generated_content/0/images/generated/619f58cd-916e-4cdb-bcaf-eda48b247f27.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    }
+  },
+  "Fálgarr Marches": {
+    "factions": [
+      "Adventurers' Guild"
+    ],
+    "name": "Fálgarr Marches",
+    "npcLevelRange": {
+      "max": 25,
+      "min": 5
+    },
+    "realm": "Anime Fantasy",
+    "x": 2,
+    "y": 1,
+    "basicInfo": "The wilderland between Solasreach's eastern border and Caelvir's tree line — a stretch of rough hills, overgrown trails, and disputed territory that neither kingdom can fully claim. The Marches are dotted with abandoned watchtowers, crumbling noble manors, and the occasional fortified outpost still holding on. Monster dens honeycomb the hills. The Adventurers' Guild maintains a handful of waystations, and the Crossroads Inn is the only reliable shelter between the two kingdoms. Bandits, deserters, and those who do not want to be found live here. So do hot-spring oases that make the danger almost worth it.",
+    "hiddenInfo": ""
+  },
+  "Bréanriv Lowlands": {
+    "factions": [
+      "Adventurers' Guild"
+    ],
+    "name": "Bréanriv Lowlands",
+    "npcLevelRange": {
+      "max": 25,
+      "min": 3
+    },
+    "realm": "Anime Fantasy",
+    "x": 1,
+    "y": 3,
+    "basicInfo": "The rolling lowlands between Solasreach's southern border and the Muirscáth coast — a patchwork of river valleys, wooded hills, and ancient battlefield memorials that the grass has almost covered. The Lowlands are the continent's crossroads: every trade route between the interior kingdoms and the coast passes through here, making the river towns wealthy and the Gorge profitable for bandits. Fortified hill towns, traveling merchant camps, and farming villages coexist with abandoned keeps and barrow-fields that attract necromancers and archaeologists in equal measure. The hidden hot-spring valleys are the Lowlands' best-kept secret — and the reason adventurers keep coming back.",
+    "hiddenInfo": ""
+  },
+  "Hometown": {
+    "name": "Hometown",
+    "basicInfo": "A quiet, ordinary town on Earth — the kind of place with a convenience store on the corner, a high school everyone attended, a park where kids play, and neighbors who've known each other for years. Diverse, unremarkable, and home. The player's Player Home sits at its heart.",
+    "x": -10,
+    "y": -10,
+    "realm": "Earth",
+    "known": true,
+    "npcLevelRange": {
+      "min": 1,
+      "max": 2
+    },
+    "hiddenInfo": "",
+    "factions": []
+  },
+  "Sunmane Steppe": {
+    "name": "Sunmane Steppe",
+    "realm": "Anime Fantasy",
+    "x": 3,
+    "y": 1,
+    "npcLevelRange": {
+      "min": 3,
+      "max": 35
+    },
+    "factions": [
+      "The Clans of the Sunmane",
+      "Adventurers' Guild"
+    ],
+    "basicInfo": "East of the Fálgarr Marches the tree-line breaks into a vast rolling country of golden grass, forested plateaus, and painted canyons — the homeland the beastkin peoples call the Sunmane Steppe, and among themselves Tír na Rua, the Red Land. Here the cat-kin, wolf-kin, fox-kin, rabbit-kin, bird-kin and their many cousins are not a scattered minority in someone else's cities but a people at home: organized into clans, governed by a great Moot rather than a crown, and bound by hunt-right, guest-right, and blood. The clans range their herds across the plains, keep arboreal holds in the plateau woods, and gather each season at the Moot Hollow to settle debts, arrange marriages, and argue the future of a people the mortal kingdoms have never quite known what to do with. Outsiders are watched, tested, and — if they honor the old courtesies — fed.",
+    "hiddenInfo": ""
+  },
+  "Deepgate": {
+    "name": "Deepgate",
+    "realm": "Anime Fantasy",
+    "x": 2,
+    "y": 2,
+    "npcLevelRange": {
+      "min": 1,
+      "max": 70
+    },
+    "factions": [
+      "The Delvers' Guild",
+      "Adventurers' Guild"
+    ],
+    "basicInfo": "Where Solasreach's plains buckle toward the marches, the ground simply opens — a vast, sheer shaft into a labyrinth no one built and no one has ever mapped to the bottom. Around its mouth has grown Deepgate: a vertical boomtown of outfitters, spoils-brokers, healers, and taverns that exists for one reason — the Descent. The labyrinth beneath produces monsters, materials, and magic found nowhere else, and it grows, floor by floor, deeper than anyone has returned to confirm. Delvers register with the Guild, take a floor-clearance, and go down; the lucky come back rich, the unlucky come back as a name carved on the Rim. Every day the city fills and empties with the tide of the dive.",
+    "hiddenInfo": ""
+  },
+  "Heartgate Basin": {
+    "basicInfo": "Biome — sacred fox-spirit garden-forest; the developed heart of the Demi-Plane. The heart of the Demi-Plane — the developed core that grew outward from the first clearing. Home to The Gateway Clearing, the gateway chamber, and the Chamberlain's quarters. The Hearth Springs, Mana Heart, and Verdant Plot surround the basin's grounds. This is where every expansion begins and where the Chamberlain receives the creator. The Heartgate Basin is not part of any mortal geography: it is reached ONLY by the Demi-Plane Gate ability or the Demi-Plane Anchor item — no road, ship, spell, or teleportation circle arrives without the creator's permission. The Chamberlain manages day-to-day operations here and reports on the dimension's state.\n\nWildlife & Encounters (levels 1–12): garden spirits tending the grounds uninvited and unthanked, foxfire wisps drifting along the formal paths, tame spirit fauna that treat the basin as one great garden, and harmless mana elementals that pool in sunlit corners like warm curiously-shaped dust. Nothing here threatens; the heart's defenses are elsewhere.\n\nResources: mana fruit from the basin's groves, cultivated herbs, spirit flowers that bloom in response to company, and garden materials — cut stone, clean gravel, spring water — all cheerfully provided.\n\nKnown Locations (all established and marked): The Gateway Clearing with its Demi-Plane Gate and Gateway Chamber; the Chamberlain's Quarters; the Hearth Springs; the Mana Heart; and the Verdant Plot. The basin is the dimension's administrative heart: discoveries here stay hidden, small, and personal — a thought left in the garden, a stone rearranged overnight, a wisp that learned a name — rather than major wilderness sites.",
+    "factions": [],
+    "hiddenInfo": "The clearing's soil remembers the creator's intent — walk to a spot and imagine something, and the earth shifts slightly, as if remembering what it is supposed to become. The Chamberlain watches these micro-reactions and uses them to suggest development priorities. The basin's name was chosen because everything heartward begins at the gate.",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://raw.githubusercontent.com/smokeweedeveryday978-arch/Voyage-demi-plane-map/main/final_v3/tiles/13_Heartgate_Basin.jpg"
+      }
+    },
+    "name": "Heartgate Basin",
+    "npcLevelRange": {
+      "max": 12,
+      "min": 1
+    },
+    "realm": "Demi-Plane",
+    "x": 0,
+    "y": -10
+  },
+  "The Still Frontier": {
+    "basicInfo": "Biome — cold highland spirit-forest; pale conifers with frost-glinting needles under strange weather (silver breath-mist, frost-formed foxfire in the pines, snow that falls in slow spirals). The far northwest edge of the Demi-Plane — where the dimension's influence thins and the ground becomes hesitant. The sky is paler, the air quieter. The world simply stops, not with a wall but with a fading: ground grows indistinct, colors wash toward grey, sound carries strangely. The Chamberlain calls this the frontier — the limit of what has been willed into existence. Beyond it is nothing, merely the absence of intention. When the creator is ready to expand, expansion begins here.\n\nWildlife & Encounters (levels 20–30): frost foxes trotting the ridgelines, snow wraiths drifting between the pines in slow silence, pale wolves pacing the forest's edge, and cold spirits pooled in the hollows like standing frost. The dimension's most serious wilderness: everything here is healthy, wild, and stronger than it looks.\n\nResources: frostwood from the pale conifers, ice crystal formed at the forest's still ponds, winter herbs under the snow-line, and frozen foxfire gathered from the frost-formed motes in the pines.\n\nKnown Locations: the Frontier Fade — the misted rim where willed ground becomes unwilled — and Frostpine Ridge, the high spine of pale conifers. Everything colder stays unmarked: hidden caves under the roots, frozen shrines iced mid-ceremony, strange weather pockets that never move, and powerful roaming creatures cross the frontier as discoveries, not permanent markers.",
+    "factions": [],
+    "hiddenInfo": "The frontier shifts — advancing as the Demi-Plane's ambient potential seeps outward, retreating when its mana runs low. The Chamberlain reads its position as a health indicator: stable means equilibrium, advancing means growth, retreating means something is draining the dimension.",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://raw.githubusercontent.com/smokeweedeveryday978-arch/Voyage-demi-plane-map/main/final_v3/tiles/21_The_Still_Frontier.jpg"
+      }
+    },
+    "name": "The Still Frontier",
+    "npcLevelRange": {
+      "max": 30,
+      "min": 20
+    },
+    "realm": "Demi-Plane",
+    "x": -2,
+    "y": -12
+  },
+  "The Pale Reaches": {
+    "basicInfo": "Biome — misty white-stone highland badland; low pale rock benches, shallow valleys of glowing silver fog, lichen that lights faintly like constellations underfoot. A vast stretch of near-featureless terrain north of the developed core — low hills of white-grey stone, shallow mist-filled valleys, a sky that shifts between dawn light and featureless silver. Nothing lives here yet, but the ground has texture: it is waiting, not empty. The Demi-Plane's largest reserve of undeveloped potential — a place where a forest, a river, or a city could be raised if someone chose it.\n\nWildlife & Encounters (levels 18–30): fog elementals congealing in the valley mists, pale stone beasts standing among the benches until approached, silver wisps tracing the fog lines, and ghostlike temporary creatures — half-formed visitors made of potential, never the same twice. Nothing here is fully committed to being.\n\nResources: silver lichen lighting the benches like constellations, white stone cut clean from the hills, condensed dimensional mist gathered at dawn, and pale crystals formed where fog has pooled longest.\n\nKnown Locations: the Ghost Valleys — the mist-filled shallow valleys where potential behaves most freely — and the Silver-Lichen Flats, the broad benches of lit stone. Everything else stays provisional on purpose: raw dimensional potential here briefly creates landscapes, structures, bridges, settlements, and encounters that dissolve again. These ghost-landscapes should be met as discoveries and sometimes never return — they are not permanent map markers, and the Reaches resists being fully cataloged by design.",
+    "factions": [],
+    "hiddenInfo": "The valley mist is raw dimensional potential in semi-tangible form. Focused intent makes it coalesce into whatever is imagined; uncontrolled, it forms fleeting ghost-landscapes that dissolve in seconds — sometimes matching places the creator has seen or dreamed.",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://raw.githubusercontent.com/smokeweedeveryday978-arch/Voyage-demi-plane-map/main/final_v3/tiles/22_The_Pale_Reaches.jpg"
+      }
+    },
+    "name": "The Pale Reaches",
+    "npcLevelRange": {
+      "max": 30,
+      "min": 18
+    },
+    "realm": "Demi-Plane",
+    "x": -1,
+    "y": -12
+  },
+  "The North Field": {
+    "basicInfo": "Biome — boreal river-grass plain; flat wet-grassland crossed by slow shining channels that appear and vanish; windswept ribbon-cloud skies, and rain that falls upward in glittering curtains. A broad plain stretching north from the heart of the Demi-Plane — flat, windswept, quiet. The ground is firmer than the Pale Reaches, as if the dimension has already decided this will be something solid. A faint scentless wind blows from the north. This region feels like it is waiting for a purpose — farmland, a great hall, an arena. The most natural-feeling of the undeveloped zones, as if the world wants it inhabited, with luminous reed-seeds drifting like slow lanterns at dusk.\n\nWildlife & Encounters (levels 8–20): reed elk wading the shining channels, wind sprites riding the scentless north wind, wetland birds in vast restless flocks, and channel serpents gliding beneath the slow water — curious rather than hostile, but large enough to demand respect.\n\nResources: rivergrass cut from the channel banks, luminous reed-seeds drifting at dusk, freshwater herbs, and mana-rich silt dredged gently from the channel beds.\n\nKnown Locations: the Shining Channels — the appearing-and-vanishing waterways — and the Northwind Plain, the broad waiting heart of the region. The watercourses shift naturally, so the Field rewards wandering: hidden ponds, spirit crossings, isolated groves, and temporary channels appear and reroute on their own. Nothing rewards a fixed map; everything rewards a good walk.",
+    "factions": [],
+    "hiddenInfo": "The north wind is the Demi-Plane breathing — ambient mana circulating through the expanding body of the dimension. Strong infrastructure makes the wind gentle and constant; strained infrastructure makes it stop. The Chamberlain checks this wind before every health report.",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://raw.githubusercontent.com/smokeweedeveryday978-arch/Voyage-demi-plane-map/main/final_v3/tiles/23_The_North_Field.jpg"
+      }
+    },
+    "name": "The North Field",
+    "npcLevelRange": {
+      "max": 20,
+      "min": 8
+    },
+    "realm": "Demi-Plane",
+    "x": 0,
+    "y": -12
+  },
+  "The Fold": {
+    "basicInfo": "Biome — folded scrub-steppe; grassy wave-terraces of spatial strangeness; grass, heath, and low stone rise and repeat in paper-fold patterns. A region where terrain folds inward on itself — ridges that curve like folded paper, valleys that loop back on their own paths, ground rising and falling in waves rather than slopes. Disorienting but not dangerous: simply unfinished, the dimension's unresolved experiment with elevation. Fascinating for anyone interested in how the Demi-Plane thinks about space.\n\nWildlife & Encounters (levels 15–28): loop hounds coursing along paths that always bring them back, fold sprites folded neatly into creases of ground, warped stone beasts lumbering between non-adjacent slopes, and spatial wisps drifting sideways out of nowhere. Nothing hunts by force; everything hunts by geometry.\n\nResources: warped stone, spatial crystal, strange herbs that grow in two places at once, and foldglass — thin panes that show the other side of a ridge from the harmless side.\n\nKnown Locations: the Folding Ridges — the paper-fold uplands themselves — and the Returning Valley, the loop-back valley floor at the Fold's heart. Everything else stays unknown until earned: paths here loop and return walkers to earlier places without their noticing. Hidden pockets, impossible caves, and spatial shortcuts become known only after successful exploration — a region where experience of the ground, not documentation of it, is the true map.",
+    "factions": [],
+    "hiddenInfo": "The warped geometry is a natural defense. Intruders entering without permission become lost — folding paths turn them around without their realizing it. The Chamberlain considers the Fold an accidental blessing and recommends not 'fixing' it before the creator understands what it does.",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://raw.githubusercontent.com/smokeweedeveryday978-arch/Voyage-demi-plane-map/main/final_v3/tiles/24_The_Fold.jpg"
+      }
+    },
+    "name": "The Fold",
+    "npcLevelRange": {
+      "max": 28,
+      "min": 15
+    },
+    "realm": "Demi-Plane",
+    "x": 1,
+    "y": -12
+  },
+  "The Veiled Edge": {
+    "basicInfo": "Biome — luminous boundary-scrub; low silvered spirit-grass fading into a shimmering fog-edge under strange weather (slow-lit aurora ground-glow that ripples where the veil is touched). The far northeast corner of the Demi-Plane — where the dimension meets its own boundary in a soft curtain of shimmering light. Not a wall but a veil: translucent, faintly luminous, cool to the touch. Beyond it nothing is visible. The veil ripples when approached, as if acknowledging presence. Here the Demi-Plane ends and the void between dimensions begins — not hostile, simply other. The Chamberlain finds it peaceful; others find it unsettling.\n\nWildlife & Encounters (levels 22–30): veil moths with wings of translucent membrane that pass through the veil without breaking it; aurora wisps drifting along the boundary, feeding on light leaking through; boundary spirits — old, calm, and rarely seen — who walk the edge as if patrolling; and, on rare nights, void-adjacent entities glimpsed only as pressure and absence at the perimeter. Nothing here is aggressive; everything is older than the dimension itself.\n\nResources: veilglass — thin, flawless panes of crystallized boundary that hum when struck; aurora crystal, which stores light the way ice stores cold; silver spirit-grass, the region's staple fiber; and boundary essence, a faint residue of the veil itself, gathered only where it ripples.\n\nKnown Locations (established and marked): The Shimmering Curtain — the veil's most luminous reach, where the boundary glows brightest; and Veilwatch Point — a low stone rise offering the clearest view of the edge.",
+    "hiddenInfo": "The veil is permeable under specific conditions. Focused intent thins it, allowing a view of the space between dimensions — mortal leylines, distant pocket dimensions, the vast emptiness separating realities. The Chamberlain does not know this. The creator has not tried.",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://raw.githubusercontent.com/smokeweedeveryday978-arch/Voyage-demi-plane-map/main/final_v3/tiles/25_The_Veiled_Edge.jpg"
+      }
+    },
+    "name": "The Veiled Edge",
+    "npcLevelRange": {
+      "max": 30,
+      "min": 22
+    },
+    "realm": "Demi-Plane",
+    "x": 2,
+    "y": -12
+  },
+  "The First Meadow": {
+    "basicInfo": "Biome — luminous wildflower meadow; rolling grassland where self-seeded foxfire-blooms, silver-green grasses, and flowers that turn to follow warmth; pollen drift rises in slow spirals at dawn and settles like warm snow at dusk. A transitional region between the developed core and the northern wilds — rolling silver-green grassland that has begun to self-generate without the creator's direct intervention. Wildflowers appear in clusters the Chamberlain swears were never planted. This is the Demi-Plane learning to grow on its own — the sign of a pocket dimension becoming self-sustaining. The First Meadow also carries the Beginning's Torii at its northwest edge: a vermilion gate rising from the unmarked grass as the First Meadow path turns toward the Veiled Fox Sanctuary, marking the crossing into the sanctuary. Beyond it, the shape of the sanctuary can be glimpsed — fox-spirit nature visible from the meadow — but crossing is by invitation only. Tsukiko passes freely. No road continues past the torii for anyone else.\n\nWildlife & Encounters (levels 1–10): flower sprites riding the pollen spirals, meadow foxes napping in the grass, spirit butterflies in slow migrating clouds, and harmless grazing animals that arrived from somewhere and stayed. The region's gentlest ground outside the Southroll.\n\nResources: foxfire blooms, meadow herbs, luminous pollen collected at dawn, and silver-green grass cut in woven sheaves.\n\nKnown Locations: the Beginning's Torii at the meadow's northwest edge — the crossing into the Veiled Fox Sanctuary — with the Fox Statues seated on either side, and the Sanctuary Approach, the path leading to it. The wider meadow stays bright and uncluttered: hidden flower circles, tiny spirit shrines, and seasonal phenomena appear as small discoveries, never as map markers.",
+    "factions": [],
+    "hiddenInfo": "The self-generating grass measures the Demi-Plane's autonomy. A dimension that can sustain basic life without constant creator attention is approaching the threshold where it could survive the creator's temporary absence without collapsing. The Chamberlain tracks grass growth as a maturity metric. The Beginning's Torii appeared the same morning the sanctuary did — with fox statues sitting on either side the way a household sets out garden kami, and a faint smell of sugared ginger that never quite fades.",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://raw.githubusercontent.com/smokeweedeveryday978-arch/Voyage-demi-plane-map/main/final_v3/tiles/17_The_First_Meadow.jpg"
+      }
+    },
+    "name": "The First Meadow",
+    "npcLevelRange": {
+      "max": 10,
+      "min": 1
+    },
+    "realm": "Demi-Plane",
+    "x": -1,
+    "y": -11
+  },
+  "The Threshold March": {
+    "basicInfo": "Biome — open approach-grassland; cleared ground, low reed-swaths, and grass trails, the threshold between core and wilds; reed-seeds drift here like slow lanterns at dusk. The northern approach to the developed core — a corridor of open ground between the Gateway Clearing and the North Field. Paths have appeared from foot traffic alone, and the ground firms underfoot as if expecting visitors. This region connects the heart of the Demi-Plane to its frontier and is the natural route for northern expansion. The Chamberlain keeps the paths clear and the view open.\n\nWildlife & Encounters (levels 3–12): reed spirits swaying in the low swaths, wind sprites riding the corridor's steady draft, small grassland beasts grazing along the trails, and occasional mana constructs — brief, purposeful shapes that walk the paths once and dissolve. A travel corridor, not a destination: what crosses it matters more than what lives in it.\n\nResources: luminous reed-seeds drifting at dusk, pathway herbs growing along the trails, and mana-rich soil turned up where the paths shift.\n\nKnown Locations: the Northern Approach — the corridor's formal opening toward the North Field — and the Mana-Flow Paths, the trails that trace the dimension's own circulation. The March stays deliberately light on markers: abandoned camps, temporary merchants, spirit encounters, and minor landmarks emerge dynamically along the routes rather than pinning the ground down.",
+    "factions": [],
+    "hiddenInfo": "The paths align with the Demi-Plane's internal mana flow, tracing channels that distribute energy from the Mana Heart. Walking them recharges ambient mana slightly, as if the dimension is grateful for attention. The Chamberlain attributes it to good circulation.",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://raw.githubusercontent.com/smokeweedeveryday978-arch/Voyage-demi-plane-map/main/final_v3/tiles/18_The_Threshold_March.jpg"
+      }
+    },
+    "name": "The Threshold March",
+    "npcLevelRange": {
+      "max": 12,
+      "min": 3
+    },
+    "realm": "Demi-Plane",
+    "x": 0,
+    "y": -11
+  },
+  "The Stone Rise": {
+    "basicInfo": "Biome — rocky moss-highland; grey-stone hills with hardy moss and lichen-terraces, cooler air, mineral springs. A rocky upland northeast of the developed core — the Demi-Plane's first successful experiment with elevation. Rolling hills of grey stone covered in hardy moss, outcroppings with views across the entire dimension on clear days. The air is thinner, cooler, faintly mineral. The Stone Rise feels old despite the Demi-Plane being young, as if the dimension pulled the idea of mountains from somewhere deep.\n\nWildlife & Encounters (levels 8–20): cliff drakes roosting in the high crags, stone sprites that rearrange scree for their own reasons, mountain goats cropping the moss-terraces, and mineral elementals rising briefly from the richest ore seams. Terrain makes every encounter a position problem.\n\nResources: iron-rich stone, spirit minerals, lichen, and mineral water from the springs — all harvestable at scale once mining begins.\n\nKnown Locations: the Mineral Springs — the upland's flowing veins — the High Outlook, the great outcropping that sees the whole dimension, and Foundation Ridge, the ridgeline the dimension rests on. Beyond these, the upland is deliberately unmapped: numerous caves, narrow passes, hidden chambers, rock formations and mining prospects exist until an explorer names them. The best region in the Demi-Plane for mines, vaults, and views.",
+    "factions": [],
+    "hiddenInfo": "The Stone Rise is the Demi-Plane's structural foundation — bedrock on which the rest of the dimension is built. Destabilizing it would set the whole dimension drifting. The Chamberlain does not know this; the Mana Heart's guardian entity does, and patrols the perimeter when not watching its post.",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://raw.githubusercontent.com/smokeweedeveryday978-arch/Voyage-demi-plane-map/main/final_v3/tiles/19_The_Stone_Rise.jpg"
+      }
+    },
+    "name": "The Stone Rise",
+    "npcLevelRange": {
+      "max": 20,
+      "min": 8
+    },
+    "realm": "Demi-Plane",
+    "x": 1,
+    "y": -11
+  },
+  "The Mirror Mere": {
+    "basicInfo": "Biome — twilight wetland; still pools connected by gentle channels, reed-beds, water that glows faintly and holds reflection as if it remembers what stood before it; fish-sized lights drift beneath the surface, never quite taking shape. Twilight forever. A region of low, still water northeast of the developed core — shallow pools connected by gentle channels, reflecting a sky that is forever twilight here. The water is calm, clear, faintly luminous. The Mirror Mere is a place for reflection in both senses: the Demi-Plane created water here before anyone asked, as if it understood that a world needs somewhere to look at itself.\n\nWildlife & Encounters (levels 10–22): mirror fish rising like slow silver thought, luminous amphibians calling across the channels, water spirits combing the reed-beds, and reflection wisps that drift along the surface duplicating the stillness. Everything here is halved: seen, and seen again.\n\nResources: spirit pearls formed on the pools' oldest beds, luminous reeds, mana-water ladled without disturbing the calm, and mirror-lotus blooming where two reflections agree.\n\nKnown Locations: the Twilight Pools — the heart of the Mere's still water — and the Reflection Basin, the largest single mirror of all. The rest stays unmarked: reflections here can lead somewhere. Hidden islands surface in the shallows, submerged ruins show through clear water on quiet days, temporary spirit paths open across channels at dusk, and visions stand whole in the still water for those patient enough to look twice. Not every pool or island is found — only the ones that find you.",
+    "factions": [],
+    "hiddenInfo": "The Mere acts as the mana circulation's reservoir and regulator — absorbing excess during peaks, releasing it during lulls. Surface stillness is a literal indicator: ripples mean turbulent flow, calm means stable. The Chamberlain checks the surface before every report.",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://raw.githubusercontent.com/smokeweedeveryday978-arch/Voyage-demi-plane-map/main/final_v3/tiles/20_The_Mirror_Mere.jpg"
+      }
+    },
+    "name": "The Mirror Mere",
+    "npcLevelRange": {
+      "max": 22,
+      "min": 10
+    },
+    "realm": "Demi-Plane",
+    "x": 2,
+    "y": -11
+  },
+  "The Quiet Shore": {
+    "basicInfo": "Biome — pale coast; shoreline of fine pale sand; a soundless, perfectly still water-horizon behaving like an unbreathing sea, and pale-flowered dune-grass; moon-white sand that never shifts, salt-grass chimes that ring once and never twice. The far western edge of the Demi-Plane — a coast without a sea. The ground slopes to a shoreline of fine pale sand, and beyond stretches a horizon of flat, still air that behaves like water without being water. The Chamberlain calls it the Quiet Shore: no waves, no wind, no carried sound. The most peaceful place in the dimension and the loneliest. The Demi-Plane has not yet decided whether this will be sea, desert, or something else entirely.\n\nWildlife & Encounters (levels 8–18): glass crabs skimming the unbreathing horizon, pale shore spirits combing the tideline without footsteps, dune foxes denning behind the salt-grass, and — near the boundary itself — rare luminous fish-like entities gliding beneath the not-water. All gentle; all silent.\n\nResources: moon-sand scooped unbroken from the tideline, saltgrass with its faint chime, shell crystal, and pale driftwood that arrives from a sea that does not exist.\n\nKnown Locations: the Stillwater Shore — the region's formal coast where land meets the unbreathing horizon — and the Moonwhite Strand, the long white dune line backing it. Everything else stays unmarked and half-mysterious: hidden tidal caves that open in the not-water's edge, objects washed ashore from nowhere, and impossible reflections that stand or move in ways the real world cannot account for — found occasionally, never beforehand.",
+    "factions": [],
+    "hiddenInfo": "The flat horizon is the western boundary, expressed differently from the Veiled Edge — subtle and still, detectable only by the absence of detail. A willed sea would recede the boundary westward; a willed desert would solidify it. Until then, it waits.",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://raw.githubusercontent.com/smokeweedeveryday978-arch/Voyage-demi-plane-map/main/final_v3/tiles/11_The_Quiet_Shore.jpg"
+      }
+    },
+    "name": "The Quiet Shore",
+    "npcLevelRange": {
+      "max": 18,
+      "min": 8
+    },
+    "realm": "Demi-Plane",
+    "x": -2,
+    "y": -10
+  },
+  "The Westreach": {
+    "basicInfo": "Biome — open mixed grassland; rolling ground with scattered young trees, wild cowslip and red sorrel, and well-drained soils suited to building; dew here beads into tiny foxfire beads that hum faintly at dawn. The western approach to the developed core — open grassland with scattered young trees and the faint impression of roads not yet built. The ground is firm and well-drained, the most practical terrain in the Demi-Plane for future construction. The Chamberlain has marked sites for a market square, a guest house, a training yard — but nothing rises here without the creator's word. The Westreach is ready and waiting.\n\nWildlife & Encounters (levels 1–10): young treants swaying among the sapling trees, meadow animals in loose herds, harmless sprites riding the dawn foxfire beads, and occasional territorial spirit beasts that draw a line across good grass and defend it more from habit than malice. The safest wild ground in the dimension.\n\nResources: timber from the young groves (never more than the land gives gladly), common herbs, fertile soil, and foxfire dew collected at first light.\n\nKnown Locations: three taped stakes mark the Future Market Square, the Guesthouse Site, and the Training Yard Site — the Chamberlain's staged expansion plots. Most of the Westreach is deliberately left open ground so construction, when it comes, matters. Small groves, natural wells, roadside shrines, and minor discoveries arise on their own along the faint impressions of roads the dimension is already imagining.",
+    "factions": [],
+    "hiddenInfo": "Westreach soil is the most responsive in the Demi-Plane — it shifts and settles to accommodate construction faster than anywhere else. Buildings take hold in days rather than weeks, because the region sits directly in the mana flow's primary western channel, receiving more raw potential than any other.",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://raw.githubusercontent.com/smokeweedeveryday978-arch/Voyage-demi-plane-map/main/final_v3/tiles/12_The_Westreach.jpg"
+      }
+    },
+    "name": "The Westreach",
+    "npcLevelRange": {
+      "max": 10,
+      "min": 1
+    },
+    "realm": "Demi-Plane",
+    "x": -1,
+    "y": -10
+  },
+  "The Dawn Barrow": {
+    "basicInfo": "Biome — stream-fed river meadow; open ground threaded by a clear stream, wildflower clusters, wet-grass flats and the faint outline of a path that may become a road; the stream's water glows faintly where it passes over red stone. The eastern approach to the developed core — open ground showing the first signs of self-directed development: wildflower clusters, a stream that appeared without instruction, the faint outline of a path that may become a road. The Dawn Barrow feels like morning — new, unformed, rich with the quiet energy of a day not yet started. The Chamberlain finds it hopeful.\n\nWildlife & Encounters (levels 4–14): brook spirits playing along the current, meadow deer grazing the flats, river sprites riding small rapids like children at a fountain, and redstone lizards sunning on the glowing stones. All mild; the lizards are the region's only real fighters.\n\nResources: redstone from the streambed, river herbs, wetland flowers, and clear mana-water drawn gently from the living stream.\n\nKnown Locations: the Dawn Stream — the young waterway the dimension built on its own — and the Redstone Crossing, where the glowing stones make the only natural ford. Everything else is left for the stream to create: small waterfalls, still pools, undercut caves, flower islands, and objects carried downstream from other regions are found by following the water, not by reading a map.",
+    "factions": [],
+    "hiddenInfo": "The stream flows from the Mirror Mere — first evidence the Demi-Plane is connecting its regions autonomously, building its own hydrology. Encouraging it accelerates the dimension's self-organization; ignoring it slows only the stream, not the dimension. The Chamberlain is quietly rooting for the stream.",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://raw.githubusercontent.com/smokeweedeveryday978-arch/Voyage-demi-plane-map/main/final_v3/tiles/14_The_Dawn_Barrow.jpg"
+      }
+    },
+    "name": "The Dawn Barrow",
+    "npcLevelRange": {
+      "max": 14,
+      "min": 4
+    },
+    "realm": "Demi-Plane",
+    "x": 1,
+    "y": -10
+  },
+  "The Easthold": {
+    "basicInfo": "Biome — sunlit dry-grass upland; warm hard ground, golden dry-grass flats, the richest light in the dimension; dust motes hang in the air like sparks of slow gold, unmoving. The far eastern edge of the Demi-Plane — warm, dry terrain that feels like late afternoon. The ground is harder, the light more golden, the air faintly warm without a source. The Easthold is where the dimension's energy concentrates at the boundary: potential under pressure, the world pushing outward, stretching, trying to grow. The Chamberlain recommends it for the first eastward expansion.\n\nWildlife & Encounters (levels 10–22): sun hawks riding thermal columns of raw mana, dryland spirits pacing the golden flats, golden lizards basking on warm stone, and mana-charged predators — quicker and bolder than the region's prey, drawn to the Easthold's surplus energy. The most combat-ready wilderness near the core.\n\nResources: mana-stone nodes exposed on the hard ground, golden grass, heat crystal forming at warm stone seams, and dryland herbs that concentrate the ambient power.\n\nKnown Locations: the Eastern Expansion Site — the Chamberlain's flagged ground for the first eastward development — and the Golden Upland, the broad sunlit plain itself. The high ambient mana makes unusual magical phenomena common here: hidden workshops appearing where someone once imagined tools, future forge sites baking themselves ready, mana vents breathing warm light at stone seams, and temporary summoning phenomena — a circle half-formed, an instrument half-built, a voice half-spoken — all discovered rather than marked.",
+    "factions": [],
+    "hiddenInfo": "The warmth is excess mana bleeding off the Mana Heart's circulation — energy the dimension cannot yet contain. This makes the Easthold the most mana-rich undeveloped region, ideal for future construction needing significant power: a workshop, a forge, a summoning circle. The Chamberlain waits for the creator to ask.",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://raw.githubusercontent.com/smokeweedeveryday978-arch/Voyage-demi-plane-map/main/final_v3/tiles/15_The_Easthold.jpg"
+      }
+    },
+    "name": "The Easthold",
+    "npcLevelRange": {
+      "max": 22,
+      "min": 10
+    },
+    "realm": "Demi-Plane",
+    "x": 2,
+    "y": -10
+  },
+  "The Low Reaches": {
+    "basicInfo": "Biome — shifting marshy lowland; damp ground, shifting pools, rain-scented air, terrain that settles and reforms like a dream; will-o'-wisp lights wander the pools at will. The far southwest of the Demi-Plane — a lowland where the ground is soft and damp and the air smells of rain that has not yet fallen. The most reactive land in the dimension: hollows form and fill, mounds rise and settle, small pools appear and vanish, terrain shifting subtly when observed as if the Demi-Plane were dreaming of what it could become. The Chamberlain calls it 'the dimension thinking out loud.'\n\nWildlife & Encounters (levels 8–18): bog wisps wandering the pools, marsh frogs in choruses that answer one another across the water, spirit salamanders gliding beneath the surface, mud sprites shaped from the soft ground itself, and occasional mire predators — low-level ambushers that use the shifting terrain to their advantage.\n\nResources: glow-reed from the pool margins, marsh herbs, spirit peat cut from the deepest banks, and luminous waterplants that hold light after picking.\n\nKnown Locations: The Shifting Pools — the region's wandering heart of water; and Rain Hollow, a sheltered basin where the rain-scent is strongest. Everything else stays unmarked: hidden bog caves opening and closing as the ground reforms, drowned objects surfacing after long years, and temporary spirit nests appearing when the pools settle — natural discoveries for those who wait and watch the lowland change.",
+    "factions": [],
+    "hiddenInfo": "The instability is uncontrolled potential — more energy here than the dimension knows how to use. Focused intention stops the shifting and solidifies the ground into whatever is imagined. Left alone, the Low Reaches eventually stabilize unpredictably — the dimension's own choice, not the creator's.",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://raw.githubusercontent.com/smokeweedeveryday978-arch/Voyage-demi-plane-map/main/final_v3/tiles/06_The_Low_Reaches.jpg"
+      }
+    },
+    "name": "The Low Reaches",
+    "npcLevelRange": {
+      "max": 18,
+      "min": 8
+    },
+    "realm": "Demi-Plane",
+    "x": -2,
+    "y": -9
+  },
+  "The Hollow Vale": {
+    "basicInfo": "Biome — sheltered terraced vale; gentle valley slopes, stone terraces, still air; foxfire motes settle along the terrace edges like lanterns placed by unseen hands. The southern approach to the developed core — a gentle valley sloping down through terraces the Demi-Plane formed on its own, each wide and flat and waiting for purpose. Sheltered from the ambient wind by surrounding terrain, it is the calmest region in the dimension. The Chamberlain suggests it as ideal for future residential expansion: protected, quiet, close to the core.\n\nWildlife & Encounters (levels 4–14): terrace sprites keeping tidy watch along the stone rims, burrowing spirit rabbits in the soft terrace banks, songbirds that arrive from no direction and leave the same way, and minor earth spirits that smooth a cracked terrace wall overnight. All gentle; most can be befriended with patience and a handful of herbs.\n\nResources: spirit clay from the terrace banks, terrace herbs, medicinal roots, and foxfire moss that grows along the shadiest terrace walls.\n\nKnown Locations: the Residential Terraces — the wide stone shelves awaiting future homes — and the Sheltered Vale, the calm valley floor between them. Most terraces are deliberately left empty and unmarked for future development. Small caves, hidden springs, abandoned spirit shelters, and natural viewpoints dot the slopes for those who walk them rather than read them.",
+    "factions": [],
+    "hiddenInfo": "The terraces match the dimensions of rooms in the Hidden Estate — as if the dimension were trying to build a home on a grander scale. The Chamberlain noticed the pattern but has not mentioned it, unsure whether the creator would find it touching or unsettling.",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://raw.githubusercontent.com/smokeweedeveryday978-arch/Voyage-demi-plane-map/main/final_v3/tiles/07_The_Hollow_Vale.jpg"
+      }
+    },
+    "name": "The Hollow Vale",
+    "npcLevelRange": {
+      "max": 14,
+      "min": 4
+    },
+    "realm": "Demi-Plane",
+    "x": -1,
+    "y": -9
+  },
+  "The Deep Expanse": {
+    "basicInfo": "Biome — vast prairie plain; flat firm ground, tall blue-green grasses in slow waves, a high clear sky; the grass hums almost audibly when the wind passes through it. The southern frontier — a vast open expanse mirroring the Gateway Clearing's original potential at a grander scale. Flat firm ground, a high clear sky, an overwhelming sense of possibility. The largest single region in the Demi-Plane, entirely undeveloped: a blank canvas the size of a small country. The Chamberlain dreams of what could be built here. The creator has not yet visited.\n\nWildlife & Encounters (levels 10–22): prairie drakes skimming low over the grass in territory-display flights, mana antelope herds that shimmer faintly with stored potential, wind spirits rolling across the plain as slow spirals, and large grazing spirit-beasts — silent, herd-minded giants found only in the deep grass. Distances mean no encounter is ever an ambush unless intended.\n\nResources: mana amber wept onto grass roots, tallgrass herbs, beast materials from the drakes and antelope, and windseed gathered on high-wind days.\n\nKnown Locations: the Great Prairie — the endless open ground itself — and the Mana-Density Survey Point, the Chamberlain's quiet measuring stone. Everything deeper is deliberately unmarked. A region this vast can hold hidden monster territories, ancient-looking stones, underground chambers, and wandering events without any marker: discoveries here arrive by walking through grass taller than a rider.",
+    "factions": [],
+    "hiddenInfo": "After the Easthold, the Deep Expanse holds the deepest mana reserves — still rather than pressing, like a reservoir awaiting a tap. A city, a forest, a mountain range would draw from it. The Chamberlain keeps a hand-drawn mana-density map in their quarters, waiting for the day the creator asks.",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://raw.githubusercontent.com/smokeweedeveryday978-arch/Voyage-demi-plane-map/main/final_v3/tiles/08_The_Deep_Expanse.jpg"
+      }
+    },
+    "name": "The Deep Expanse",
+    "npcLevelRange": {
+      "max": 22,
+      "min": 10
+    },
+    "realm": "Demi-Plane",
+    "x": 0,
+    "y": -9
+  },
+  "The Southroll": {
+    "basicInfo": "Biome — golden hill country; rolling grass hills in perpetual late-afternoon light, low wild herbs, warm soil and lulling air; fireflies drift in disciplined circles here, as if keeping them in time with the light. Undulating grass-covered hills southeast of the developed core, bathed in perpetual golden light. Gentle and rolling — the kind of landscape that invites walking without destination. The Southroll feels like an afternoon that never ends: unhurried, pleasant, faintly drowsy. The Chamberlain recommends it for future recreation — parks, gardens, or simply somewhere to exist without purpose.\n\nWildlife & Encounters (levels 3–12): hill foxes surveying their slopes, fireflies in disciplined circling schools, grass spirits that part to make walking easier, and warm-feather birds that roost in the folds of the hills. Nothing here threatens; the region's danger is that visitors keep stopping to nap.\n\nResources: warmroot dug from the sun-warmed soil, golden herbs, firefly dust left where the circles cross, and sweet grass cut at the hills' crests.\n\nKnown Locations: the Sunset Hills — the rolling golden upland itself — and the Golden Walk, the ridge path along the highest crest. The rest stays peaceful and unmarked: picnic groves, hidden springs, flower fields, and small spirit dens appear naturally for those who wander, making the region rich to explore without ever making it dangerous.",
+    "factions": [],
+    "hiddenInfo": "The golden light is sustained low-state mana the dimension learned to maintain alone, making this the most stable region in the Demi-Plane — it would persist for days on residual energy if everything else failed. The Chamberlain considers it the dimension's lifeboat.",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://raw.githubusercontent.com/smokeweedeveryday978-arch/Voyage-demi-plane-map/main/final_v3/tiles/09_The_Southroll.jpg"
+      }
+    },
+    "name": "The Southroll",
+    "npcLevelRange": {
+      "max": 12,
+      "min": 3
+    },
+    "realm": "Demi-Plane",
+    "x": 1,
+    "y": -9
+  },
+  "The Rift March": {
+    "basicInfo": "Biome — broken marchland; dark stone clefts and ridges between grassland, deep rifts, shadowed stone; cold blue light seeps up from the rifts at night, and echoes return late by a heartbeat. The far southeast corner — a region of sharp contrast: soft grassland fading westward into the Southroll, dropping eastward into dark stone and deep clefts, as if two ideas of terrain collided and neither won. The most dramatic and most unsettled undeveloped landscape. The Chamberlain avoids the eastern half without a reason.\n\nWildlife & Encounters (levels 18–30): rift crawlers descending the fissure walls head-first, stone predators blended into the dark ridges, blue-flame wisps luring along the cleft rims at night, and cave drakes roosting in the deeper systems. The genuinely dangerous ground begins east of the cleft ridgeline.\n\nResources: rift crystal, darkstone, blue mana ore, and deep fungi grown on the rift walls' cold light.\n\nKnown Locations: the Eastern Clefts — the great dark fissure system — and the Rift Overlook, the grassland rim that watches them. Beyond that, nothing is marked on purpose. This is the region the Chamberlain believes will hold the Demi-Plane's dungeon if it ever grows one: unmapped caves, deep fissures, monster nests, strange ruins, and possible dungeon entrances belong to the clefts' unrecorded depths, found by explorers or not at all.",
+    "factions": [],
+    "hiddenInfo": "The dark terrain grew from the creator's unspoken fears rather than hopes — not hostile, but uncomfortable. The clefts lead toward the dimensional boundary; standing at the bottom of one feels like standing at the bottom of the world. If the Demi-Plane ever develops a dungeon or dangerous region, the Chamberlain suspects it will be here — and is not sure that would be bad.",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://raw.githubusercontent.com/smokeweedeveryday978-arch/Voyage-demi-plane-map/main/final_v3/tiles/10_The_Rift_March.jpg"
+      }
+    },
+    "name": "The Rift March",
+    "npcLevelRange": {
+      "max": 30,
+      "min": 18
+    },
+    "realm": "Demi-Plane",
+    "x": 2,
+    "y": -9
+  },
+  "The Dim March": {
+    "basicInfo": "Biome — hushed moss-hollow; soft pale moss ground, dim even light, restful still air; the moss hears footsteps and dims them to nothing, keeping silence undisturbed. The southwest boundary of the Demi-Plane — the quietest corner. Soft ground covered in fine pale moss, still cool air, dim even light like a room lit by candles. No feature distinguishes one direction from another. The Dim March is not unsettling, simply calm in a way that makes everything else feel loud. The Chamberlain comes here to think without interruption.\n\nWildlife & Encounters (levels 18–28): hush-wisps drifting between the moss hummocks, pale moss spirits folded into the ground itself, silent moths that follow movement without sound, and dormant shade-beasts sleeping beneath the deeper moss banks — all passive unless disturbed. Most wildlife never rouses; what does is drawn to noise, not presence.\n\nResources: stillmoss cut in intact sheets, preservation moss from the deepest hollows, muted spirit-stone nodules, and silence-thread fungi growing along old mana seams.\n\nKnown Locations: Candle Hollow — a soft-floored hollow where the dim light pools brightest, the region's one named landmark; the Chamberlain's Emergency Cache is kept somewhere beneath the moss (its exact site is not marked and is known only to him). The rest of the march is deliberately unmarked: hidden storage hollows, old mana pockets, and things preserved unnaturally well wait to be discovered beneath the moss by those who explore patiently.",
+    "factions": [],
+    "hiddenInfo": "The dimness is mana in a resting state — so still it produces no light or warmth. This makes the region the dimension's best storage zone: anything placed here changes less than elsewhere. Food stays fresh, materials hold their form, enchantments persist longer. The Chamberlain has already quietly begun storing emergency supplies here.",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://raw.githubusercontent.com/smokeweedeveryday978-arch/Voyage-demi-plane-map/main/final_v3/tiles/01_The_Dim_March.jpg"
+      }
+    },
+    "name": "The Dim March",
+    "npcLevelRange": {
+      "max": 28,
+      "min": 18
+    },
+    "realm": "Demi-Plane",
+    "x": -2,
+    "y": -8
+  },
+  "The Grey Boundary": {
+    "basicInfo": "Biome — fog-wall moor; cool damp moorland ending in a wall of grey fog; within the fog, shapes flicker too briefly to name. The southern boundary of the Demi-Plane — a wall of grey fog stretching horizon to horizon. Cool, damp, opaque. Walking into it feels like walking into nothing: no resistance, no ground change, just a growing sense that forward is not a direction that exists here. The firmest edge of the dimension — it does not expand here, and the fog does not retreat. Whatever the creator wills, this border holds.\n\nWildlife & Encounters (levels 22–30): fog shades drifting along the fog wall, boundary wisps tracing the dimension's edge, grey moths in slow circling flights, and rarely an anchor guardian — a silent standing watch-thing that appears only when something tests the boundary. Most wildlife keeps to the fog's margin.\n\nResources: anchor-stone (the dimension's most stable mineral), fog crystal, boundary moss, and condensed dimensional mist gathered at the wall's edge.\n\nKnown Locations: The Grey Fog Wall — the boundary itself, the region's defining landmark; and the Anchor Cairn, the Chamberlain's nearest marker stone. Everything else stays unmarked: older forgotten cairns, things half-lost inside the fog, and rare dimensional anomalies wait to be discovered rather than pointed out.",
+    "factions": [],
+    "hiddenInfo": "The fog is fixed because it anchors the Demi-Plane to a stable point in the dimensional void. Unlike the other shifting boundaries, the southern border must remain constant — if it moved, the dimension's position relative to the mortal world would drift and the Demi-Plane Gate could become unpredictable. The Chamberlain knows no technical reason, only an instinct that this border must not be touched.",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://raw.githubusercontent.com/smokeweedeveryday978-arch/Voyage-demi-plane-map/main/final_v3/tiles/02_The_Grey_Boundary.jpg"
+      }
+    },
+    "name": "The Grey Boundary",
+    "npcLevelRange": {
+      "max": 30,
+      "min": 22
+    },
+    "realm": "Demi-Plane",
+    "x": -1,
+    "y": -8
+  },
+  "The Open Horizon": {
+    "basicInfo": "Biome — endless flat savanna; open level ground beneath an enormous sky. The far south — vast flat ground beneath an enormous sky, horizon visible in every direction. The Demi-Plane at its most open: no hills, no trees, no structures, just ground and sky and the faint hum of potential; the horizon line glows faintly warm, like embers at the world's edge. The Chamberlain describes it as the dimension's invitation — the Demi-Plane showing the creator exactly how much room there is to build. Not empty. Generous.\n\nWildlife & Encounters (levels 10–20): wind hares bounding across the grass, prairie deer in loose herds, small sky spirits that drift at eye-height on still afternoons, and wandering mana birds that follow invisible currents of potential. All shy; all visible for kilometers against the flat.\n\nResources: horizon grass, windseed gathered from grass-tops, sun-dried herbs, and ambient mana crystals strewn thinly across the plain.\n\nKnown Locations: Skywatch Rise — the region's one gentle rise, its landmark and watchpoint; and the Open Horizon Plain, the great open ground itself. Everything else is deliberately unmarked. In emptiness this total, any new camp, ruin, strange object, or natural wonder should feel significant precisely because of the nothing around it — such discoveries are made by crossing the plain, not by consulting a map.",
+    "factions": [],
+    "hiddenInfo": "The flatness is a slate with no bias, no tendency, no half-formed ideas — it becomes exactly what the creator intends, nothing more or less. Powerful and demanding alike: vague intention yields vague results, precise intention yields perfect ones. The Chamberlain has advised waiting for a clear vision before developing here.",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://raw.githubusercontent.com/smokeweedeveryday978-arch/Voyage-demi-plane-map/main/final_v3/tiles/03_The_Open_Horizon.jpg"
+      }
+    },
+    "name": "The Open Horizon",
+    "npcLevelRange": {
+      "max": 20,
+      "min": 10
+    },
+    "realm": "Demi-Plane",
+    "x": 0,
+    "y": -8
+  },
+  "The Fade": {
+    "basicInfo": "Biome — gentle hills dissolving into featureless mist; things that enter the mist leave their sound behind first, then their color. The southeast boundary — where the Rift March's dramatic terrain softens into gentle hills that gradually fade into featureless mist. The transition is almost imperceptible: solid ground among rolling hills, then fog with no sense of direction. Not dangerous — it simply ends. The Demi-Plane extends no further. The Chamberlain has marked the boundary with small cairns at the exact points where ground stops being ground.\n\nWildlife & Encounters (levels 20–30): mistlings rolling through the low fog, pale walkers striding the far hills, echo spirits repeating the movements of the living a breath behind, and — rarely — fade-beasts, upper-level things that graze on certainty itself. Most encounters here are glimpses; few hold.\n\nResources: fadeglass (thin panes of half-real material), mist pearls formed where fog pools overnight, soundless stone cut from the grey hills, and boundary herbs that grow only within a stone's throw of the last cairn.\n\nKnown Locations: the Cairn Line — the Chamberlain's row of boundary stones where ground stops being ground; and The Dissolving Hills, the fading upland itself. Everything deeper stays unmarked: hidden paths that exist only while walked, vanished structures surfacing briefly through the fog, and temporary landscapes that appear and disappear overnight are discoveries made in the mist, not places on a map.",
+    "factions": [],
+    "hiddenInfo": "The Fade is the most permeable boundary — not weak, but unfinished. The dimension has not decided what it wants to be here, and fog is ambiguity made visible. Strong intention toward it thins the mist and lets new terrain begin forming. The Chamberlain watched this happen twice — both times the creator was dreaming.",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://raw.githubusercontent.com/smokeweedeveryday978-arch/Voyage-demi-plane-map/main/final_v3/tiles/04_The_Fade.jpg"
+      }
+    },
+    "name": "The Fade",
+    "npcLevelRange": {
+      "max": 30,
+      "min": 20
+    },
+    "realm": "Demi-Plane",
+    "x": 1,
+    "y": -8
+  },
+  "The Last Edge": {
+    "basicInfo": "Biome — still stony plain; smooth flat ground, motionless air, steady grey light; nothing here has a shadow — light falls without direction. The far southeast corner — the dimension's end. Where other boundaries fade, fog, or shimmer, the Last Edge is simply still: smooth flat ground, motionless air, steady even grey light. No drama, no mystery, no veil — just the quiet certainty that here the world ends and nothing else begins. The Chamberlain finds it peaceful; most find it profound. The creator has not visited yet, but the Chamberlain believes they should.\n\nWildlife & Encounters (levels 25–30): almost none by design. Rarely, an anchor sentinel — a tall grey figure that stands watch for exactly one night and is gone — or a silent dimensional spirit passes through without acknowledgment. Nothing here hunts, gathers, or nests. Any creature found on the Edge is behaving strangely, which makes it important.\n\nResources: nullstone, grey crystal, and fixed-point fragments — all scarce, all worth carrying, all found only after long walking.\n\nKnown Locations: The Last Edge itself — the barren rim of the dimension — and the Dimensional Anchor Point. Everything else stays deliberately barren and unmarked. Discoveries here should be rare and important: strange geometric formations with no origin, anchor phenomena, or remnants that should not logically exist in a young pocket dimension — a weathered coin, a foundation stone, a child's toy half-buried in smooth grey ground.",
+    "factions": [],
+    "hiddenInfo": "The Last Edge is the Demi-Plane's anchor point — the single fixed coordinate from which the entire dimension is extrapolated. Destabilizing it would not collapse the dimension but set it drifting silently until it lost connection to the mortal world. The Chamberlain does not know; the Mana Heart's guardian entity does, and extends its patrol here whenever the creator is absent.",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://raw.githubusercontent.com/smokeweedeveryday978-arch/Voyage-demi-plane-map/main/final_v3/tiles/05_The_Last_Edge.jpg"
+      }
+    },
+    "name": "The Last Edge",
+    "npcLevelRange": {
+      "max": 30,
+      "min": 25
+    },
+    "realm": "Demi-Plane",
+    "x": 2,
+    "y": -8
+  },
+  "Veiled Fox Sanctuary": {
+    "basicInfo": "Biome — sanctuary spirit-forest; mist-laced fox-spirit woodland of torii processions, a shinboku heart, and a luminous bamboo spring. The merged temperate spirit-forest and sacred shrine realm of the Demi-Plane's northwest: its woodland half is the dimension's first ecosystem — tall pale-barked trees grown from ambient potential, bioluminescent fungi, drifting foxfire motes, moss that dims underfoot to light paths, roots tapping the ambient mana flow (the Chamberlain treats it as infrastructure). Its mythic core is reserved entirely for the Hidden Estate of the Mother Fox and her private lands — the sanctum of Tsukiko Kuzunoha, creator of this dimension. Entered only by her will, the Demi-Plane Gate ability, or the Demi-Plane Anchor item; no road, gate, spell, or teleportation opens a path without her permission. The atmosphere is unmistakably otherwhere: vermilion torii gates standing in procession, stone fox statues wearing red bibs and gazing from mossy pedestals, paper-shide streamers fluttering from sacred ropes, and lanterns whose flames burn pale violet like dissociated foxfire. A still shinboku tree stands at the sanctuary's heart ringed by a rope of braided gold and white paper — a kami's tree in the oldest tradition. Pine, maple, shide, kōyō, and sakaki grow in deliberate arrangement; a spring of clear water pools beneath sweeping bamboo, and stone paths cross in shimenawa-bound silence — inspired by a Japan that predates maps: something between a kami's inner shrine, an aristocrat's hidden garden, and a fox spirit's dreamed estate. The land is elegant, quiet, and slightly unreal — sunbeams slant at angles that do not quite match the hour, and the light tastes faintly of cedar smoke. Visitors attend only if bidden. The Hidden Estate of the Mother Fox sits here, its true grounds nestling in this sanctuary rather than in the basin, and the estate's fox-spirit staff pass freely between them. Repository of fungal and botanical resources for those welcomed inside.\n\nWildlife & Encounters (levels 12–25 for outsiders; effectively safe for Tsukiko and permitted residents): kitsune spirits moving between lantern paths, shrine guardians walking scheduled perimeters, foxfire wisps tending the ritual flames, sacred birds and spirit deer that announce rather than flee from strangers. Intruders who enter uninvited find the land itself uncooperative — paths lengthen, lanterns dim, feet slow.\n\nResources: foxfire blooms, sacred bamboo, rare bioluminescent fungi, shrine herbs, and spirit wood from fallen pale-barked branches — all available to permitted residents of the sanctuary and the estate staff who tend them.\n\nKnown Locations: the Hidden Estate of the Mother Fox — the region's one established estate marker — plus the Shinboku, the Bamboo Spring, and the Torii Procession along the inner shrine paths. Everything deeper stays veiled: secret gardens, spirit dwellings, hidden shrines, and the estate's true grounds reveal themselves only while exploring — or with Tsukiko's permission, which remains the lawful and wise way in.",
+    "factions": [],
+    "hiddenInfo": "No NPC may enter without Tsukiko's direct, spoken invitation — not the Chamberlain, not party members, not allied spirits, not outside creatures of any kind. The sanctuary's foxfire lanterns are not decoration: they are wards that read intent. Anyone crossing with false or thieving purpose feels their feet slow and their mind fog, as though walking into deep water with no shore visible. The shinboku at the heart of the sanctuary feeds on Tsukiko's presence — aether drawn from her divinity seeps into the roots and pools beneath the estate as a reserve she can call upon. The woodland half fills that ecological role itself: its roots tap the ambient mana flow, filtering and distributing it through the soil; destroying that forest would make mana distribution uneven across the western regions. The Chamberlain treats the whole sanctuary-forest as infrastructure, not decoration. Since the sanctuary's woodland deepened, its winds have carried faint fox-shaped shadows and incense — the Chamberlain suspects the sanctuary's spirit-folk walk to the First Meadow's edge through the trees. He has proposed, three times, that the Demi-Plane's entire mana infrastructure could route through the sanctuary's shinboku — each proposal was politely declined, and each time the Chamberlain presumed the creator had reasons she did not wish to share.",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://raw.githubusercontent.com/smokeweedeveryday978-arch/Voyage-demi-plane-map/main/final_v3/tiles/16_Veiled_Fox_Sanctuary.jpg"
+      }
+    },
+    "name": "Veiled Fox Sanctuary",
+    "npcLevelRange": {
+      "max": 25,
+      "min": 12
+    },
+    "realm": "Demi-Plane",
+    "x": -2,
+    "y": -11
+  }
+}
