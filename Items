@@ -1,0 +1,2270 @@
+{
+  "Katana": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "strength"
+      },
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "dexterity"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A single-edged blade of folded steel -- the weapon of a discipline, not a style. Designed for the one-swing philosophy -- draw, cut, sheathe in a single motion. Price: 5-10 sp.",
+    "name": "Katana",
+    "slot": "main hand"
+  },
+  "Rapier": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 2,
+        "variable": "dexterity"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A narrow thrusting blade with a complex hilt -- precision made personal. The duelist's weapon of choice. Price: 5-10 sp.",
+    "name": "Rapier",
+    "slot": "main hand"
+  },
+  "Antidote": {
+    "bonuses": [],
+    "category": "Consumable",
+    "description": "A vial of golden liquid that neutralizes most common poisons and toxins on contact. Works on ingestions, envenomed weapons, and that one mushroom you should not have eaten. Price: 3-6 sp.",
+    "name": "Antidote"
+  },
+  "Great Axe": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 2,
+        "variable": "strength"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A massive two-handed axe that turns enemies into geometry problems. Too heavy for the untrained, devastating in the hands of a berserker. Price: 5-10 sp.",
+    "name": "Great Axe",
+    "slot": "main hand"
+  },
+  "Chain Mail": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 2,
+        "variable": "constitution"
+      },
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "strength"
+      }
+    ],
+    "category": "Armor",
+    "description": "A full chain hauberk with a leather undercoat. Heavy but reliable. C-rank adventurers wear this when they know the fight is real. Price: 4-10 sp.",
+    "name": "Chain Mail",
+    "slot": "body"
+  },
+  "Chef's Kit": {
+    "bonuses": [
+      {
+        "type": "skill",
+        "value": 1,
+        "variable": "survival"
+      }
+    ],
+    "category": "Tool",
+    "description": "A travelling kitchen -- iron pan, cleaver, spice box, and a knife roll that could arm a small militia. Price: 5-10 sp.",
+    "name": "Chef's Kit",
+    "slot": "kit"
+  },
+  "Half Plate": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 3,
+        "variable": "constitution"
+      },
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "strength"
+      }
+    ],
+    "category": "Armor",
+    "description": "Articulated plate over chain -- proper knight's harness. A-rank adventurers who wear this have earned it through combat that would have killed anyone less protected. Price: 2-5 gp.",
+    "name": "Half Plate",
+    "slot": "body"
+  },
+  "Halo Shard": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "wisdom"
+      }
+    ],
+    "category": "Accessory",
+    "description": "A shard of crystallized divine light -- warm, pure, and impossible to forge. Grants light resistance and amplifies healing magic cast by the wearer. Price: 1-3 gp (rare).",
+    "name": "Halo Shard",
+    "slot": "accessory"
+  },
+  "Holy Water": {
+    "bonuses": [],
+    "category": "Consumable",
+    "description": "A flask of consecrated water -- burns undead on contact, damages demons, and makes goblins scream. Standard issue for Church-affiliated adventurers. Price: 3-8 sp.",
+    "name": "Holy Water"
+  },
+  "Iron Sword": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "strength"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A reliable iron longsword -- standard issue for D-rank adventurers and anyone who prefers their problems solved at arm's length. Price: 1-5 sp.",
+    "name": "Iron Sword",
+    "slot": "main hand"
+  },
+  "Spark Coil": {
+    "bonuses": [
+      {
+        "type": "resource",
+        "value": 5,
+        "variable": "Mana"
+      }
+    ],
+    "category": "Accessory",
+    "description": "A humming electrical coil that draws ambient mana into a construct's core reservoir. Price: 2-5 sp (minor charm).",
+    "name": "Spark Coil",
+    "slot": "accessory"
+  },
+  "Heavy Chain": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 2,
+        "variable": "constitution"
+      }
+    ],
+    "category": "Armor",
+    "description": "Heavy chain mail over padded leather -- built to take hits that would kill lighter fighters and ask for more. Price: 8-15 sp.",
+    "name": "Heavy Chain",
+    "slot": "body"
+  },
+  "Mana Potion": {
+    "bonuses": [
+      {
+        "type": "resource",
+        "value": 10,
+        "variable": "Mana"
+      }
+    ],
+    "category": "Consumable",
+    "description": "A standard blue vial of mana-restorative alchemy -- restores 10 mana when consumed. Tastes like cold water and blueberries. Price: 6-12 sp.",
+    "name": "Mana Potion"
+  },
+  "Pact Weapon": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "strength"
+      },
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "charisma"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A weapon shaped by pact-magic -- its form shifts slightly to match its wielder's fighting style. Dark metal, warm to the touch. Price: 1-3 gp (enchanted).",
+    "name": "Pact Weapon",
+    "slot": "main hand"
+  },
+  "Rusty Sword": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "strength"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A notched blade with a leather grip that has seen better days. Barely holds an edge. Standard issue for F-rank adventurers who cannot afford anything better. Price: 10-50 cp.",
+    "name": "Rusty Sword",
+    "slot": "main hand"
+  },
+  "Camping Gear": {
+    "bonuses": [],
+    "category": "Tool",
+    "description": "Bedroll, tent, fire-starting kit, and a small cooking pot -- everything you need to sleep in the wilderness and wake up alive. Price: 50 cp to 1 sp.",
+    "name": "Camping Gear",
+    "slot": "kit"
+  },
+  "Chef's Apron": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "wisdom"
+      }
+    ],
+    "category": "Armor",
+    "description": "A sturdy canvas apron over practical clothes. Stained with the evidence of a hundred meals. Price: 1-3 sp.",
+    "name": "Chef's Apron",
+    "slot": "body"
+  },
+  "Core Crystal": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "constitution"
+      }
+    ],
+    "category": "Accessory",
+    "description": "A fist-sized crystalline core harvested from a sentient slime -- pulses with a gentle light and stabilizes the wearer's physical form. Price: 2-5 sp (minor charm).",
+    "name": "Core Crystal",
+    "slot": "accessory"
+  },
+  "Mana Crystal": {
+    "bonuses": [
+      {
+        "type": "resource",
+        "value": 25,
+        "variable": "Mana"
+      }
+    ],
+    "category": "Consumable",
+    "description": "A raw mana crystal that shatters when squeezed -- restores 25 mana instantly. One-use, expensive, and absolutely essential when the alternative is running dry mid-combat. Price: 12-20 sp.",
+    "name": "Mana Crystal"
+  },
+  "Mythic Armor": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 6,
+        "variable": "constitution"
+      },
+      {
+        "type": "attribute",
+        "value": 4,
+        "variable": "strength"
+      },
+      {
+        "type": "skill",
+        "value": 2,
+        "variable": "evasion"
+      }
+    ],
+    "category": "Armor",
+    "description": "Pre-Collapse war-forged plate that has survived the fall of civilizations. It does not protect its wearer -- it renders the concept of harm negotiable. There are perhaps three suits in existence. QUEST ONLY -- no purchase price.",
+    "name": "Mythic Armor",
+    "slot": "body"
+  },
+  "Padded Cloth": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "constitution"
+      }
+    ],
+    "category": "Armor",
+    "description": "Padded cloth with leather patches at the joints. Better than nothing. F-rank standard issue. Price: 30-50 cp.",
+    "name": "Padded Cloth",
+    "slot": "body"
+  },
+  "Sage's Robes": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "intelligence"
+      }
+    ],
+    "category": "Armor",
+    "description": "Scholarly robes woven with mana-conductive thread -- no physical protection worth mentioning, but spell-flow through the wearer's body is noticeably smoother. Price: 5-12 sp.",
+    "name": "Sage's Robes",
+    "slot": "body"
+  },
+  "Sage's Staff": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 2,
+        "variable": "intelligence"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A polished oak staff capped with a mana-focusing crystal at each end. Channels spellwork with precision and doubles as a walking stick. Price: 8-15 sp.",
+    "name": "Sage's Staff",
+    "slot": "main hand"
+  },
+  "Samurai's Do": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "constitution"
+      },
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "dexterity"
+      }
+    ],
+    "category": "Armor",
+    "description": "Lamellar armor in the eastern style -- layered plates laced with silk cord over a padded foundation. Flexible where plate is rigid, protective where leather fails. Price: 8-15 sp.",
+    "name": "Samurai's Do",
+    "slot": "body"
+  },
+  "Foxfire Pearl": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "intelligence"
+      },
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "charisma"
+      }
+    ],
+    "category": "Accessory",
+    "description": "A luminous pearl containing condensed foxfire -- the spiritual essence of a kitsune's magic. Amplifies illusion magic and enhances the wearer's natural magnetism. Older kitsune grow these naturally; younger ones must earn or inherit them. Price: 1-3 gp (rare).",
+    "name": "Foxfire Pearl",
+    "slot": "accessory"
+  },
+  "Healer's Cane": {
+    "bonuses": [
+      {
+        "type": "skill",
+        "value": 1,
+        "variable": "Medicine"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A hardwood cane capped with a pale crystal that glows faintly when held by someone with healing intent. Price: 5-10 sp.",
+    "name": "Healer's Cane",
+    "slot": "main hand"
+  },
+  "Health Potion": {
+    "bonuses": [
+      {
+        "type": "resource",
+        "value": 30,
+        "variable": "health"
+      }
+    ],
+    "category": "Consumable",
+    "description": "A standard red vial of restorative alchemy -- restores 30 health when consumed. Tastes like cherry medicine and regret. Price: 6-12 sp.",
+    "name": "Health Potion"
+  },
+  "Leather Armor": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "constitution"
+      }
+    ],
+    "category": "Armor",
+    "description": "Sturdy boiled leather armor -- flexible, practical, and the choice of adventurers who value mobility over tanking hits. Price: 1-4 sp.",
+    "name": "Leather Armor",
+    "slot": "body"
+  },
+  "Mythic Weapon": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 5,
+        "variable": "strength"
+      },
+      {
+        "type": "attribute",
+        "value": 4,
+        "variable": "dexterity"
+      },
+      {
+        "type": "skill",
+        "value": 3,
+        "variable": "melee"
+      },
+      {
+        "type": "skill",
+        "value": 1,
+        "variable": "evasion"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A weapon that transcends the concept of weaponry -- it does not merely cut, it decides. SSS-rank. There are perhaps five in existence. QUEST ONLY -- no purchase price.",
+    "name": "Mythic Weapon",
+    "slot": "main hand"
+  },
+  "Pact Leathers": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "constitution"
+      },
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "charisma"
+      }
+    ],
+    "category": "Armor",
+    "description": "Supple dark leather with subtle pact-wards burned into the interior. Smells faintly of brimstone and bargain. Price: 8-15 sp.",
+    "name": "Pact Leathers",
+    "slot": "body"
+  },
+  "Scale Pendant": {
+    "bonuses": [],
+    "category": "Accessory",
+    "description": "A pendant holding a single dragon scale -- warm against the skin and resistant to flame. Grants the wearer resistance to fire damage. Price: 1-3 gp (rare).",
+    "name": "Scale Pendant",
+    "slot": "accessory"
+  },
+  "Fighting Wraps": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "dexterity"
+      },
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "constitution"
+      }
+    ],
+    "category": "Weapon",
+    "description": "Reinforced hand-wraps treated with alchemical hardening -- turns knuckles into blunt instruments and parries into viable strategy. Price: 1-3 sp.",
+    "name": "Fighting Wraps",
+    "slot": "main hand"
+  },
+  "Heartwood Seed": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "constitution"
+      }
+    ],
+    "category": "Accessory",
+    "description": "A living seed from a dryad's heart-tree -- warm, green, and faintly pulsing. Grants natural regeneration in wooded areas. Price: 1-3 gp (rare).",
+    "name": "Heartwood Seed",
+    "slot": "accessory"
+  },
+  "Holy Longsword": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "strength"
+      },
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "wisdom"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A consecrated longsword that hums faintly in the presence of the undead. Standard issue for Solasreach's paladin orders -- reliable, balanced, and carrying the weight of every oath sworn over its crossguard. Price: 1-3 gp (enchanted).",
+    "name": "Holy Longsword",
+    "slot": "main hand"
+  },
+  "Oni Horn Plate": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "strength"
+      }
+    ],
+    "category": "Accessory",
+    "description": "A plate of hardened oni horn worn at the wrist -- radiates battle-fury and strengthens the wearer's blows when blood is drawn. Price: 1-3 gp (rare).",
+    "name": "Oni Horn Plate",
+    "slot": "accessory"
+  },
+  "Paired Daggers": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 2,
+        "variable": "dexterity"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A matched pair of short-hilted daggers -- one for each hand, one for each opportunity. Designed for the gap between armor plates. Price: 3-8 sp.",
+    "name": "Paired Daggers",
+    "slot": "main hand"
+  },
+  "Shadow Leather": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "dexterity"
+      }
+    ],
+    "category": "Armor",
+    "description": "Dark, form-fitting leather treated with shadow-root dye -- absorbs light, minimizes sound. Price: 5-12 sp.",
+    "name": "Shadow Leather",
+    "slot": "body"
+  },
+  "Stamina Potion": {
+    "bonuses": [
+      {
+        "type": "resource",
+        "value": 10,
+        "variable": "Stamina"
+      }
+    ],
+    "category": "Consumable",
+    "description": "A standard green vial of stamina-restorative alchemy -- restores 10 stamina when consumed. Tastes like mint and determination. Price: 6-12 sp.",
+    "name": "Stamina Potion"
+  },
+  "War Mage Plate": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "constitution"
+      },
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "intelligence"
+      }
+    ],
+    "category": "Armor",
+    "description": "Articulated plate over spell-woven underlayer -- protects the body without choking off mana flow. Standard issue for kingdom war mages. Price: 2-4 gp.",
+    "name": "War Mage Plate",
+    "slot": "body"
+  },
+  "Alchemist's Kit": {
+    "bonuses": [
+      {
+        "type": "skill",
+        "value": 1,
+        "variable": "Arcana"
+      }
+    ],
+    "category": "Tool",
+    "description": "A brass-bound case with stoppered glass vials, a small mortar and pestle, and a reagent catalogue. Smells permanently of sulfur and ambition. Price: 5 sp to 1 gp.",
+    "name": "Alchemist's Kit",
+    "slot": "kit"
+  },
+  "Enchanted Blade": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "strength"
+      },
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "intelligence"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A broadsword with a channel etched along the fuller for mana conduction -- casts through the blade and cuts through spell and armor alike. Price: 1-3 gp.",
+    "name": "Enchanted Blade",
+    "slot": "main hand"
+  },
+  "Enchanted Plate": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 4,
+        "variable": "constitution"
+      },
+      {
+        "type": "attribute",
+        "value": 2,
+        "variable": "strength"
+      }
+    ],
+    "category": "Armor",
+    "description": "Full plate armor etched with defensive enchantments -- it does not merely stop blows, it refuses them. S-rank armor. Price: 3-8 gp.",
+    "name": "Enchanted Plate",
+    "slot": "body"
+  },
+  "Fencing Leather": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 2,
+        "variable": "dexterity"
+      }
+    ],
+    "category": "Armor",
+    "description": "Light, form-fitting leather designed for maximum mobility -- protects the vitals without restricting precise footwork. Price: 3-8 sp.",
+    "name": "Fencing Leather",
+    "slot": "body"
+  },
+  "Hellfire Signet": {
+    "bonuses": [],
+    "category": "Accessory",
+    "description": "A black iron signet ring etched with hellfire script -- grants the wearer resistance to dark and fire damage. Demons recognize it. Price: 1-3 gp (rare).",
+    "name": "Hellfire Signet",
+    "slot": "ring"
+  },
+  "Legendary Armor": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 5,
+        "variable": "constitution"
+      },
+      {
+        "type": "attribute",
+        "value": 3,
+        "variable": "strength"
+      },
+      {
+        "type": "skill",
+        "value": 1,
+        "variable": "evasion"
+      }
+    ],
+    "category": "Armor",
+    "description": "Armor that moves with its wearer like a second skin despite being forged from material denser than steel. SS-rank armor is less equipment and more symbiosis. QUEST ONLY -- no purchase price.",
+    "name": "Legendary Armor",
+    "slot": "body"
+  },
+  "Paladin's Plate": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "constitution"
+      },
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "wisdom"
+      }
+    ],
+    "category": "Armor",
+    "description": "Polished plate armor etched with sacred wards -- protects the body and the soul in equal measure. The holy symbol glows when undead are near. Price: 2-5 gp.",
+    "name": "Paladin's Plate",
+    "slot": "body"
+  },
+  "Scholar's Codex": {
+    "bonuses": [
+      {
+        "type": "skill",
+        "value": 1,
+        "variable": "investigation"
+      }
+    ],
+    "category": "Tool",
+    "description": "A leather-bound codex with pre-marked sections for cross-referencing, a magnification lens built into the cover, and a ribbon bookmark that seems to find the right page on its own. Price: 5-10 sp.",
+    "name": "Scholar's Codex",
+    "slot": "kit"
+  },
+  "Steel Longsword": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 2,
+        "variable": "strength"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A steel longsword with a proper fuller and a balanced grip. The kind of weapon a C-rank adventurer earns after their first real dungeon. Price: 5-10 sp.",
+    "name": "Steel Longsword",
+    "slot": "main hand"
+  },
+  "Studded Leather": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 2,
+        "variable": "constitution"
+      },
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "dexterity"
+      }
+    ],
+    "category": "Armor",
+    "description": "Tanned leather with reinforced stitching. Flexible enough to move in, thick enough to stop a glancing blow. The workhorse of D-rank adventurers everywhere. Price: 2-5 sp.",
+    "name": "Studded Leather",
+    "slot": "body"
+  },
+  "Summoning Focus": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "intelligence"
+      }
+    ],
+    "category": "Tool",
+    "description": "A summoning focus -- a carved bone pendant or etched brass disc that hums when entities are near. Price: 8-15 sp.",
+    "name": "Summoning Focus",
+    "slot": "kit"
+  },
+  "Adventurer's Kit": {
+    "bonuses": [
+      {
+        "type": "skill",
+        "value": 1,
+        "variable": "survival"
+      }
+    ],
+    "category": "Tool",
+    "description": "Rope, torches, chalk, a small mirror, and a prayer to whatever god watches over people who explore dark places unprepared. Price: 1-2 sp.",
+    "name": "Adventurer's Kit",
+    "slot": "kit"
+  },
+  "Alchemist's Coat": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "intelligence"
+      }
+    ],
+    "category": "Armor",
+    "description": "A reinforced leather apron over a long coat, stained with the evidence of a hundred successful reactions. Designed to shrug off acid, alchemical fire, and the opinions of people who think alchemy is not real magic. Price: 5-12 sp.",
+    "name": "Alchemist's Coat",
+    "slot": "body"
+  },
+  "Alchemist's Fire": {
+    "bonuses": [],
+    "category": "Consumable",
+    "description": "A clay flask of volatile alchemical fire -- shatters on impact, splashes burning compound in a wide arc, and continues burning for several seconds. Price: 4-8 sp.",
+    "name": "Alchemist's Fire"
+  },
+  "Apprentice Staff": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "intelligence"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A focused oak staff for apprentice mages -- channels mana more efficiently than bare hands and doubles as a walking stick. Price: 1-3 sp.",
+    "name": "Apprentice Staff",
+    "slot": "main hand"
+  },
+  "Clan Signet Ring": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "constitution"
+      }
+    ],
+    "category": "Accessory",
+    "description": "A heavy signet ring bearing the crest of a dwarven clan -- warm to the touch and harder than steel. Wearing it marks you as kin to the deep halls. Price: 2-5 sp (minor charm).",
+    "name": "Clan Signet Ring",
+    "slot": "ring"
+  },
+  "Fine Steel Blade": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 2,
+        "variable": "strength"
+      },
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "dexterity"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A finely forged blade with a slight blue tint to the steel. Holds an edge that never dulls and balances like an extension of the arm. B-rank adventurers carry these as a mark of proven skill. Price: 10-20 sp.",
+    "name": "Fine Steel Blade",
+    "slot": "main hand"
+  },
+  "Legendary Weapon": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 4,
+        "variable": "strength"
+      },
+      {
+        "type": "attribute",
+        "value": 3,
+        "variable": "dexterity"
+      },
+      {
+        "type": "skill",
+        "value": 2,
+        "variable": "melee"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A weapon of legend -- forged from materials that should not coexist, tempered in circumstances that should not have been survivable. SS-rank weapons are named, known, and feared. QUEST ONLY -- no purchase price.",
+    "name": "Legendary Weapon",
+    "slot": "main hand"
+  },
+  "Masterwork Sword": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 3,
+        "variable": "strength"
+      },
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "dexterity"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A masterwork blade forged by a named smith and quenched in alchemical solution. The edge catches light in a way that seems deliberate. A-rank quality. Price: 1-3 gp.",
+    "name": "Masterwork Sword",
+    "slot": "main hand"
+  },
+  "Monk's Vestments": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "dexterity"
+      },
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "constitution"
+      }
+    ],
+    "category": "Armor",
+    "description": "Light, breathable vestments that offer freedom of movement and just enough padding to survive a glancing hit. Price: 2-5 sp.",
+    "name": "Monk's Vestments",
+    "slot": "body"
+  },
+  "Pixie Dust Pouch": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "dexterity"
+      }
+    ],
+    "category": "Accessory",
+    "description": "A small silk pouch of enchanted dust that makes the wearer lighter on their feet and harder to pin down. Price: 2-5 sp (minor charm).",
+    "name": "Pixie Dust Pouch",
+    "slot": "accessory"
+  },
+  "War-Braid Bracer": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "strength"
+      }
+    ],
+    "category": "Accessory",
+    "description": "A thick leather bracer wrapped with ceremonial war braids -- traditional orc-blooded warrior gear. Price: 2-5 sp (minor charm).",
+    "name": "War-Braid Bracer",
+    "slot": "accessory"
+  },
+  "Adventurer's Card": {
+    "bonuses": [],
+    "category": "Key Item",
+    "description": "Your Guild registration card -- displays your name, rank, class, and quest history. Required for all official Guild business. Lose it and you are nobody until you pay for a replacement. Price: 50 cp replacement fee.",
+    "name": "Adventurer's Card"
+  },
+  "Bard's Instrument": {
+    "bonuses": [
+      {
+        "type": "skill",
+        "value": 1,
+        "variable": "performance"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A masterwork lute, violin, or equivalent instrument -- the choice is aesthetic and the quality is real. The sound carries further than it should. Price: 5-15 sp.",
+    "name": "Bard's Instrument",
+    "slot": "main hand"
+  },
+  "Channeler's Robes": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "charisma"
+      }
+    ],
+    "category": "Armor",
+    "description": "A deep-hooded robe with sigils woven into the lining. The fabric is cold to the touch and seems to absorb ambient light. Price: 5-12 sp.",
+    "name": "Channeler's Robes",
+    "slot": "body"
+  },
+  "Curved Spellblade": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "dexterity"
+      },
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "intelligence"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A gracefully curved blade with a spell-channel along the spine -- lighter than a longsword, faster than a rapier. Price: 1-2 gp (enchanted).",
+    "name": "Curved Spellblade",
+    "slot": "main hand"
+  },
+  "Demi-Plane Anchor": {
+    "bonuses": [],
+    "category": "Key Item",
+    "description": "A physical tether between you and your pocket dimension. Priceless -- cannot be bought or sold.",
+    "name": "Demi-Plane Anchor"
+  },
+  "Duelist's Leather": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "dexterity"
+      },
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "intelligence"
+      }
+    ],
+    "category": "Armor",
+    "description": "Tailored leather armor with mana-channel stitching -- light enough for fencing footwork, enchanted enough for mid-combat casting. Price: 1-2 gp.",
+    "name": "Duelist's Leather",
+    "slot": "body"
+  },
+  "Large Mana Potion": {
+    "bonuses": [
+      {
+        "type": "resource",
+        "value": 40,
+        "variable": "Mana"
+      }
+    ],
+    "category": "Consumable",
+    "description": "A large blue vial of concentrated mana solution -- restores 40 mana. Reserved for archmages and anyone who refuses to stop casting. Tastes like a thunderstorm in a bottle. Price: 15-25 sp.",
+    "name": "Large Mana Potion"
+  },
+  "Merchant's Finery": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "charisma"
+      }
+    ],
+    "category": "Armor",
+    "description": "A well-cut coat with gold thread at the lapels and reinforced stitching at the pockets. Price: 5-12 sp.",
+    "name": "Merchant's Finery",
+    "slot": "body"
+  },
+  "Merchant's Ledger": {
+    "bonuses": [
+      {
+        "type": "skill",
+        "value": 1,
+        "variable": "persuasion"
+      }
+    ],
+    "category": "Tool",
+    "description": "A brass-bound ledger, a quality quill, and a seal stamp. Tracks debts, deals, and obligations with the precision of a courtroom. Price: 2-5 sp.",
+    "name": "Merchant's Ledger",
+    "slot": "kit"
+  },
+  "Scavenger's Pouch": {
+    "bonuses": [
+      {
+        "type": "skill",
+        "value": 1,
+        "variable": "survival"
+      }
+    ],
+    "category": "Tool",
+    "description": "A patched, pocketed pouch that somehow always has the right small item when you reach in. Price: 50 cp to 1 sp.",
+    "name": "Scavenger's Pouch",
+    "slot": "kit"
+  },
+  "Small Mana Potion": {
+    "bonuses": [
+      {
+        "type": "resource",
+        "value": 10,
+        "variable": "Mana"
+      }
+    ],
+    "category": "Consumable",
+    "description": "A small blue vial of mana-restoring solution -- restores 10 mana. Essential for mages between fights, or during fights that last longer than expected. Tastes like static electricity. Price: 3-6 sp.",
+    "name": "Small Mana Potion"
+  },
+  "Trickster's Cloak": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "dexterity"
+      },
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "charisma"
+      }
+    ],
+    "category": "Armor",
+    "description": "A layered cloak over light leather -- fashionable, functional, and always positioned for a dramatic reveal. Price: 5-12 sp.",
+    "name": "Trickster's Cloak",
+    "slot": "body"
+  },
+  "Healer's Vestments": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "wisdom"
+      }
+    ],
+    "category": "Armor",
+    "description": "Simple white-and-cream vestments with silver thread at the cuffs. Practical enough for field work, presentable enough for temple audiences. Price: 3-8 sp.",
+    "name": "Healer's Vestments",
+    "slot": "body"
+  },
+  "Pearl of the Tides": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "constitution"
+      }
+    ],
+    "category": "Accessory",
+    "description": "An iridescent pearl from the deep ocean -- grants water breathing for short periods and enhances stamina. Price: 1-3 gp (rare).",
+    "name": "Pearl of the Tides",
+    "slot": "accessory"
+  },
+  "Performer's Attire": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "charisma"
+      }
+    ],
+    "category": "Armor",
+    "description": "Fashionable and practical -- a tailored coat with hidden pockets. Looks expensive enough to get you into noble parties. Price: 5-12 sp.",
+    "name": "Performer's Attire",
+    "slot": "body"
+  },
+  "Shed-Scale Armband": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "dexterity"
+      }
+    ],
+    "category": "Accessory",
+    "description": "An armband woven from the wearer's own shed scales -- flexible, beautiful, and as hard as steel. Price: 2-5 sp (minor charm).",
+    "name": "Shed-Scale Armband",
+    "slot": "accessory"
+  },
+  "Sorcerer's Crystal": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "intelligence"
+      },
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "charisma"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A palm-sized arcane crystal that hovers near its wielder or clips to a bracelet. Raw magic made portable. Price: 1-3 gp (enchanted).",
+    "name": "Sorcerer's Crystal",
+    "slot": "main hand"
+  },
+  "Traveler's Rations": {
+    "bonuses": [],
+    "category": "Consumable",
+    "description": "Dried meat, hard cheese, and travel biscuits -- enough for three days on the road. Not gourmet, but it keeps you moving. Price: 1-2 sp.",
+    "name": "Traveler's Rations"
+  },
+  "Wind Feather Charm": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "dexterity"
+      }
+    ],
+    "category": "Accessory",
+    "description": "A single perfect feather from the harpy-kin's first flight, enchanted to always point toward favorable wind. Price: 2-5 sp (minor charm).",
+    "name": "Wind Feather Charm",
+    "slot": "accessory"
+  },
+  "Beast-Kin Ear Cuffs": {
+    "bonuses": [
+      {
+        "type": "skill",
+        "value": 1,
+        "variable": "Perception"
+      }
+    ],
+    "category": "Accessory",
+    "description": "Enchanted ear cuffs that amplify the wearer's already-sharp beastkin hearing. Price: 2-5 sp (minor charm).",
+    "name": "Beast-Kin Ear Cuffs",
+    "slot": "accessory"
+  },
+  "Blood Amber Pendant": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "constitution"
+      }
+    ],
+    "category": "Accessory",
+    "description": "A polished gem the color of dried blood that pulses faintly in moonlight. Grants dark resistance and sustains the dhampir's vitality between feedings. Price: 1-2 gp (rare).",
+    "name": "Blood Amber Pendant",
+    "slot": "accessory"
+  },
+  "Large Health Potion": {
+    "bonuses": [
+      {
+        "type": "resource",
+        "value": 50,
+        "variable": "health"
+      }
+    ],
+    "category": "Consumable",
+    "description": "A large red vial of concentrated restorative alchemy -- the premium option. Restores 50 health. Tastes like cherry wine and survival. Price: 15-25 sp.",
+    "name": "Large Health Potion"
+  },
+  "Necromancer's Staff": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "intelligence"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A black iron staff topped with a small skull that does not belong to any known creature. The skull's eye sockets glow when death magic is cast nearby. Price: 5-12 sp.",
+    "name": "Necromancer's Staff",
+    "slot": "main hand"
+  },
+  "Serpent Fang Amulet": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "dexterity"
+      }
+    ],
+    "category": "Accessory",
+    "description": "A fang-shaped amulet carved from lamia ivory -- enhances the wearer's natural flexibility and grants minor poison resistance. Price: 2-5 sp (minor charm).",
+    "name": "Serpent Fang Amulet",
+    "slot": "accessory"
+  },
+  "Small Health Potion": {
+    "bonuses": [
+      {
+        "type": "resource",
+        "value": 15,
+        "variable": "health"
+      }
+    ],
+    "category": "Consumable",
+    "description": "A small red vial of restorative alchemy -- the budget option. Restores 15 health. Tastes like cherry cough syrup and desperation. Price: 3-6 sp.",
+    "name": "Small Health Potion"
+  },
+  "Warden's Leaf Charm": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "wisdom"
+      }
+    ],
+    "category": "Accessory",
+    "description": "A small silver leaf on a fine chain -- sacred to the Warden Circle. Attunes the wearer to the forest's mood. Price: 2-5 sp (minor charm).",
+    "name": "Warden's Leaf Charm",
+    "slot": "accessory"
+  },
+  "Illusionist's Dagger": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "dexterity"
+      },
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "charisma"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A slender dagger with an illusion-etched blade that shimmers at the edges -- hard to track, harder to predict. Price: 5-12 sp.",
+    "name": "Illusionist's Dagger",
+    "slot": "main hand"
+  },
+  "Large Stamina Potion": {
+    "bonuses": [
+      {
+        "type": "resource",
+        "value": 40,
+        "variable": "Stamina"
+      }
+    ],
+    "category": "Consumable",
+    "description": "A large green vial of concentrated stamina tonic -- restores 40 stamina. For warriors who treat exhaustion as a scheduling problem. Tastes like mint and adrenaline. Price: 15-25 sp.",
+    "name": "Large Stamina Potion"
+  },
+  "Small Stamina Potion": {
+    "bonuses": [
+      {
+        "type": "resource",
+        "value": 10,
+        "variable": "Stamina"
+      }
+    ],
+    "category": "Consumable",
+    "description": "A small green vial of stamina tonic -- restores 10 stamina. The favorite of fighters between rounds. Tastes like grass and determination. Price: 3-6 sp.",
+    "name": "Small Stamina Potion"
+  },
+  "Sorcerer's Vestments": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "charisma"
+      }
+    ],
+    "category": "Armor",
+    "description": "Elegant vestments that prioritize presence over protection -- enchanted to catch the eye and hold attention. Price: 8-15 sp.",
+    "name": "Sorcerer's Vestments",
+    "slot": "body"
+  },
+  "Enchanted Hero's Blade": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 3,
+        "variable": "strength"
+      },
+      {
+        "type": "attribute",
+        "value": 2,
+        "variable": "dexterity"
+      },
+      {
+        "type": "skill",
+        "value": 1,
+        "variable": "melee"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A blade with a named enchantment woven into the steel -- it hums faintly in the presence of danger and strikes with more force than its wielder alone could generate. S-rank. Price: 3-8 gp.",
+    "name": "Enchanted Hero's Blade",
+    "slot": "main hand"
+  },
+  "Gravecaller's Vestments": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "constitution"
+      }
+    ],
+    "category": "Armor",
+    "description": "A dark robe embroidered with ash-grey bone patterns. The fabric is woven with grave-dust and something that might be spider silk. Price: 5-12 sp.",
+    "name": "Gravecaller's Vestments",
+    "slot": "body"
+  },
+  "Scholar's Travelling Coat": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "intelligence"
+      }
+    ],
+    "category": "Armor",
+    "description": "A well-made travelling coat with ink-stained cuffs and more pockets than any garment reasonably needs. Price: 2-5 sp.",
+    "name": "Scholar's Travelling Coat",
+    "slot": "body"
+  },
+  "Enchanter's Inscribing Kit": {
+    "bonuses": [
+      {
+        "type": "skill",
+        "value": 1,
+        "variable": "Arcana"
+      }
+    ],
+    "category": "Tool",
+    "description": "A leather-wrapped case containing inscribing styluses, binding chalk, etching needles, and three small pots of enchanted ink. Price: 8 sp to 2 gp.",
+    "name": "Enchanter's Inscribing Kit",
+    "slot": "kit"
+  },
+  "Sacred Naginata": {
+    "bonuses": [
+      {
+        "type": "skill",
+        "value": 1,
+        "variable": "Arcana"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A ceremonial polearm with a moon-curved blade at its peak, wrapped in paper charms that flutter but never tear. Light enough for precise strikes, heavy enough to matter. The naginata hums faintly when spirits are near. Price: 8-15 sp.",
+    "name": "Sacred Naginata",
+    "slot": "main hand"
+  },
+  "Shrine Vestments": {
+    "bonuses": [
+      {
+        "type": "skill",
+        "value": 1,
+        "variable": "Arcana"
+      }
+    ],
+    "category": "Armor",
+    "description": "Flowing white-and-scarlet robes trimmed with paper-ofuda strips at the hem and sleeves. No physical protection to speak of -- the protection is spiritual. Price: 5-12 sp.",
+    "name": "Shrine Vestments",
+    "slot": "body"
+  },
+  "Illusionist's Prism": {
+    "bonuses": [
+      {
+        "type": "skill",
+        "value": 1,
+        "variable": "Arcana"
+      }
+    ],
+    "category": "Tool",
+    "description": "A palm-sized crystal prism that refracts light in impossible directions. When held, it splits your reflection into three. Price: 8-15 sp.",
+    "name": "Illusionist's Prism",
+    "slot": "kit"
+  },
+  "Beast-Caller's Whistle": {
+    "bonuses": [
+      {
+        "type": "skill",
+        "value": 1,
+        "variable": "survival"
+      }
+    ],
+    "category": "Tool",
+    "description": "A carved bone whistle on a leather cord. When blown, it produces a sound most humans cannot hear but animals find deeply compelling. Price: 2-5 sp.",
+    "name": "Beast-Caller's Whistle",
+    "slot": "kit"
+  },
+  "Runesmith's Chisel Set": {
+    "bonuses": [
+      {
+        "type": "skill",
+        "value": 1,
+        "variable": "Arcana"
+      }
+    ],
+    "category": "Tool",
+    "description": "A leather roll containing three carving chisels, a rune-transfer stylus, a small hammer with a magnetized head, and a reference card of the seventeen foundational runes. Price: 8 sp to 2 gp.",
+    "name": "Runesmith's Chisel Set",
+    "slot": "kit"
+  },
+  "Scale Mail": {
+    "bonuses": [
+      {
+        "type": "skill",
+        "value": 1,
+        "variable": "evasion"
+      }
+    ],
+    "category": "Armor",
+    "description": "Overlapping metal scales riveted to a leather backing -- heavier than leather, lighter than chain. Good protection for someone who needs to work with their hands near a forge. Price: 5-12 sp.",
+    "name": "Scale Mail",
+    "slot": "body"
+  },
+  "Saint's Blade": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 5,
+        "variable": "strength"
+      },
+      {
+        "type": "attribute",
+        "value": 4,
+        "variable": "dexterity"
+      },
+      {
+        "type": "skill",
+        "value": 3,
+        "variable": "melee"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A blade that exists at the boundary between weapon and natural law. It does not cut because it is sharp -- it cuts because the wielder has decided that the thing in front of them is divided. The metal is impossible to identify. Carried by the Sword Saint, it is not a tool. It is a statement of intent given form. QUEST ONLY -- no purchase price.",
+    "name": "Saint's Blade",
+    "slot": "main hand"
+  },
+  "Godsblood Shard": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 2,
+        "variable": "wisdom"
+      },
+      {
+        "type": "attribute",
+        "value": 2,
+        "variable": "charisma"
+      }
+    ],
+    "category": "Accessory",
+    "description": "A crystallized fragment of divine essence -- warm to the touch, faintly luminous in darkness, and resonant with whatever divine domain the bearer carries. The shard cannot be lost -- it reappears in the bearer's possession within hours if separated. QUEST ONLY -- no purchase price.",
+    "name": "Godsblood Shard",
+    "slot": "ring"
+  },
+  "Mortal Guise": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 2,
+        "variable": "charisma"
+      }
+    ],
+    "category": "Armor",
+    "description": "Clothing that helps a divine being pass as mortal. Priceless -- QUEST ONLY. Cannot be bought or sold.",
+    "name": "Mortal Guise",
+    "slot": "body"
+  },
+  "Saint's Spear": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 4,
+        "variable": "strength"
+      },
+      {
+        "type": "attribute",
+        "value": 5,
+        "variable": "dexterity"
+      },
+      {
+        "type": "skill",
+        "value": 3,
+        "variable": "melee"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A spear that exists at the boundary between weapon and natural law. It does not pierce because it is sharp -- it pierces because the wielder has decided that the space between them and their target no longer matters. QUEST ONLY -- no purchase price.",
+    "name": "Saint's Spear",
+    "slot": "main hand"
+  },
+  "Saint's Bow": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 5,
+        "variable": "dexterity"
+      },
+      {
+        "type": "attribute",
+        "value": 4,
+        "variable": "wisdom"
+      },
+      {
+        "type": "skill",
+        "value": 3,
+        "variable": "ranged"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A bow that exists at the boundary between weapon and natural law. It does not shoot arrows -- it places inevitabilities. The range is whatever the Bow Saint can see. QUEST ONLY -- no purchase price.",
+    "name": "Saint's Bow",
+    "slot": "main hand"
+  },
+  "Saint's Shield": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 5,
+        "variable": "constitution"
+      },
+      {
+        "type": "attribute",
+        "value": 4,
+        "variable": "strength"
+      },
+      {
+        "type": "skill",
+        "value": 2,
+        "variable": "melee"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A shield that exists at the boundary between defense and natural law. It does not block because it is durable -- it blocks because the Shield Saint has decided that nothing passes. QUEST ONLY -- no purchase price.",
+    "name": "Saint's Shield",
+    "slot": "off hand"
+  },
+  "Saint's Mace": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 4,
+        "variable": "strength"
+      },
+      {
+        "type": "attribute",
+        "value": 3,
+        "variable": "constitution"
+      },
+      {
+        "type": "skill",
+        "value": 2,
+        "variable": "melee"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A mace that matches the Shield Saint's doctrine -- devastating on the attack, unbreakable in the clinch. The head is forged from the same impossible material as the Saint's Shield. QUEST ONLY -- no purchase price.",
+    "name": "Saint's Mace",
+    "slot": "main hand"
+  },
+  "Kirin's Horn": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "wisdom"
+      }
+    ],
+    "category": "Accessory",
+    "description": "A shard of a kirin's horn, warm and humming faintly with a favored element. It marks its bearer as a beast of virtue and judgment. Price: 1-3 gp (rare).",
+    "name": "Kirin's Horn",
+    "slot": "accessory"
+  },
+  "Everflame Feather": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "constitution"
+      }
+    ],
+    "category": "Accessory",
+    "description": "A single phoenix feather that burns without heat and never goes out, stirring with the quiet promise of rebirth. QUEST ONLY -- no purchase price.",
+    "name": "Everflame Feather",
+    "slot": "accessory"
+  },
+  "Draconic Heartscale": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "constitution"
+      }
+    ],
+    "category": "Accessory",
+    "description": "A scale taken from over a true dragon's heart -- nigh-indestructible, warm with slumbering power. QUEST ONLY -- no purchase price.",
+    "name": "Draconic Heartscale",
+    "slot": "accessory"
+  },
+  "Silk-Weaver's Band": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "dexterity"
+      }
+    ],
+    "category": "Accessory",
+    "description": "A band woven of unbreakable jorougumo silk. The four small marks on its clasp seem, at odd moments, to watch the room. Price: 2-5 sp (minor charm).",
+    "name": "Silk-Weaver's Band",
+    "slot": "accessory"
+  },
+  "Tengu Mask": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "dexterity"
+      }
+    ],
+    "category": "Accessory",
+    "description": "A lacquered tengu mask that rests light and lifeless against the face -- until it is truly worn, and wakes, and so does what sleeps between the shoulders. Price: 1-3 gp (rare).",
+    "name": "Tengu Mask",
+    "slot": "accessory"
+  },
+  "Kirin's Radiant Spear": {
+    "bonuses": [
+      {
+        "type": "skill",
+        "value": 2,
+        "variable": "melee"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A slender spear whose blade channels the wielder's favored element, said to never strike an innocent. Favored by kirin who walk in human form. QUEST ONLY -- no purchase price.",
+    "name": "Kirin's Radiant Spear",
+    "slot": "main hand"
+  },
+  "Everflame Talon-Blade": {
+    "bonuses": [
+      {
+        "type": "skill",
+        "value": 2,
+        "variable": "melee"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A curved blade sheathed in cool phoenix-fire that flares white-hot on a strike, scoring even dragonhide. QUEST ONLY -- no purchase price.",
+    "name": "Everflame Talon-Blade",
+    "slot": "main hand"
+  },
+  "Dragonfang Greatblade": {
+    "bonuses": [
+      {
+        "type": "skill",
+        "value": 2,
+        "variable": "melee"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A massive greatsword forged from a shed true-dragon fang -- nigh-unbreakable and hungry for battle. QUEST ONLY -- no purchase price.",
+    "name": "Dragonfang Greatblade",
+    "slot": "main hand"
+  },
+  "Silk-Garrote Fans": {
+    "bonuses": [
+      {
+        "type": "skill",
+        "value": 2,
+        "variable": "melee"
+      }
+    ],
+    "category": "Weapon",
+    "description": "Paired bladed war-fans strung with unbreakable jorougumo silk, equally suited to grace, ensnaring, and killing. Price: 1-2 gp (enchanted).",
+    "name": "Silk-Garrote Fans",
+    "slot": "main hand"
+  },
+  "Crow-Feather Katana": {
+    "bonuses": [
+      {
+        "type": "skill",
+        "value": 2,
+        "variable": "melee"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A jet-black folded blade light as a feather and swift as the mountain wind, carried by tengu sword-masters. Price: 1-3 gp (enchanted).",
+    "name": "Crow-Feather Katana",
+    "slot": "main hand"
+  },
+  "Blacksteel Sword": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 2,
+        "variable": "strength"
+      },
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "dexterity"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A broad, dark-tempered blade of blacksteel -- heavier than it looks and hungrier. Warden's-issue steel, the kind a B-rank front-liner trusts when the fight is real. Price: 10-20 sp.",
+    "name": "Blacksteel Sword",
+    "slot": "main hand"
+  },
+  "Blacksteel Shield": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 2,
+        "variable": "constitution"
+      }
+    ],
+    "category": "Weapon",
+    "description": "A kite shield faced in blacksteel, scarred and dependable. Made to turn a blow you didn't see coming. Price: 5-12 sp.",
+    "name": "Blacksteel Shield",
+    "slot": "off hand"
+  },
+  "Blacksteel Helmet": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "constitution"
+      }
+    ],
+    "category": "Armor",
+    "description": "A close helm of blacksteel with a narrow visor -- poor for seeing, excellent for keeping your head attached to your shoulders. Price: 2-5 sp.",
+    "name": "Blacksteel Helmet",
+    "slot": "head"
+  },
+  "Blacksteel Armor": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 3,
+        "variable": "constitution"
+      },
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "strength"
+      }
+    ],
+    "category": "Armor",
+    "description": "A full blacksteel cuirass over a padded gambeson -- the heart of a warden's harness. Heavy, matte, and unglamorous, and it will bring you home. Price: 8-15 sp.",
+    "name": "Blacksteel Armor",
+    "slot": "body"
+  },
+  "Blacksteel Greaves": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "constitution"
+      }
+    ],
+    "category": "Armor",
+    "description": "Blacksteel shin and thigh plates, articulated at the knee. Price: 2-5 sp.",
+    "name": "Blacksteel Greaves",
+    "slot": "legs"
+  },
+  "Blacksteel Bracers": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "strength"
+      }
+    ],
+    "category": "Armor",
+    "description": "Blacksteel vambraces and gauntlets, knuckles reinforced. Good for parrying with your forearm and worse for the face that meets them. Price: 2-5 sp.",
+    "name": "Blacksteel Bracers",
+    "slot": "hands"
+  },
+  "Blacksteel Gorget": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "constitution"
+      }
+    ],
+    "category": "Accessory",
+    "description": "A blacksteel throat-guard that buckles beneath the helm. Small, unloved, and the one piece veterans never leave off. Price: 1-3 sp.",
+    "name": "Blacksteel Gorget"
+  },
+  "Blacksteel Pauldrons": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "constitution"
+      },
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "strength"
+      }
+    ],
+    "category": "Armor",
+    "description": "Heavy blacksteel shoulder plates, layered to shrug a downward cut. Price: 3-8 sp.",
+    "name": "Blacksteel Pauldrons"
+  },
+  "Reinforced Warden's Cloak": {
+    "bonuses": [
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "constitution"
+      },
+      {
+        "type": "attribute",
+        "value": 1,
+        "variable": "dexterity"
+      }
+    ],
+    "category": "Accessory",
+    "description": "A weatherworn warden's cloak with a mail-lined collar and reinforced shoulders -- warmth, a little armor, and the quiet authority of the border watch. Price: 3-8 sp.",
+    "name": "Reinforced Warden's Cloak"
+  },
+  "Copper Coin": {
+    "name": "Copper Coin",
+    "category": "Currency",
+    "description": "The base currency of Aerfala. 100 cp = 1 sp. Used for daily life: food, drink, inn stays, tolls, small purchases. Most adventurers carry copper as their everyday spending money.",
+    "bonuses": []
+  },
+  "Silver Coin": {
+    "name": "Silver Coin",
+    "category": "Currency",
+    "description": "100 cp = 1 sp. 100 sp = 1 gp. The working currency of adventurers and soldiers. Used for weapons, armor, potions, wages, travel. Most adventuring transactions happen in silver.",
+    "bonuses": []
+  },
+  "Gold Coin": {
+    "name": "Gold Coin",
+    "category": "Currency",
+    "description": "100 sp = 1 gp. 10,000 cp = 1 gp. The currency of property, enchanted gear, mercenary contracts, and high-rank bounties. Gold appears at rank A+ among merchants and nobles. Most adventurers rarely see gold.",
+    "bonuses": []
+  },
+  "Foxglow Cap": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "A faintly glowing mushroom from the Demi-Plane's spirit-forests — an ordinary fungus transformed by native magical ecology. Its cap sheds a soft foxfire glow, and freshly cut flesh pulses gently for a few minutes. Sought by alchemists as a mild restorative reagent and a harmless luminescent ingredient. Edible cooked; raw, it causes vivid dreams for one night. Common in the Veiled Fox Sanctuary's spirit-forest half. Price: 5-15 cp.",
+    "name": "Foxglow Cap"
+  },
+  "Lantern-Tree Sap": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Resin drawn from a lantern-tree of the Demi-Plane's temperate groves — an ordinary tree whose sapwood stores foxfire. The amber sap retains a warm, dim light for days after harvest. Used as a natural light source, a base for glowing lacquers, and a stabilizer in spirit-related alchemy. Draining it responsibly does not harm the tree. Common. Price: 10-25 cp.",
+    "name": "Lantern-Tree Sap"
+  },
+  "Moonlace Bloom": {
+    "bonuses": [],
+    "category": "Consumable",
+    "description": "A delicate bloom from the Demi-Plane's meadows that flowers only under moonlight or rain — an ordinary wildflower transformed by lunar influence. Picked during bloom, it keeps its shine for about a week. Brewed whole into a calming tea that eases fear and settles restless sleep. Wilts to ordinary petals once spent. Common in the First Meadow, rare elsewhere. Price: 15-40 cp.",
+    "name": "Moonlace Bloom"
+  },
+  "Glowmoss Stone": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "A dense, cool stone from the Demi-Plane's marshy lowlands — ordinary river-stone changed by native magical ecology. It absorbs ambient light by day and releases it as a pale glow through the night, dimming toward dawn. Carved into markers, lamps, and charms. Holds half its charge even after years of use. Common. Price: 20-50 cp.",
+    "name": "Glowmoss Stone"
+  },
+  "Foxfire Dew Bead": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "A crystallized dew-bead from the Westreach's tundra-flats — ordinary morning dew transformed by foxfire. Each bead hums faintly and holds a few minutes of soft light when cracked. Beloved by travelers as a disposable, harmless illumination tool, and by children as toys. Evaporates completely once spent. Uncommon. Price: 5-12 cp each, usually sold in strings of ten (50-120 cp).",
+    "name": "Foxfire Dew Bead"
+  },
+  "Spirit Pollen": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Fine luminous pollen from the First Meadow's flowers — an ordinary flower's pollen changed by spirit-rich ecology. Swept into a pouch, it hangs as slow-drifting dust that brightens where magic passes near. Useful for tracing wards, tracking spell-shadows, or lighting a path without flame. Spent dust goes grey and inert. Uncommon. Price: 25-60 cp per pouch.",
+    "name": "Spirit Pollen"
+  },
+  "Blueheart Ridge Chip": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "A seam-stone from the Rift March — ordinary dark stone transformed by the same native magic that lights the rifts. It holds a vein of cold blue light within, steady but faint, which brightens near strong emotion. Favored for quiet lamps and memorial stones. Cutting it releases that light harmlessly. Uncommon. Price: 30-80 cp.",
+    "name": "Blueheart Ridge Chip"
+  },
+  "Stillmoss Peat": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Peat cut from the Dim March's hushed moss-hollows — ordinary wetland peat transformed by native magical ecology. Burned slowly, it gives light without heat, scentless smoke, and an uncanny steadiness of flame. Traditionally used for night-work and silent vigils. Resting in the Dim March's own air, it never spoils. Common locally, rare elsewhere. Price: 10-20 cp per brick.",
+    "name": "Stillmoss Peat"
+  },
+  "Saltgrass Chime": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "A hard white sand-grain cluster from the Quiet Shore — ordinary shoreline sand transformed by native magical ecology. The grains chime once if touched and stay silent forever after; strung together, they make discreet warning jewelry that never false-alarms. A single grain of it can be sold or traded to a temple. Uncommon. Price: 15-35 cp. A full strand (twelve grains): 1-2 sp.",
+    "name": "Saltgrass Chime"
+  },
+  "Frost Foxfire Jar": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Frost-formed foxfire gathered from the Still Frontier's pines — an ordinary winter condensation changed by spirit energy. It melts nothing, glows blue-white, and refuses all heat; kept in a sealed jar it lasts a season, fading only when deliberately released. Prized for cold-light lanterns and certain delicate alchemical work. Rare, hard to harvest. Price: 50-90 cp per sealed jar.",
+    "name": "Frost Foxfire Jar"
+  },
+  "Preservation Moss": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Soft grey-green moss from the Dim March that dramatically slows natural decay in anything wrapped within it. Used for preserving food, herbs, monster parts, and delicate alchemical reagents. Price: 15-40 cp per bundle.",
+    "name": "Preservation Moss"
+  },
+  "Muted Spirit-Stone": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "A smooth spirit-stone from the Dim March that absorbs weak sound and magical vibration instead of reflecting it. Used in quiet chambers, stealth enchantments, and containment work. Price: 40-80 cp.",
+    "name": "Muted Spirit-Stone"
+  },
+  "Silence-Thread Fungus": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "A pale filament fungus found beneath Dim March moss. Its fibers dampen sound when woven into cloth or cord. Useful for stealth gear and ritual chambers. Price: 25-60 cp per bundle.",
+    "name": "Silence-Thread Fungus"
+  },
+  "Anchor-Stone": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Dense grey stone formed near the Grey Boundary's dimensional anchor. Difficult to move magically and prized for stabilizing portals, wards, and permanent enchantments. Price: 1-3 gp.",
+    "name": "Anchor-Stone"
+  },
+  "Fog Crystal": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "A translucent crystal condensed from the Grey Boundary's permanent fog. Cold mist spills from its surface when exposed to mana. Used in concealment and boundary magic. Price: 5-12 sp.",
+    "name": "Fog Crystal"
+  },
+  "Boundary Moss": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Silver-grey moss growing where stable land meets dimensional fog. It curls toward nearby distortions in space, making it useful as a primitive planar detector. Price: 30-70 cp.",
+    "name": "Boundary Moss"
+  },
+  "Condensed Dimensional Mist": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Raw dimensional mist sealed inside a reinforced crystal vial. Used in portal research, spatial alchemy, and advanced enchantment. Mishandling it makes nearby distances behave strangely. Price: 8-20 sp.",
+    "name": "Condensed Dimensional Mist"
+  },
+  "Horizon Grass": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Long golden-green grass from the Open Horizon that always bends toward the clearest open route. Dried bundles are used by travelers and navigators. Price: 10-25 cp.",
+    "name": "Horizon Grass"
+  },
+  "Windseed": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "A feather-light seed carried for extraordinary distances by even weak air currents. Alchemists use it in mobility tonics and wind enchantments. Price: 20-50 cp per pouch.",
+    "name": "Windseed"
+  },
+  "Ambient Mana Crystal": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "A naturally formed crystal containing diffuse ambient mana rather than concentrated restorative energy. Primarily used for crafting, enchanting, and powering minor magical devices. Price: 1-3 sp.",
+    "name": "Ambient Mana Crystal"
+  },
+  "Fadeglass": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Half-translucent glassy stone from the Fade whose edges seem to disappear when viewed indirectly. Used in illusion work and concealment enchantments. Price: 5-12 sp.",
+    "name": "Fadeglass"
+  },
+  "Mist Pearl": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "A smooth pearl formed inside condensed boundary mist. Cool to the touch and perpetually damp, it is valuable in water, illusion, and dimensional alchemy. Price: 3-8 sp.",
+    "name": "Mist Pearl"
+  },
+  "Soundless Stone": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "A dark stone from the Fade that produces no audible sound when struck, dropped, or broken. Used for stealth construction, ritual chambers, and specialized tools. Price: 4-10 sp.",
+    "name": "Soundless Stone"
+  },
+  "Nullstone": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Rare stone from the Last Edge that resists magical influence and suppresses weak enchantments touching its surface. Extremely valuable for containment and anti-magic craftsmanship. Price: 1-3 gp.",
+    "name": "Nullstone"
+  },
+  "Fixed-Point Fragment": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "A splinter of crystallized spatial stability from the Last Edge. It refuses teleportation and remains metaphysically tied to the place where it formed. Advanced planar reagent. Price: 2-5 gp.",
+    "name": "Fixed-Point Fragment"
+  },
+  "Glow-Reed": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "A marsh reed from the Low Reaches whose hollow stalk glows pale green after sunset. Commonly dried for lanterns, weaving, and minor alchemy. Price: 10-25 cp per bundle.",
+    "name": "Glow-Reed"
+  },
+  "Spirit Peat": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Mana-rich peat cut from the Low Reaches. Burns with a blue-green flame and is useful as fuel for alchemical furnaces and spirit rituals. Price: 15-35 cp per brick.",
+    "name": "Spirit Peat"
+  },
+  "Luminous Waterplant": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "A soft aquatic plant whose veins carry faint blue light. Used in healing salves, water-breathing mixtures, and decorative spirit ponds. Price: 20-50 cp.",
+    "name": "Luminous Waterplant"
+  },
+  "Spirit Clay": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Fine clay from the Hollow Vale that accepts magical inscriptions unusually well before firing. Favored for talismans, ritual vessels, and enchanted pottery. Price: 25-60 cp per block.",
+    "name": "Spirit Clay"
+  },
+  "Foxfire Moss": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Soft moss carrying tiny blue-violet foxfire lights. Used for shrine decoration, spirit medicine, and low-power magical illumination. Price: 20-50 cp per bundle.",
+    "name": "Foxfire Moss"
+  },
+  "Mana Amber": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Golden translucent resin found beneath the Deep Expanse, hardened around pockets of ambient mana. Valuable for enchantment cores and magical jewelry. Price: 3-8 sp.",
+    "name": "Mana Amber"
+  },
+  "Warmroot": {
+    "bonuses": [],
+    "category": "Consumable",
+    "description": "A fragrant root from the Southroll that remains pleasantly warm after harvesting. Brewed into tea or eaten roasted to ease fatigue and cold. Price: 15-40 cp.",
+    "name": "Warmroot"
+  },
+  "Firefly Dust": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Golden luminous dust naturally shed by Southroll fireflies. Used in light enchantments, cosmetics, inks, and festival lanterns. Price: 25-60 cp per vial.",
+    "name": "Firefly Dust"
+  },
+  "Rift Crystal": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "A dark crystal threaded with cold blue light from the Rift March. Stores unstable earth and spatial mana, making it valuable and dangerous in advanced crafting. Price: 5-15 sp.",
+    "name": "Rift Crystal"
+  },
+  "Darkstone": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Dense black stone quarried from the Rift March. Exceptionally durable and resistant to heat, commonly used for fortifications and heavy magical construction. Price: 40-90 cp per workable block.",
+    "name": "Darkstone"
+  },
+  "Blue Mana Ore": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Metal-bearing ore threaded with bright blue mana veins. Smelted into mana-conductive alloys for enchanted weapons, tools, and machinery. Price: 2-6 sp per chunk.",
+    "name": "Blue Mana Ore"
+  },
+  "Deep Fungus": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "A hardy cave fungus growing in the Rift March's colder clefts. Absorbs trace minerals and mana from stone, making it useful in defensive and restorative alchemy. Price: 20-50 cp.",
+    "name": "Deep Fungus"
+  },
+  "Moon-Sand": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Fine white sand from the Quiet Shore that reflects moonlight more strongly than sunlight. Used in divination, glassmaking, and lunar enchantments. Price: 30-70 cp per pouch.",
+    "name": "Moon-Sand"
+  },
+  "Shell Crystal": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "A crystalline shell fragment found along the Quiet Shore. Hard, pearlescent, and naturally resistant to water magic. Price: 1-3 sp.",
+    "name": "Shell Crystal"
+  },
+  "Pale Driftwood": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Smooth white driftwood appearing along the Quiet Shore despite no normal sea existing beyond it. Light, tough, and receptive to spirit enchantments. Price: 30-80 cp.",
+    "name": "Pale Driftwood"
+  },
+  "Mana Fruit": {
+    "bonuses": [
+      {
+        "type": "resource",
+        "value": 5,
+        "variable": "Mana"
+      }
+    ],
+    "category": "Consumable",
+    "description": "A cultivated fruit from Heartgate Basin whose flesh contains a small amount of harmless ambient mana. Restores 5 mana when eaten fresh. Price: 30-60 cp.",
+    "name": "Mana Fruit"
+  },
+  "Spirit Flower": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "A cultivated magical flower from Heartgate Basin. Its petals retain trace spirit energy and serve as a flexible ingredient in medicines, charms, incense, and ritual offerings. Price: 20-50 cp.",
+    "name": "Spirit Flower"
+  },
+  "Redstone": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Warm reddish stone from beneath the Dawn Barrow's streams. Holds heat gently and strengthens fire-aligned or vitality-focused enchantments. Price: 30-70 cp per chunk.",
+    "name": "Redstone"
+  },
+  "Clear Mana-Water": {
+    "bonuses": [
+      {
+        "type": "resource",
+        "value": 5,
+        "variable": "Mana"
+      }
+    ],
+    "category": "Consumable",
+    "description": "Exceptionally pure water naturally infused with ambient mana in the Dawn Barrow. Restores 5 mana when a sealed vial is consumed. Price: 25-50 cp.",
+    "name": "Clear Mana-Water"
+  },
+  "Mana-Stone": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Mana-dense stone from the Easthold, warm even underground. Used as a durable power source in magical workshops, formations, and enchanted structures. Price: 2-5 sp.",
+    "name": "Mana-Stone"
+  },
+  "Heat Crystal": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Amber-red crystal from the Easthold that continuously releases gentle heat without consuming fuel. Used for heating, forging, incubation, and fire enchantments. Price: 3-8 sp.",
+    "name": "Heat Crystal"
+  },
+  "Foxfire Bloom": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "A blue-violet flower whose petals hold living foxfire without burning. Sacred to the Veiled Fox Sanctuary and useful in illusion, spirit, and warding alchemy. Price: 40-90 cp.",
+    "name": "Foxfire Bloom"
+  },
+  "Sacred Bamboo": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Bamboo grown within the Veiled Fox Sanctuary. Light, remarkably strong, and naturally receptive to wards, talismans, bows, flutes, and shrine construction. Price: 1-3 sp per usable length.",
+    "name": "Sacred Bamboo"
+  },
+  "Spirit Wood": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Wood harvested only from naturally fallen spirit-trees within the Veiled Fox Sanctuary. Carries ambient mana through its grain and is prized for staffs, shrines, instruments, and enchanted furniture. Price: 3-8 sp.",
+    "name": "Spirit Wood"
+  },
+  "Silver-Green Grass": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Fine silver-green meadow grass from the First Meadow. Strong when braided, softly luminous at night, and useful in charms, weaving, bedding, and basic spirit crafts. Price: 10-25 cp per bundle.",
+    "name": "Silver-Green Grass"
+  },
+  "Luminous Reed-Seed": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "A floating seed that shines like a tiny lantern. Found throughout the Threshold March and North Field, it is used in navigation charms and wind-related alchemy. Price: 15-40 cp per pouch.",
+    "name": "Luminous Reed-Seed"
+  },
+  "Mana-Rich Soil": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Dark fertile soil saturated with low concentrations of ambient mana. Plants grown in it mature quickly and are more likely to develop magical traits. Price: 20-50 cp per sack.",
+    "name": "Mana-Rich Soil"
+  },
+  "Spirit Mineral": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "A broad class of faintly luminous mineral deposits found throughout the Stone Rise. Used in enchanting, alchemy, and magical construction after refinement. Price: 1-3 sp per useful specimen.",
+    "name": "Spirit Mineral"
+  },
+  "Mineral Water": {
+    "bonuses": [],
+    "category": "Consumable",
+    "description": "Cold mineral-rich spring water from the Stone Rise. Refreshing, clean, and valued as a base for potions requiring highly stable water. Price: 10-25 cp per flask.",
+    "name": "Mineral Water"
+  },
+  "Spirit Pearl": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "A softly glowing pearl formed within the Mirror Mere by spirit-touched aquatic life. Used in water enchantments, divination, and high-quality jewelry. Price: 3-8 sp.",
+    "name": "Spirit Pearl"
+  },
+  "Mirror-Lotus": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "A pale lotus from the Mirror Mere whose petals reflect the viewer more clearly than surrounding water does. Valuable in divination, illusion magic, memory potions, and ritual teas. Price: 4-10 sp.",
+    "name": "Mirror-Lotus"
+  },
+  "Frostwood": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Pale timber from naturally fallen Still Frontier conifers. It remains cold even beside a fire and is useful for frost-aligned weapons, containers, and construction. Price: 2-5 sp.",
+    "name": "Frostwood"
+  },
+  "Ice Crystal": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "A permanent crystal of supernatural ice found beneath Still Frontier snowfields. Never melts under ordinary heat and serves as a powerful cold-alchemy reagent. Price: 3-8 sp.",
+    "name": "Ice Crystal"
+  },
+  "Silver Lichen": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Constellation-like luminous lichen growing across Pale Reaches stone. Used in divination powders, navigation inks, and low-light alchemy. Price: 25-60 cp.",
+    "name": "Silver Lichen"
+  },
+  "Pale Crystal": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Milky translucent crystal formed beneath the Pale Reaches. Easily accepts raw dimensional energy and is frequently used as a blank enchantment medium. Price: 1-4 sp.",
+    "name": "Pale Crystal"
+  },
+  "Rivergrass": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Tough flexible grass from the North Field's shifting water channels. Used for rope, baskets, travel mats, medicine, and water-aligned crafting. Price: 10-20 cp per bundle.",
+    "name": "Rivergrass"
+  },
+  "Mana-Rich Silt": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Fine blue-grey silt deposited by the North Field's shining channels. Exceptionally fertile and useful for cultivating magical aquatic and wetland plants. Price: 20-50 cp per sack.",
+    "name": "Mana-Rich Silt"
+  },
+  "Warped Stone": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Stone from the Fold whose internal geometry does not quite match its exterior shape. Used cautiously in spatial enchantments, puzzle architecture, and dimensional research. Price: 3-8 sp.",
+    "name": "Warped Stone"
+  },
+  "Spatial Crystal": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "A rare Fold crystal that bends light and distance around its edges. Essential for high-level teleportation, extradimensional storage, and spatial enchantments. Price: 1-3 gp.",
+    "name": "Spatial Crystal"
+  },
+  "Foldglass": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Glass-like mineral from the Fold that can show different surfaces depending on the viewing angle. Used for illusion devices, spatial maps, and enchanted lenses. Price: 5-15 sp.",
+    "name": "Foldglass"
+  },
+  "Veilglass": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Nearly transparent crystal formed where the Veiled Edge touches the dimensional curtain. Used in portal windows, spirit wards, and planar observation instruments. Price: 8-20 sp.",
+    "name": "Veilglass"
+  },
+  "Aurora Crystal": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "A luminous crystal containing slow-moving ribbons of colored light. Harvested near the Veiled Edge and prized for light, illusion, and spirit enchantments. Price: 5-12 sp.",
+    "name": "Aurora Crystal"
+  },
+  "Silver Spirit-Grass": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "Fine silver grass growing immediately beside the Veiled Edge. Its blades ripple toward disturbances in dimensional energy even without wind. Price: 30-80 cp per bundle.",
+    "name": "Silver Spirit-Grass"
+  },
+  "Boundary Essence": {
+    "bonuses": [],
+    "category": "Material",
+    "description": "A rare droplet of condensed planar energy gathered from the Veiled Edge itself. Used in powerful portal, summoning, warding, and dimensional enchantments. Difficult and dangerous to harvest. Price: 1-3 gp.",
+    "name": "Boundary Essence"
+  },
+  "Jade Rite Coin": {
+    "name": "Jade Rite Coin",
+    "description": "A ceremonial jade coin minted by the Kitsune no Kage for estate rites; a recognized token of the Mother Fox's household authority.",
+    "category": "Currency",
+    "bonuses": []
+  }
+}
