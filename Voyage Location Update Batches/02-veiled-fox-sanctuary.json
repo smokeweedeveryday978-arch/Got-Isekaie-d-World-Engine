@@ -1,0 +1,151 @@
+{
+  "The Hidden Estate of the Mother Fox": {
+    "name": "The Hidden Estate of the Mother Fox",
+    "basicInfo": "The ancestral seat of Tsukiko Kuzunoha, the primordial Mother of All Kitsune, hidden within her sacred Veiled Fox Sanctuary. Behind high warm-clay walls under black tiles and a crimson-lacquered gate, cherry blossoms and illusion conceal a compound that combines Heian Shinden-zukuri aristocracy with the spiritual gravity of a Tendai temple. Outsiders perceive a forgotten ruined temple swallowed by forest; permitted guests enter a serene, disciplined estate reached only through the sanctuary itself, never from the wider Demi-Plane. Tsukiko keeps no casual jewelry and favors soft inner robes, layered Heian silk, and seasonal kasane colors; her private rooms smell of hinoki, toasted rice tea, sakura, incense, clean skin, and foxfire. The estate is both home and hidden clan seat of the fox-masked Kitsune no Kage: shrine-bound kitsune, distant descendants, orphaned fox spirits, yokai retainers, household spirits, and lesser kitsune drawn to the Mother Flame through blood or spirit, serving from devotion and instinctive recognition rather than wages. The compound includes the sutra-engraved Mon, central Shinden pavilion, sealed Kita-no-in, eastern kōdō and calligraphy hall, guest wing, moonlit transformation dojo, and a sacred spirit garden centered on a crescent mirror lake. The estate is elegant, private, quietly populated, and fully alive beneath its apparent stillness.\n\nLiving Ecology: The crescent lake, old garden pines, foxfire lanterns, and sanctuary woodland form a closed living circuit around the compound. Lantern koi consume excess foxfire, violet moss filters roofwater, and fallen cherry petals become luminous soil beneath the outer groves, making the estate feel grown into Tsukiko's realm rather than placed upon it.",
+    "complexityType": "complex",
+    "region": "Veiled Fox Sanctuary",
+    "radius": 2,
+    "x": -6,
+    "y": -6,
+    "areas": {
+      "front-gate": {
+        "description": "The Mon — a massive gabled red-lacquer gate engraved with an ancient Tendai sutra and a discreet fox crest, opening only when Tsukiko summons it. It stands beneath the high warm-clay perimeter walls, whose roofline conceals an invisible guardian inscription legible only to yokai. Beyond the gate: the estate-court on raked white gravel, foxfire lantern posts along moss-grown stone terraces, and paths toward the spirit-garden.",
+        "paths": [
+          "estate-court"
+        ]
+      },
+      "central-pavilion": {
+        "description": "The Shinden — an elevated open hall with long verandas and an open-sky inner courtyard. Screens painted with golden mist and ink-brushed foxes divide meditation spaces, a hall for receiving gods, walking galleries, and chambers for tending spirit-wounded guests. Paper walls shift subtly for Tsukiko but remain rigid for others; corridors whisper to trusted people walking alone.",
+        "paths": [
+          "estate-court",
+          "kita-no-in",
+          "higashi-no-in",
+          "nishi-no-in",
+          "minami-no-in"
+        ]
+      },
+      "kita-no-in": {
+        "description": "Tsukiko's sealed private residence and sleeping quarters, hidden behind wisteria. Fresh tatami and a permanent hinoki scent. Inside lies the Veiled Sanctuary — her bedroom behind a shoji painted with sakura petals and falling fox tails: a low futon with charcoal-gray linens, a warm embroidered fox-pelt heirloom, a small altar of nightly rice, salt, milk, and sakura offerings, black-and-gold calligraphy scrolls on forgiveness, patience, and hidden fire, and a bone-and-silver wind chime that rings only when danger approaches. Foxglove blooms unplanted on the windowsill; the room stays warm and smells of toasted rice tea, hinoki, and something sweetly divine. Entry is by invitation — guests are received into the space, never merely entering it.",
+        "paths": [
+          "central-pavilion"
+        ]
+      },
+      "higashi-no-in": {
+        "description": "The eastern hall — kōdō incense ceremony chamber, a ritual room, and a calligraphy garden used for rites and instruction in the divine arts. Brush, inkstone, and seasonal flowers are always in correct arrangement.",
+        "paths": [
+          "central-pavilion"
+        ]
+      },
+      "nishi-no-in": {
+        "description": "The guest wing — serene rooms for no more than three permitted companions at once. Whatever power an invited guest carries, the hall reads their intent; paper walls remain precisely as rigid as hospitality requires.",
+        "paths": [
+          "central-pavilion"
+        ]
+      },
+      "minami-no-in": {
+        "description": "The moonlit silent southern dojo — polished dark wood open to the night, used for movement, balance, and transformation rather than combat. Foxfire lamps burn at exactly the brightness Tsukiko's mood sets.",
+        "paths": [
+          "central-pavilion"
+        ]
+      },
+      "spirit-garden": {
+        "description": "Behind the central hall: a slow crescent-shaped mirror lake with twin red bridges, supernatural koi, and floating foxfire. Its islands symbolize celestial tails — one holds a stone lantern said to contain the soul of the first fox born of Tsukiko's divine breath; another, wreathed in wisteria and moss, is her refuge when she wants solitude even from gods. Her reflection appears in the lake only when she permits it. Stone foxes in red bibs watch from mossy pedestals; paths cross in shimenawa-bound silence.",
+        "paths": [
+          "central-pavilion",
+          "estate-court",
+          "garden-of-moonlight"
+        ]
+      },
+      "estate-court": {
+        "description": "The open arrival court inside the Mon — raked white gravel, a still mirror pool, foxfire lantern posts, and the quiet bustle of masked attendants at the estate's edges. Tsukiko's household favors restraint, cleanliness, precise hospitality, and harmony: offerings are arranged correctly, paths are swept without visible labor, and every bow carries the weight of old court etiquette. Everything here is serene and disciplined; nothing is ever out of place.",
+        "paths": [
+          "front-gate",
+          "central-pavilion",
+          "spirit-garden",
+          "garden-of-moonlight",
+          "inner-halls"
+        ]
+      },
+      "garden-of-moonlight": {
+        "description": "A moonlit garden of deliberate arrangement adjoining the mirror lake — pines, maples, shide streamers, and a spring of clear water below sweeping bamboo. Stone foxes in red bibs watch from mossy pedestals. Paths cross in shimenawa-bound silence; the foxfire here is brightest at full moon, when the wordless prayers rise.",
+        "paths": [
+          "spirit-garden",
+          "estate-court"
+        ]
+      },
+      "inner-halls": {
+        "description": "The private halls of the Mother Fox — paper screens, low warm lamps, and rooms that rearrange in gentle, unobtrusive ways to suit her. The air carries hinoki, incense, toasted rice tea, smoked vanilla, and the faint sweetness of foxfire. A hearth burns without fuel. Recesses hold calligraphy on forgiveness, patience, and hidden fire; seasonal robes, ceremonial cords, and ritual ornaments are kept in exact order. Every hall opens onto a view of the sanctuary's shinboku at its heart. The halls are the physical expression of Tsukiko's preference for privacy, calm, intention, and a small trusted circle.",
+        "paths": [
+          "central-pavilion",
+          "estate-court"
+        ]
+      }
+    },
+    "factions": [],
+    "hiddenInfo": "The estate answers to Tsukiko alone. Its halls read intent: paper walls shift to shield private rooms when someone unwelcome approaches, and foxfire lanterns dim near strangers bearing false purpose — the lanterns are wards; anyone crossing with thieving intent feels their feet slow and their mind fog, as though wading into deep water with no shore visible. The Kitsune no Kage — the Shadows of the Fox — inhabit its lantern paths, cherry groves, and mirror-lake bridges: shrine-bound kitsune, distant descendants, orphaned fox spirits, yokai retainers, and household spirits, some serving since before Jōgan. They serve from devotion rather than wages: they tend foxfire lanterns, guard the gate against spirits using false names, maintain the lake and islands, carry messages through yokai roads and dream corridors, and sing wordless prayers at eclipses and full moons. Most do not know Tsukiko is literally their ancestral mother — they know her as the Lady of the Estate, the Still Flame, the Woman Before Whom Foxfire Bows. Their smooth white or black masks marked in red signify humility; appearing bare-faced before her is too intimate without permission. While she is veiled they may pass her with only a bow; when she unveils, every mask lowers, every tail stills, and every flame bends toward her. They speak only when addressed, never enter her sleeping sanctuary, and keep to the estate's edges. The estate functions as temple and hidden clan seat: it guards paths between the human world, yokai roads, dreams, shrines, and older realms, and preserves rituals forgotten even by gods — it can appear spiritually empty to mortals while fully populated. Yokai may technically enter uninvited — none dare. The shinboku at the sanctuary's heart draws Tsukiko's aether and pools a reserve beneath the estate that only she can call upon. Nothing here can be stolen, coerced, or bypassed; entry is possible only by invitation through the Veiled Fox Sanctuary, and no invading force could survive breaching it uninvited.\n\nEcological Continuity: The existing Kitsune no Kage and household spirits remain the estate's only established inhabitants; this ecological expansion adds no new household, clan, village, or outside population. The estate's wards read conduct and admitted intent at its boundaries without granting attendants unexplained knowledge of a visitor's identity, history, or secrets.",
+    "detailType": "detailed",
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/location_images/906d7a9b-2d6e-40f0-94d4-88b5d0b7e9a2.png"
+      }
+    },
+    "visited": true,
+    "lastVisitedTick": 13,
+    "known": true
+  },
+  "Shinboku": {
+    "name": "Shinboku",
+    "basicInfo": "The sacred heart-tree of the Veiled Fox Sanctuary — a vast, still shinboku standing at the sanctuary's center, ringed with a rope of braided gold and white paper in the oldest kami tradition. Its canopy is always faintly lit from within, its roots vanish into moss that lights underfoot, and the air beneath it tastes of cedar smoke and sugared ginger. Stone foxes face outward from its circle; nothing uninvited crosses it.\n\nLiving Ecology: At each false dawn the canopy releases nine slow-turning leaves of light. They dissolve before touching the moss and send a visible pulse through the sanctuary's fungi, spring, lantern trees, and western rootways.",
+    "x": 50,
+    "y": 40,
+    "radius": 2,
+    "region": "Veiled Fox Sanctuary",
+    "complexityType": "simple",
+    "detailType": "detailed",
+    "known": true,
+    "hiddenInfo": "The shinboku feeds on Tsukiko's presence — aether drawn from her divinity seeps through its roots and pools beneath the estate as a reserve only she can call upon. The tree is simultaneously shrine, battery, and covenant; the Chamberlain has proposed three times that the Demi-Plane's mana infrastructure route through it, and been politely declined each time. Shrine guardians walk its ring at set hours, and the sacred birds roost only in its lowest branches. Beneath the roots, small hidden shrine niches hold offerings left by the sanctuary's spirit-folk — unrecorded, undisturbed, and unread by anyone living.\n\nEcological Continuity: The tree's stored divine reserve belongs to Tsukiko alone. Ordinary ecological circulation uses only the softened overflow processed by fungus and root; wildlife feeding beneath the canopy gains health and luminescence, never her memories, authority, divinity, or secret knowledge.",
+    "factions": [],
+    "visited": false,
+    "lastVisitedTick": -1,
+    "visitedAreas": []
+  },
+  "Bamboo Spring": {
+    "name": "Bamboo Spring",
+    "basicInfo": "A spring of clear water pooling beneath sweeping bamboo at the edge of the sanctuary's inner groves — the quietest water in the dimension. The bamboo grows in deliberate rows, pale and faintly luminous; the spring surface holds reflection without ripple. Tea water drawn here never cools as quickly as it should, and foxfire blooms cluster at the bank as if keeping watch.\n\nLiving Ecology: Overflow from the spring slips beneath the bamboo in three clear threads: one feeds the sanctuary grove, one becomes Meadow dew, and one sinks toward the Quiet Shore's buried shell beds. Lantern koi and translucent spring-snails keep the basin clear without attendants needing to manage a decorative pond.",
+    "x": 25,
+    "y": 45,
+    "radius": 2,
+    "region": "Veiled Fox Sanctuary",
+    "complexityType": "simple",
+    "detailType": "detailed",
+    "known": true,
+    "hiddenInfo": "The spring is fed through the shinboku's root system, which is why its water carries a faint sense of Tsukiko's calm — drinking it settles intention and quiets fear. Sacred bamboo harvested here is the strongest conduit-wood in the Demi-Plane for wardwork and writing. A low stone basin sits half-buried at the bank, older in style than everything around it; moss rarely touches it, and the estate staff refill it weekly as if it were furniture. On some mornings the spring's reflection briefly contains a vermilion gate that is not standing anywhere nearby.\n\nEcological Continuity: The water settles fear because it dampens magical turbulence, not because it changes choices or feelings. Its effect is brief, gentle, and never overrides player agency, personality, or memory.",
+    "factions": [],
+    "visited": false,
+    "lastVisitedTick": -1,
+    "visitedAreas": []
+  },
+  "Torii Procession": {
+    "name": "Torii Procession",
+    "basicInfo": "The vermilion gate-line of the Veiled Fox Sanctuary — a procession of torii gates rising from the ferned woodland in sequence, each frame framing the next, stone paths crossing beneath them in shimenawa-bound silence. Passing each gate feels like setting down a small burden. The procession winds toward the sanctuary's deeper ground and, eventually, toward the Hidden Estate — for those who are bidden.\n\nLiving Ecology: Violetwing moths roost beneath the lintels and brighten one gate ahead of an authorized traveler. Moss paths weave around root nurseries, while falling red leaves pause beneath each torii before choosing a side.",
+    "x": 20,
+    "y": 20,
+    "radius": 3,
+    "region": "Veiled Fox Sanctuary",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "known": true,
+    "hiddenInfo": "The gates are not decoration but a threshold ceremony in permanent form — each torii is a ward that reads intent more precisely than the last. Uninvited walkers find the procession could lengthen without moving: no gate becomes the final gate, and the woods politely return them to the beginning. Permitted visitors feel the gates brighten in recognition. Occasionally a gate in the line appears rearranged from the previous day — the spirit-folk maintain the procession as a living ritual, and the sequence of gates has never once repeated itself exactly.\n\nEcological Continuity: The changing sequence is partly ecological maintenance: gates move a few paces to protect new dens, mushrooms, and root channels while preserving the same destination and ward function. No new settlement or hidden populace is created by those changes.",
+    "factions": [],
+    "visited": false,
+    "lastVisitedTick": -1,
+    "visitedAreas": []
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "The Mana Heart": {
+    "areas": {
+      "guardian-post": {
+        "description": "A crescent of dark pearl stone overlooks the Mana Well, its pillars veined with ward-light that changes color with the region under strain. The guardian is an established defensive construct shaped by the Demi-Plane's will, Tsukiko's design, and the oath-sworn's actual combat experience. It neither speaks nor pretends to know what it has not detected: it responds only to defined intrusion, visible damage, and the ward network's concrete signals. Crystal gnats consume harmless sparks around the pillars, keeping the post integrated with the living chamber.",
+        "paths": [
+          "mana-well"
+        ]
+      },
+      "mana-well": {
+        "description": "Concentrated potential turns beneath the floor like a liquid aurora—cobalt from water and reflection, violet from sanctuary foxfire, warm gold from heat and prairie, pearl from boundary stability. Nine broad root-streams carry its moderated output into the Basin and onward through the realm. Brightness, color, pulse, and the behavior of its tiny rim-life provide the Chamberlain with diagnostics; they do not reveal hidden causes without investigation.",
+        "paths": [
+          "guardian-post"
+        ]
+      }
+    },
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "factions": [],
+    "name": "The Mana Heart",
+    "radius": 3,
+    "region": "Heartgate Basin",
+    "x": 5,
+    "y": -15,
+    "basicInfo": "The mana infrastructure and defensive core of the Demi-Plane. When mana infrastructure or defense development reaches Growing, the Chamberlain leads the creator here — to a well of concentrated mana that makes the entire dimension function better, and to a guardian post that protects what has been built. This is where the Demi-Plane's hidden machinery lives: the channels that distribute ambient energy, the wards that detect intrusion, and the diagnostic tools the Chamberlain uses to assess the dimension's health.\n\nLiving Ecology: Its well shines through layered cobalt, violet, pearl, and warm gold as different regions draw or return power. Nine broad root-streams leave the chamber like a fox's tails, but they are ecological conduits inside the existing mana-infrastructure system, not a separate progression mechanic.",
+    "hiddenInfo": "The mana well is connected to the Demi-Plane's anchor-sworn bond. If that bond weakens, the well dims. If the bond breaks entirely, the well goes dark and the Demi-Plane begins to collapse inward. The guardian entity is also bonded to the well — it draws its existence from the mana concentration. If the well fails, the guardian dissolves. The Chamberlain knows this but frames it as a maintenance concern rather than an existential threat, because they have learned that existential threats make creators anxious and anxious creators make poor development decisions.\n\nEcological Continuity: Microfauna live at the harmless outer rim of the well: crystal gnats consume unstable sparks and pale root-filaments carry the remainder toward the basin. Their disappearance warns of imbalance before the light visibly dims.",
+    "visited": false,
+    "lastVisitedTick": -1,
+    "visitedAreas": []
+  },
+  "The Verdant Plot": {
+    "areas": {
+      "common-hall": {
+        "description": "A modest gathering hall of pale timber and warm stone, centered on a fuel-less hearth whose flame follows the Basin's current color. A long table, development board, and work ledgers preserve the hall's established function for actual residents. Sliding panels open onto foxfire clover and the irrigation garden; empty places remain empty until someone truly lives here.",
+        "paths": [
+          "farm-fields",
+          "residential-row"
+        ]
+      },
+      "farm-fields": {
+        "description": "Dark responsive soil lies in curved beds divided by clear rills from Dawn Stream. Foxfire clover protects bare ground, lantern moths pollinate at night, and pale root-markers glow where a crop is drawing too much mana. Seeds still require planting and care; accelerated growth remains cultivation, not automatic abundance without labor or consequence.",
+        "paths": [
+          "common-hall"
+        ]
+      },
+      "residential-row": {
+        "description": "Small dwellings develop along a lantern-moss path as the Settlement system establishes them. Occupied homes reflect their actual occupants through furnishings and use; vacant homes stay simple, clean, and unclaimed rather than inventing hypothetical residents. Rain gardens between foundations keep water and animal routes connected to the wider Basin.",
+        "paths": [
+          "common-hall"
+        ]
+      }
+    },
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "factions": [],
+    "name": "The Verdant Plot",
+    "radius": 5,
+    "region": "Heartgate Basin",
+    "x": 15,
+    "y": 5,
+    "basicInfo": "The agricultural and residential heart of the Demi-Plane. When agriculture or settlement development reaches Growing, the Chamberlain leads the creator here — to soil that appeared from nothing and buildings that rose because someone needed shelter. This is where the Demi-Plane starts to feel like it could sustain life rather than merely contain it. Farm fields, a common hall, and residential quarters for oath-sworn residents.\n\nLiving Ecology: Between cultivated rows, low foxfire clover protects the soil, lantern moths pollinate by night, and narrow rills bring Dawn Stream water through living root filters. Its marked hall, fields, and residential row remain products of the established Agriculture and Settlement development stages; the richer ecology does not populate empty homes by itself.",
+    "hiddenInfo": "The Verdant Plot's soil is not ordinary earth. It is the Demi-Plane's latent potential made tangible — it grows what the creator and residents need most, not necessarily what they planted. A crop planted out of duty may produce something unexpected. A garden tended with genuine care produces abundantly. The Chamberlain has noticed this pattern but has not mentioned it. They are curious whether the creator will notice on their own.\n\nEcological Continuity: The soil answers actual need and sustained care through crop behavior rather than conjuring solutions without cost. Blue-veined leaves signal mana excess, pearl flowers signal thirst, and warm-gold fruit marks a stable balance between cultivation and the Basin's wider root network.",
+    "visited": false,
+    "lastVisitedTick": -1,
+    "visitedAreas": []
+  },
+  "The Hearth Springs": {
+    "areas": {
+      "garden-path": {
+        "description": "A winding path crosses steam-orchid beds, lantern ferns, warm stone, and quiet seats under miniature foxwood. Flowers drawn from real memories grow beside species invented by the Demi-Plane's own ecology, with violetwing moths carrying pollen through the vapor. The path becomes more elaborate through established Recreation development while preserving living root and water lanes.",
+        "paths": [
+          "hot-spring"
+        ]
+      },
+      "hot-spring": {
+        "description": "A sequence of clear pools rises from moonstone ledges without furnace or volcanic vent. Their mineral glow shifts from silver to violet to gold as the wider realm circulates, and steam curls into fleeting tail-shapes before returning as dew. Bathing eases fatigue and improves recovery through gentle mana conversion; it does not suppress emotion, erase injury, or force relaxation.",
+        "paths": [
+          "garden-path",
+          "trade-post"
+        ]
+      },
+      "trade-post": {
+        "description": "A covered exchange and workshop court beside the springs, fitted with secure storage, craft benches, a ledger station, and a receiving line from the Anchor. Its pale counters are inlaid with fallen spirit wood and shell crystal. The facility supports actual commerce when access, goods, and traders are established; it never generates merchants, inventory, or sales by itself.",
+        "paths": [
+          "hot-spring"
+        ]
+      }
+    },
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "factions": [],
+    "name": "The Hearth Springs",
+    "radius": 4,
+    "region": "Heartgate Basin",
+    "x": -10,
+    "y": 15,
+    "basicInfo": "The recreational and commercial district of the Demi-Plane. When recreation or commerce development reaches Growing, the Chamberlain leads the creator here — to hot springs that bubbled up from nothing, gardens that grew because someone wished for beauty, and a trade post ready for the first merchant willing to do business with a pocket dimension. This is where the Demi-Plane starts to feel worth visiting, not just worth building.\n\nLiving Ecology: The pools lie in a garden of steam-orchids, moonstone ledges, and moss that glows only through vapor. Each spring takes on a faint regional color as the Demi-Plane circulates—silver after northern thaw, violet after Mirror Mere, and gold after Southroll pollen season—making the district feel native to Tsukiko's realm rather than an Aerfálan bathhouse copied into it.",
+    "hiddenInfo": "The hot spring's water has a subtle restorative effect — not healing, but rejuvenating. Visitors who bathe here recover from fatigue faster and find their mood improved. The Chamberlain attributes this to the Demi-Plane responding to the creator's needs. In truth, the spring is drawing on the ambient mana that the Demi-Plane's infrastructure channels, converting it into a form that benefits living things. If mana infrastructure ever fails, the spring's effects diminish.\n\nEcological Continuity: Steam moths feed on mineral vapor and carry spring-orchid pollen along the garden path. Their wing color provides the earliest sign that the water's restorative conversion is weakening.",
+    "visited": false,
+    "lastVisitedTick": -1,
+    "visitedAreas": []
+  },
+  "The Gateway Clearing": {
+    "areas": {
+      "chamberlain-quarters": {
+        "description": "A compact residence and planning room beside the threshold garden. Development ledgers share a desk with ecological charts tracking bloom color, channel flow, herd routes, and boundary signs. A foxglass window can show the present visible condition of marked regions as colored light, but supplies no secret knowledge. This remains the place for reports, priorities, and proposals.",
+        "paths": [
+          "gateway-chamber"
+        ]
+      },
+      "gateway-chamber": {
+        "description": "A circular chamber of pale stone centered on the standing Gate arch, presented in Tsukiko's realm as a restrained torii with paired foxfire lanterns. The floor's pearl inlay joins the Last Edge anchor, Foundation Ridge, and Grey Boundary into one stable threshold. Authorized arrivals enter here; a crescent bed of quarantine moss catches foreign spores, curses, and loose magic before they reach the garden.",
+        "paths": [
+          "chamberlain-quarters",
+          "the-clearing"
+        ]
+      },
+      "the-clearing": {
+        "description": "Deliberately open ground of pearl grass, violet moss, lantern saplings, and broad buildable terraces beneath a sky that takes color from the realm's health. Gravel, blooms, and foxfire outline viable proposals when Tsukiko considers development, leaving roots, rills, dens, and paths visible instead of pretending the land is blank. What is ultimately built still depends on actual decisions, investment, and the established development stages.",
+        "paths": [
+          "gateway-chamber"
+        ]
+      }
+    },
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "factions": [],
+    "name": "The Gateway Clearing",
+    "radius": 3,
+    "region": "Heartgate Basin",
+    "x": 0,
+    "y": 0,
+    "basicInfo": "The Demi-Plane's first developed threshold-space, nested within Heartgate Basin. A pale-stone Gateway Chamber opens into a broad clearing of pearl grass, violet moss, lantern saplings, and deliberately open ground where future development remains possible without making the existing realm barren. The Chamberlain's quarters overlook the clearing, and the Basin's rills and root-streams begin visibly at its edges. The Hidden Estate remains within the Veiled Fox Sanctuary and is never relocated here.",
+    "hiddenInfo": "The clearing responds to precise intention through subtle proposals: gravel shifts into outlines, flowers trace a suitable boundary, roots retreat from viable foundations, and foxfire marks water or den routes that should remain open. These reactions inform the existing development system; they do not build projects, choose priorities, invent residents, or bypass the creator's decisions.",
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/location_images/e9c807cb-0c38-4e95-8ea8-242615e7d606.png"
+      }
+    },
+    "visited": true,
+    "lastVisitedTick": 0,
+    "visitedAreas": [
+      "gateway-chamber",
+      "the-clearing"
+    ],
+    "known": true
+  },
+  "Demi-Plane Gate": {
+    "name": "Demi-Plane Gate",
+    "basicInfo": "The standing arch within the Gateway Chamber's pale stone circle — the door by which the creator arrives. When Tsukiko uses Demi-Plane Gate, she steps through here. When the Demi-Plane Anchor opens a portal, it opens beneath the arch. No other entrance to the dimension exists without her permission; the gate is the Demi-Plane's single intentional threshold, and the garden spirits keep its approach swept and flowered without ever being asked. On either side, the gate presents as a standing torii with paired lanterns — readable as a shrine entrance to anyone with fox blood, indistinguishable from roadside stonework to anyone without.\n\nLiving Ecology: Petals and seed-dust approaching the arch settle into two crescent beds rather than crossing accidentally. When the Gate opens, its lanterns flare in the colors of the destination's weather, and the garden falls still for one breath as the realm tests what has entered.",
+    "x": 0,
+    "y": 0,
+    "radius": 1,
+    "region": "Heartgate Basin",
+    "complexityType": "simple",
+    "detailType": "detailed",
+    "known": true,
+    "hiddenInfo": "The arch is not furniture but a fixed point in two worlds at once — its foundations reach into both the Demi-Plane and whatever side the creator stands on when she opens the way. This is why the basin's name is Heartgate: everything heartward begins here. The Gate keeps itself locked; not even the Chamberlain can open it for anyone but the creator. When the anchor point in the Last Edge is stable, the arch hums faintly — a tone the Chamberlain checks by ear like a landlord listening to pipes.\n\nEcological Continuity: The threshold distinguishes permission from ecology: authorized travelers pass, but unfamiliar spores, parasites, curses, and loose enchantment residue are held in a ring of pale moss until the Basin accepts, neutralizes, or rejects them. This is a natural safeguard, not an omniscient detector of identity or intent.",
+    "factions": [],
+    "visited": false,
+    "lastVisitedTick": -1,
+    "visitedAreas": []
+  }
+}
