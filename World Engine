@@ -1,4 +1,3 @@
-jq empty "World Engine"
 {
   "heroesVersion": 36,
   "engineState": {
