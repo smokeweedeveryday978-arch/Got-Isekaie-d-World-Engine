@@ -932,7 +932,7 @@
   "Demi-Plane Anchor": {
     "bonuses": [],
     "category": "Key Item",
-    "description": "A physical tether between you and your pocket dimension. Priceless -- cannot be bought or sold.",
+    "description": "A priceless physical tether to Tsukiko's pocket realm: pearl-grey anchor material wrapped in nine slow strands of violet and warm-gold light. Used through the established Demi-Plane Anchor rules, it opens a permission-controlled portal to the Gateway Chamber and never overrides Tsukiko's access, sanctuary wards, range, or other defined mechanics. Its pulse matches the Last Edge, Foundation Ridge, and Grey Boundary; damage causes the light to knot inward rather than exposing a path. Priceless—cannot be bought, sold, casually duplicated, or treated as ordinary loot.",
     "name": "Demi-Plane Anchor"
   },
   "Duelist's Leather": {
@@ -1838,241 +1838,241 @@
   "Foxglow Cap": {
     "bonuses": [],
     "category": "Material",
-    "description": "A faintly glowing mushroom from the Demi-Plane's spirit-forests — an ordinary fungus transformed by native magical ecology. Its cap sheds a soft foxfire glow, and freshly cut flesh pulses gently for a few minutes. Sought by alchemists as a mild restorative reagent and a harmless luminescent ingredient. Edible cooked; raw, it causes vivid dreams for one night. Common in the Veiled Fox Sanctuary's spirit-forest half. Price: 5-15 cp.",
+    "description": "A pearl-stemmed mushroom whose indigo cap carries nine faint points of foxfire and whose glassy gills brighten when the sanctuary's mycelial current passes beneath it. Cut flesh pulses like a tiny sleeping heartbeat; cooked, it tastes of cedar smoke and sweet chestnut, while a raw cap produces one night of vivid but non-prophetic dreams. Alchemists use it to stabilize restorative mixtures and to give safe light to living terrariums. Price: 5-15 cp.",
     "name": "Foxglow Cap"
   },
   "Lantern-Tree Sap": {
     "bonuses": [],
     "category": "Material",
-    "description": "Resin drawn from a lantern-tree of the Demi-Plane's temperate groves — an ordinary tree whose sapwood stores foxfire. The amber sap retains a warm, dim light for days after harvest. Used as a natural light source, a base for glowing lacquers, and a stabilizer in spirit-related alchemy. Draining it responsibly does not harm the tree. Common. Price: 10-25 cp.",
+    "description": "Warm amber resin drawn only from a lantern tree's naturally opened seams. In a vial it separates into fine violet-gold ribbons that curl toward nearby living roots; brushed onto wood, paper, or stone, it forms a luminous lacquer that neither burns nor smokes and fades slowly over several days. Sanctuary artisans prize it because new coats bond cleanly to old ones without trapping rot beneath. Price: 10-25 cp.",
     "name": "Lantern-Tree Sap"
   },
   "Moonlace Bloom": {
     "bonuses": [],
     "category": "Consumable",
-    "description": "A delicate bloom from the Demi-Plane's meadows that flowers only under moonlight or rain — an ordinary wildflower transformed by lunar influence. Picked during bloom, it keeps its shine for about a week. Brewed whole into a calming tea that eases fear and settles restless sleep. Wilts to ordinary petals once spent. Common in the First Meadow, rare elsewhere. Price: 15-40 cp.",
+    "description": "A silver-blue meadow flower whose petals appear stitched together by threads of dew visible only in moonlight or rain. Steeped whole, it produces a cool floral tea that steadies trembling, softens ordinary fear, and settles restless sleep without changing judgment or erasing emotion; once spent, every luminous thread unravels into ordinary water. The best blossoms are gathered after duskbees finish pollinating them. Price: 15-40 cp.",
     "name": "Moonlace Bloom"
   },
   "Glowmoss Stone": {
     "bonuses": [],
     "category": "Material",
-    "description": "A dense, cool stone from the Demi-Plane's marshy lowlands — ordinary river-stone changed by native magical ecology. It absorbs ambient light by day and releases it as a pale glow through the night, dimming toward dawn. Carved into markers, lamps, and charms. Holds half its charge even after years of use. Common. Price: 20-50 cp.",
+    "description": "A smooth marsh pebble enclosed over nine dusks by layer after layer of luminous moss until plant and mineral become one cool, green-blue stone. It drinks daylight, foxfire, or spell-glow and releases that light evenly through the night; carved pieces retain a dim reserve even after years of use. Low Reaches keepers use uncut stones to mark stable footing without disturbing the wetland's darkness. Price: 20-50 cp.",
     "name": "Glowmoss Stone"
   },
   "Foxfire Dew Bead": {
     "bonuses": [],
     "category": "Material",
-    "description": "A crystallized dew-bead from the Westreach's tundra-flats — ordinary morning dew transformed by foxfire. Each bead hums faintly and holds a few minutes of soft light when cracked. Beloved by travelers as a disposable, harmless illumination tool, and by children as toys. Evaporates completely once spent. Uncommon. Price: 5-12 cp each, usually sold in strings of ten (50-120 cp).",
+    "description": "A dawn drop from Westreach grass crystallized around a mote of harmless foxfire. Each bead contains a tiny violet spiral and hums when strung beside others; cracking one releases several minutes of soft light and a scent of wet clover before the shell evaporates completely. Strings are used as trail markers, festival jewelry, and one-use signals that leave no glass behind. Price: 5-12 cp each, usually sold in strings of ten (50-120 cp).",
     "name": "Foxfire Dew Bead"
   },
   "Spirit Pollen": {
     "bonuses": [],
     "category": "Material",
-    "description": "Fine luminous pollen from the First Meadow's flowers — an ordinary flower's pollen changed by spirit-rich ecology. Swept into a pouch, it hangs as slow-drifting dust that brightens where magic passes near. Useful for tracing wards, tracking spell-shadows, or lighting a path without flame. Spent dust goes grey and inert. Uncommon. Price: 25-60 cp per pouch.",
+    "description": "Fine luminous pollen swept from the First Meadow only after its warm-snow fall has finished. Loosed into still air, the grains drift toward active magical residue and briefly outline a spell's physical wake, ward boundary, or recently used enchanted object without identifying its caster or revealing hidden history. Spent grains turn charcoal-grey and enrich ordinary garden soil. Price: 25-60 cp per pouch.",
     "name": "Spirit Pollen"
   },
   "Blueheart Ridge Chip": {
     "bonuses": [],
     "category": "Material",
-    "description": "A seam-stone from the Rift March — ordinary dark stone transformed by the same native magic that lights the rifts. It holds a vein of cold blue light within, steady but faint, which brightens near strong emotion. Favored for quiet lamps and memorial stones. Cutting it releases that light harmlessly. Uncommon. Price: 30-80 cp.",
+    "description": "A dark Rift March stone split by one cold cobalt vein, as though a piece of midnight retained a single pulse. The vein brightens in response to nearby magical or physical vibration—not private emotion—and can be tuned into a quiet lamp, fault alarm, or resonance marker. Fresh chips smell faintly of rain on iron and stay cold even inside a forge. Price: 30-80 cp.",
     "name": "Blueheart Ridge Chip"
   },
   "Stillmoss Peat": {
     "bonuses": [],
     "category": "Material",
-    "description": "Peat cut from the Dim March's hushed moss-hollows — ordinary wetland peat transformed by native magical ecology. Burned slowly, it gives light without heat, scentless smoke, and an uncanny steadiness of flame. Traditionally used for night-work and silent vigils. Resting in the Dim March's own air, it never spoils. Common locally, rare elsewhere. Price: 10-20 cp per brick.",
+    "description": "A dense brick cut from dead growth beneath the Dim March's living moss, cured until it becomes lighter than dry wood. It burns with a steady pearl flame that gives light without heat, scent, smoke, or crackle, making it ideal for vigils, precision work, and chambers where ordinary fire would disturb stored materials. Ash from a finished brick is inert and welcomed back by the moss. Price: 10-20 cp per brick.",
     "name": "Stillmoss Peat"
   },
   "Saltgrass Chime": {
     "bonuses": [],
     "category": "Material",
-    "description": "A hard white sand-grain cluster from the Quiet Shore — ordinary shoreline sand transformed by native magical ecology. The grains chime once if touched and stay silent forever after; strung together, they make discreet warning jewelry that never false-alarms. A single grain of it can be sold or traded to a temple. Uncommon. Price: 15-35 cp. A full strand (twelve grains): 1-2 sp.",
+    "description": "A hollow white seed-node harvested after Quiet Shore saltgrass rings its one natural note. Touched again, it answers with a softer version of the first sound it heard, then falls silent forever; a strand therefore records a brief sequence of disturbances without naming what caused them. Moonplovers line their nests with spent nodes, and careful collectors always leave enough for the next grass generation. Price: 15-35 cp. A full strand (twelve grains): 1-2 sp.",
     "name": "Saltgrass Chime"
   },
   "Frost Foxfire Jar": {
     "bonuses": [],
     "category": "Material",
-    "description": "Frost-formed foxfire gathered from the Still Frontier's pines — an ordinary winter condensation changed by spirit energy. It melts nothing, glows blue-white, and refuses all heat; kept in a sealed jar it lasts a season, fading only when deliberately released. Prized for cold-light lanterns and certain delicate alchemical work. Rare, hard to harvest. Price: 50-90 cp per sealed jar.",
+    "description": "Blue-white foxfire shed from Still Frontier branches during a violet thaw and sealed inside a frostwood-lidded jar. It radiates clear cold light, refuses ordinary heat, and keeps delicate reagents cool for a season; opening the jar releases it as a slow spiral that settles on the nearest frostpine rather than burning anything. Harvesters collect only motes already leaving the tree. Price: 50-90 cp per sealed jar.",
     "name": "Frost Foxfire Jar"
   },
   "Preservation Moss": {
     "bonuses": [],
     "category": "Material",
-    "description": "Soft grey-green moss from the Dim March that dramatically slows natural decay in anything wrapped within it. Used for preserving food, herbs, monster parts, and delicate alchemical reagents. Price: 15-40 cp per bundle.",
+    "description": "Velvet-grey living moss lifted in intact sheets from Dim March nursery beds. Wrapped around food, herbs, monster materials, or fragile reagents, it slows ordinary decay while allowing dangerous magical pressure to bleed away into harmless pale specks. The moss must be aired and returned to damp soil between uses or it becomes inert rather than infinitely reusable. Price: 15-40 cp per bundle.",
     "name": "Preservation Moss"
   },
   "Muted Spirit-Stone": {
     "bonuses": [],
     "category": "Material",
-    "description": "A smooth spirit-stone from the Dim March that absorbs weak sound and magical vibration instead of reflecting it. Used in quiet chambers, stealth enchantments, and containment work. Price: 40-80 cp.",
+    "description": "A river-smooth nodule grown where Dim March moss compacts spent magical vibration into mineral. It absorbs weak sound and enchantment tremor, warming by a fraction as it fills; left overnight in living stillmoss, it empties safely. Builders set small pieces into quiet rooms and containment boxes, but a single stone cannot silence combat, speech, or powerful magic. Price: 40-80 cp.",
     "name": "Muted Spirit-Stone"
   },
   "Silence-Thread Fungus": {
     "bonuses": [],
     "category": "Material",
-    "description": "A pale filament fungus found beneath Dim March moss. Its fibers dampen sound when woven into cloth or cord. Useful for stealth gear and ritual chambers. Price: 25-60 cp per bundle.",
+    "description": "A pale filament fungus found as webbing beneath deep Dim March moss, each strand faintly iridescent when held against foxfire. Spun into cord or cloth, it dampens rustle, scrape, and transmitted vibration without erasing sound entirely. The fibers lose their effect if scorched and regain flexibility after a night in cool mist. Price: 25-60 cp per bundle.",
     "name": "Silence-Thread Fungus"
   },
   "Anchor-Stone": {
     "bonuses": [],
     "category": "Material",
-    "description": "Dense grey stone formed near the Grey Boundary's dimensional anchor. Difficult to move magically and prized for stabilizing portals, wards, and permanent enchantments. Price: 1-3 gp.",
+    "description": "Dense grey stone grown along the Grey Boundary's buried braces, flecked with wine-red mineral where anchor beetles have worked it. It resists unwanted magical displacement and lends stability to portals, wards, foundations, and long-lived enchantments; worked pieces become heavier when someone attempts to teleport them. Only naturally loosened blocks are safe to quarry without weakening the moor. Price: 1-3 gp.",
     "name": "Anchor-Stone"
   },
   "Fog Crystal": {
     "bonuses": [],
     "category": "Material",
-    "description": "A translucent crystal condensed from the Grey Boundary's permanent fog. Cold mist spills from its surface when exposed to mana. Used in concealment and boundary magic. Price: 5-12 sp.",
+    "description": "A translucent crystal formed when Grey Boundary fog freezes around a thread of boundary moss. Mana drawn across its surface releases cold, opaque mist in proportion to the energy supplied; when the flow ends, the mist returns to the crystal as clear droplets. It is useful for concealment and humidity control, not for creating endless fog. Price: 5-12 sp.",
     "name": "Fog Crystal"
   },
   "Boundary Moss": {
     "bonuses": [],
     "category": "Material",
-    "description": "Silver-grey moss growing where stable land meets dimensional fog. It curls toward nearby distortions in space, making it useful as a primitive planar detector. Price: 30-70 cp.",
+    "description": "Silver-grey moss whose curled tips all lean toward the nearest active spatial distortion. A transplanted patch remains responsive for several weeks if kept damp with native fog, making it a practical but imprecise planar alarm. It indicates direction and strain only—it cannot identify a traveler, destination, or cause. Price: 30-70 cp.",
     "name": "Boundary Moss"
   },
   "Condensed Dimensional Mist": {
     "bonuses": [],
     "category": "Material",
-    "description": "Raw dimensional mist sealed inside a reinforced crystal vial. Used in portal research, spatial alchemy, and advanced enchantment. Mishandling it makes nearby distances behave strangely. Price: 8-20 sp.",
+    "description": "Raw Grey Boundary vapor sealed inside a reinforced crystal ampoule, swirling around an empty center that never touches the glass. A measured drop lets spatial alchemists soften a seam, test a portal lattice, or make a small distance briefly elastic; careless release causes nearby steps and reaches to disagree until the mist disperses. It never opens the Demi-Plane without its established Gate or Anchor. Price: 8-20 sp.",
     "name": "Condensed Dimensional Mist"
   },
   "Horizon Grass": {
     "bonuses": [],
     "category": "Material",
-    "description": "Long golden-green grass from the Open Horizon that always bends toward the clearest open route. Dried bundles are used by travelers and navigators. Price: 10-25 cp.",
+    "description": "Long gold-green blades from the Open Horizon whose tips bend toward the clearest unobstructed route. Dried into a fan or bundle, they continue indicating passable open ground until they crumble, making them valuable to navigators in fog, tall grass, and ruins. They do not locate a person, secret, or destination—only the least obstructed direction. Price: 10-25 cp.",
     "name": "Horizon Grass"
   },
   "Windseed": {
     "bonuses": [],
     "category": "Material",
-    "description": "A feather-light seed carried for extraordinary distances by even weak air currents. Alchemists use it in mobility tonics and wind enchantments. Price: 20-50 cp per pouch.",
+    "description": "A pearl-light seed bearing a translucent spiral vane. Even a breath can carry it across a room, while deliberate mana sends a whole pouch riding one chosen gust before the seeds root or lose their glow. Alchemists use ground vane-shell in mobility draughts; farmers use living seed to reveal prevailing currents before planting. Price: 20-50 cp per pouch.",
     "name": "Windseed"
   },
   "Ambient Mana Crystal": {
     "bonuses": [],
     "category": "Material",
-    "description": "A naturally formed crystal containing diffuse ambient mana rather than concentrated restorative energy. Primarily used for crafting, enchanting, and powering minor magical devices. Price: 1-3 sp.",
+    "description": "A naturally grown crystal containing diffuse ecological mana in slow-moving bands rather than a potion's concentrated restorative charge. It powers small lamps, tools, wards, and workshop devices steadily, then becomes clear inert quartz until left in a healthy mana current to recharge. Drawing it dry too quickly cracks its inner bands and ruins the cycle. Price: 1-3 sp.",
     "name": "Ambient Mana Crystal"
   },
   "Fadeglass": {
     "bonuses": [],
     "category": "Material",
-    "description": "Half-translucent glassy stone from the Fade whose edges seem to disappear when viewed indirectly. Used in illusion work and concealment enchantments. Price: 5-12 sp.",
+    "description": "A thin plate formed where two versions of a Fade hillside briefly overlap and solidify. Its center remains visible while its rim disappears when viewed indirectly, making it superb for subtle inlay, illusion frames, and concealed but physical seams. Looking through it blurs edges and distance; it does not reveal invisible people or hidden truths. Price: 5-12 sp.",
     "name": "Fadeglass"
   },
   "Mist Pearl": {
     "bonuses": [],
     "category": "Material",
-    "description": "A smooth pearl formed inside condensed boundary mist. Cool to the touch and perpetually damp, it is valuable in water, illusion, and dimensional alchemy. Price: 3-8 sp.",
+    "description": "A cool opalescent pearl grown where boundary mist repeatedly condenses around one transparent seed husk. It is always faintly damp and releases a palm-sized halo of pearly vapor when warmed, then slowly reabsorbs it. Water, illusion, and spatial alchemists prize the pearl's stable rhythm. Price: 3-8 sp.",
     "name": "Mist Pearl"
   },
   "Soundless Stone": {
     "bonuses": [],
     "category": "Material",
-    "description": "A dark stone from the Fade that produces no audible sound when struck, dropped, or broken. Used for stealth construction, ritual chambers, and specialized tools. Price: 4-10 sp.",
+    "description": "Charcoal-grey stone from the solid side of the Fade, veined with transparent mineral. It produces no audible noise when struck, dropped, cut, or broken because vibration passes into the clear veins and leaves as a brief chill. It is used for precision tools and quiet construction, but it does not silence whatever touches or stands near it. Price: 4-10 sp.",
     "name": "Soundless Stone"
   },
   "Nullstone": {
     "bonuses": [],
     "category": "Material",
-    "description": "Rare stone from the Last Edge that resists magical influence and suppresses weak enchantments touching its surface. Extremely valuable for containment and anti-magic craftsmanship. Price: 1-3 gp.",
+    "description": "Rare matte stone shed in thin slabs near the Last Edge, where weak enchantments gutter against its surface like candlelight in rain. It suppresses minor magic in direct contact and helps line containment tools; stronger effects overwhelm it rather than vanishing. Living anchor lichen marks pieces safe to collect, preventing careless quarrying of the fixed coordinate. Price: 1-3 gp.",
     "name": "Nullstone"
   },
   "Fixed-Point Fragment": {
     "bonuses": [],
     "category": "Material",
-    "description": "A splinter of crystallized spatial stability from the Last Edge. It refuses teleportation and remains metaphysically tied to the place where it formed. Advanced planar reagent. Price: 2-5 gp.",
+    "description": "A needle of grey-violet crystal naturally shed when the Last Edge relieves spatial stress. Once lifted, it remains metaphysically tied to the exact formation point: teleportation leaves the fragment behind, and attempts to move it extradimensionally make it impossibly heavy. Planar artisans use that refusal as a reference when calibrating stable gates, never as a substitute for the Demi-Plane Anchor. Price: 2-5 gp.",
     "name": "Fixed-Point Fragment"
   },
   "Glow-Reed": {
     "bonuses": [],
     "category": "Material",
-    "description": "A marsh reed from the Low Reaches whose hollow stalk glows pale green after sunset. Commonly dried for lanterns, weaving, and minor alchemy. Price: 10-25 cp per bundle.",
+    "description": "A hollow Low Reaches reed with pale green-blue veins that fill with stored marsh light after sunset. Dried stalks remain flexible and glow when damp, lending themselves to lantern screens, baskets, breathing tubes, and alchemical wickwork. Cutting above the lowest joint lets the living root send up two new stems. Price: 10-25 cp per bundle.",
     "name": "Glow-Reed"
   },
   "Spirit Peat": {
     "bonuses": [],
     "category": "Material",
-    "description": "Mana-rich peat cut from the Low Reaches. Burns with a blue-green flame and is useful as fuel for alchemical furnaces and spirit rituals. Price: 15-35 cp per brick.",
+    "description": "Black-blue peat formed from old glow-reed, waterplant, and moss after the moving marsh completes a resting cycle. It burns with a clean turquoise flame hot enough for alchemical furnaces yet leaves mineral-rich ash that stabilizes spirit mixtures. Fresh peat must cure through one pool migration or its trapped mana spits unpredictably. Price: 15-35 cp per brick.",
     "name": "Spirit Peat"
   },
   "Luminous Waterplant": {
     "bonuses": [],
     "category": "Material",
-    "description": "A soft aquatic plant whose veins carry faint blue light. Used in healing salves, water-breathing mixtures, and decorative spirit ponds. Price: 20-50 cp.",
+    "description": "A soft aquatic plant with branching blue veins and clear leaves that fold around impurities. Placed in clean water, it absorbs weak toxins and excess ambient mana, brightening as it fills; a saturated plant must be composted in living marsh rather than eaten. Healers use carefully rinsed young leaves in salves and water-breathing preparations. Price: 20-50 cp.",
     "name": "Luminous Waterplant"
   },
   "Spirit Clay": {
     "bonuses": [],
     "category": "Material",
-    "description": "Fine clay from the Hollow Vale that accepts magical inscriptions unusually well before firing. Favored for talismans, ritual vessels, and enchanted pottery. Price: 25-60 cp per block.",
+    "description": "Pearl-grey clay from Hollow Vale terrace banks, threaded with foxfire moss fibers finer than hair. It accepts runes, fingerprints, and brushwork with exceptional fidelity before firing, then develops a warm inner sheen where intent was repeated through actual craft. It is favored for talisman tablets and ritual vessels but does not enchant itself without skill and materials. Price: 25-60 cp per block.",
     "name": "Spirit Clay"
   },
   "Foxfire Moss": {
     "bonuses": [],
     "category": "Material",
-    "description": "Soft moss carrying tiny blue-violet foxfire lights. Used for shrine decoration, spirit medicine, and low-power magical illumination. Price: 20-50 cp per bundle.",
+    "description": "Soft sanctuary-and-vale moss bearing pinpricks of blue-violet foxfire between its leaves. It cushions impact, marks healthy root flow, and releases a clean cedar fragrance when disturbed; transplanted mats provide gentle light and help spirit-sensitive plants establish. Stripped of living substrate, it dims within days. Price: 20-50 cp per bundle.",
     "name": "Foxfire Moss"
   },
   "Mana Amber": {
     "bonuses": [],
     "category": "Material",
-    "description": "Golden translucent resin found beneath the Deep Expanse, hardened around pockets of ambient mana. Valuable for enchantment cores and magical jewelry. Price: 3-8 sp.",
+    "description": "Golden resin crystallized around ancient-looking prairie roots when the Deep Expanse stores more ambient mana than living tissue can safely hold. Inside each piece, a slow speck of light follows the original grain. Cut amber makes excellent enchantment cores and jewelry, while raw nodules can be replanted beside exhausted soil to release their charge gradually. Price: 3-8 sp.",
     "name": "Mana Amber"
   },
   "Warmroot": {
     "bonuses": [],
     "category": "Consumable",
-    "description": "A fragrant root from the Southroll that remains pleasantly warm after harvesting. Brewed into tea or eaten roasted to ease fatigue and cold. Price: 15-40 cp.",
+    "description": "A rose-gold Southroll rhizome that stays pleasantly warm after harvest and smells of ginger, honey, and sun-dried grass. Roasted or brewed, it eases ordinary cold and fatigue and helps the body recover warmth after exposure without healing wounds by itself. Hill foxes replant overlooked pieces, so responsible harvesters deliberately leave the smallest roots behind. Price: 15-40 cp.",
     "name": "Warmroot"
   },
   "Firefly Dust": {
     "bonuses": [],
     "category": "Material",
-    "description": "Golden luminous dust naturally shed by Southroll fireflies. Used in light enchantments, cosmetics, inks, and festival lanterns. Price: 25-60 cp per vial.",
+    "description": "Gold dust naturally shed when Southroll fireflies complete one of their disciplined evening spirals. Each mote rises toward warmth and settles on moving air, giving ink, cosmetics, cloth, and festival lanterns a living shimmer that lasts several nights. Dust shaken from a captured firefly is dull; only freely shed material retains the pattern. Price: 25-60 cp per vial.",
     "name": "Firefly Dust"
   },
   "Rift Crystal": {
     "bonuses": [],
     "category": "Material",
-    "description": "A dark crystal threaded with cold blue light from the Rift March. Stores unstable earth and spatial mana, making it valuable and dangerous in advanced crafting. Price: 5-15 sp.",
+    "description": "A black-blue crystal threaded with cold cobalt light, grown where stone pressure and unstable spatial mana meet safely in Rift March clefts. It stores earth or spatial energy densely but broadcasts strain as a delayed ringing through nearby rock. Master artisans value it for powerful devices; novices learn quickly why every piece needs a stable darkstone housing. Price: 5-15 sp.",
     "name": "Rift Crystal"
   },
   "Darkstone": {
     "bonuses": [],
     "category": "Material",
-    "description": "Dense black stone quarried from the Rift March. Exceptionally durable and resistant to heat, commonly used for fortifications and heavy magical construction. Price: 40-90 cp per workable block.",
+    "description": "Dense near-black Rift March rock whose fine grain drinks heat and resists fracture. Cold-light fungus traces natural fault lines across exposed blocks, showing where a clean quarry cut can be made without opening deeper clefts. Once worked, the stone holds fortifications and heavy enchantments with unshowy permanence. Price: 40-90 cp per workable block.",
     "name": "Darkstone"
   },
   "Blue Mana Ore": {
     "bonuses": [],
     "category": "Material",
-    "description": "Metal-bearing ore threaded with bright blue mana veins. Smelted into mana-conductive alloys for enchanted weapons, tools, and machinery. Price: 2-6 sp per chunk.",
+    "description": "Metal-bearing ore crossed by vivid blue veins that brighten under hammer blows. Properly smelted with vent heat and darkstone flux, it yields a conductive alloy that carries mana without the brittleness of raw crystal; overheated ore vents its charge as harmless blue sparks but loses value. Echo bats often roost near the richest safe seams. Price: 2-6 sp per chunk.",
     "name": "Blue Mana Ore"
   },
   "Deep Fungus": {
     "bonuses": [],
     "category": "Material",
-    "description": "A hardy cave fungus growing in the Rift March's colder clefts. Absorbs trace minerals and mana from stone, making it useful in defensive and restorative alchemy. Price: 20-50 cp.",
+    "description": "A broad, dark cave fungus with cobalt gills, nourished by mineral seepage and the Rift March's cold light. It draws unstable trace mana from stone into chewy, bitter flesh that becomes safe once dried; alchemists use it in defensive tonics and mineral-restorative salves. A pale gill edge means the colony is still filtering and should not be harvested. Price: 20-50 cp.",
     "name": "Deep Fungus"
   },
   "Moon-Sand": {
     "bonuses": [],
     "category": "Material",
-    "description": "Fine white sand from the Quiet Shore that reflects moonlight more strongly than sunlight. Used in divination, glassmaking, and lunar enchantments. Price: 30-70 cp per pouch.",
+    "description": "Fine Quiet Shore sand that looks white by day and holds blue-violet constellations beneath moonlight or foxfire. Heated into glass, those points keep their arrangement, allowing artisans to make divination bowls, lunar lenses, and windows that show true reflected light without revealing anything outside their view. Loose sand flows uphill toward the not-water during false midnight. Price: 30-70 cp per pouch.",
     "name": "Moon-Sand"
   },
   "Shell Crystal": {
     "bonuses": [],
     "category": "Material",
-    "description": "A crystalline shell fragment found along the Quiet Shore. Hard, pearlescent, and naturally resistant to water magic. Price: 1-3 sp.",
+    "description": "A pearlescent plate shed by a shellback skate beneath the Quiet Shore's not-water, found only after the boundary current places it above the tideline. It is light, hard, and disperses water magic in rippling rings across its surface. Polished pieces make elegant wet-safe fittings, armor inlay, and instruments whose tone carries cleanly through mist. Price: 1-3 sp.",
     "name": "Shell Crystal"
   },
   "Pale Driftwood": {
     "bonuses": [],
     "category": "Material",
-    "description": "Smooth white driftwood appearing along the Quiet Shore despite no normal sea existing beyond it. Light, tough, and receptive to spirit enchantments. Price: 30-80 cp.",
+    "description": "Smooth white wood condensed and accepted by the Quiet Shore from compatible organic patterns at the boundary. It is almost weightless, surprisingly tough, and drinks spirit enchantment along its pale grain without warping; when carved, the shavings curl into tiny tail shapes before becoming ordinary fiber. Each piece is inspected for ecological acceptance before removal. Price: 30-80 cp.",
     "name": "Pale Driftwood"
   },
   "Mana Fruit": {
@@ -2084,19 +2084,19 @@
       }
     ],
     "category": "Consumable",
-    "description": "A cultivated fruit from Heartgate Basin whose flesh contains a small amount of harmless ambient mana. Restores 5 mana when eaten fresh. Price: 30-60 cp.",
+    "description": "A Heartgate orchard fruit with pearl skin, violet veins, and flesh that shifts from pear-crisp to custard-soft around a seed glowing like banked foxfire. Eaten fresh, it restores 5 mana as its stored ambient charge disperses gently; overripe fruit is not stronger and belongs in the orchard soil, where brush-tail foxes bury the seeds. The flavor combines white peach, yuzu, and cool rain. Price: 30-60 cp.",
     "name": "Mana Fruit"
   },
   "Spirit Flower": {
     "bonuses": [],
     "category": "Material",
-    "description": "A cultivated magical flower from Heartgate Basin. Its petals retain trace spirit energy and serve as a flexible ingredient in medicines, charms, incense, and ritual offerings. Price: 20-50 cp.",
+    "description": "A cultivated Heartgate bloom that opens to nearby living presence and closes tightly around hostility or disruptive magic without knowing anyone's thoughts. Each petal holds a trace of softened spirit energy suitable for medicines, incense, charms, and offerings; the center changes color with the Basin's current. Proper harvest takes alternating petals and leaves the flower able to seed. Price: 20-50 cp.",
     "name": "Spirit Flower"
   },
   "Redstone": {
     "bonuses": [],
     "category": "Material",
-    "description": "Warm reddish stone from beneath the Dawn Barrow's streams. Holds heat gently and strengthens fire-aligned or vitality-focused enchantments. Price: 30-70 cp per chunk.",
+    "description": "Warm coral-red stone polished by Dawn Stream until thin gold lines appear beneath its surface. It stores gentle heat and converts moving water into a faint stable glow, making it excellent for bath channels, hearth plates, vitality enchantments, and paths visible beneath water. Dry redstone slowly cools and brightens again once returned to a current. Price: 30-70 cp per chunk.",
     "name": "Redstone"
   },
   "Clear Mana-Water": {
@@ -2108,163 +2108,301 @@
       }
     ],
     "category": "Consumable",
-    "description": "Exceptionally pure water naturally infused with ambient mana in the Dawn Barrow. Restores 5 mana when a sealed vial is consumed. Price: 25-50 cp.",
+    "description": "Dawn Stream water sealed while flowing over living redstone, clear until shaken and then briefly filled with rose-gold light. Drinking a full vial restores 5 mana; it tastes of cold springwater and ripe plum, leaves no stimulant rush, and cannot be concentrated safely without losing its balance. Unsealed water returns to ordinary luminous streamwater within a day. Price: 25-50 cp.",
     "name": "Clear Mana-Water"
   },
   "Mana-Stone": {
     "bonuses": [],
     "category": "Material",
-    "description": "Mana-dense stone from the Easthold, warm even underground. Used as a durable power source in magical workshops, formations, and enchanted structures. Price: 2-5 sp.",
+    "description": "Honey-grey Easthold rock dense with moderated heat and mana, warm along naturally occurring spiral seams. Set into a workshop or formation, it releases steady power through those seams; cracked across them, it flares wastefully and becomes inert. Gilt scarab trails reveal stones the upland has already loosened for safe collection. Price: 2-5 sp.",
     "name": "Mana-Stone"
   },
   "Heat Crystal": {
     "bonuses": [],
     "category": "Material",
-    "description": "Amber-red crystal from the Easthold that continuously releases gentle heat without consuming fuel. Used for heating, forging, incubation, and fire enchantments. Price: 3-8 sp.",
+    "description": "Amber-red crystal grown around an Easthold vent where ember-shrub roots have tempered the flow. It radiates reliable gentle heat without fuel, brightening when insulated and dimming in open cold; common uses include rooms, baths, incubation, food drying, and controlled forging. Immersion in Mirror Mere water safely discharges an overheated piece. Price: 3-8 sp.",
     "name": "Heat Crystal"
   },
   "Foxfire Bloom": {
     "bonuses": [],
     "category": "Material",
-    "description": "A blue-violet flower whose petals hold living foxfire without burning. Sacred to the Veiled Fox Sanctuary and useful in illusion, spirit, and warding alchemy. Price: 40-90 cp.",
+    "description": "A cobalt-violet sanctuary flower whose translucent petals cradle living foxfire without heat. At dusk its flame bends toward the shinboku root current and pollinating moths follow the motion; dried petals preserve that directional response for warding ink, spirit medicine, illusion craft, and shrine light. A bloom cut before pollination goes dark at once. Price: 40-90 cp.",
     "name": "Foxfire Bloom"
   },
   "Sacred Bamboo": {
     "bonuses": [],
     "category": "Material",
-    "description": "Bamboo grown within the Veiled Fox Sanctuary. Light, remarkably strong, and naturally receptive to wards, talismans, bows, flutes, and shrine construction. Price: 1-3 sp per usable length.",
+    "description": "Pale sanctuary bamboo with fine gold joints and a hollow core that carries breath, sound, and ward energy with exceptional clarity. Properly seasoned lengths become resilient bows, flutes, talisman cases, writing tools, and shrine frames; fresh cuts seal themselves with a bead of clear springwater. Harvest follows the grove's natural thinning and never requires clearing a stand. Price: 1-3 sp per usable length.",
     "name": "Sacred Bamboo"
   },
   "Spirit Wood": {
     "bonuses": [],
     "category": "Material",
-    "description": "Wood harvested only from naturally fallen spirit-trees within the Veiled Fox Sanctuary. Carries ambient mana through its grain and is prized for staffs, shrines, instruments, and enchanted furniture. Price: 3-8 sp.",
+    "description": "Naturally fallen foxwood, cedar, pine, or sakaki from the Veiled Fox Sanctuary, each pale grain containing hair-thin lines of ambient light. The wood conducts spirit magic smoothly and holds scent, music, and careful craftsmanship for decades, making it prized for staffs, instruments, shrines, and intimate furniture. Living trees reject forced cutting by turning the grain brittle and dark. Price: 3-8 sp.",
     "name": "Spirit Wood"
   },
   "Silver-Green Grass": {
     "bonuses": [],
     "category": "Material",
-    "description": "Fine silver-green meadow grass from the First Meadow. Strong when braided, softly luminous at night, and useful in charms, weaving, bedding, and basic spirit crafts. Price: 10-25 cp per bundle.",
+    "description": "Fine First Meadow grass whose silver face reflects moonlight while its green underside stores warmth. Braided fibers are strong, soft, and dimly luminous, suitable for bedding, cord, baskets, paper, and flexible charm frames. Cut after seeding, a bundle remains fragrant with clover and rain for a full season. Price: 10-25 cp per bundle.",
     "name": "Silver-Green Grass"
   },
   "Luminous Reed-Seed": {
     "bonuses": [],
     "category": "Material",
-    "description": "A floating seed that shines like a tiny lantern. Found throughout the Threshold March and North Field, it is used in navigation charms and wind-related alchemy. Price: 15-40 cp per pouch.",
+    "description": "A floating North Field seed with a warm point of light suspended in its translucent hull. It drifts along current mana-bearing air and water, so scattered seeds reveal circulation in paths, channels, and workshops before rooting in wet soil. Ground hulls support wind alchemy; viable seeds are reserved for restoration and cultivation. Price: 15-40 cp per pouch.",
     "name": "Luminous Reed-Seed"
   },
   "Mana-Rich Soil": {
     "bonuses": [],
     "category": "Material",
-    "description": "Dark fertile soil saturated with low concentrations of ambient mana. Plants grown in it mature quickly and are more likely to develop magical traits. Price: 20-50 cp per sack.",
+    "description": "Dark loam from naturally turned Threshold or Heartgate ground, marbled with pale root fiber and low, stable ambient mana. It accelerates healthy magical plants only when water, light, pollination, and care remain adequate; neglected soil grows luminous weeds rather than obedient crops. After several harvests it must rest beside living roots to recharge. Price: 20-50 cp per sack.",
     "name": "Mana-Rich Soil"
   },
   "Spirit Mineral": {
     "bonuses": [],
     "category": "Material",
-    "description": "A broad class of faintly luminous mineral deposits found throughout the Stone Rise. Used in enchanting, alchemy, and magical construction after refinement. Price: 1-3 sp per useful specimen.",
+    "description": "A family of Stone Rise minerals grown where springwater, lichen, and dense mana interact—some pearl, some cobalt, some rose-gold. Each specimen carries a different conductivity and must be identified through actual testing before enchanting or alchemy. The best pieces are those exposed by water and frost, not cut blindly from Foundation Ridge. Price: 1-3 sp per useful specimen.",
     "name": "Spirit Mineral"
   },
   "Mineral Water": {
     "bonuses": [],
     "category": "Consumable",
-    "description": "Cold mineral-rich spring water from the Stone Rise. Refreshing, clean, and valued as a base for potions requiring highly stable water. Price: 10-25 cp per flask.",
+    "description": "Cold Stone Rise springwater carrying a stable trace of iron, pearl-shell mineral, and filtered ambient mana. It clears the palate, settles ordinary breathlessness, and provides an exceptionally neutral base for potions whose ingredients would react badly with common water. Its faint blue sheen disappears if contaminated. Price: 10-25 cp per flask.",
     "name": "Mineral Water"
   },
   "Spirit Pearl": {
     "bonuses": [],
     "category": "Material",
-    "description": "A softly glowing pearl formed within the Mirror Mere by spirit-touched aquatic life. Used in water enchantments, divination, and high-quality jewelry. Price: 3-8 sp.",
+    "description": "A softly glowing pearl formed by Mirror Mere mussels as they layer nacre around excess ambient mana. The inner light turns slowly toward nearby water and can stabilize divination, water enchantment, memory-safe storage, and fine jewelry; it records no thoughts or secrets. Only pearls naturally released from mature mussels retain their calm glow. Price: 3-8 sp.",
     "name": "Spirit Pearl"
   },
   "Mirror-Lotus": {
     "bonuses": [],
     "category": "Material",
-    "description": "A pale lotus from the Mirror Mere whose petals reflect the viewer more clearly than surrounding water does. Valuable in divination, illusion magic, memory potions, and ritual teas. Price: 4-10 sp.",
+    "description": "A pale lavender lotus whose upper petals show the viewer with crystalline accuracy while the lower petals reflect the surrounding water. In ritual tea it sharpens recall of what the drinker actually witnessed, never inventing missing facts; in alchemy it stabilizes reflection and illusion effects. It blooms only where two honest physical reflections overlap on a calm pool. Price: 4-10 sp.",
     "name": "Mirror-Lotus"
   },
   "Frostwood": {
     "bonuses": [],
     "category": "Material",
-    "description": "Pale timber from naturally fallen Still Frontier conifers. It remains cold even beside a fire and is useful for frost-aligned weapons, containers, and construction. Price: 2-5 sp.",
+    "description": "Pale fallen timber from Still Frontier conifers, cool even beside a forge and threaded with blue-white dormant foxfire. Containers made from it preserve temperature, while weapons and tools accept frost enchantments without becoming brittle. A living frostpine cut by force yields chalky useless wood; only naturally cast branches carry the stable grain. Price: 2-5 sp.",
     "name": "Frostwood"
   },
   "Ice Crystal": {
     "bonuses": [],
     "category": "Material",
-    "description": "A permanent crystal of supernatural ice found beneath Still Frontier snowfields. Never melts under ordinary heat and serves as a powerful cold-alchemy reagent. Price: 3-8 sp.",
+    "description": "Clear supernatural ice found in root caves beneath Frostpine Ridge. It never melts under ordinary heat, but absorbs warmth until fine violet snow appears within; releasing the stored warmth requires a controlled mana pulse. Alchemists, healers, and builders use it for cold storage and frost craft, while careless users can still cause ordinary cold injury. Price: 3-8 sp.",
     "name": "Ice Crystal"
   },
   "Silver Lichen": {
     "bonuses": [],
     "category": "Material",
-    "description": "Constellation-like luminous lichen growing across Pale Reaches stone. Used in divination powders, navigation inks, and low-light alchemy. Price: 25-60 cp.",
+    "description": "Constellation-bright lichen spread across Pale Reaches stone, each colony mapping local moisture and potential density in changing points of silver. Dried flakes become navigation ink and sensitive alchemical powder that brightens near raw dimensional mist; they do not predict events or reveal distant places. Harvesters take one edge and leave the colony's dark center intact. Price: 25-60 cp.",
     "name": "Silver Lichen"
   },
   "Pale Crystal": {
     "bonuses": [],
     "category": "Material",
-    "description": "Milky translucent crystal formed beneath the Pale Reaches. Easily accepts raw dimensional energy and is frequently used as a blank enchantment medium. Price: 1-4 sp.",
+    "description": "Milky crystal condensed beneath a Ghost Valley where lichen has already filtered raw potential. Its interior remains nearly blank, accepting a carefully designed enchantment with unusual fidelity but amplifying sloppy structure just as faithfully. Artisans value it as a magical canvas, not as a source of free power. Price: 1-4 sp.",
     "name": "Pale Crystal"
   },
   "Rivergrass": {
     "bonuses": [],
     "category": "Material",
-    "description": "Tough flexible grass from the North Field's shifting water channels. Used for rope, baskets, travel mats, medicine, and water-aligned crafting. Price: 10-20 cp per bundle.",
+    "description": "Tough blue-green North Field grass with ribbon-flat blades and roots that release rather than tear when a channel relocates. Dried fibers make water-resistant rope, baskets, mats, and bandaging; fresh pith carries a mild clean bitterness used in wetland medicine. Braids tighten when wet and relax without damage when dry. Price: 10-20 cp per bundle.",
     "name": "Rivergrass"
   },
   "Mana-Rich Silt": {
     "bonuses": [],
     "category": "Material",
-    "description": "Fine blue-grey silt deposited by the North Field's shining channels. Exceptionally fertile and useful for cultivating magical aquatic and wetland plants. Price: 20-50 cp per sack.",
+    "description": "Fine blue-grey sediment left when a Shining Channel migrates, speckled with empty reed-seed hull and ribbonfin scale. It nurtures aquatic and wetland plants while slowly releasing mana instead of forcing sudden growth. A sack spread on dry soil is wasted; it remains fertile only when kept damp and biologically active. Price: 20-50 cp per sack.",
     "name": "Mana-Rich Silt"
   },
   "Warped Stone": {
     "bonuses": [],
     "category": "Material",
-    "description": "Stone from the Fold whose internal geometry does not quite match its exterior shape. Used cautiously in spatial enchantments, puzzle architecture, and dimensional research. Price: 3-8 sp.",
+    "description": "Fold stone whose inner angles do not agree with its visible outline. A palm-sized piece can contain a longer carved channel than its surface permits, useful for puzzle locks, compact conduits, and spatial study; careless chiseling may make the tool emerge from the wrong face. Copper foxfire along a natural crease marks the safest cutting line. Price: 3-8 sp.",
     "name": "Warped Stone"
   },
   "Spatial Crystal": {
     "bonuses": [],
     "category": "Material",
-    "description": "A rare Fold crystal that bends light and distance around its edges. Essential for high-level teleportation, extradimensional storage, and spatial enchantments. Price: 1-3 gp.",
+    "description": "A rare transparent Fold crystal that bends light, reach, and apparent distance around its edges. Properly mounted, it supports high-level teleportation calibration, extradimensional storage, and precise spatial enchantments; unmounted shards make nearby objects seem nearer without actually moving them. It cannot bypass the Demi-Plane's access rules or locate unknown destinations. Price: 1-3 gp.",
     "name": "Spatial Crystal"
   },
   "Foldglass": {
     "bonuses": [],
     "category": "Material",
-    "description": "Glass-like mineral from the Fold that can show different surfaces depending on the viewing angle. Used for illusion devices, spatial maps, and enchanted lenses. Price: 5-15 sp.",
+    "description": "Thin glass-like mineral formed when two Fold slopes touch and separate, preserving a view from each face to the other. Rotating a pane changes which physically connected surface it shows, making it valuable for lenses, maps, inspection tools, and intricate illusion devices. It never displays a place with which the pane has not shared a fold. Price: 5-15 sp.",
     "name": "Foldglass"
   },
   "Veilglass": {
     "bonuses": [],
     "category": "Material",
-    "description": "Nearly transparent crystal formed where the Veiled Edge touches the dimensional curtain. Used in portal windows, spirit wards, and planar observation instruments. Price: 8-20 sp.",
+    "description": "Nearly transparent crystal shed from the Veiled Edge after a stable aurora pulse. It transmits spirit and boundary light while blocking loose dimensional residue, making it suited to portal windows, ward housings, and planar observation instruments. Through it, distant layers remain visible but no closer or more accessible. Price: 8-20 sp.",
     "name": "Veilglass"
   },
   "Aurora Crystal": {
     "bonuses": [],
     "category": "Material",
-    "description": "A luminous crystal containing slow-moving ribbons of colored light. Harvested near the Veiled Edge and prized for light, illusion, and spirit enchantments. Price: 5-12 sp.",
+    "description": "A cool crystal containing slow ribbons of emerald, rose, cobalt, and gold boundary light. A mana pulse releases one ribbon as room-filling radiance before it gradually returns to the crystal, and the color depends on which facet is touched. Illusionists, lampmakers, and spirit artisans value its clean reusable spectrum. Price: 5-12 sp.",
     "name": "Aurora Crystal"
   },
   "Silver Spirit-Grass": {
     "bonuses": [],
     "category": "Material",
-    "description": "Fine silver grass growing immediately beside the Veiled Edge. Its blades ripple toward disturbances in dimensional energy even without wind. Price: 30-80 cp per bundle.",
+    "description": "Fine silver grass from the inner Veiled Edge, each blade rippling toward spatial disturbance even in still air. Braided into a tassel, it becomes a durable boundary indicator for laboratories and warded doors; it shows direction and intensity only. Fallen mature blades retain the response, so uprooting living clumps is unnecessary. Price: 30-80 cp per bundle.",
     "name": "Silver Spirit-Grass"
   },
   "Boundary Essence": {
     "bonuses": [],
     "category": "Material",
-    "description": "A rare droplet of condensed planar energy gathered from the Veiled Edge itself. Used in powerful portal, summoning, warding, and dimensional enchantments. Difficult and dangerous to harvest. Price: 1-3 gp.",
+    "description": "A rare opaline droplet shed inward when the Shimmering Curtain completes a stable ripple. Suspended in veilglass, it can anchor one demanding portal, summoning, or dimensional enchantment during construction, after which the essence becomes clear inert glass. Harvesting an attached droplet is dangerous to the curtain; naturally fallen essence is both safer and stronger. Price: 1-3 gp.",
     "name": "Boundary Essence"
   },
   "Jade Rite Coin": {
     "name": "Jade Rite Coin",
-    "description": "A ceremonial jade coin minted by the Kitsune no Kage for estate rites; a recognized token of the Mother Fox's household authority.",
+    "description": "A ceremonial disc of dark green jade veined with warm foxfire-gold, minted for the established rites of the Kitsune no Kage and marked with the Mother Fox's household crest. It is a token of recognized estate authority, obligation, or completed observance—not ordinary spending money, universal sanctuary access, or proof of Tsukiko's personal favor. Held under moonlight, the engraved tail briefly appears to move around the rim.",
     "category": "Currency",
     "bonuses": []
+  },
+  "Shinboku Leaf-Silver": {
+    "name": "Shinboku Leaf-Silver",
+    "category": "Material",
+    "bonuses": [],
+    "description": "One of the nine light-leaves the sanctuary's shinboku releases at false dawn, caught only after it dissolves into a paper-thin silver flake above the moss. A flake carries softened root-current for a season and can steady a spirit ward, sanctify ink, or mend a cracked charm without granting any part of Tsukiko's divinity. The living tree cannot be forced to yield it. Price: 1-3 gp if Tsukiko permits it to leave the estate."
+  },
+  "Violetwing Glass": {
+    "name": "Violetwing Glass",
+    "category": "Material",
+    "bonuses": [],
+    "description": "A translucent scale naturally shed by a sanctuary violetwing moth, clear until foxfire reveals branching violet veins. Set into a lantern or lens, it filters harsh magical light into a spectrum safe for spirit-sensitive eyes and plants. A complete handful is collected over weeks beneath pollination roosts. Price: 2-6 sp per small packet."
+  },
+  "Dusk Honey": {
+    "name": "Dusk Honey",
+    "category": "Consumable",
+    "bonuses": [],
+    "description": "First Meadow honey stored by duskbees in comb as clear as amber glass, tasting of moonlace, clover, and cool rain. A spoonful settles ordinary nerves and produces vivid color-rich sleep without prophecy, compulsion, or emotional erasure; heated too strongly, it becomes ordinary fragrant sugar. Price: 40-90 cp per sealed comb."
+  },
+  "Foxfire Clover Seed": {
+    "name": "Foxfire Clover Seed",
+    "category": "Material",
+    "bonuses": [],
+    "description": "Tiny black seeds marked by one cobalt spark, harvested from Heartgate and Westreach ground after the clover finishes protecting bare soil. Sown over mana-scorched earth, they germinate into a low cover that absorbs weak residue and turns it into fertile loam; healthy clover goes dark when the soil is safe. It cannot cleanse curses or major contamination by itself. Price: 1-3 sp per planting pouch."
+  },
+  "Rootstream Ink": {
+    "name": "Rootstream Ink",
+    "category": "Tool",
+    "bonuses": [],
+    "description": "A diagnostic ink brewed from spirit pollen, mineral water, and one drop of lantern-tree sap. Painted on stone, wood, or parchment, it changes from pearl to violet, cobalt, or gold in the presence of nearby flowing mana and shows direction through the movement of its sheen. The ink reveals present flow only—not hidden identities, distant events, or causes—and fades after one day. Price: 4-10 sp per inkwell."
+  },
+  "Foxpath Compass": {
+    "name": "Foxpath Compass",
+    "category": "Tool",
+    "bonuses": [],
+    "description": "A palm-sized spirit-wood disc holding nine loose silver needles around a bead of foxfire dew. Inside the Demi-Plane, one needle points toward a marked location the bearer has personally visited and consciously selects; outside it, every needle rests. The compass cannot find secrets, unknown places, people, or a route forbidden by Tsukiko's wards. Price: 8-20 sp, normally made only for permitted residents or guests."
+  },
+  "Hearthspring Mineral Salt": {
+    "name": "Hearthspring Mineral Salt",
+    "category": "Consumable",
+    "bonuses": [],
+    "description": "Pearl, violet, and gold crystals skimmed from Hearth Springs overflow after steam orchids have flowered. Dissolved into hot water, a packet recreates the spring's cedar-sweet vapor and eases ordinary fatigue, muscle ache, and chill over a long soak without healing wounds or replacing rest. The colors fade in order as the salt is spent. Price: 30-80 cp per bathing packet."
+  },
+  "Spring-Snail Pearl Shell": {
+    "name": "Spring-Snail Pearl Shell",
+    "category": "Material",
+    "bonuses": [],
+    "description": "An empty translucent shell left by a Stone Rise spring-snail after it outgrows its spiral home. The shell contains concentric traces of every mineral current the animal crossed; potion makers use powdered outer whorls to keep reactive ingredients separated until brewing is complete. Held to the ear, it hums at the pitch of the spring it came from. Price: 2-5 sp."
+  },
+  "Mirrorfin Scale": {
+    "name": "Mirrorfin Scale",
+    "category": "Material",
+    "bonuses": [],
+    "description": "A thin silver-lilac scale shed at Mirror Mere spawning beds. Its two faces retain different images for several minutes—the water below and the sky above—allowing careful alchemists to stabilize dual-state illusions and memory-safe recording charms. It reflects only what physically reached it. Price: 1-4 sp."
+  },
+  "Twilight Memory Vial": {
+    "name": "Twilight Memory Vial",
+    "category": "Tool",
+    "bonuses": [],
+    "description": "A veilglass vial lined with Mirrorfin scale and filled with one finger of Twilight Pool water. Opened beside a calm reflection, it stores a single silent visual moment for up to one day and replays it once across the water's surface before becoming clear. It captures no thoughts, hidden details, sound, or events outside the reflected view. Price: 12-30 sp."
+  },
+  "Dawncrane Glass Feather": {
+    "name": "Dawncrane Glass Feather",
+    "category": "Material",
+    "bonuses": [],
+    "description": "A clear feather naturally cast by a Dawn Barrow crane, its edge tinted rose by years of flying above redstone water. It flexes like keratin but conducts water and light magic like glass, making a superb calligraphy nib, current sensor, or inlay for graceful movement enchantments. The feather glows when pointed downstream. Price: 3-8 sp."
+  },
+  "Ember-Shrub Wax": {
+    "name": "Ember-Shrub Wax",
+    "category": "Material",
+    "bonuses": [],
+    "description": "A warm golden wax secreted around mature Easthold seedpods to keep concentrated heat from scorching the embryo. It melts only when deliberately worked, seals containers against temperature change, and burns with a smokeless low flame after the seed is removed. Gilt scarabs spread the seeds, so pods are harvested only after their exit holes appear. Price: 1-3 sp per block."
+  },
+  "Glasswing Honey": {
+    "name": "Glasswing Honey",
+    "category": "Consumable",
+    "bonuses": [
+      {
+        "type": "resource",
+        "value": 5,
+        "variable": "Stamina"
+      }
+    ],
+    "description": "Rose-gold Southroll honey made by glasswing bees from warmroot and golden herb flowers. One spoon restores 5 stamina and leaves the eater comfortably warm, with a flavor of ginger blossom and browned sugar; further spoonfuls are food, not stacking miracles. The transparent comb throws tiny sunset colors across the jar. Price: 1-3 sp per sealed comb."
+  },
+  "Dream-Salamander Sheath": {
+    "name": "Dream-Salamander Sheath",
+    "category": "Material",
+    "bonuses": [],
+    "description": "A complete translucent skin shed by a Low Reaches dream-salamander when its nursery pool migrates. The sheath carries green-blue patterns that shift toward clean water and curl away from common toxins, making it useful for filters, marsh masks, and alchemical testing. It does not detect curses or unknown substances outside its natural range. Price: 2-6 sp."
+  },
+  "Grasswhale Song Amber": {
+    "name": "Grasswhale Song Amber",
+    "category": "Accessory",
+    "bonuses": [],
+    "description": "A thumb-sized piece of Deep Expanse mana amber formed around a hollow root that once carried a grasswhale's infrasonic call. Worn against the body, it vibrates when a large herd or grasswhale moves through the surrounding prairie, giving warning through rhythm rather than direction or identity. Away from the Expanse it is simply warm, beautiful amber. Price: 8-20 sp."
+  },
+  "Fold-Knot Cord": {
+    "name": "Fold-Knot Cord",
+    "category": "Tool",
+    "bonuses": [],
+    "description": "Silver-green grass cord braided around one filament of silence-thread fungus and knotted at a known point in the Fold. While the local geometry remains stable, its loose end consistently falls toward that knot, offering one reliable return route; after guiding a traveler out, the spatial tension frays the cord into ordinary fiber. It cannot cross wards, realms, or an unknown fold. Price: 5-12 sp."
+  },
+  "Pearl-Moth Silk": {
+    "name": "Pearl-Moth Silk",
+    "category": "Material",
+    "bonuses": [],
+    "description": "Nearly invisible silk gathered from empty cocoons along the Fade's solid slopes. Woven fabric loses saturation toward its edges and breaks up the wearer's outline in mist without making them invisible; under direct light it shines like mother-of-pearl. The silk unravels if carried beyond stable ground before being spun. Price: 5-15 sp per usable skein."
+  },
+  "Anchor-Lichen Seal": {
+    "name": "Anchor-Lichen Seal",
+    "category": "Accessory",
+    "bonuses": [],
+    "description": "A small anchor-stone clasp cushioned with living Grey Boundary lichen. Fastened to a chest, pack, or instrument, its pale curl stains wine-red if the object is displaced by teleportation or spatial magic while sealed, providing evidence of movement without preventing it. The lichen must be misted monthly to remain responsive. Price: 10-25 sp."
+  },
+  "Sentinel-Moth Dust": {
+    "name": "Sentinel-Moth Dust",
+    "category": "Material",
+    "bonuses": [],
+    "description": "Silver dust left on the Last Edge only after rare sentinel moths emerge during anchor strain. Mixed into rootstream ink, it makes a line react specifically to spatial drift for one week; alone it is inert and cannot create or repair an anchor. Collecting it is safe only after every moth has departed. Price: 1-3 gp due to rarity."
+  },
+  "Boundary Dew Ampoule": {
+    "name": "Boundary Dew Ampoule",
+    "category": "Consumable",
+    "bonuses": [],
+    "description": "A single opaline drop condensed where Quiet Shore not-water becomes buried freshwater, sealed in shell crystal. Poured across a surface, it runs toward the nearest active spatial pressure and evaporates after tracing one pale line; planar artisans use it to inspect seams before work. It cannot locate portals at long range or open any boundary. Price: 6-15 sp."
+  },
+  "Ninefold Orchard Preserve": {
+    "name": "Ninefold Orchard Preserve",
+    "category": "Consumable",
+    "bonuses": [
+      {
+        "type": "resource",
+        "value": 5,
+        "variable": "Mana"
+      }
+    ],
+    "description": "Heartgate mana fruit simmered with Dusk Honey and sealed under lantern-tree lacquer, the preserve holding violet, gold, and pearl ribbons in a dark glass jar. One serving restores 5 mana with the same gentle charge as fresh fruit and tastes of white peach, yuzu, cedar, and honey; extra servings remain excellent food without multiplying the immediate effect. Price: 1-3 sp per small jar."
   }
 }

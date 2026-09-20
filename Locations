@@ -1412,13 +1412,13 @@
   "The Mana Heart": {
     "areas": {
       "guardian-post": {
-        "description": "A fortified position overlooking the Demi-Plane's approaches — not that there are many ways in, but the Chamberlain takes no chances. Wards pulse from stone pillars. A guardian entity patrols the perimeter — not a living thing but a construct of the Demi-Plane's defensive will, shaped by the creator's intentions and the oath-sworn's combat experience. The guardian does not speak. It watches. It waits. It only acts when something that should not be here appears.",
+        "description": "A crescent of dark pearl stone overlooks the Mana Well, its pillars veined with ward-light that changes color with the region under strain. The guardian is an established defensive construct shaped by the Demi-Plane's will, Tsukiko's design, and the oath-sworn's actual combat experience. It neither speaks nor pretends to know what it has not detected: it responds only to defined intrusion, visible damage, and the ward network's concrete signals. Crystal gnats consume harmless sparks around the pillars, keeping the post integrated with the living chamber.",
         "paths": [
           "mana-well"
         ]
       },
       "mana-well": {
-        "description": "The convergence point where the Demi-Plane's ambient mana gathers and circulates. A pool of liquid light — not water, not fire, but concentrated potential that pulses with the dimension's health. The air hums here. Standing near the well makes magic feel easier, more responsive. The Chamberlain uses it as a diagnostic tool — the well's brightness, colour, and pulse rate tell them everything about the Demi-Plane's condition. When the well is bright and steady, all is well. When it dims or flickers, something is wrong.",
+        "description": "Concentrated potential turns beneath the floor like a liquid aurora—cobalt from water and reflection, violet from sanctuary foxfire, warm gold from heat and prairie, pearl from boundary stability. Nine broad root-streams carry its moderated output into the Basin and onward through the realm. Brightness, color, pulse, and the behavior of its tiny rim-life provide the Chamberlain with diagnostics; they do not reveal hidden causes without investigation.",
         "paths": [
           "guardian-post"
         ]
@@ -1432,8 +1432,8 @@
     "region": "Heartgate Basin",
     "x": 5,
     "y": -15,
-    "basicInfo": "The mana infrastructure and defensive core of the Demi-Plane. When mana infrastructure or defense development reaches Growing, the Chamberlain leads the creator here — to a well of concentrated mana that makes the entire dimension function better, and to a guardian post that protects what has been built. This is where the Demi-Plane's hidden machinery lives: the channels that distribute ambient energy, the wards that detect intrusion, and the diagnostic tools the Chamberlain uses to assess the dimension's health.",
-    "hiddenInfo": "The mana well is connected to the Demi-Plane's anchor-sworn bond. If that bond weakens, the well dims. If the bond breaks entirely, the well goes dark and the Demi-Plane begins to collapse inward. The guardian entity is also bonded to the well — it draws its existence from the mana concentration. If the well fails, the guardian dissolves. The Chamberlain knows this but frames it as a maintenance concern rather than an existential threat, because they have learned that existential threats make creators anxious and anxious creators make poor development decisions.",
+    "basicInfo": "The mana infrastructure and defensive core of the Demi-Plane. When mana infrastructure or defense development reaches Growing, the Chamberlain leads the creator here — to a well of concentrated mana that makes the entire dimension function better, and to a guardian post that protects what has been built. This is where the Demi-Plane's hidden machinery lives: the channels that distribute ambient energy, the wards that detect intrusion, and the diagnostic tools the Chamberlain uses to assess the dimension's health.\n\nLiving Ecology: Its well shines through layered cobalt, violet, pearl, and warm gold as different regions draw or return power. Nine broad root-streams leave the chamber like a fox's tails, but they are ecological conduits inside the existing mana-infrastructure system, not a separate progression mechanic.",
+    "hiddenInfo": "The mana well is connected to the Demi-Plane's anchor-sworn bond. If that bond weakens, the well dims. If the bond breaks entirely, the well goes dark and the Demi-Plane begins to collapse inward. The guardian entity is also bonded to the well — it draws its existence from the mana concentration. If the well fails, the guardian dissolves. The Chamberlain knows this but frames it as a maintenance concern rather than an existential threat, because they have learned that existential threats make creators anxious and anxious creators make poor development decisions.\n\nEcological Continuity: Microfauna live at the harmless outer rim of the well: crystal gnats consume unstable sparks and pale root-filaments carry the remainder toward the basin. Their disappearance warns of imbalance before the light visibly dims.",
     "visited": false,
     "lastVisitedTick": -1,
     "visitedAreas": []
@@ -1716,20 +1716,20 @@
   "The Verdant Plot": {
     "areas": {
       "common-hall": {
-        "description": "A central gathering space for the Demi-Plane's residents — currently modest but functional. A long table, a hearth that burns without fuel, and a board where the Chamberlain posts development proposals and chore assignments. Residents eat here, meet here, and argue about whose turn it is to tend the eastern orchard here. The hall grows as the settlement does — the Chamberlain has plans for expansion pinned to the wall.",
+        "description": "A modest gathering hall of pale timber and warm stone, centered on a fuel-less hearth whose flame follows the Basin's current color. A long table, development board, and work ledgers preserve the hall's established function for actual residents. Sliding panels open onto foxfire clover and the irrigation garden; empty places remain empty until someone truly lives here.",
         "paths": [
           "farm-fields",
           "residential-row"
         ]
       },
       "farm-fields": {
-        "description": "Soil has appeared where there was only flat stone. Rich, dark, and responsive — seeds placed here take root within hours. The fields stretch in neat rows that the Chamberlain organized, each one labeled with what is growing and when it was planted. Irrigation channels run between the rows, fed by a spring that appeared the moment someone wished for water.",
+        "description": "Dark responsive soil lies in curved beds divided by clear rills from Dawn Stream. Foxfire clover protects bare ground, lantern moths pollinate at night, and pale root-markers glow where a crop is drawing too much mana. Seeds still require planting and care; accelerated growth remains cultivation, not automatic abundance without labor or consequence.",
         "paths": [
           "common-hall"
         ]
       },
       "residential-row": {
-        "description": "A cluster of small dwellings line a path leading away from the common hall. Each one is shaped by its occupant — a healer's cottage with drying herbs, a warrior's quarters with a weapon rack, a merchant's room with an inventory ledger. The architecture shifts to match whoever lives here. Empty dwellings wait for future residents, their doors open and their interiors blank and expectant.",
+        "description": "Small dwellings develop along a lantern-moss path as the Settlement system establishes them. Occupied homes reflect their actual occupants through furnishings and use; vacant homes stay simple, clean, and unclaimed rather than inventing hypothetical residents. Rain gardens between foundations keep water and animal routes connected to the wider Basin.",
         "paths": [
           "common-hall"
         ]
@@ -1743,8 +1743,8 @@
     "region": "Heartgate Basin",
     "x": 15,
     "y": 5,
-    "basicInfo": "The agricultural and residential heart of the Demi-Plane. When agriculture or settlement development reaches Growing, the Chamberlain leads the creator here — to soil that appeared from nothing and buildings that rose because someone needed shelter. This is where the Demi-Plane starts to feel like it could sustain life rather than merely contain it. Farm fields, a common hall, and residential quarters for oath-sworn residents.",
-    "hiddenInfo": "The Verdant Plot's soil is not ordinary earth. It is the Demi-Plane's latent potential made tangible — it grows what the creator and residents need most, not necessarily what they planted. A crop planted out of duty may produce something unexpected. A garden tended with genuine care produces abundantly. The Chamberlain has noticed this pattern but has not mentioned it. They are curious whether the creator will notice on their own.",
+    "basicInfo": "The agricultural and residential heart of the Demi-Plane. When agriculture or settlement development reaches Growing, the Chamberlain leads the creator here — to soil that appeared from nothing and buildings that rose because someone needed shelter. This is where the Demi-Plane starts to feel like it could sustain life rather than merely contain it. Farm fields, a common hall, and residential quarters for oath-sworn residents.\n\nLiving Ecology: Between cultivated rows, low foxfire clover protects the soil, lantern moths pollinate by night, and narrow rills bring Dawn Stream water through living root filters. Its marked hall, fields, and residential row remain products of the established Agriculture and Settlement development stages; the richer ecology does not populate empty homes by itself.",
+    "hiddenInfo": "The Verdant Plot's soil is not ordinary earth. It is the Demi-Plane's latent potential made tangible — it grows what the creator and residents need most, not necessarily what they planted. A crop planted out of duty may produce something unexpected. A garden tended with genuine care produces abundantly. The Chamberlain has noticed this pattern but has not mentioned it. They are curious whether the creator will notice on their own.\n\nEcological Continuity: The soil answers actual need and sustained care through crop behavior rather than conjuring solutions without cost. Blue-veined leaves signal mana excess, pearl flowers signal thirst, and warm-gold fruit marks a stable balance between cultivation and the Basin's wider root network.",
     "visited": false,
     "lastVisitedTick": -1,
     "visitedAreas": []
@@ -2070,20 +2070,20 @@
   "The Hearth Springs": {
     "areas": {
       "garden-path": {
-        "description": "A winding path through gardens that bloom with whatever the Demi-Plane's ambient magic produces — flowers from the creator's memories, plants that remind residents of home, and occasionally something entirely new that the dimension invented on its own. Benches and quiet corners make this a place for private conversations and contemplation. The garden grows more elaborate as recreation develops.",
+        "description": "A winding path crosses steam-orchid beds, lantern ferns, warm stone, and quiet seats under miniature foxwood. Flowers drawn from real memories grow beside species invented by the Demi-Plane's own ecology, with violetwing moths carrying pollen through the vapor. The path becomes more elaborate through established Recreation development while preserving living root and water lanes.",
         "paths": [
           "hot-spring"
         ]
       },
       "hot-spring": {
-        "description": "A natural hot spring that emerged from the Demi-Plane's potential when recreation development began. The water is warm without a heat source, clear without filtration, and faintly luminescent in dim light. Stone benches line the edges. Steam rises in curling patterns that the Chamberlain swears are not intentional but look suspiciously like the creator's name. Very Aerfála. This is where residents come to relax and where half the important conversations happen — mirroring the bathhouse culture of the outside world.",
+        "description": "A sequence of clear pools rises from moonstone ledges without furnace or volcanic vent. Their mineral glow shifts from silver to violet to gold as the wider realm circulates, and steam curls into fleeting tail-shapes before returning as dew. Bathing eases fatigue and improves recovery through gentle mana conversion; it does not suppress emotion, erase injury, or force relaxation.",
         "paths": [
           "garden-path",
           "trade-post"
         ]
       },
       "trade-post": {
-        "description": "A covered stall and workshop space where commerce happens. Goods from outside arrive through the Anchor portal and are stored here before distribution. Craft tools line the walls for residents who produce goods for trade. A ledger tracks what comes in and what goes out. When the Anchor is opened for trade visitors, this is where transactions happen — under the Chamberlain's watchful eye and their very particular ideas about fair pricing.",
+        "description": "A covered exchange and workshop court beside the springs, fitted with secure storage, craft benches, a ledger station, and a receiving line from the Anchor. Its pale counters are inlaid with fallen spirit wood and shell crystal. The facility supports actual commerce when access, goods, and traders are established; it never generates merchants, inventory, or sales by itself.",
         "paths": [
           "hot-spring"
         ]
@@ -2097,8 +2097,8 @@
     "region": "Heartgate Basin",
     "x": -10,
     "y": 15,
-    "basicInfo": "The recreational and commercial district of the Demi-Plane. When recreation or commerce development reaches Growing, the Chamberlain leads the creator here — to hot springs that bubbled up from nothing, gardens that grew because someone wished for beauty, and a trade post ready for the first merchant willing to do business with a pocket dimension. This is where the Demi-Plane starts to feel worth visiting, not just worth building.",
-    "hiddenInfo": "The hot spring's water has a subtle restorative effect — not healing, but rejuvenating. Visitors who bathe here recover from fatigue faster and find their mood improved. The Chamberlain attributes this to the Demi-Plane responding to the creator's needs. In truth, the spring is drawing on the ambient mana that the Demi-Plane's infrastructure channels, converting it into a form that benefits living things. If mana infrastructure ever fails, the spring's effects diminish.",
+    "basicInfo": "The recreational and commercial district of the Demi-Plane. When recreation or commerce development reaches Growing, the Chamberlain leads the creator here — to hot springs that bubbled up from nothing, gardens that grew because someone wished for beauty, and a trade post ready for the first merchant willing to do business with a pocket dimension. This is where the Demi-Plane starts to feel worth visiting, not just worth building.\n\nLiving Ecology: The pools lie in a garden of steam-orchids, moonstone ledges, and moss that glows only through vapor. Each spring takes on a faint regional color as the Demi-Plane circulates—silver after northern thaw, violet after Mirror Mere, and gold after Southroll pollen season—making the district feel native to Tsukiko's realm rather than an Aerfálan bathhouse copied into it.",
+    "hiddenInfo": "The hot spring's water has a subtle restorative effect — not healing, but rejuvenating. Visitors who bathe here recover from fatigue faster and find their mood improved. The Chamberlain attributes this to the Demi-Plane responding to the creator's needs. In truth, the spring is drawing on the ambient mana that the Demi-Plane's infrastructure channels, converting it into a form that benefits living things. If mana infrastructure ever fails, the spring's effects diminish.\n\nEcological Continuity: Steam moths feed on mineral vapor and carry spring-orchid pollen along the garden path. Their wing color provides the earliest sign that the water's restorative conversion is weakening.",
     "visited": false,
     "lastVisitedTick": -1,
     "visitedAreas": []
@@ -2271,20 +2271,20 @@
   "The Gateway Clearing": {
     "areas": {
       "chamberlain-quarters": {
-        "description": "A modest but comfortable space just off the gateway — the Chamberlain's home base. A desk covered in notes and development proposals. A small hearth that burns without fuel. A window that looks out onto the current state of the Demi-Plane — whatever has been built so far, the Chamberlain can see it from here. This is where development requests are discussed and progress is reported.",
+        "description": "A compact residence and planning room beside the threshold garden. Development ledgers share a desk with ecological charts tracking bloom color, channel flow, herd routes, and boundary signs. A foxglass window can show the present visible condition of marked regions as colored light, but supplies no secret knowledge. This remains the place for reports, priorities, and proposals.",
         "paths": [
           "gateway-chamber"
         ]
       },
       "gateway-chamber": {
-        "description": "The entry point — a circular chamber of pale stone with a standing arch at its centre. The arch is the door: when the creator uses Demi-Plane Gate, they appear here. When the Anchor opens a portal, it opens here. The chamber is the only part of the Demi-Plane that exists from the start. Everything else must be developed. The Chamberlain waits here when the creator is absent, maintaining the space.",
+        "description": "A circular chamber of pale stone centered on the standing Gate arch, presented in Tsukiko's realm as a restrained torii with paired foxfire lanterns. The floor's pearl inlay joins the Last Edge anchor, Foundation Ridge, and Grey Boundary into one stable threshold. Authorized arrivals enter here; a crescent bed of quarantine moss catches foreign spores, curses, and loose magic before they reach the garden.",
         "paths": [
           "chamberlain-quarters",
           "the-clearing"
         ]
       },
       "the-clearing": {
-        "description": "The blank canvas — an open expanse of flat ground stretching in every direction. The sky is pale and featureless. The ground is firm but bare — no grass, no trees, no water. This is the space that will become something. Every development the creator commissions will reshape part of this clearing into something alive. Right now it is potential. What it becomes depends on who builds it.",
+        "description": "Deliberately open ground of pearl grass, violet moss, lantern saplings, and broad buildable terraces beneath a sky that takes color from the realm's health. Gravel, blooms, and foxfire outline viable proposals when Tsukiko considers development, leaving roots, rills, dens, and paths visible instead of pretending the land is blank. What is ultimately built still depends on actual decisions, investment, and the established development stages.",
         "paths": [
           "gateway-chamber"
         ]
@@ -2298,8 +2298,8 @@
     "region": "Heartgate Basin",
     "x": 0,
     "y": 0,
-    "basicInfo": "The starting point of the Demi-Plane, nested within Heartgate Basin — a gateway chamber, the Chamberlain's quarters, and a vast empty clearing waiting to be shaped. The Hidden Estate of the Mother Fox now lies within the Veiled Fox Sanctuary, Tsukiko's private sacred region adjoining this clearing. This is the foundation. Everything else is built outward from here.",
-    "hiddenInfo": "The clearing's flatness is deceptive. The ground responds to intention — if the creator walks to a specific spot and imagines something there, the earth shifts slightly, as if remembering what it is supposed to become. The Chamberlain notices these micro-reactions and uses them to suggest development priorities. The Hidden Estate of the Mother Fox is not here — its true grounds rest within the Veiled Fox Sanctuary, Tsukiko's private sacred region adjacent to this clearing.",
+    "basicInfo": "The Demi-Plane's first developed threshold-space, nested within Heartgate Basin. A pale-stone Gateway Chamber opens into a broad clearing of pearl grass, violet moss, lantern saplings, and deliberately open ground where future development remains possible without making the existing realm barren. The Chamberlain's quarters overlook the clearing, and the Basin's rills and root-streams begin visibly at its edges. The Hidden Estate remains within the Veiled Fox Sanctuary and is never relocated here.",
+    "hiddenInfo": "The clearing responds to precise intention through subtle proposals: gravel shifts into outlines, flowers trace a suitable boundary, roots retreat from viable foundations, and foxfire marks water or den routes that should remain open. These reactions inform the existing development system; they do not build projects, choose priorities, invent residents, or bypass the creator's decisions.",
     "images": {
       "establishingShot": {
         "crop": {
@@ -3868,7 +3868,7 @@
   },
   "The Hidden Estate of the Mother Fox": {
     "name": "The Hidden Estate of the Mother Fox",
-    "basicInfo": "The ancestral seat of Tsukiko Kuzunoha, the primordial Mother of All Kitsune, hidden within her sacred Veiled Fox Sanctuary. Behind high warm-clay walls under black tiles and a crimson-lacquered gate, cherry blossoms and illusion conceal a compound that combines Heian Shinden-zukuri aristocracy with the spiritual gravity of a Tendai temple. Outsiders perceive a forgotten ruined temple swallowed by forest; permitted guests enter a serene, disciplined estate reached only through the sanctuary itself, never from the wider Demi-Plane. Tsukiko keeps no casual jewelry and favors soft inner robes, layered Heian silk, and seasonal kasane colors; her private rooms smell of hinoki, toasted rice tea, sakura, incense, clean skin, and foxfire. The estate is both home and hidden clan seat of the fox-masked Kitsune no Kage: shrine-bound kitsune, distant descendants, orphaned fox spirits, yokai retainers, household spirits, and lesser kitsune drawn to the Mother Flame through blood or spirit, serving from devotion and instinctive recognition rather than wages. The compound includes the sutra-engraved Mon, central Shinden pavilion, sealed Kita-no-in, eastern kōdō and calligraphy hall, guest wing, moonlit transformation dojo, and a sacred spirit garden centered on a crescent mirror lake. The estate is elegant, private, quietly populated, and fully alive beneath its apparent stillness.",
+    "basicInfo": "The ancestral seat of Tsukiko Kuzunoha, the primordial Mother of All Kitsune, hidden within her sacred Veiled Fox Sanctuary. Behind high warm-clay walls under black tiles and a crimson-lacquered gate, cherry blossoms and illusion conceal a compound that combines Heian Shinden-zukuri aristocracy with the spiritual gravity of a Tendai temple. Outsiders perceive a forgotten ruined temple swallowed by forest; permitted guests enter a serene, disciplined estate reached only through the sanctuary itself, never from the wider Demi-Plane. Tsukiko keeps no casual jewelry and favors soft inner robes, layered Heian silk, and seasonal kasane colors; her private rooms smell of hinoki, toasted rice tea, sakura, incense, clean skin, and foxfire. The estate is both home and hidden clan seat of the fox-masked Kitsune no Kage: shrine-bound kitsune, distant descendants, orphaned fox spirits, yokai retainers, household spirits, and lesser kitsune drawn to the Mother Flame through blood or spirit, serving from devotion and instinctive recognition rather than wages. The compound includes the sutra-engraved Mon, central Shinden pavilion, sealed Kita-no-in, eastern kōdō and calligraphy hall, guest wing, moonlit transformation dojo, and a sacred spirit garden centered on a crescent mirror lake. The estate is elegant, private, quietly populated, and fully alive beneath its apparent stillness.\n\nLiving Ecology: The crescent lake, old garden pines, foxfire lanterns, and sanctuary woodland form a closed living circuit around the compound. Lantern koi consume excess foxfire, violet moss filters roofwater, and fallen cherry petals become luminous soil beneath the outer groves, making the estate feel grown into Tsukiko's realm rather than placed upon it.",
     "complexityType": "complex",
     "region": "Veiled Fox Sanctuary",
     "radius": 2,
@@ -3949,7 +3949,7 @@
       }
     },
     "factions": [],
-    "hiddenInfo": "The estate answers to Tsukiko alone. Its halls read intent: paper walls shift to shield private rooms when someone unwelcome approaches, and foxfire lanterns dim near strangers bearing false purpose — the lanterns are wards; anyone crossing with thieving intent feels their feet slow and their mind fog, as though wading into deep water with no shore visible. The Kitsune no Kage — the Shadows of the Fox — inhabit its lantern paths, cherry groves, and mirror-lake bridges: shrine-bound kitsune, distant descendants, orphaned fox spirits, yokai retainers, and household spirits, some serving since before Jōgan. They serve from devotion rather than wages: they tend foxfire lanterns, guard the gate against spirits using false names, maintain the lake and islands, carry messages through yokai roads and dream corridors, and sing wordless prayers at eclipses and full moons. Most do not know Tsukiko is literally their ancestral mother — they know her as the Lady of the Estate, the Still Flame, the Woman Before Whom Foxfire Bows. Their smooth white or black masks marked in red signify humility; appearing bare-faced before her is too intimate without permission. While she is veiled they may pass her with only a bow; when she unveils, every mask lowers, every tail stills, and every flame bends toward her. They speak only when addressed, never enter her sleeping sanctuary, and keep to the estate's edges. The estate functions as temple and hidden clan seat: it guards paths between the human world, yokai roads, dreams, shrines, and older realms, and preserves rituals forgotten even by gods — it can appear spiritually empty to mortals while fully populated. Yokai may technically enter uninvited — none dare. The shinboku at the sanctuary's heart draws Tsukiko's aether and pools a reserve beneath the estate that only she can call upon. Nothing here can be stolen, coerced, or bypassed; entry is possible only by invitation through the Veiled Fox Sanctuary, and no invading force could survive breaching it uninvited.",
+    "hiddenInfo": "The estate answers to Tsukiko alone. Its halls read intent: paper walls shift to shield private rooms when someone unwelcome approaches, and foxfire lanterns dim near strangers bearing false purpose — the lanterns are wards; anyone crossing with thieving intent feels their feet slow and their mind fog, as though wading into deep water with no shore visible. The Kitsune no Kage — the Shadows of the Fox — inhabit its lantern paths, cherry groves, and mirror-lake bridges: shrine-bound kitsune, distant descendants, orphaned fox spirits, yokai retainers, and household spirits, some serving since before Jōgan. They serve from devotion rather than wages: they tend foxfire lanterns, guard the gate against spirits using false names, maintain the lake and islands, carry messages through yokai roads and dream corridors, and sing wordless prayers at eclipses and full moons. Most do not know Tsukiko is literally their ancestral mother — they know her as the Lady of the Estate, the Still Flame, the Woman Before Whom Foxfire Bows. Their smooth white or black masks marked in red signify humility; appearing bare-faced before her is too intimate without permission. While she is veiled they may pass her with only a bow; when she unveils, every mask lowers, every tail stills, and every flame bends toward her. They speak only when addressed, never enter her sleeping sanctuary, and keep to the estate's edges. The estate functions as temple and hidden clan seat: it guards paths between the human world, yokai roads, dreams, shrines, and older realms, and preserves rituals forgotten even by gods — it can appear spiritually empty to mortals while fully populated. Yokai may technically enter uninvited — none dare. The shinboku at the sanctuary's heart draws Tsukiko's aether and pools a reserve beneath the estate that only she can call upon. Nothing here can be stolen, coerced, or bypassed; entry is possible only by invitation through the Veiled Fox Sanctuary, and no invading force could survive breaching it uninvited.\n\nEcological Continuity: The existing Kitsune no Kage and household spirits remain the estate's only established inhabitants; this ecological expansion adds no new household, clan, village, or outside population. The estate's wards read conduct and admitted intent at its boundaries without granting attendants unexplained knowledge of a visitor's identity, history, or secrets.",
     "detailType": "detailed",
     "images": {
       "establishingShot": {
@@ -3969,7 +3969,7 @@
   },
   "Candle Hollow": {
     "name": "Candle Hollow",
-    "basicInfo": "A soft-floored hollow in The Dim March where the dim light pools brightest — the region's one named landmark. The moss here is thick as a mattress and utterly silent; even placed stones settle without a sound. A half-collapsed shelf of pale stone overhangs the hollow, and the faint glow seems to rise from the moss itself rather than any source. It is the safest campsite in the march: sound dies here, and nothing that sleeps beneath the moss reaches this far.",
+    "basicInfo": "A soft-floored hollow in The Dim March where the dim light pools brightest — the region's one named landmark. The moss here is thick as a mattress and utterly silent; even placed stones settle without a sound. A half-collapsed shelf of pale stone overhangs the hollow, and the faint glow seems to rise from the moss itself rather than any source. It is the safest campsite in the march: sound dies here, and nothing that sleeps beneath the moss reaches this far.\n\nLiving Ecology: Pale hush moths gather over the resting light without wingbeat, and the moss forms shallow fox-tail whorls around anything stored here. Dim March decomposers stop cleanly at the hollow's rim, creating a naturally sterile center inside a living preservation biome.",
     "x": 30,
     "y": 25,
     "radius": 2,
@@ -3977,7 +3977,7 @@
     "complexityType": "simple",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The pooled light is mana in its resting state, made almost solid by the hollow's perfect stillness. Objects left in the hollow change less over time than anywhere else in the Demi-Plane — food stays fresh, steel keeps its edge, enchantments persist. The Chamberlain tested this here before choosing the march as his storage zone. Something older is buried beneath the moss floor at the hollow's center: a sealed mana pocket from the dimension's first days, faintly warm, waiting.",
+    "hiddenInfo": "The pooled light is mana in its resting state, made almost solid by the hollow's perfect stillness. Objects left in the hollow change less over time than anywhere else in the Demi-Plane — food stays fresh, steel keeps its edge, enchantments persist. The Chamberlain tested this here before choosing the march as his storage zone. Something older is buried beneath the moss floor at the hollow's center: a sealed mana pocket from the dimension's first days, faintly warm, waiting.\n\nEcological Continuity: The sealed warm pocket beneath the floor is compressed resting mana, not evidence of an older civilization. If opened, it would brighten the Hollow for a season and wake nearby shade-beasts rather than reveal an invented ruin.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -3985,7 +3985,7 @@
   },
   "The Grey Fog Wall": {
     "name": "The Grey Fog Wall",
-    "basicInfo": "The southern edge of The Grey Boundary — a wall of grey fog stretching horizon to horizon. Cool, damp, opaque. Walking into it feels like walking into nothing: no resistance, no ground change, just a growing sense that forward is not a direction that exists here. Shapes flicker too briefly to name within the fog, and sound carries a half-beat too late. This is the firmest edge of the dimension — it does not expand here, and the fog does not retreat.",
+    "basicInfo": "The southern edge of The Grey Boundary — a wall of grey fog stretching horizon to horizon. Cool, damp, opaque. Walking into it feels like walking into nothing: no resistance, no ground change, just a growing sense that forward is not a direction that exists here. Shapes flicker too briefly to name within the fog, and sound carries a half-beat too late. This is the firmest edge of the dimension — it does not expand here, and the fog does not retreat.\n\nLiving Ecology: Boundary moss and wine-red foxfire trace the Wall's base, making spatial strain visible as ripples through heather before the fog itself changes. Grey moths travel parallel to the edge and never enter it.",
     "x": 20,
     "y": 10,
     "radius": 2,
@@ -3993,7 +3993,7 @@
     "complexityType": "simple",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The fog is fixed because it anchors the Demi-Plane to a stable point in the dimensional void. If it moved, the dimension's position relative to the mortal world would drift and the Demi-Plane Gate could become unpredictable. The shades within the fog are not hostile — they are half-formed echoes of places the dimension has considered being. Rarely, something genuinely other slips along the wall and is quietly stopped by it.",
+    "hiddenInfo": "The fog is fixed because it anchors the Demi-Plane to a stable point in the dimensional void. If it moved, the dimension's position relative to the mortal world would drift and the Demi-Plane Gate could become unpredictable. The shades within the fog are not hostile — they are half-formed echoes of places the dimension has considered being. Rarely, something genuinely other slips along the wall and is quietly stopped by it.\n\nEcological Continuity: Flickering shapes in the fog are boundary refractions, drifting fauna, or concrete intrusions with an actual path—not automatic people, ruins, or messages from nowhere. The Wall reveals no facts merely because someone watches it.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4001,7 +4001,7 @@
   },
   "Anchor Cairn": {
     "name": "Anchor Cairn",
-    "basicInfo": "A triple-stacked cairn of pale anchor-stone on the moor — one of several boundary markers the Chamberlain has placed along the southern edge. Each stone is cool, heavy for its size, and utterly still: no moss grows on it, no insect lands on it, no fog condenses on it. A small shimenawa rope ties the top stone. From here the fog wall can be watched safely.",
+    "basicInfo": "A triple-stacked cairn of pale anchor-stone on the moor — one of several boundary markers the Chamberlain has placed along the southern edge. Each stone is cool, heavy for its size, and utterly still: no moss grows on it, no insect lands on it, no fog condenses on it. A small shimenawa rope ties the top stone. From here the fog wall can be watched safely.\n\nLiving Ecology: Anchor beetles pack grey grit beneath the stacked stones, and their closed burrow rings quietly extend the cairn's stabilizing influence through the surrounding moor. A single wine-red flame rests in its lee on windless nights.",
     "x": 50,
     "y": 35,
     "radius": 1,
@@ -4009,7 +4009,7 @@
     "complexityType": "simple",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "Anchor-stone is condensed dimensional fixedness — literalized stability, which is why it stays unmarked by moss, insects, or fog. An older cairn stands nearby that predates the Chamberlain: its stones are arranged in a pattern matching no tradition he knows, and it hums faintly when the fog wall ripples. He has never claimed it and suspects it was not built by hands at all.",
+    "hiddenInfo": "Anchor-stone is condensed dimensional fixedness — literalized stability, which is why it stays unmarked by moss, insects, or fog. An older cairn stands nearby that predates the Chamberlain: its stones are arranged in a pattern matching no tradition he knows, and it hums faintly when the fog wall ripples. He has never claimed it and suspects it was not built by hands at all.\n\nEcological Continuity: The cairn is an observation point within the existing southern anchor system, not a second Anchor item or alternate entrance. Moving a loose surface stone changes a reading; it does not grant control over the plane.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4017,7 +4017,7 @@
   },
   "Skywatch Rise": {
     "name": "Skywatch Rise",
-    "basicInfo": "The only rise in The Open Horizon — a low, broad swelling of ground a few meters higher than the plain around it. From its crest, the savanna unrolls to the glowing horizon in every direction, and the enormous sky feels larger still. Wild grass parts around its base as if in deference. At dusk the mana birds roost on its slopes, and their faint glow makes the rise look briefly like a low hill of embers.",
+    "basicInfo": "The only rise in The Open Horizon — a low, broad swelling of ground a few meters higher than the plain around it. From its crest, the savanna unrolls to the glowing horizon in every direction, and the enormous sky feels larger still. Wild grass parts around its base as if in deference. At dusk the mana birds roost on its slopes, and their faint glow makes the rise look briefly like a low hill of embers.\n\nLiving Ecology: The Rise lifts only a few body-lengths above the savanna, yet its crown sits between the upper stars and their dew-bright twins below. Migrating sky rays circle it once before choosing their next current.",
     "x": 20,
     "y": 10,
     "radius": 2,
@@ -4025,7 +4025,7 @@
     "complexityType": "simple",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The rise was not there when the region formed — it swelled up on its own some days after, as if the plain wanted one vantage point from which to see itself. Grass does not grow on its crest; the ground there is smooth and slightly warm, and sitting on it makes intention unusually clear. Whoever sits at the crest and looks at the horizon with a single fixed purpose may find the plain quietly rearranging itself to match.",
+    "hiddenInfo": "The rise was not there when the region formed — it swelled up on its own some days after, as if the plain wanted one vantage point from which to see itself. Grass does not grow on its crest; the ground there is smooth and slightly warm, and sitting on it makes intention unusually clear. Whoever sits at the crest and looks at the horizon with a single fixed purpose may find the plain quietly rearranging itself to match.\n\nEcological Continuity: Changes in herd routes and windseed drift can be read from here, but they remain observable evidence rather than supernatural certainty. The Rise offers perspective, not omniscience.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4033,7 +4033,7 @@
   },
   "Open Horizon Plain": {
     "name": "Open Horizon Plain",
-    "basicInfo": "The great open ground of The Open Horizon — kilometers of flat savanna beneath an enormous sky, unbroken except by Skywatch Rise. The horizon line glows faintly warm in every direction, like embers at the world's edge. Walking it is an experience of scale: sound carries forever, weather is visible an hour off, and footprints fade slowly into the humming grass.",
+    "basicInfo": "The great open ground of The Open Horizon — kilometers of flat savanna beneath an enormous sky, unbroken except by Skywatch Rise. The horizon line glows faintly warm in every direction, like embers at the world's edge. Walking it is an experience of scale: sound carries forever, weather is visible an hour off, and footprints fade slowly into the humming grass.\n\nLiving Ecology: Horizon grass carries alternating silver and gold waves as the Demi-Plane's daily current reverses. Glasswing locust husks glitter along migration lanes, while open-ground foxes leave mirage trails that dissolve by noon.",
     "x": 20,
     "y": 35,
     "radius": 4,
@@ -4041,7 +4041,7 @@
     "complexityType": "wilderness",
     "detailType": "basic",
     "known": true,
-    "hiddenInfo": "This is the dimension's slate with no bias. Anything imagined standing on the plain with clear intent tends to become real here — which is why the Chamberlain advises against casual wishes and idle wandering thoughts. Prairie deer herds keep a slow migration circuit around the plain's edge that no one set and no one can change.",
+    "hiddenInfo": "The plain carries little fixed geographical bias, but its roots, water, winds, and migration lanes are already real. Clear development intent can shape it only through the established Expansion system, actual investment, and persistent consequences. Herds reroute before a viable change settles, while vague wishes produce no finished structure, free resources, or automatic result.\n\nEcological Continuity: The plain remains available to established expansion mechanics, but it is not ecologically blank. Development redirects roots, water, wind, and herds, and those consequences persist instead of vanishing once construction completes.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4049,7 +4049,7 @@
   },
   "Cairn Line": {
     "name": "Cairn Line",
-    "basicInfo": "A quiet row of small stone cairns across The Fade, each standing at the exact point where ground stops being ground — the Chamberlain's careful mapping of the region's end. Beyond the last cairn, color pales, sound gathers a half-step behind, and the hills give way to featureless mist. The cairns are identical: three stones each, unweathered, casting no shadow in the grey light. Walking the line is the only reliable way to hold a direction here.",
+    "basicInfo": "A quiet row of small stone cairns across The Fade, each standing at the exact point where ground stops being ground — the Chamberlain's careful mapping of the region's end. Beyond the last cairn, color pales, sound gathers a half-step behind, and the hills give way to featureless mist. The cairns are identical: three stones each, unweathered, casting no shadow in the grey light. Walking the line is the only reliable way to hold a direction here.\n\nLiving Ecology: Transparent boundary flowers bloom between the three-stone markers, losing one color at each step toward the mist. Pearl moths use the line as a safe pollination route and make its drift visible before the stones are remeasured.",
     "x": 20,
     "y": 15,
     "radius": 2,
@@ -4057,7 +4057,7 @@
     "complexityType": "simple",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The cairns are not decoration — they are a measurement. Each one marks where the dimension's intention currently ends, and the line moves a little each season as the Fade thickens or thins. The Chamberlain rebuilds any that drift. Echo spirits avoid the line: something about the marked certainty of the stones repels them. One cairn, the seventh, is sometimes found with a fourth stone on it that matches no stone in the region; it vanishes again by morning.",
+    "hiddenInfo": "The cairns are not decoration — they are a measurement. Each one marks where the dimension's intention currently ends, and the line moves a little each season as the Fade thickens or thins. The Chamberlain rebuilds any that drift. Echo spirits avoid the line: something about the marked certainty of the stones repels them. One cairn, the seventh, is sometimes found with a fourth stone on it that matches no stone in the region; it vanishes again by morning.\n\nEcological Continuity: The occasional fourth stone is condensed soundless mineral deposited where two versions of a hill overlapped. It is a natural Fade phenomenon, not proof of unknown inhabitants.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4065,7 +4065,7 @@
   },
   "The Dissolving Hills": {
     "name": "The Dissolving Hills",
-    "basicInfo": "The fading upland of The Fade — gentle grey hills that lose color, sound, and certainty as they rise toward the region's edge. Grass here grows grey as frost, trees stand without leaves or with too many, and distances quietly stop agreeing with footsteps. It is not dangerous; it is unfinished. The hills are where the Demi-Plane simply stops deciding what it is.",
+    "basicInfo": "The fading upland of The Fade — gentle grey hills that lose color, sound, and certainty as they rise toward the region's edge. Grass here grows grey as frost, trees stand without leaves or with too many, and distances quietly stop agreeing with footsteps. It is not dangerous; it is unfinished. The hills are where the Demi-Plane simply stops deciding what it is.\n\nLiving Ecology: Translucent root-vines hold the reliable slopes together, and echo hares browse where grass still casts a shadow. Farther in, pearl moths appear as gaps in the mist until they turn back toward solid ground.",
     "x": 35,
     "y": 30,
     "radius": 4,
@@ -4073,7 +4073,7 @@
     "complexityType": "wilderness",
     "detailType": "basic",
     "known": true,
-    "hiddenInfo": "The hills dissolve because the dimension never finished intending them — each walk through them takes a slightly different shape. Structures have appeared here overnight: a stair to nowhere, a doorway in a hillside, a lantern-lit path that leads back to its own start. Some are echoes of things the creator has seen or dreamed; none persist past a day or two. Mist pearls form where the fog of two different 'versions' of a hill slowly meet.",
+    "hiddenInfo": "The hills dissolve because the dimension never finished intending them — each walk through them takes a slightly different shape. Structures have appeared here overnight: a stair to nowhere, a doorway in a hillside, a lantern-lit path that leads back to its own start. Some are echoes of things the creator has seen or dreamed; none persist past a day or two. Mist pearls form where the fog of two different 'versions' of a hill slowly meet.\n\nEcological Continuity: Temporary stairs, doors, and paths are shapes produced by incomplete terrain or echoes of witnessed memory. They contain no fabricated residents and reveal no private history unless a concrete source placed that information there.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4081,7 +4081,7 @@
   },
   "Dimensional Anchor Point": {
     "name": "Dimensional Anchor Point",
-    "basicInfo": "The still center of The Last Edge — an unremarkable stretch of smooth grey ground that is, quietly, the single fixed coordinate from which the entire Demi-Plane is extrapolated. Nothing marks it: no pillar, no sigil, no glow. The light falls without direction, the air does not move, and standing on the exact point feels like standing in the pause between two thoughts. Anyone attuned to dimensional structure who stands here long enough will feel the whole dimension hanging from this one spot like a coat from a single nail.",
+    "basicInfo": "The still center of The Last Edge — an unremarkable stretch of smooth grey ground that is, quietly, the single fixed coordinate from which the entire Demi-Plane is extrapolated. Nothing marks it: no pillar, no sigil, no glow. The light falls without direction, the air does not move, and standing on the exact point feels like standing in the pause between two thoughts. Anyone attuned to dimensional structure who stands here long enough will feel the whole dimension hanging from this one spot like a coat from a single nail.\n\nLiving Ecology: Sparse anchor lichen forms nine incomplete rings around the exact coordinate, while fixed-point beetles crawl closed paths that never cross. Once each cycle, a violet seam pulses outward through the otherwise shadowless stone.",
     "x": 30,
     "y": 20,
     "radius": 2,
@@ -4089,7 +4089,7 @@
     "complexityType": "simple",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "This is the most important place in the dimension and the least conspicuous. Destabilizing the anchor point would not collapse the Demi-Plane but set it drifting until it lost connection to the mortal world. The Mana Heart's guardian entity patrols here secretly whenever the creator is absent. Nullstone and fixed-point fragments are found only within a few hundred paces of the point — the ground's absolute stillness condenses them. The geometric formations occasionally found nearby are not buildings or ruins; they are the dimension's structure briefly becoming visible where stillness is deepest.",
+    "hiddenInfo": "This is the most important place in the dimension and the least conspicuous. Destabilizing the anchor point would not collapse the Demi-Plane but set it drifting until it lost connection to the mortal world. The Mana Heart's guardian entity patrols here secretly whenever the creator is absent. Nullstone and fixed-point fragments are found only within a few hundred paces of the point — the ground's absolute stillness condenses them. The geometric formations occasionally found nearby are not buildings or ruins; they are the dimension's structure briefly becoming visible where stillness is deepest.\n\nEcological Continuity: The beetle paths, lichen color, and pulse timing provide redundant warning of drift. None creates a new portal, grants teleportation, or replaces the Demi-Plane Anchor item.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4097,7 +4097,7 @@
   },
   "The Last Edge": {
     "name": "The Last Edge",
-    "basicInfo": "The barren rim of the Demi-Plane — smooth flat stony ground, motionless air, steady grey light, extending to the dimension's end in the southeast. No shadows fall here; light comes from nowhere and everywhere at once. The plain is broken by nothing: no grass, no stones out of place, no sound. Walking its length is walking beside the fact that everything ends.",
+    "basicInfo": "The fixed southeastern rim of the Demi-Plane: smooth grey stone, directionless light, sparse white anchor lichen, and motionless air around the Dimensional Anchor Point. Nothing casts a shadow. Violet seams pulse once each cycle, fixed-point beetles trace closed routes, and rare grey needle-foxes drink condensation from the stone. The place remains austere and almost empty without being ecologically dead.",
     "x": 15,
     "y": 35,
     "radius": 4,
@@ -4105,7 +4105,7 @@
     "complexityType": "wilderness",
     "detailType": "basic",
     "known": true,
-    "hiddenInfo": "The Edge is barren on purpose — the dimension holds its outermost ground in perfect rest so the anchor point beneath it never drifts. Discoveries here are rare and always significant: nullstone deposits, grey crystal seams, fixed-point fragments, strange geometric formations, or remnants — worn and impossible — that predate the dimension itself. The Chamberlain quietly collects anything found and records it in a ledger he keeps in his quarters.",
+    "hiddenInfo": "Perfect rest protects the fixed coordinate, while anchor lichen, fixed-point beetles, and sentinel moths provide early warning of drift. Nullstone, grey crystal, and fixed-point fragments are collected only where the anchor naturally sheds them. Any anomalous object requires an actual origin—permitted traveler, defined intrusion, boundary shedding, or established development—and never appears solely to force a quest.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4113,7 +4113,7 @@
   },
   "The Shifting Pools": {
     "name": "The Shifting Pools",
-    "basicInfo": "The wandering heart of The Low Reaches — a constellation of shallow pools connected by channels that rearrange themselves between one visit and the next. No two days show the same water. The pools are clear and faintly warm, ringed with glow-reed, and home to bog wisps that drift from pool to pool like slow lanterns. Stepping-stone mounds rise and settle like breathing.",
+    "basicInfo": "The wandering heart of The Low Reaches — a constellation of shallow pools connected by channels that rearrange themselves between one visit and the next. No two days show the same water. The pools are clear and faintly warm, ringed with glow-reed, and home to bog wisps that drift from pool to pool like slow lanterns. Stepping-stone mounds rise and settle like breathing.\n\nLiving Ecology: Glow-reed islands migrate between pools, carrying dream-salamander eggs, chorus-frog spawn, and luminous waterplant seed. Water color changes with what the marsh is filtering, turning the wetland's motion into legible ecology.",
     "x": 25,
     "y": 30,
     "radius": 4,
@@ -4121,7 +4121,7 @@
     "complexityType": "wilderness",
     "detailType": "basic",
     "known": true,
-    "hiddenInfo": "The pools shift because the region is unspent potential in liquid form — each pool is the dimension briefly imagining being a lake. A visiting spirit salamander becomes, briefly, its shape. Objects dropped in the pools are carried by the channels; the marsh returns what it takes on its own schedule, sometimes years later and far from where it was lost. Mud sprites form where a pool dissolves the same hour another forms — brief, harmless, and curious about shoes.",
+    "hiddenInfo": "The pools shift because the region is unspent potential in liquid form — each pool is the dimension briefly imagining being a lake. A visiting spirit salamander becomes, briefly, its shape. Objects dropped in the pools are carried by the channels; the marsh returns what it takes on its own schedule, sometimes years later and far from where it was lost. Mud sprites form where a pool dissolves the same hour another forms — brief, harmless, and curious about shoes.\n\nEcological Continuity: A stabilized pool remains stable because of sustained intention and altered water flow; it does not freeze the entire region. Nearby pools reroute around it and preserve the Low Reaches' filtration cycle.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4129,7 +4129,7 @@
   },
   "Rain Hollow": {
     "name": "Rain Hollow",
-    "basicInfo": "A sheltered basin in The Low Reaches where the rain-scent is strongest — a soft round hollow ringed by reed banks, always smelling of a storm that has not arrived. Fine drizzle falls here most nights despite the clear sky above it, and the ground stays cool and damp. Marsh herbs grow thickest along its rim, and rain gathers overnight in a single clear pool at its center.",
+    "basicInfo": "A sheltered basin in The Low Reaches where the rain-scent is strongest — a soft round hollow ringed by reed banks, always smelling of a storm that has not arrived. Fine drizzle falls here most nights despite the clear sky above it, and the ground stays cool and damp. Marsh herbs grow thickest along its rim, and rain gathers overnight in a single clear pool at its center.\n\nLiving Ecology: Rain scent gathers here even under clear sky. Pearl dew falls upward from the moss at dusk, meets descending mist above the hollow, and returns as a brief soft rain that feeds nursery pools.",
     "x": 15,
     "y": 20,
     "radius": 2,
@@ -4137,7 +4137,7 @@
     "complexityType": "simple",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The hollow holds the region's strongest concentration of unformed potential — the dimension's rain that never fell. Drinking from the central pool leaves a faint sense of possibility: everything feels briefly possible. Spirit salamanders nest in the hollow's soft banks during settled seasons, laying eggs that need the constant drizzle. Old objects — a rusted bucket, a wooden toy — surface from the banks after heavy nights, placed by the marsh itself as if returning borrowed things.",
+    "hiddenInfo": "The hollow holds the region's strongest concentration of unformed potential — the dimension's rain that never fell. Drinking from the central pool leaves a faint sense of possibility: everything feels briefly possible. Spirit salamanders nest in the hollow's soft banks during settled seasons, laying eggs that need the constant drizzle. Old objects — a rusted bucket, a wooden toy — surface from the banks after heavy nights, placed by the marsh itself as if returning borrowed things.\n\nEcological Continuity: The cycle is driven by buried Quiet Shore dewflow meeting warm marsh potential. It predicts no weather outside the Demi-Plane and carries no voices or memories by default.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4145,7 +4145,7 @@
   },
   "Residential Terraces": {
     "name": "Residential Terraces",
-    "basicInfo": "The wide stone shelves of The Hollow Vale — broad, flat terraces cut into the valley slope, each level and ready as an empty room. Thousands of foxfire motes settle along the terrace edges at dusk like lanterns placed by unseen hands. Nothing has been built here yet; the terraces simply wait, weedless and patient, for the day the Demi-Plane needs its next homes.",
+    "basicInfo": "The wide stone shelves of The Hollow Vale — broad, flat terraces cut into the valley slope, each level and ready as an empty room. Thousands of foxfire motes settle along the terrace edges at dusk like lanterns placed by unseen hands. Nothing has been built here yet; the terraces simply wait, weedless and patient, for the day the Demi-Plane needs its next homes.\n\nLiving Ecology: Unoccupied shelves remain carpeted in velvet grass and foxfire moss, with moon-rabbit burrows kept clear of the marked foundation zones. Development can place future homes here without pretending those homes or residents already exist.",
     "x": 25,
     "y": 30,
     "radius": 3,
@@ -4153,7 +4153,7 @@
     "complexityType": "complex",
     "detailType": "basic",
     "known": true,
-    "hiddenInfo": "Each terrace measures precisely to the dimensions of a room in the Hidden Estate — the vale was shaped by the dimension's longing for a grander home. Any dwelling built on a terrace settles quickly and comfortably, as if the stone had already provided for its weight. Terrace sprites treat construction here as a shared family project, quietly continuing unfinished walls at night. Sprouting herbs found on individual terraces predict which future residents will thrive there.",
+    "hiddenInfo": "Each terrace measures precisely to the dimensions of a room in the Hidden Estate — the vale was shaped by the dimension's longing for a grander home. Any dwelling built on a terrace settles quickly and comfortably, as if the stone had already provided for its weight. Terrace sprites treat construction here as a shared family project, quietly continuing unfinished walls at night. Sprouting herbs found on individual terraces predict which future residents will thrive there.\n\nEcological Continuity: Flower color indicates each terrace's best use—blue for water-rich gardens, gold for gathering space, white for quiet foundations—but these are environmental suggestions. They never choose a building, occupant, or settlement stage.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4161,7 +4161,7 @@
   },
   "Sheltered Vale": {
     "name": "Sheltered Vale",
-    "basicInfo": "The calm valley floor of The Hollow Vale — level ground between the terraced slopes where the air never stirs and sound lands soft. Wildflowers line a single faint path, and the foxfire motes drift lowest here, close to knee height, as though the vale holds them like a bowl. The quietest defined space in the Demi-Plane and the most construction-friendly ground after the Westreach.",
+    "basicInfo": "The calm valley floor of The Hollow Vale — level ground between the terraced slopes where the air never stirs and sound lands soft. Wildflowers line a single faint path, and the foxfire motes drift lowest here, close to knee height, as though the vale holds them like a bowl. The quietest defined space in the Demi-Plane and the most construction-friendly ground after the Westreach.\n\nLiving Ecology: Small springs step quietly through medicinal root beds before sinking west toward the Low Reaches. Terrace wrens carry seed between walls, and dusk foxes sleep in warm clay niches above the waterline.",
     "x": 15,
     "y": 25,
     "radius": 3,
@@ -4169,7 +4169,7 @@
     "complexityType": "simple",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The wind never crosses the vale because the terraced slopes were formed as a shelter in intention as much as in shape. A small spring seeps from the south bank through a buried crevice unnoticed by the Chamberlain; its water makes spirit clay set harder. Burrowing spirit rabbits maintain warren-caves here, some chambers long abandoned — their old shelters still lined with moss and waiting. One viewpoint on the eastern slope sees the Hidden Estate directly, though the sight belongs only to those who climb.",
+    "hiddenInfo": "The wind never crosses the vale because the terraced slopes were formed as a shelter in intention as much as in shape. A small spring seeps from the south bank through a buried crevice unnoticed by the Chamberlain; its water makes spirit clay set harder. Burrowing spirit rabbits maintain warren-caves here, some chambers long abandoned — their old shelters still lined with moss and waiting. One viewpoint on the eastern slope sees the Hidden Estate directly, though the sight belongs only to those who climb.\n\nEcological Continuity: The Vale's calm comes from terrain and balanced flow, not a charm that pacifies visitors. Conflict, fear, and urgency remain possible here and are depicted normally.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4177,7 +4177,7 @@
   },
   "Great Prairie": {
     "name": "Great Prairie",
-    "basicInfo": "The vast prairie heart of The Deep Expanse — flat firm ground under a high clear sky, threaded by tall blue-green grasses that wave in slow unison and hum almost audibly as the wind passes. The largest single open space in the Demi-Plane: a blank canvas the size of a small country. Crossing it takes a full day by foot, and the horizon stays exactly as far away the entire way.",
+    "basicInfo": "The vast prairie heart of The Deep Expanse—firm ground under a high clear sky, threaded by tall blue-green grasses that wave in slow unison and hum in layered chords as the wind passes. It is the largest single open ecosystem in the Demi-Plane: deep-rooted, herd-crossed, and broad enough that walking it takes a full day while the horizon remains exactly as distant.\n\nLiving Ecology: At night the grass tips reproduce the sky in cobalt points, and grasswhales move beneath them like low, breathing hills. Wide herd circuits braid the whole southern ecosystem together.",
     "x": 25,
     "y": 40,
     "radius": 5,
@@ -4185,7 +4185,7 @@
     "complexityType": "wilderness",
     "detailType": "basic",
     "known": true,
-    "hiddenInfo": "The prairie sits over the dimension's second-deepest mana reserve, still rather than pressing, like a reservoir awaiting a tap. The deep grass conceals prairie drake territories, underground chambers beneath old root-systems, and stones that look genuinely ancient despite being younger than the dimension — the Expanse wears borrowed age easily. Whatever major development is dreamed here should be dreamed carefully: the ground accepts blueprints with unusual completeness.",
+    "hiddenInfo": "The prairie sits over the dimension's second-deepest mana reserve, still rather than pressing, like a reservoir awaiting a tap. The deep grass conceals prairie drake territories, underground chambers beneath old root-systems, and stones that look genuinely ancient despite being younger than the dimension — the Expanse wears borrowed age easily. Whatever major development is dreamed here should be dreamed carefully: the ground accepts blueprints with unusual completeness.\n\nEcological Continuity: The ancient appearance of isolated stones is borrowed form generated by the young realm's latent memory, not evidence of an added civilization. Underground chambers are geological and root-made unless a concrete event establishes otherwise.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4193,7 +4193,7 @@
   },
   "Mana-Density Survey Point": {
     "name": "Mana-Density Survey Point",
-    "basicInfo": "A single pale stone standing in the tall grass of The Deep Expanse, ringed by a worn circle where the Chamberlain measures the region's mana density by hand — one of the earliest man-made places in the dimension. The stone is ordinary except that grass refuses to grow within its ring. A small notebook-sized hollow in the stone's base holds the latest readings, chalked in the Chamberlain's precise hand.",
+    "basicInfo": "A single pale stone standing in the tall grass of The Deep Expanse, ringed by a worn circle where the Chamberlain measures the region's mana density by hand — one of the earliest man-made places in the dimension. The stone is ordinary except that grass refuses to grow within its ring. A small notebook-sized hollow in the stone's base holds the latest readings, chalked in the Chamberlain's precise hand.\n\nLiving Ecology: Amber fungus appears in a wider ring after every healthy herd migration and shrinks when mana accumulates without biological use. The Chamberlain now records both phenomena beside the original readings.",
     "x": 15,
     "y": 30,
     "radius": 1,
@@ -4201,7 +4201,7 @@
     "complexityType": "simple",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The readings matter more than the region admits: the Expanse's mana density has crept steadily upward since measurement began, as if the reservoir below the prairie is filling faster than the dimension can spend it. A day is coming when the grass will hum loud enough to hear from the Stone Rise. Mana amber forms thickest within a hundred paces of the point. The Chamberlain has never explained the survey to the creator; he treats it as his private promise that the ground will be ready when she is.",
+    "hiddenInfo": "The readings matter more than the region admits: the Expanse's mana density has crept steadily upward since measurement began, as if the reservoir below the prairie is filling faster than the dimension can spend it. A day is coming when the grass will hum loud enough to hear from the Stone Rise. Mana amber forms thickest within a hundred paces of the point. The Chamberlain has never explained the survey to the creator; he treats it as his private promise that the ground will be ready when she is.\n\nEcological Continuity: The rising reserve is safest when roots, herds, predators, and decomposers remain active. A high number alone does not mean unlimited power or automatic readiness for every project.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4209,7 +4209,7 @@
   },
   "Sunset Hills": {
     "name": "Sunset Hills",
-    "basicInfo": "The rolling golden upland of The Southroll — wave after wave of grass-covered hills bathed in perpetual late-afternoon light. Warm soil, low wild herbs, and an air that lulls walkers into unhurried contentment. Every hill crest offers a new unrolling view of gold, and the fireflies begin their disciplined circles as the light deepens toward evening that never quite arrives.",
+    "basicInfo": "The rolling golden upland of The Southroll — wave after wave of grass-covered hills bathed in perpetual late-afternoon light. Warm soil, low wild herbs, and an air that lulls walkers into unhurried contentment. Every hill crest offers a new unrolling view of gold, and the fireflies begin their disciplined circles as the light deepens toward evening that never quite arrives.\n\nLiving Ecology: Glasswing bees work the warmroot flowers while small golden drakes surf the hill lee without flapping. At the lowest hollows, cool springs gather beneath spontaneous shade groves.",
     "x": 25,
     "y": 30,
     "radius": 4,
@@ -4217,7 +4217,7 @@
     "complexityType": "wilderness",
     "detailType": "basic",
     "known": true,
-    "hiddenInfo": "The perpetual light is sustained low-state mana — the region is the dimension's lifeboat, keeping itself lit for days on residual energy if everything else failed. Hill fox dens concentrate along the northern folds; the foxes neither fear nor welcome visitors but will guide lost walkers home if bribed with sweet grass. Broad Picnic Groves form naturally in the hollows of the hills — circles of shade-trees that appear where no seeds were ever planted, always with a flat stone suitable for laying out food.",
+    "hiddenInfo": "The perpetual light is sustained low-state mana — the region is the dimension's lifeboat, keeping itself lit for days on residual energy if everything else failed. Hill fox dens concentrate along the northern folds; the foxes neither fear nor welcome visitors but will guide lost walkers home if bribed with sweet grass. Broad Picnic Groves form naturally in the hollows of the hills — circles of shade-trees that appear where no seeds were ever planted, always with a flat stone suitable for laying out food.\n\nEcological Continuity: The region's residual stability comes from stored low-state mana cycling through living roots and animals. The light does not suspend time, prevent consequences, or force contentment.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4225,7 +4225,7 @@
   },
   "Golden Walk": {
     "name": "Golden Walk",
-    "basicInfo": "The ridge path along the highest crest of The Southroll — a spontaneous footpath the dimension seems to have worn for the pleasure of it, winding hilltop to hilltop through perpetual golden light. Warm-feather birds roost along its length, grass spirits part the growth a stride ahead of walkers, and from the crest's center the whole dimension is faintly visible: a pocket-sized world laid out under endless afternoon.",
+    "basicInfo": "The ridge path along the highest crest of The Southroll — a spontaneous footpath the dimension seems to have worn for the pleasure of it, winding hilltop to hilltop through perpetual golden light. Warm-feather birds roost along its length, grass spirits part the growth a stride ahead of walkers, and from the crest's center the whole dimension is faintly visible: a pocket-sized world laid out under endless afternoon.\n\nLiving Ecology: The crest path glows rose-gold beneath each footfall, then dims behind it as fireflies close the trail in ordered spirals. Prairie wind arrives on one side and Rift-cool air on the other.",
     "x": 15,
     "y": 25,
     "radius": 2,
@@ -4233,7 +4233,7 @@
     "complexityType": "simple",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The Walk's path was never laid or trodden into being; it appeared complete the morning after the Southroll stabilized — the only fully finished feature the dimension ever produced unasked. Walking its full length in a single stretch grants mild, harmless euphoria and (the Chamberlain suspects) slightly improved mana sensitivity. Small spirit dens thread the embankments under the path: grass spirits and foxes share them without tension. Springs surface along the route after heavy warm days, occasionally ringing with firefly dust in the water.",
+    "hiddenInfo": "The Walk's path was never laid or trodden into being; it appeared complete the morning after the Southroll stabilized — the only fully finished feature the dimension ever produced unasked. Walking its full length in a single stretch grants mild, harmless euphoria and (the Chamberlain suspects) slightly improved mana sensitivity. Small spirit dens thread the embankments under the path: grass spirits and foxes share them without tension. Springs surface along the route after heavy warm days, occasionally ringing with firefly dust in the water.\n\nEcological Continuity: The firefly pattern is a response to airflow and body heat, not a message or judgment. Deviations can reveal ecological disturbance without supplying its cause automatically.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4241,7 +4241,7 @@
   },
   "Eastern Clefts": {
     "name": "Eastern Clefts",
-    "basicInfo": "The great fissure system of The Rift March — dark stone gorges twisting into the region's east, deep enough that cold blue light seeps upward from their bottoms at night. The rims echo a heartbeat late. Grassland edges carelessly into stone; the West is the Southroll's warmth, the East is depth, shadow, and something that has not decided whether it is scenery or danger. Cave mouths punctuate the cleft walls — most unplumbed, all unmarked.",
+    "basicInfo": "The great fissure system of The Rift March — dark stone gorges twisting into the region's east, deep enough that cold blue light seeps upward from their bottoms at night. The rims echo a heartbeat late. Grassland edges carelessly into stone; the West is the Southroll's warmth, the East is depth, shadow, and something that has not decided whether it is scenery or danger. Cave mouths punctuate the cleft walls — most unplumbed, all unmarked.\n\nLiving Ecology: Cold-light fungus paints the deepest walls cobalt while darkroot vines bridge narrow gaps for crawlers and seed. Echo bats make the caverns audible in delayed, layered clicks.",
     "x": 40,
     "y": 25,
     "radius": 4,
@@ -4249,7 +4249,7 @@
     "complexityType": "wilderness",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The clefts descend toward the dimensional boundary itself; at a certain depth, visitors feel they are standing at the bottom of the world. Rift crawlers and cave drakes nest in the upper systems, but the deep systems hold unexplored caverns, monster nests of higher-level predators, and ruins of strange geometry that predate the March — materialized fears wear borrowed shapes. At least one fissure mouth reads as a natural dungeon entrance waiting for an occupant. Blue mana ore veins run along the deepest exposed walls, harvested only by the brave or the careless.",
+    "hiddenInfo": "The clefts descend toward the dimensional boundary itself; at a certain depth, visitors feel they are standing at the bottom of the world. Rift crawlers and cave drakes nest in the upper systems, but the deep systems hold unexplored caverns, monster nests of higher-level predators, and ruins of strange geometry that predate the March — materialized fears wear borrowed shapes. At least one fissure mouth reads as a natural dungeon entrance waiting for an occupant. Blue mana ore veins run along the deepest exposed walls, harvested only by the brave or the careless.\n\nEcological Continuity: The caves support dangerous fauna and future dungeon development but no unestablished culture, population, or ancient empire. Ruins appear only where existing canon or later play gives them a concrete origin.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4257,7 +4257,7 @@
   },
   "Rift Overlook": {
     "name": "Rift Overlook",
-    "basicInfo": "The grassland rim above the Eastern Clefts — a broad stone knoll where the Rift March's last safe ground meets its first true drop. From the overlook, the whole fissure system is visible: layered ridges sculpting downward into blue-lit dark. Wind rises from below at dusk carrying cold mineral air and, occasionally, a sound not quite echo. A low cairn ring marks the safety line; past it the ground breaks without warning.",
+    "basicInfo": "The grassland rim above the Eastern Clefts — a broad stone knoll where the Rift March's last safe ground meets its first true drop. From the overlook, the whole fissure system is visible: layered ridges sculpting downward into blue-lit dark. Wind rises from below at dusk carrying cold mineral air and, occasionally, a sound not quite echo. A low cairn ring marks the safety line; past it the ground breaks without warning.\n\nLiving Ecology: Golden Southroll grass ends in a clean dark rim overlooking the first blue-lit fissures. Cleft foxes den among warm western stones, safely above the rift crawlers' vertical routes.",
     "x": 20,
     "y": 15,
     "radius": 2,
@@ -4265,7 +4265,7 @@
     "complexityType": "simple",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The Chamberlain placed the cairn ring himself after two survey trips, but refuses to survey further without an escort — unusual fear for a being that catalogs monsters without hesitation. Blue-flame wisps rise from the clefts to the overlook on windless nights, circling it twice before sinking back: a behavior he logs but cannot explain. From this point, only the uppermost cave mouths are in sight; the true depths begin where the overlook's map ends and every route beyond is discovery, not documentation.",
+    "hiddenInfo": "The Chamberlain placed the cairn ring himself after two survey trips, but refuses to survey further without an escort — unusual fear for a being that catalogs monsters without hesitation. Blue-flame wisps rise from the clefts to the overlook on windless nights, circling it twice before sinking back: a behavior he logs but cannot explain. From this point, only the uppermost cave mouths are in sight; the true depths begin where the overlook's map ends and every route beyond is discovery, not documentation.\n\nEcological Continuity: The Overlook offers observable signs—roost flights, fungal brightness, echo delay—rather than automatic knowledge of what lives in unexplored depths.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4273,7 +4273,7 @@
   },
   "Stillwater Shore": {
     "name": "Stillwater Shore",
-    "basicInfo": "The formal coast of The Quiet Shore — the tideline where moon-white sand meets the flat, still air that behaves like unbreathing water. No waves arrive; sound does not travel. Glass crabs drift across the horizon as if skating, and the luminous fish-like entities glide deep beneath the surface of the not-water near the boundary, too far and too strange for study. The most peaceful and solitary place in the Demi-Plane.",
+    "basicInfo": "The formal coast of The Quiet Shore — the tideline where moon-white sand meets the flat, still air that behaves like unbreathing water. No waves arrive; sound does not travel. Glass crabs drift across the horizon as if skating, and the luminous fish-like entities glide deep beneath the surface of the not-water near the boundary, too far and too strange for study. The most peaceful and solitary place in the Demi-Plane.\n\nLiving Ecology: At false midnight the boundary dew gathers into perfect beads, rolls uphill through moon-sand, and disappears into shell beds that feed the western marshes. Glass crabs comb the tideline in silent, parallel rows.",
     "x": 15,
     "y": 35,
     "radius": 3,
@@ -4281,7 +4281,7 @@
     "complexityType": "wilderness",
     "detailType": "basic",
     "known": true,
-    "hiddenInfo": "The not-water is the region's unanswered question — the dimension's only undecided coastline. Walking into it presses no resistance; visitors walk back damp in spirit rather than body, as if the not-water touched what they are made of. Objects arrive on this shore with no origin: sealed bottles with no letters, ropes of no ships, lamps of no wreck. The Chamberlain records each, troubled only by his inability to find their source. The pale shore spirits gather on the tide-line at true dusk and face the horizon — the closest thing this dimension has to a ritual no one designed.",
+    "hiddenInfo": "The not-water is the region's unanswered question — the dimension's only undecided coastline. Walking into it presses no resistance; visitors walk back damp in spirit rather than body, as if the not-water touched what they are made of. Objects arrive on this shore with no origin: sealed bottles with no letters, ropes of no ships, lamps of no wreck. The Chamberlain records each, troubled only by his inability to find their source. The pale shore spirits gather on the tide-line at true dusk and face the horizon — the closest thing this dimension has to a ritual no one designed.\n\nEcological Continuity: The fish-shaped lights beneath the not-water are native boundary grazers following currents of reflected mana. They are living creatures, not trapped souls, omens, or inhabitants of an unseen city.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4289,7 +4289,7 @@
   },
   "Moonwhite Strand": {
     "name": "Moonwhite Strand",
-    "basicInfo": "The long dune line behind the Stillwater Shore — moon-white sand dunes that never shift, backed by pale-flowered salt-grass whose hollow stalks chime once when nothing else disturbs the air. The strand has the dimension's softest footing and the clearest silence; walking it feels like being the first person ever to cross it. Dune foxes den along its folds, and the sand records every track for days without filling them.",
+    "basicInfo": "The long dune line behind the Stillwater Shore — moon-white sand dunes that never shift, backed by pale-flowered salt-grass whose hollow stalks chime once when nothing else disturbs the air. The strand has the dimension's softest footing and the clearest silence; walking it feels like being the first person ever to cross it. Dune foxes den along its folds, and the sand records every track for days without filling them.\n\nLiving Ecology: Moonplovers nest among pale-flowered dune-grass, and tide moths suspend pearlescent silk between saltgrass stems. Cedar needles from the Sanctuary occasionally arrive without wind and become the center of new dune gardens.",
     "x": 35,
     "y": 45,
     "radius": 3,
@@ -4297,7 +4297,7 @@
     "complexityType": "simple",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The dunes never shift because the strand is a record, not a landscape — the sand holds whatever is written in it, including footprints, small offerings, and half-covered things. Shell crystal forms inside the oldest salt-grass stems. Rarely, an impossible reflection appears in the sand's hollows at dusk: a face, a boat, a figure — usually washed away by morning. Tideline caves open at the strand's western edge on quiet days, tunnels into the duneface that go back several body-lengths and drain into the not-water without flooding.",
+    "hiddenInfo": "The dunes never shift because the strand is a record, not a landscape — the sand holds whatever is written in it, including footprints, small offerings, and half-covered things. Shell crystal forms inside the oldest salt-grass stems. Rarely, an impossible reflection appears in the sand's hollows at dusk: a face, a boat, a figure — usually washed away by morning. Tideline caves open at the strand's western edge on quiet days, tunnels into the duneface that go back several body-lengths and drain into the not-water without flooding.\n\nEcological Continuity: Pale driftwood is condensed from compatible organic patterns carried by the boundary, then accepted into the Shore's ecology. It does not imply a sea, shipwreck, or outside settlement unless a concrete event establishes one.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4305,7 +4305,7 @@
   },
   "Future Market Square": {
     "name": "Future Market Square",
-    "basicInfo": "A flat, cleared rise in the western Westreach staked out with survey cordons and wooden pins — the Chamberlain's first choice for a market square. The ground here is unusually firm and level, roads in imagination already bend toward it from three directions, and the young treants have kept a respectful distance. Cowslip grows thick around the stakes as if decorating the future on the dimension's behalf.",
+    "basicInfo": "A flat, cleared rise in the western Westreach staked out with survey cordons and wooden pins — the Chamberlain's first choice for a market square. The ground here is unusually firm and level, roads in imagination already bend toward it from three directions, and the young treants have kept a respectful distance. Cowslip grows thick around the stakes as if decorating the future on the dimension's behalf.\n\nLiving Ecology: The measured rise remains alive with cowslip, dawn moths, and a root-safe ring of lantern saplings. Survey cords glow faintly wherever a future foundation can settle without blocking drainage or animal paths.",
     "x": 30,
     "y": 30,
     "radius": 2,
@@ -4313,7 +4313,7 @@
     "complexityType": "simple",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The soil here is the most construction-responsive in the Demi-Plane — foundations settle within days instead of weeks. A small well has already surfaced at the square's northeast corner, unmarked and unfinished, apparently the dimension getting a head start. The Chamberlain visits weekly to log ground changes; he has sketched a full market design but refuses to break ground without the creator's word. Objects pinned under the cordon stakes overnight tend to be exactly what the future market's first traders will need.",
+    "hiddenInfo": "The soil here is the most construction-responsive in the Demi-Plane — foundations settle within days instead of weeks. A small well has already surfaced at the square's northeast corner, unmarked and unfinished, apparently the dimension getting a head start. The Chamberlain visits weekly to log ground changes; he has sketched a full market design but refuses to break ground without the creator's word. Objects pinned under the cordon stakes overnight tend to be exactly what the future market's first traders will need.\n\nEcological Continuity: The site supports the existing Commerce development path but does not summon traders, stock, customers, or buildings. Those require actual access, construction, relationships, and exchange.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4321,7 +4321,7 @@
   },
   "Guesthouse Site": {
     "name": "Guesthouse Site",
-    "basicInfo": "A gentle south-facing slope in the central Westreach, staked as the future guesthouse grounds — level ground, good drainage, young trees saved for shade rather than cleared. The first visitors to the dimension will sleep here. A firepit ring has already appeared at the slope's foot, stones laid neatly by no visible hand.",
+    "basicInfo": "A gentle south-facing slope in the central Westreach, staked as the future guesthouse grounds — level ground, good drainage, young trees saved for shade rather than cleared. The first visitors to the dimension will sleep here. A firepit ring has already appeared at the slope's foot, stones laid neatly by no visible hand.\n\nLiving Ecology: Foxfire dew beads thickly on the saved shade trees, and dewback tortoises use the slope as a dawn crossing. The spontaneous firepit sits above a natural dry-stone heat seam rather than ordinary copied campcraft.",
     "x": 20,
     "y": 45,
     "radius": 2,
@@ -4329,7 +4329,7 @@
     "complexityType": "simple",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The dimension pre-built the firepit overnight and the Chamberlain cannot bring himself to move it — it chose the exact spot his own sketches did. Foxfire dew collects here more thickly than anywhere nearby, suggesting the site wants guests welcomed and rested. Harmless sprites have taken up residence in the saved trees, and they rearrange the stakes slightly when they think his spacing is wrong. One territorial spirit beast guards the slope's western edge and must be acknowledged before any construction passes it.",
+    "hiddenInfo": "The dimension pre-built the firepit overnight and the Chamberlain cannot bring himself to move it — it chose the exact spot his own sketches did. Foxfire dew collects here more thickly than anywhere nearby, suggesting the site wants guests welcomed and rested. Harmless sprites have taken up residence in the saved trees, and they rearrange the stakes slightly when they think his spacing is wrong. One territorial spirit beast guards the slope's western edge and must be acknowledged before any construction passes it.\n\nEcological Continuity: The land anticipates hospitality as usable terrain, not as automatic guests. No visitor learns of or enters the Demi-Plane without established permission and access.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4337,7 +4337,7 @@
   },
   "Training Yard Site": {
     "name": "Training Yard Site",
-    "basicInfo": "A broad, hard-packed flat in the eastern Westreach closest to the core, staked as the future training yard — the flattest, firmest ground in the region, deliberately kept clear of even sapling trees. The soil compacts underfoot like packed earth of a much older settlement. Face-worn distances make someone standing at one end feel the other end is nearer than it looks: not quite right, but not quite wrong either.",
+    "basicInfo": "A broad, hard-packed flat in the eastern Westreach closest to the core, staked as the future training yard — the flattest, firmest ground in the region, deliberately kept clear of even sapling trees. The soil compacts underfoot like packed earth of a much older settlement. Face-worn distances make someone standing at one end feel the other end is nearer than it looks: not quite right, but not quite wrong either.\n\nLiving Ecology: The compacted ground sheds rain toward a border of shock-absorbing violet moss. Jewel beetles gather harmless residual mana after strenuous movement, keeping repeated practice from scorching the soil.",
     "x": 12,
     "y": 38,
     "radius": 2,
@@ -4345,7 +4345,7 @@
     "complexityType": "simple",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The hard ground is the dimension's doing — the region foresaw combat practice and pre-compacted the soil. Nothing here grows, and footsteps sound of old ground in a young dimension. The slight spatial distortion is probably the mana channel's flow beneath it, making it ideal ground for training perception as well as the body. The Chamberlain keeps this site cleared personally and hopes the creator's oath-sworn residents will one day sweat here.",
+    "hiddenInfo": "The hard ground is the dimension's doing — the region foresaw combat practice and pre-compacted the soil. Nothing here grows, and footsteps sound of old ground in a young dimension. The slight spatial distortion is probably the mana channel's flow beneath it, making it ideal ground for training perception as well as the body. The Chamberlain keeps this site cleared personally and hopes the creator's oath-sworn residents will one day sweat here.\n\nEcological Continuity: Its slight spatial compression sharpens distance judgment but does not improve skills, award experience, or force training outcomes on its own. Mechanical advancement remains governed by the established systems.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4353,7 +4353,7 @@
   },
   "Demi-Plane Gate": {
     "name": "Demi-Plane Gate",
-    "basicInfo": "The standing arch within the Gateway Chamber's pale stone circle — the door by which the creator arrives. When Tsukiko uses Demi-Plane Gate, she steps through here. When the Demi-Plane Anchor opens a portal, it opens beneath the arch. No other entrance to the dimension exists without her permission; the gate is the Demi-Plane's single intentional threshold, and the garden spirits keep its approach swept and flowered without ever being asked. On either side, the gate presents as a standing torii with paired lanterns — readable as a shrine entrance to anyone with fox blood, indistinguishable from roadside stonework to anyone without.",
+    "basicInfo": "The standing arch within the Gateway Chamber's pale stone circle — the door by which the creator arrives. When Tsukiko uses Demi-Plane Gate, she steps through here. When the Demi-Plane Anchor opens a portal, it opens beneath the arch. No other entrance to the dimension exists without her permission; the gate is the Demi-Plane's single intentional threshold, and the garden spirits keep its approach swept and flowered without ever being asked. On either side, the gate presents as a standing torii with paired lanterns — readable as a shrine entrance to anyone with fox blood, indistinguishable from roadside stonework to anyone without.\n\nLiving Ecology: Petals and seed-dust approaching the arch settle into two crescent beds rather than crossing accidentally. When the Gate opens, its lanterns flare in the colors of the destination's weather, and the garden falls still for one breath as the realm tests what has entered.",
     "x": 0,
     "y": 0,
     "radius": 1,
@@ -4361,7 +4361,7 @@
     "complexityType": "simple",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The arch is not furniture but a fixed point in two worlds at once — its foundations reach into both the Demi-Plane and whatever side the creator stands on when she opens the way. This is why the basin's name is Heartgate: everything heartward begins here. The Gate keeps itself locked; not even the Chamberlain can open it for anyone but the creator. When the anchor point in the Last Edge is stable, the arch hums faintly — a tone the Chamberlain checks by ear like a landlord listening to pipes.",
+    "hiddenInfo": "The arch is not furniture but a fixed point in two worlds at once — its foundations reach into both the Demi-Plane and whatever side the creator stands on when she opens the way. This is why the basin's name is Heartgate: everything heartward begins here. The Gate keeps itself locked; not even the Chamberlain can open it for anyone but the creator. When the anchor point in the Last Edge is stable, the arch hums faintly — a tone the Chamberlain checks by ear like a landlord listening to pipes.\n\nEcological Continuity: The threshold distinguishes permission from ecology: authorized travelers pass, but unfamiliar spores, parasites, curses, and loose enchantment residue are held in a ring of pale moss until the Basin accepts, neutralizes, or rejects them. This is a natural safeguard, not an omniscient detector of identity or intent.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4369,7 +4369,7 @@
   },
   "Dawn Stream": {
     "name": "Dawn Stream",
-    "basicInfo": "The young river of The Dawn Barrow — clear water that appeared without instruction, threading the meadow's open ground between wildflower clusters and wet-grass flats. Where it passes over red stone it glows faintly, as if the water and the stone are pleased to meet. The stream feels newly made in the best sense: every bend is a place the dimension noticed and improved, and objects keep arriving in its current from regions far away.",
+    "basicInfo": "The young river of The Dawn Barrow — clear water that appeared without instruction, threading the meadow's open ground between wildflower clusters and wet-grass flats. Where it passes over red stone it glows faintly, as if the water and the stone are pleased to meet. The stream feels newly made in the best sense: every bend is a place the dimension noticed and improved, and objects keep arriving in its current from regions far away.\n\nLiving Ecology: Ribbonfin flash beneath flower islands, mist swallows skim insects from the bends, and the current changes from silver to violet to gold according to what the upstream regions have recently released.",
     "x": 25,
     "y": 35,
     "radius": 3,
@@ -4377,7 +4377,7 @@
     "complexityType": "wilderness",
     "detailType": "basic",
     "known": true,
-    "hiddenInfo": "The stream flows out of the Mirror Mere — the dimension's first autonomous connection between its own regions, hydrology designed by no one. It is still growing a personality: some bends pocket a slow warm pool, others sharpen overnight into small waterfalls, and at least one stretch runs over an undercut cave that the water made for hiding. Flower islands — mats of wetland blooms riding slow currents — migrate downstream on windless days. The Chamberlain logs each change with more optimism than any other entry in his ledgers.",
+    "hiddenInfo": "The stream flows out of the Mirror Mere — the dimension's first autonomous connection between its own regions, hydrology designed by no one. It is still growing a personality: some bends pocket a slow warm pool, others sharpen overnight into small waterfalls, and at least one stretch runs over an undercut cave that the water made for hiding. Flower islands — mats of wetland blooms riding slow currents — migrate downstream on windless days. The Chamberlain logs each change with more optimism than any other entry in his ledgers.\n\nEcological Continuity: The colors record carried material and mana state only. They do not reveal who caused a change, what anyone intended, or unseen events without evidence reaching the water.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4385,7 +4385,7 @@
   },
   "Redstone Crossing": {
     "name": "Redstone Crossing",
-    "basicInfo": "The Dawn Stream's only natural ford — a band of red stones across the current that glow faintly beneath clear water, laid like a path the river itself consented to. Meadow deer use it, brook spirits gather beneath it, and the footing is dry and true. From mid-crossing, the whole meadow is visible in its morning colors, flowers turning slowly toward warmth on both banks.",
+    "basicInfo": "The Dawn Stream's only natural ford — a band of red stones across the current that glow faintly beneath clear water, laid like a path the river itself consented to. Meadow deer use it, brook spirits gather beneath it, and the footing is dry and true. From mid-crossing, the whole meadow is visible in its morning colors, flowers turning slowly toward warmth on both banks.\n\nLiving Ecology: Redscale lizards bask between dry stepping stones while dawn cranes pick delicately through the shallow downstream fan. Each footfall sends a warm coral pulse through the submerged rock.",
     "x": 15,
     "y": 30,
     "radius": 2,
@@ -4393,7 +4393,7 @@
     "complexityType": "simple",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The red stones were not placed; the stream surfaced them when it needed a crossing and polished them ever since. Their glow is mana-water reacting to redstone — the same chemistry the Chamberlain hopes to reproduce in future aqueducts. River sprites congregate here to ride the current over the ford, and the stone's underside is dotted with redstone lizards' shed — bright scales worth collecting. One stone, third from the west bank, sounds hollow: something fell between the streambed and the redstone long ago and has not yet surfaced.",
+    "hiddenInfo": "The red stones were not placed; the stream surfaced them when it needed a crossing and polished them ever since. Their glow is mana-water reacting to redstone — the same chemistry the Chamberlain hopes to reproduce in future aqueducts. River sprites congregate here to ride the current over the ford, and the stone's underside is dotted with redstone lizards' shed — bright scales worth collecting. One stone, third from the west bank, sounds hollow: something fell between the streambed and the redstone long ago and has not yet surfaced.\n\nEcological Continuity: The hollow third stone contains a natural root-and-water cavity where redstone accretes around a trapped bubble of concentrated dawnlight. It is a small ecological discovery, not an obligatory quest hook.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4401,7 +4401,7 @@
   },
   "Eastern Expansion Site": {
     "name": "Eastern Expansion Site",
-    "basicInfo": "The Chamberlain's flagged ground for the Demi-Plane's first eastward development — a broad terrace of hard-packed ground at the Easthold's western edge, staked, measured, and waiting. Mana-stone nodes stud the perimeter, the golden flats approach from three sides, and the air here is always faintly warm without source. This is where anything that needs significant power should be built: the site holds potential under pressure like a coiled spring.",
+    "basicInfo": "The Chamberlain's flagged ground for the Demi-Plane's first eastward development — a broad terrace of hard-packed ground at the Easthold's western edge, staked, measured, and waiting. Mana-stone nodes stud the perimeter, the golden flats approach from three sides, and the air here is always faintly warm without source. This is where anything that needs significant power should be built: the site holds potential under pressure like a coiled spring.\n\nLiving Ecology: Gilt scarabs trace cool foundation corridors between warm mana vents, leaving lines of amber dust that the Chamberlain can incorporate into construction plans. Ember shrubs ring the measured terrace without crossing its stakes.",
     "x": 25,
     "y": 25,
     "radius": 3,
@@ -4409,7 +4409,7 @@
     "complexityType": "complex",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The site sits directly above the widest mana channel bleeding off the Mana Heart's circulation — excess energy the dimension cannot yet contain passes beneath it. Foundations here would draw power themselves; a forge built at the site would never lack heat, and a summoning circle would feed itself. The Chamberlain has flagged two mana vents that would serve as natural furnace ports. He has also noticed the hard ground softly humming at dawn — a tone matching a rhythm he does not understand and has privately nicknamed 'the hammer that is coming.'",
+    "hiddenInfo": "The site sits directly above the widest mana channel bleeding off the Mana Heart's circulation — excess energy the dimension cannot yet contain passes beneath it. Foundations here would draw power themselves; a forge built at the site would never lack heat, and a summoning circle would feed itself. The Chamberlain has flagged two mana vents that would serve as natural furnace ports. He has also noticed the hard ground softly humming at dawn — a tone matching a rhythm he does not understand and has privately nicknamed 'the hammer that is coming.'\n\nEcological Continuity: The site provides a strong, stable power source under the existing development system; it does not complete a forge, workshop, summoning circle, or other project until one is actually chosen and built.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4417,7 +4417,7 @@
   },
   "Golden Upland": {
     "name": "Golden Upland",
-    "basicInfo": "The broad sunlit plain of The Easthold — harder ground, golden dry-grass flats, and the richest light in the dimension, warm without a source. Dust motes hang in the air like slow sparks of gold, unmoving. The upland feels like the space where the dimension is pushing outward against its own edge: stretching, straining, trying to grow beyond what has been thought of so far.",
+    "basicInfo": "The broad sunlit plain of The Easthold — harder ground, golden dry-grass flats, and the richest light in the dimension, warm without a source. Dust motes hang in the air like slow sparks of gold, unmoving. The upland feels like the space where the dimension is pushing outward against its own edge: stretching, straining, trying to grow beyond what has been thought of so far.\n\nLiving Ecology: Vent moths rise from ember shrubs at dusk, sunscale lizards carry heat into their burrows, and distant hawks bend the gold air around their wings. Cold Mirror Mere wind occasionally sends a moving violet stripe across the northern grass.",
     "x": 15,
     "y": 40,
     "radius": 4,
@@ -4425,7 +4425,7 @@
     "complexityType": "wilderness",
     "detailType": "basic",
     "known": true,
-    "hiddenInfo": "The upland's constant warmth draws phenomena: sun hawks nest in thermal columns of raw mana, mana vents breathe heat and light from stone seams, and hidden workshops have appeared where tools were once imagined strongly — half-formed benches, anvil outlines, racks of unidentifiable instruments that dissolve if studied too directly. Temporary summoning phenomena interrupt the flat ground erratically: half-built circles, calls half-heard. Golden lizards eat mana-stone dust and their shed scales concentrate it — a shortcut prospectors have not yet thought of.",
+    "hiddenInfo": "The upland's constant warmth draws phenomena: sun hawks nest in thermal columns of raw mana, mana vents breathe heat and light from stone seams, and hidden workshops have appeared where tools were once imagined strongly — half-formed benches, anvil outlines, racks of unidentifiable instruments that dissolve if studied too directly. Temporary summoning phenomena interrupt the flat ground erratically: half-built circles, calls half-heard. Golden lizards eat mana-stone dust and their shed scales concentrate it — a shortcut prospectors have not yet thought of.\n\nEcological Continuity: Half-formed workshop shapes are harmless expressions of remembered utility and fade unless development gives them material, labor, and purpose. They contain no free finished equipment or unexplained craftspeople.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4433,7 +4433,7 @@
   },
   "Shinboku": {
     "name": "Shinboku",
-    "basicInfo": "The sacred heart-tree of the Veiled Fox Sanctuary — a vast, still shinboku standing at the sanctuary's center, ringed with a rope of braided gold and white paper in the oldest kami tradition. Its canopy is always faintly lit from within, its roots vanish into moss that lights underfoot, and the air beneath it tastes of cedar smoke and sugared ginger. Stone foxes face outward from its circle; nothing uninvited crosses it.",
+    "basicInfo": "The sacred heart-tree of the Veiled Fox Sanctuary — a vast, still shinboku standing at the sanctuary's center, ringed with a rope of braided gold and white paper in the oldest kami tradition. Its canopy is always faintly lit from within, its roots vanish into moss that lights underfoot, and the air beneath it tastes of cedar smoke and sugared ginger. Stone foxes face outward from its circle; nothing uninvited crosses it.\n\nLiving Ecology: At each false dawn the canopy releases nine slow-turning leaves of light. They dissolve before touching the moss and send a visible pulse through the sanctuary's fungi, spring, lantern trees, and western rootways.",
     "x": 50,
     "y": 40,
     "radius": 2,
@@ -4441,7 +4441,7 @@
     "complexityType": "simple",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The shinboku feeds on Tsukiko's presence — aether drawn from her divinity seeps through its roots and pools beneath the estate as a reserve only she can call upon. The tree is simultaneously shrine, battery, and covenant; the Chamberlain has proposed three times that the Demi-Plane's mana infrastructure route through it, and been politely declined each time. Shrine guardians walk its ring at set hours, and the sacred birds roost only in its lowest branches. Beneath the roots, small hidden shrine niches hold offerings left by the sanctuary's spirit-folk — unrecorded, undisturbed, and unread by anyone living.",
+    "hiddenInfo": "The shinboku feeds on Tsukiko's presence — aether drawn from her divinity seeps through its roots and pools beneath the estate as a reserve only she can call upon. The tree is simultaneously shrine, battery, and covenant; the Chamberlain has proposed three times that the Demi-Plane's mana infrastructure route through it, and been politely declined each time. Shrine guardians walk its ring at set hours, and the sacred birds roost only in its lowest branches. Beneath the roots, small hidden shrine niches hold offerings left by the sanctuary's spirit-folk — unrecorded, undisturbed, and unread by anyone living.\n\nEcological Continuity: The tree's stored divine reserve belongs to Tsukiko alone. Ordinary ecological circulation uses only the softened overflow processed by fungus and root; wildlife feeding beneath the canopy gains health and luminescence, never her memories, authority, divinity, or secret knowledge.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4449,7 +4449,7 @@
   },
   "Bamboo Spring": {
     "name": "Bamboo Spring",
-    "basicInfo": "A spring of clear water pooling beneath sweeping bamboo at the edge of the sanctuary's inner groves — the quietest water in the dimension. The bamboo grows in deliberate rows, pale and faintly luminous; the spring surface holds reflection without ripple. Tea water drawn here never cools as quickly as it should, and foxfire blooms cluster at the bank as if keeping watch.",
+    "basicInfo": "A spring of clear water pooling beneath sweeping bamboo at the edge of the sanctuary's inner groves — the quietest water in the dimension. The bamboo grows in deliberate rows, pale and faintly luminous; the spring surface holds reflection without ripple. Tea water drawn here never cools as quickly as it should, and foxfire blooms cluster at the bank as if keeping watch.\n\nLiving Ecology: Overflow from the spring slips beneath the bamboo in three clear threads: one feeds the sanctuary grove, one becomes Meadow dew, and one sinks toward the Quiet Shore's buried shell beds. Lantern koi and translucent spring-snails keep the basin clear without attendants needing to manage a decorative pond.",
     "x": 25,
     "y": 45,
     "radius": 2,
@@ -4457,7 +4457,7 @@
     "complexityType": "simple",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The spring is fed through the shinboku's root system, which is why its water carries a faint sense of Tsukiko's calm — drinking it settles intention and quiets fear. Sacred bamboo harvested here is the strongest conduit-wood in the Demi-Plane for wardwork and writing. A low stone basin sits half-buried at the bank, older in style than everything around it; moss rarely touches it, and the estate staff refill it weekly as if it were furniture. On some mornings the spring's reflection briefly contains a vermilion gate that is not standing anywhere nearby.",
+    "hiddenInfo": "The spring is fed through the shinboku's root system, which is why its water carries a faint sense of Tsukiko's calm — drinking it settles intention and quiets fear. Sacred bamboo harvested here is the strongest conduit-wood in the Demi-Plane for wardwork and writing. A low stone basin sits half-buried at the bank, older in style than everything around it; moss rarely touches it, and the estate staff refill it weekly as if it were furniture. On some mornings the spring's reflection briefly contains a vermilion gate that is not standing anywhere nearby.\n\nEcological Continuity: The water settles fear because it dampens magical turbulence, not because it changes choices or feelings. Its effect is brief, gentle, and never overrides player agency, personality, or memory.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4465,7 +4465,7 @@
   },
   "Torii Procession": {
     "name": "Torii Procession",
-    "basicInfo": "The vermilion gate-line of the Veiled Fox Sanctuary — a procession of torii gates rising from the ferned woodland in sequence, each frame framing the next, stone paths crossing beneath them in shimenawa-bound silence. Passing each gate feels like setting down a small burden. The procession winds toward the sanctuary's deeper ground and, eventually, toward the Hidden Estate — for those who are bidden.",
+    "basicInfo": "The vermilion gate-line of the Veiled Fox Sanctuary — a procession of torii gates rising from the ferned woodland in sequence, each frame framing the next, stone paths crossing beneath them in shimenawa-bound silence. Passing each gate feels like setting down a small burden. The procession winds toward the sanctuary's deeper ground and, eventually, toward the Hidden Estate — for those who are bidden.\n\nLiving Ecology: Violetwing moths roost beneath the lintels and brighten one gate ahead of an authorized traveler. Moss paths weave around root nurseries, while falling red leaves pause beneath each torii before choosing a side.",
     "x": 20,
     "y": 20,
     "radius": 3,
@@ -4473,7 +4473,7 @@
     "complexityType": "complex",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The gates are not decoration but a threshold ceremony in permanent form — each torii is a ward that reads intent more precisely than the last. Uninvited walkers find the procession could lengthen without moving: no gate becomes the final gate, and the woods politely return them to the beginning. Permitted visitors feel the gates brighten in recognition. Occasionally a gate in the line appears rearranged from the previous day — the spirit-folk maintain the procession as a living ritual, and the sequence of gates has never once repeated itself exactly.",
+    "hiddenInfo": "The gates are not decoration but a threshold ceremony in permanent form — each torii is a ward that reads intent more precisely than the last. Uninvited walkers find the procession could lengthen without moving: no gate becomes the final gate, and the woods politely return them to the beginning. Permitted visitors feel the gates brighten in recognition. Occasionally a gate in the line appears rearranged from the previous day — the spirit-folk maintain the procession as a living ritual, and the sequence of gates has never once repeated itself exactly.\n\nEcological Continuity: The changing sequence is partly ecological maintenance: gates move a few paces to protect new dens, mushrooms, and root channels while preserving the same destination and ward function. No new settlement or hidden populace is created by those changes.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4481,7 +4481,7 @@
   },
   "Beginning's Torii": {
     "name": "Beginning's Torii",
-    "basicInfo": "A vermilion gate rising from the unmarked grass at the northwest edge of The First Meadow, marking the crossing into the Veiled Fox Sanctuary. Fox statues sit on either side the way a household sets out garden kami, and a faint smell of sugared ginger never quite fades. Beyond it the sanctuary's shape can be glimpsed — fox-spirit woodland visible from the meadow — but the gate opens for Tsukiko alone; no road continues past it for anyone else.",
+    "basicInfo": "A vermilion gate rising from the unmarked grass at the northwest edge of The First Meadow, marking the crossing into the Veiled Fox Sanctuary. Fox statues sit on either side the way a household sets out garden kami, and a faint smell of sugared ginger never quite fades. Beyond it the sanctuary's shape can be glimpsed — fox-spirit woodland visible from the meadow — but the gate opens for Tsukiko alone; no road continues past it for anyone else.\n\nLiving Ecology: Meadow flowers stop one respectful pace from the vermilion posts, while violetwing moths settle beneath the lintel and brighten when Tsukiko or an authorized visitor approaches. The boundary remains beautiful, visible, and absolute.",
     "x": 25,
     "y": 20,
     "radius": 2,
@@ -4489,7 +4489,7 @@
     "complexityType": "simple",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The torii appeared the same morning the sanctuary did — a threshold installed by a mother expecting no visitors but her children. The gate reads Her will when she approaches and parts like memory in daylight; for anyone else it remains standing, swaying gently, as friendly and impassable as the horizon. Flower sprites maintain a tiny spirit shrine at its base — a few pebbles, a cobalt bloom, a fox-figurine of pressed pollen — rebuilt fresh each morning. Fox statues' bibs are always slightly damp at dawn, as if someone tends them before the meadow wakes.",
+    "hiddenInfo": "The torii appeared the same morning the sanctuary did — a threshold installed by a mother expecting no visitors but her children. The gate reads Her will when she approaches and parts like memory in daylight; for anyone else it remains standing, swaying gently, as friendly and impassable as the horizon. Flower sprites maintain a tiny spirit shrine at its base — a few pebbles, a cobalt bloom, a fox-figurine of pressed pollen — rebuilt fresh each morning. Fox statues' bibs are always slightly damp at dawn, as if someone tends them before the meadow wakes.\n\nEcological Continuity: The Torii reads current permission through Tsukiko's established sanctuary authority. It does not infer moral worth, expose secrets, or convert desire to enter into authorization.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4497,7 +4497,7 @@
   },
   "Fox Statues": {
     "name": "Fox Statues",
-    "basicInfo": "The paired stone foxes seated on either side of the Beginning's Torii — guardian kami in the household style, mossy-pedestaled and bibbed, gazing calmly outward from the crossing. They are the First Meadow's only permanent fixtures, and the meadow's growth respects them, keeping the grass trimmed around their bases in neat circles.",
+    "basicInfo": "The paired stone foxes seated on either side of the Beginning's Torii — guardian kami in the household style, mossy-pedestaled and bibbed, gazing calmly outward from the crossing. They are the First Meadow's only permanent fixtures, and the meadow's growth respects them, keeping the grass trimmed around their bases in neat circles.\n\nLiving Ecology: Duskbees shelter beneath the stone paws during rain, and foxfire clover grows in nine small arcs around each pedestal. Their red bibs draw no dirt even when warm pollen falls thickly.",
     "x": 30,
     "y": 25,
     "radius": 1,
@@ -4505,7 +4505,7 @@
     "complexityType": "simple",
     "detailType": "basic",
     "known": true,
-    "hiddenInfo": "The statues are not merely decoration — they are the sanctuary's outermost watchers and part of its ward-line. Offerings left at their feet (flowers, herbs, one coin once) vanish by the following dawn; sprigs of foxfire bloom appear in return. The left fox faces outward toward the meadow and the right fox faces inward toward the sanctuary, and at dusk each turns its head a fraction to follow the other's gaze. The Chamberlain has observed this for a season and decided it falls politely under the category of things he does not need to understand.",
+    "hiddenInfo": "The statues are not merely decoration — they are the sanctuary's outermost watchers and part of its ward-line. Offerings left at their feet (flowers, herbs, one coin once) vanish by the following dawn; sprigs of foxfire bloom appear in return. The left fox faces outward toward the meadow and the right fox faces inward toward the sanctuary, and at dusk each turns its head a fraction to follow the other's gaze. The Chamberlain has observed this for a season and decided it falls politely under the category of things he does not need to understand.\n\nEcological Continuity: Offerings disappear because the ward-root absorbs compatible material and returns it as foxfire bloom. The statues do not grant wishes, assign quests, or communicate unknown information without an established effect.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4513,7 +4513,7 @@
   },
   "Sanctuary Approach": {
     "name": "Sanctuary Approach",
-    "basicInfo": "The travelled path in The First Meadow that turns northwest toward the Beginning's Torii — a silver-green track worn by fox-spirit footsteps, sealed flower-grown and softly lit by self-seeded foxfire blooms after dusk. From the path's highest rise the sanctuary's woodland can be glimpsed through the morning haze, and the walk itself hums with the meadow's slow self-sustaining growth.",
+    "basicInfo": "The travelled path in The First Meadow that turns northwest toward the Beginning's Torii — a silver-green track worn by fox-spirit footsteps, sealed flower-grown and softly lit by self-seeded foxfire blooms after dusk. From the path's highest rise the sanctuary's woodland can be glimpsed through the morning haze, and the walk itself hums with the meadow's slow self-sustaining growth.\n\nLiving Ecology: Silver-green grass gives way gradually to fern, violet moss, and pale cedar shade. Meadow pollinators follow the path to its last flowers, while sanctuary moths carry the return pollen west.",
     "x": 15,
     "y": 30,
     "radius": 2,
@@ -4521,7 +4521,7 @@
     "complexityType": "simple",
     "detailType": "basic",
     "known": true,
-    "hiddenInfo": "The Approach is tended in part by the sanctuary's spirit-folk: the Chamberlain has seen fox-shaped shadows moving down the path toward the meadow at dawn and back at dusk, carrying small bundles. Seasonal phenomena cluster along it — hidden flower circles that bloom in fox-shaped arrangements once a season, and tiny spirit shrines rebuilt overnight wherever the path bends. The path never extends past the torii: the track's last stretch ends a respectful stride before the gate, as if the road itself understands invitation.",
+    "hiddenInfo": "The Approach is tended in part by the sanctuary's spirit-folk: the Chamberlain has seen fox-shaped shadows moving down the path toward the meadow at dawn and back at dusk, carrying small bundles. Seasonal phenomena cluster along it — hidden flower circles that bloom in fox-shaped arrangements once a season, and tiny spirit shrines rebuilt overnight wherever the path bends. The path never extends past the torii: the track's last stretch ends a respectful stride before the gate, as if the road itself understands invitation.\n\nEcological Continuity: Fox-shaped shadows here belong to established estate traffic, native wildlife, or light cast through the warded trees. They never justify adding anonymous residents or granting observers knowledge of the estate's private activity.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4529,7 +4529,7 @@
   },
   "Northern Approach": {
     "name": "Northern Approach",
-    "basicInfo": "The formal opening of The Threshold March toward the North Field — a stretch of cleared, firmed ground where the corridor's paths gather and run north together. The ground here feels expectant, as if widened by the dimension in anticipation of future traffic. Low stone markers the Chamberlain placed line the route; the reed-seeds drift thickest here at dusk, strung out like slow lanterns over the road north.",
+    "basicInfo": "The formal opening of The Threshold March toward the North Field — a stretch of cleared, firmed ground where the corridor's paths gather and run north together. The ground here feels expectant, as if widened by the dimension in anticipation of future traffic. Low stone markers the Chamberlain placed line the route; the reed-seeds drift thickest here at dusk, strung out like slow lanterns over the road north.\n\nLiving Ecology: Lantern cranes rest beside the marker stones, reed voles tunnel beneath the verges, and every moving seed aligns north when the Field's channels are about to surface nearby.",
     "x": 15,
     "y": 45,
     "radius": 3,
@@ -4537,7 +4537,7 @@
     "complexityType": "simple",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The ground firms underfoot wherever visitors are expected — the dimension reinforces roads it believes will be needed. The Approach's stones read as markers but function as measure: the Chamberlain checks them after each expansion to see how far the corridor's mana channel has crept north. Abandoned camps appear on the Approach after busy seasons — the residue of temporary merchants and travelers who crossed but did not find their destination yet; the stones record nobody registered, only passage. A wind sprite has taken up permanent residence near the third marker and rearranges anything left unattended for more than a day.",
+    "hiddenInfo": "The ground firms where repeated permitted travel actually occurs, and the Chamberlain's marker stones measure how far the corridor's mana channel has extended north. Reed alignment, tracks, and compressed grass record concrete passage only. The Approach does not generate abandoned camps, merchants, travelers, or visitors; every non-native arrival still requires the established Gate or Anchor access.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4545,7 +4545,7 @@
   },
   "Mana-Flow Paths": {
     "name": "Mana-Flow Paths",
-    "basicInfo": "The living trails of The Threshold March — paths that align with the Demi-Plane's internal mana circulation, running from the Gateway Clearing's edge to the corridor's northern mouth. Walking them feels subtly restorative, as if the dimension is grateful for the attention; ambient mana recharges slightly with every stride. The trails never quite stay where they were mapped — they breathe and shift with the dimension's circulation like veins rather than roads.",
+    "basicInfo": "The living trails of The Threshold March — paths that align with the Demi-Plane's internal mana circulation, running from the Gateway Clearing's edge to the corridor's northern mouth. Walking them feels subtly restorative, as if the dimension is grateful for the attention; ambient mana recharges slightly with every stride. The trails never quite stay where they were mapped — they breathe and shift with the dimension's circulation like veins rather than roads.\n\nLiving Ecology: Path beetles loosen compressed soil while pale foxlets patrol for the grubs that would strip the root sheath. The visible glow braids, straightens, or knots with the Mana Heart's circulation.",
     "x": 20,
     "y": 25,
     "radius": 3,
@@ -4553,7 +4553,7 @@
     "complexityType": "wilderness",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The paths are the dimension's circulation made walkable — they trace mana channels from the Mana Heart and shift as the flow itself shifts, which is why no map of them holds for long. Mana constructs occasionally walk these routes in purposeful silence: brief sentry-forms the dimension spawns to patrol its own circulation, dissolving once the route is checked. Walking the full corridor in a single session grants a mild sense of alignment and slightly clearer intent for the rest of the day. The Chamberlain tracks path-shifts as a health metric — straight means steady, tangled means strained circulation.",
+    "hiddenInfo": "The paths are the dimension's circulation made walkable — they trace mana channels from the Mana Heart and shift as the flow itself shifts, which is why no map of them holds for long. Mana constructs occasionally walk these routes in purposeful silence: brief sentry-forms the dimension spawns to patrol its own circulation, dissolving once the route is checked. Walking the full corridor in a single session grants a mild sense of alignment and slightly clearer intent for the rest of the day. The Chamberlain tracks path-shifts as a health metric — straight means steady, tangled means strained circulation.\n\nEcological Continuity: Following a complete route exposes a traveler to gentle ambient flow but grants no invented skill, level, or lasting bonus. Any restoration remains limited to what established mechanics support.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4561,7 +4561,7 @@
   },
   "Mineral Springs": {
     "name": "Mineral Springs",
-    "basicInfo": "The flowing stone-veins of The Stone Rise — clear mineral springs rising from the grey rock in cold, faintly metallic threads, pooling in terrace basins the moss-lichen has held for seasons. The water tastes of iron and clean cold, and drinking it settles the breath. Clay banks around the richest springs hold spirit minerals that glitter when the light is right.",
+    "basicInfo": "The flowing stone-veins of The Stone Rise — clear mineral springs rising from the grey rock in cold, faintly metallic threads, pooling in terrace basins the moss-lichen has held for seasons. The water tastes of iron and clean cold, and drinking it settles the breath. Clay banks around the richest springs hold spirit minerals that glitter when the light is right.\n\nLiving Ecology: Translucent spring-snails browse crystal moss along the basins and leave empty pearl shells where the water turns. Moss-horn goats carry lichen spores between the upper and lower terraces.",
     "x": 30,
     "y": 30,
     "radius": 3,
@@ -4569,7 +4569,7 @@
     "complexityType": "wilderness",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The springs rise along the dimension's structural grain — the water is drawn through Foundation Ridge's bedrock and emerges carrying trace spirit mineral, which is why it never stagnates. Mineral elementals surface at the deepest pools briefly and are harmless if ignored: they reform into the water if left undisturbed. Small hidden cave mouths thread the banks behind the springs — some stretch back into the hillside, some hold exposed ore seams, and at least one runs with porous rock that slowly filters mana-water. The Chamberlain has sampled all three springs monthly; their mineral content rises imperceptibly, a fact he logs as encouraging growth.",
+    "hiddenInfo": "The springs rise along the dimension's structural grain — the water is drawn through Foundation Ridge's bedrock and emerges carrying trace spirit mineral, which is why it never stagnates. Mineral elementals surface at the deepest pools briefly and are harmless if ignored: they reform into the water if left undisturbed. Small hidden cave mouths thread the banks behind the springs — some stretch back into the hillside, some hold exposed ore seams, and at least one runs with porous rock that slowly filters mana-water. The Chamberlain has sampled all three springs monthly; their mineral content rises imperceptibly, a fact he logs as encouraging growth.\n\nEcological Continuity: Mineral elementals here are non-sapient expressions of water meeting dense spirit ore. Ignoring them leaves the springs undisturbed; observing one reveals no buried history or mineral map beyond what is physically visible.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4577,7 +4577,7 @@
   },
   "High Outlook": {
     "name": "High Outlook",
-    "basicInfo": "The great outcropping of The Stone Rise — a bare grey headland that, on clear days, sees the entire dimension from the Quiet Shore's pale coast to the Veiled Edge's shimmering curtain. On clouded days it still sees farther than anything else in the Demi-Plane, and the wind there carries the faint suggestion of every region at once. Mountain goats control the approach; cliff drakes nest below its southern face.",
+    "basicInfo": "The great outcropping of The Stone Rise — a bare grey headland that, on clear days, sees the entire dimension from the Quiet Shore's pale coast to the Veiled Edge's shimmering curtain. On clouded days it still sees farther than anything else in the Demi-Plane, and the wind there carries the faint suggestion of every region at once. Mountain goats control the approach; cliff drakes nest below its southern face.\n\nLiving Ecology: Crystal-wing swifts circle below the crown while prairie seed caught on cliff-drake scales sprouts in cracks. On clear days, the connected water, root, wind, and migration corridors can be followed across all twenty-five tiles.",
     "x": 15,
     "y": 45,
     "radius": 2,
@@ -4585,7 +4585,7 @@
     "complexityType": "simple",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The Outlook is the dimension's highest observation post — standing here, exactly oriented, trips an intentional quiet: the hum of the grass, the glow of the rift, the tint of the torii, all faintly audible at once, like a map made of sound. The Chamberlain climbs here before major reports. A natural cave behind the Outlook's crown was hollowed out by the dimension itself, dry and floor-smooth, apparently reserved — for what, even he does not guess. The cliff drakes below are territorial but know his hood.",
+    "hiddenInfo": "The Outlook is the dimension's highest observation post — standing here, exactly oriented, trips an intentional quiet: the hum of the grass, the glow of the rift, the tint of the torii, all faintly audible at once, like a map made of sound. The Chamberlain climbs here before major reports. A natural cave behind the Outlook's crown was hollowed out by the dimension itself, dry and floor-smooth, apparently reserved — for what, even he does not guess. The cliff drakes below are territorial but know his hood.\n\nEcological Continuity: The sound-map conveys real, present ecological signals only. It cannot identify hidden actors, private conversations, motives, or events outside sensory reach.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4593,7 +4593,7 @@
   },
   "Foundation Ridge": {
     "name": "Foundation Ridge",
-    "basicInfo": "The long grey ridgeline anchoring The Stone Rise — bedrock exposed at the spine, older-feeling than anything else in the young dimension. The moss here grows in precise bands, the air is stillest at its base, and sound behaves oddly near it: echoes fall a fraction early rather than late. It looks like any other ridge; it feels like keel timber.",
+    "basicInfo": "The long grey ridgeline anchoring The Stone Rise — bedrock exposed at the spine, older-feeling than anything else in the young dimension. The moss here grows in precise bands, the air is stillest at its base, and sound behaves oddly near it: echoes fall a fraction early rather than late. It looks like any other ridge; it feels like keel timber.\n\nLiving Ecology: Bands of emerald, cobalt, and silver lichen make the bedrock's condition visible, while stone-boring beetles open tiny safe channels for springwater. The guardian's patrol leaves no damage or trail beyond a momentary hush.",
     "x": 25,
     "y": 15,
     "radius": 3,
@@ -4601,7 +4601,7 @@
     "complexityType": "wilderness",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The Ridge is the dimension's structural foundation — the bedrock on which the Demi-Plane is extrapolated from the Last Edge's anchor. Destabilizing it would set the whole dimension adrift; the Chamberlain does not know this. The Mana Heart's guardian entity patrols the ridge's perimeter when not at its post. Narrow passes thread over and beneath the ridge — some natural, some carved by no visible hand — and the rock is the dimension's densest: iron-rich, spirit-mineral-bearing, and slow to crack. Mining here should be done with reverence rather than appetite.",
+    "hiddenInfo": "The Ridge is the dimension's structural foundation — the bedrock on which the Demi-Plane is extrapolated from the Last Edge's anchor. Destabilizing it would set the whole dimension adrift; the Chamberlain does not know this. The Mana Heart's guardian entity patrols the ridge's perimeter when not at its post. Narrow passes thread over and beneath the ridge — some natural, some carved by no visible hand — and the rock is the dimension's densest: iron-rich, spirit-mineral-bearing, and slow to crack. Mining here should be done with reverence rather than appetite.\n\nEcological Continuity: Emerald indicates balanced flow, cobalt high pressure, and silver structural strain. These are observable conditions, not a replacement for the Mana Heart, Last Edge anchor, or development mechanics.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4609,7 +4609,7 @@
   },
   "Twilight Pools": {
     "name": "Twilight Pools",
-    "basicInfo": "The heart of The Mirror Mere — a spread of still pools under a sky that is forever twilight here, connected by gentle channels and ringed in reed-beds. The water faintly glows and holds reflection as if it remembers what stood before it; fish-sized lights drift beneath the surface, never quite taking shape. Everything in this place is reflected: the pools show what stands above them — and occasionally, what does not.",
+    "basicInfo": "The heart of The Mirror Mere — a spread of still pools under a sky that is forever twilight here, connected by gentle channels and ringed in reed-beds. The water faintly glows and holds reflection as if it remembers what stood before it; fish-sized lights drift beneath the surface, never quite taking shape. Everything in this place is reflected: the pools show what stands above them — and occasionally, what does not.\n\nLiving Ecology: Moonfin school beneath violet reeds, glass frogs pulse softly from lily pads, and opaline grit from the Veiled Edge turns in slow galaxies along the bottom. Ripples travel in pairs: the movement and its remembered echo.",
     "x": 25,
     "y": 35,
     "radius": 4,
@@ -4617,7 +4617,7 @@
     "complexityType": "wilderness",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The pools regulate the dimension's mana circulation — absorbing excess during peaks, releasing during lulls; surface stillness is the Chamberlain's literal health check. But the water also remembers. Reflections sometimes outlast their originals — a bird flies off, its reflection stays. Focused gazing can trace these lingering images to hidden islands that surface in the shallows, or to temporary spirit paths that open across the channels at dusk, walkable until the reflection that anchored them fades. Mirror fish feed on the strongest memories in the water and their pearls are born from what is most dearly held.",
+    "hiddenInfo": "The pools regulate the dimension's mana circulation — absorbing excess during peaks, releasing during lulls; surface stillness is the Chamberlain's literal health check. But the water also remembers. Reflections sometimes outlast their originals — a bird flies off, its reflection stays. Focused gazing can trace these lingering images to hidden islands that surface in the shallows, or to temporary spirit paths that open across the channels at dusk, walkable until the reflection that anchored them fades. Mirror fish feed on the strongest memories in the water and their pearls are born from what is most dearly held.\n\nEcological Continuity: A pool can repeat a reflected movement or weather pattern after it passes, but it supplies no identity, motive, history, or dialogue that was never physically reflected.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4625,7 +4625,7 @@
   },
   "Reflection Basin": {
     "name": "Reflection Basin",
-    "basicInfo": "The Mirror Mere's largest single mirror — a broad, glassy expanse of water so still it doubles the twilight sky without a single tremor. Luminous reeds ring its edges; mirror-lotus bloom in those places where the water shows a thing and its reflection in perfect agreement. Visitors find their own reflections here clearer than reality: posture straightened, expression honest, tiredness falling away from the image if not the body.",
+    "basicInfo": "The Mirror Mere's largest single mirror — a broad, glassy expanse of water so still it doubles the twilight sky without a single tremor. Luminous reeds ring its edges; mirror-lotus bloom in those places where the water shows a thing and its reflection in perfect agreement. Visitors find their own reflections here clearer than reality: posture straightened, expression honest, tiredness falling away from the image if not the body.\n\nLiving Ecology: The Mere's largest unbroken surface holds the whole twilight sky and releases stored light through mirror-lotus roots at false dawn. Reflection herons patrol its shallows without disturbing more than one ring at a time.",
     "x": 15,
     "y": 30,
     "radius": 3,
@@ -4633,7 +4633,7 @@
     "complexityType": "complex",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The Basin is the reservoir's deepest point and the circulation's master regulator — what shows still here means the whole dimension is stable. Submerged ruins lie beneath it, visible through the clear depth on quiet days: pale stonework that no one built, arranged as if some older idea of a temple preceded the dimension and the Mere remembered it. Visions stand whole in the still water — not predictions, but honest inspections: whoever looks long enough sees themselves as the dimension sees them, which is a kinder reading than most receive. Water spirits maintain the ruin's visibility by polishing the water from below, for reasons they keep politely to themselves.",
+    "hiddenInfo": "The Basin is the reservoir's deepest point and the circulation's master regulator — what shows still here means the whole dimension is stable. Submerged ruins lie beneath it, visible through the clear depth on quiet days: pale stonework that no one built, arranged as if some older idea of a temple preceded the dimension and the Mere remembered it. Visions stand whole in the still water — not predictions, but honest inspections: whoever looks long enough sees themselves as the dimension sees them, which is a kinder reading than most receive. Water spirits maintain the ruin's visibility by polishing the water from below, for reasons they keep politely to themselves.\n\nEcological Continuity: Visions require a concrete source—stored reflection, active divination, established magic, or actual observer. The basin never becomes a convenient omniscient screen.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4641,7 +4641,7 @@
   },
   "Frontier Fade": {
     "name": "Frontier Fade",
-    "basicInfo": "The misted rim of The Still Frontier — the line where willed ground becomes unwilled. Ground grows indistinct here, colors wash toward grey, and sound carries strangely; walk far enough and the world simply stops, not with a wall but with a fading. Snow travels into the Fade and stops moving. The constant, faint sensation is that standing here is standing at the edge of someone's attention.",
+    "basicInfo": "The misted rim of The Still Frontier — the line where willed ground becomes unwilled. Ground grows indistinct here, colors wash toward grey, and sound carries strangely; walk far enough and the world simply stops, not with a wall but with a fading. Snow travels into the Fade and stops moving. The constant, faint sensation is that standing here is standing at the edge of someone's attention.\n\nLiving Ecology: Frost-tail fox tracks become constellations at the rim before fading, and unmoving snow hangs over root nurseries waiting for the next safe outward growth. The last conifers lean inward rather than toward nonexistent wind.",
     "x": 25,
     "y": 25,
     "radius": 3,
@@ -4649,7 +4649,7 @@
     "complexityType": "wilderness",
     "detailType": "basic",
     "known": true,
-    "hiddenInfo": "The Fade advances as the Demi-Plane's ambient potential seeps outward and retreats when its mana runs low — the Chamberlain reads its position as the dimension's health report. The fade-line is unstable within Reach's own limits: objects left in it change; travelers who linger too long report their footprints fading before them, in the direction ahead rather than behind. Frozen shrines stand inside the Fade's reach — iced mid-ceremony, abandoned by no one known — and strange weather pockets hold their ground in its mists: one small snow that has never fallen is always just beginning here. The Fade is where expansion will begin when the creator chooses; the frontier always leaves a little room at the rim first, as if thinking ahead on its own.",
+    "hiddenInfo": "The Fade advances as the Demi-Plane's ambient potential seeps outward and retreats when its mana runs low — the Chamberlain reads its position as the dimension's health report. The fade-line is unstable within Reach's own limits: objects left in it change; travelers who linger too long report their footprints fading before them, in the direction ahead rather than behind. Frozen shrines stand inside the Fade's reach — iced mid-ceremony, abandoned by no one known — and strange weather pockets hold their ground in its mists: one small snow that has never fallen is always just beginning here. The Fade is where expansion will begin when the creator chooses; the frontier always leaves a little room at the rim first, as if thinking ahead on its own.\n\nEcological Continuity: Frozen shrines and ceremonial-looking ice forms are natural crystallizations of Tsukiko's realm-memory unless play establishes a maker. They do not add lost inhabitants to the young plane.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4657,7 +4657,7 @@
   },
   "Frostpine Ridge": {
     "name": "Frostpine Ridge",
-    "basicInfo": "The high spine of The Still Frontier — a ridgeline of pale conifers with frost-glinting needles beneath a paler sky, under weather that is not quite weather: silver breath-mist, snow falling in slow spirals, frost-formed foxfire burning statically in the branches. Crest views give back the whole northern dimension; the furred sound is layered winter hush. Pale wolves and frost foxes pace here, watching travelers with an owner's calm rather than hunger.",
+    "basicInfo": "The high spine of The Still Frontier — a ridgeline of pale conifers with frost-glinting needles beneath a paler sky, under weather that is not quite weather: silver breath-mist, snow falling in slow spirals, frost-formed foxfire burning statically in the branches. Crest views give back the whole northern dimension; the furred sound is layered winter hush. Pale wolves and frost foxes pace here, watching travelers with an owner's calm rather than hunger.\n\nLiving Ecology: Glass-antler elk open migration lanes between pale trunks, spiral owls ride upward snow, and blue lace-fungus turns fallen frostwood into warm soil beneath the ice.",
     "x": 15,
     "y": 35,
     "radius": 4,
@@ -4665,7 +4665,7 @@
     "complexityType": "wilderness",
     "detailType": "basic",
     "known": true,
-    "hiddenInfo": "The ridge is the frontier's oldest ground: its pale conifers were the dimension's first attempt to create weather and have not stopped since. Cave mouths thread beneath the root systems — cold hollows lined with frozen foxfire, some stretching back under the ridge into pockets of unmelted ice that hold mana like clear stone. Snow wraiths roost along the crest in settled weather; their paths mark the safest route across the scree. The Chamberlain visits twice a year and leaves a small frozen foxfire offering at a shrine none of his records mention building.",
+    "hiddenInfo": "The ridge is the frontier's oldest ground: its pale conifers were the dimension's first attempt to create weather and have not stopped since. Cave mouths thread beneath the root systems — cold hollows lined with frozen foxfire, some stretching back under the ridge into pockets of unmelted ice that hold mana like clear stone. Snow wraiths roost along the crest in settled weather; their paths mark the safest route across the scree. The Chamberlain visits twice a year and leaves a small frozen foxfire offering at a shrine none of his records mention building.\n\nEcological Continuity: The unrecorded-looking shrine is a foxfire-and-root formation produced by the region's memory of reverence. The Chamberlain's offerings acknowledge the place; they do not prove another population built it.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4673,7 +4673,7 @@
   },
   "Ghost Valleys": {
     "name": "Ghost Valleys",
-    "basicInfo": "The shallow valleys of The Pale Reaches, filled with glowing silver fog that never fully settles or fully lifts. The valley floors shift texture without changing shape, and the fog gives back shapes: lanes, rooftops, lights, faces — a place seems to have been here before, then was not. Walking one valley end to end is never quite the same walk twice.",
+    "basicInfo": "The shallow valleys of The Pale Reaches, filled with glowing silver fog that never fully settles or fully lifts. The valley floors shift texture without changing shape, and the fog gives back shapes: lanes, rooftops, lights, faces — a place seems to have been here before, then was not. Walking one valley end to end is never quite the same walk twice.\n\nLiving Ecology: Fogmice and pearl-foot hares leave temporary tracks across miniature landscapes that complete a season before noon. Veil skates graze silver spores inches above the valley floor.",
     "x": 25,
     "y": 30,
     "radius": 4,
@@ -4681,7 +4681,7 @@
     "complexityType": "wilderness",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The valley mist is raw dimensional potential in semi-tangible form — the Reaches' heart of the unspent. Uncontrolled, it forms fleeting ghost-landscapes that dissolve in seconds, sometimes matching places the creator has seen or dreamed; it has twice produced a doorway street that appears on no floor plan anywhere. Fog elementals condense from the densest mist: patient, watchful, and dissolving peacefully when entertained or ignored with equal confidence. Pale stone beasts stand among the benches like statuary until approached, then walk away precisely as if they had somewhere to be. The valleys have no memory of anyone's visit: footprints cool and fade within the hour.",
+    "hiddenInfo": "The valley mist is raw dimensional potential in semi-tangible form — the Reaches' heart of the unspent. Uncontrolled, it forms fleeting ghost-landscapes that dissolve in seconds, sometimes matching places the creator has seen or dreamed; it has twice produced a doorway street that appears on no floor plan anywhere. Fog elementals condense from the densest mist: patient, watchful, and dissolving peacefully when entertained or ignored with equal confidence. Pale stone beasts stand among the benches like statuary until approached, then walk away precisely as if they had somewhere to be. The valleys have no memory of anyone's visit: footprints cool and fade within the hour.\n\nEcological Continuity: Focused intention shapes raw mist, while uncontrolled formations remain filtered by lichen and wildlife into harmless temporary ecology. They reveal remembered forms, not secret truth or prophecy.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4689,7 +4689,7 @@
   },
   "Silver-Lichen Flats": {
     "name": "Silver-Lichen Flats",
-    "basicInfo": "The broad benches of The Pale Reaches — white-grey stone terraces washed in silver lichen that lights faintly like constellations underfoot. By day the flats look austere; by night they glow in slow constellations that reform between one glance and the next. Pale crystals collect in the bench hollows where the fog pools overnight, and the whole flat has the settled patience of a place prepared in advance for something that has not yet been decided.",
+    "basicInfo": "The broad benches of The Pale Reaches — white-grey stone terraces washed in silver lichen that lights faintly like constellations underfoot. By day the flats look austere; by night they glow in slow constellations that reform between one glance and the next. Pale crystals collect in the bench hollows where the fog pools overnight, and the whole flat has the settled patience of a place prepared in advance for something that has not yet been decided.\n\nLiving Ecology: Constellation lichen brightens beneath stoneback grazers and dims after releasing spores into the dawn fog. Each broad bench resembles a night sky laid level underfoot.",
     "x": 15,
     "y": 20,
     "radius": 3,
@@ -4697,7 +4697,7 @@
     "complexityType": "simple",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The lichen's constellations are not random — they form the same arrangements of light twice a season, patterns the Chamberlain has charted and cannot decode. He believes they are the potential deciding what it will be, written faintly ahead of time. Silver lichen is the region's most valuable resource: a natural mana-conductive coating for warded surfaces that no artificer has learned to imitate. Temporary creatures made of potential occasionally cross the flats in perfect daylight, and travelers' brief structures — a camp, a bridge, a well — sometimes surface in the bench hollows after fog-heavy nights, half-complete, the potential rehearsing invention.",
+    "hiddenInfo": "The lichen's constellations are not random — they form the same arrangements of light twice a season, patterns the Chamberlain has charted and cannot decode. He believes they are the potential deciding what it will be, written faintly ahead of time. Silver lichen is the region's most valuable resource: a natural mana-conductive coating for warded surfaces that no artificer has learned to imitate. Temporary creatures made of potential occasionally cross the flats in perfect daylight, and travelers' brief structures — a camp, a bridge, a well — sometimes surface in the bench hollows after fog-heavy nights, half-complete, the potential rehearsing invention.\n\nEcological Continuity: Lichen patterns map local moisture and potential density rather than fate. Reading them can guide harvest and travel, never grant automatic knowledge of distant events.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4705,7 +4705,7 @@
   },
   "Shining Channels": {
     "name": "Shining Channels",
-    "basicInfo": "The alive watercourses of The North Field — slow, glittering channels that cross the plain, appear overnight, and vanish again when their work is done. reed elk wade the shallows, channel serpents glide beneath with curious eyes, and the water catches the ribbon-cloud skies like slow wire. The channels 'stay' where the dimension needs circulation most, which makes them read as an unfinished canal system designed by a patient architect with a sense of humor.",
+    "basicInfo": "The alive watercourses of The North Field — slow, glittering channels that cross the plain, appear overnight, and vanish again when their work is done. reed elk wade the shallows, channel serpents glide beneath with curious eyes, and the water catches the ribbon-cloud skies like slow wire. The channels 'stay' where the dimension needs circulation most, which makes them read as an unfinished canal system designed by a patient architect with a sense of humor.\n\nLiving Ecology: Ribbonfin shoals follow water that sometimes climbs reeds into the sky, while lantern geese seed the next channel from their luminous plumage. Abandoned beds become blue-flowered silt gardens within days.",
     "x": 25,
     "y": 30,
     "radius": 4,
@@ -4713,7 +4713,7 @@
     "complexityType": "wilderness",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The channels are the north wind's visible hand — surface mana circulation expressed as water. They appear where the spreading dimension needs carrying and vanish when the carrying is done, so no map has ever held them for a full season. Reed elk follow the channels with uncanny accuracy, appearing to know where the water will be next; following the elk is the only reliable navigation. Spirit crossings form where two channels touch — shallow bars of hardened water where river spirits allow foot traffic for a night's span. At least one channel bed holds a cooled, wide, flattened vein of mana-rich silt that glows faintly at dusk — a hidden pond no visitor marked, which the serpents guard gently and the Chamberlain does not know exists.",
+    "hiddenInfo": "The channels are the north wind's visible hand — surface mana circulation expressed as water. They appear where the spreading dimension needs carrying and vanish when the carrying is done, so no map has ever held them for a full season. Reed elk follow the channels with uncanny accuracy, appearing to know where the water will be next; following the elk is the only reliable navigation. Spirit crossings form where two channels touch — shallow bars of hardened water where river spirits allow foot traffic for a night's span. At least one channel bed holds a cooled, wide, flattened vein of mana-rich silt that glows faintly at dusk — a hidden pond no visitor marked, which the serpents guard gently and the Chamberlain does not know exists.\n\nEcological Continuity: The channels relocate water through connected underground flow; they do not vanish it or create limitless supply. Blocking one redirects consequences into adjacent regions.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4721,7 +4721,7 @@
   },
   "Northwind Plain": {
     "name": "Northwind Plain",
-    "basicInfo": "The broad heart of The North Field — windswept flat grassland under ribbon-cloud skies where the faint scentless wind blows constantly from the north. Rain falls upward here in glittering curtains on still afternoons. The ground is firm and receptive, the most natural-feeling of the undeveloped zones, as if the world has already chosen this to be inhabited: farmland, a great hall, an arena — the plain agrees with all three without committing to any.",
+    "basicInfo": "The broad heart of The North Field—windswept river-grass beneath ribbon-cloud skies where a faint scentless wind blows from the north. Rain falls upward in glittering curtains on still afternoons, temporary channels silver the low ground, and reed elk move between firm grass islands. The terrain could support farmland, a great hall, or an arena through established development, but it is already a complete boreal plain rather than land waiting for inhabitants.\n\nLiving Ecology: Reed elk move through wind-laid grass in wide arcs, rain-swifts swim upward through glittering curtains, and every cloud has a dim twin traveling beneath the shallow soil.",
     "x": 15,
     "y": 25,
     "radius": 4,
@@ -4729,7 +4729,7 @@
     "complexityType": "wilderness",
     "detailType": "basic",
     "known": true,
-    "hiddenInfo": "The north wind is the dimension breathing; the Chamberlain checks its steadiness before every health report, and the Plain is where he stands to do it. Temporary channels surface in the plain overnight, wetland birds nest in reorganized patterns each season, and isolated groves surface — broad, self-growing islands of trees that appear where the wind bends and vanish after a few years, leaving fertile cleared soil of exactly the kind farmers dream about. Whatever is built here will take root faster than anywhere except the Westreach, because the plain is not waiting for instructions — it is waiting for inhabitants.",
+    "hiddenInfo": "The north wind is the dimension breathing; the Chamberlain checks its steadiness here before every health report. Temporary channels surface overnight, wetland birds reorganize their nests each season, and short-lived tree islands grow where the wind bends, leaving fertile soil when their cycle ends. Construction takes root readily because water, silt, and seed already circulate here—not because the plain creates inhabitants or completes projects unaided.\n\nEcological Continuity: A stopped north wind signals circulation strain but not its cause. Diagnosis still requires evidence from the Mana Heart, paths, water, or direct investigation.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4737,7 +4737,7 @@
   },
   "Folding Ridges": {
     "name": "Folding Ridges",
-    "basicInfo": "The paper-fold uplands of The Fold — ridges that curve like folded paper, valleys that loop back on their own paths, grass and heath and low stone rising and repeating in wave-terraces. Disorienting but not dangerous: the region is an unfinished experiment with elevation, walked like a letter being written and rewritten. Standing on one crest, the same crest is often visible twice more, at distances that disagree.",
+    "basicInfo": "The paper-fold uplands of The Fold — ridges that curve like folded paper, valleys that loop back on their own paths, grass and heath and low stone rising and repeating in wave-terraces. Disorienting but not dangerous: the region is an unfinished experiment with elevation, walked like a letter being written and rewritten. Standing on one crest, the same crest is often visible twice more, at distances that disagree.\n\nLiving Ecology: Copper foxfire runs along each crease at dusk, revealing wildlife routes invisible in daylight. Fold-martens move nuts between distant slopes, and twin-root shrubs flower on both sides at once.",
     "x": 25,
     "y": 30,
     "radius": 4,
@@ -4745,7 +4745,7 @@
     "complexityType": "wilderness",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The warped geometry is a natural defense — intruders entering without permission become lost as folding paths turn them around without their realizing it. The ridges also hide as much as they defend: hidden pockets of folded space hold airless dry caves, impossible stone chambers with no entrances visible from any direction, and shortcuts that connect ridges the long way around by not being long at all. Spatial wisps drift out of creases where the ground is thinnest; capturing one's light rewards the finder with a brief glimpse of the Fold from above, as a folded map viewed flat. Nothing here is a permanent marker because nothing here holds still for one. The Chamberlain keeps his survey of the ridges sealed and knot-string-based, refusing to trust any distance he measured only once.",
+    "hiddenInfo": "The warped geometry is a natural defense — intruders entering without permission become lost as folding paths turn them around without their realizing it. The ridges also hide as much as they defend: hidden pockets of folded space hold airless dry caves, impossible stone chambers with no entrances visible from any direction, and shortcuts that connect ridges the long way around by not being long at all. Spatial wisps drift out of creases where the ground is thinnest; capturing one's light rewards the finder with a brief glimpse of the Fold from above, as a folded map viewed flat. Nothing here is a permanent marker because nothing here holds still for one. The Chamberlain keeps his survey of the ridges sealed and knot-string-based, refusing to trust any distance he measured only once.\n\nEcological Continuity: A captured spatial wisp can show the Fold's current physical arrangement briefly, not creatures hidden from view, private activity, or future configurations.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4753,7 +4753,7 @@
   },
   "Returning Valley": {
     "name": "Returning Valley",
-    "basicInfo": "The loop-back valley at the heart of The Fold — a wave-terrace floor whose paths consistently deliver walkers back where they began, no matter which direction they entrust their pace to. Grass grows in neat pleats along the terraces, and fold sprites sit in the creases like linen passengers. Travelers report that leaving takes exactly the effort entering did: the valley is not a trap but an introduction to how the Fold thinks.",
+    "basicInfo": "The loop-back valley at the heart of The Fold — a wave-terrace floor whose paths consistently deliver walkers back where they began, no matter which direction they entrust their pace to. Grass grows in neat pleats along the terraces, and fold sprites sit in the creases like linen passengers. Travelers report that leaving takes exactly the effort entering did: the valley is not a trap but an introduction to how the Fold thinks.\n\nLiving Ecology: Pleatback tortoises graze the valley floor while origami-wing cicadas pulse from the shaded folds. Two patches of twin-site herb bloom in perfect rhythm despite standing on apparently separate terraces.",
     "x": 15,
     "y": 45,
     "radius": 3,
@@ -4761,7 +4761,7 @@
     "complexityType": "simple",
     "detailType": "detailed",
     "known": true,
-    "hiddenInfo": "The Valley returns everyone because it is the dimension's practicing ground for hospitality — safe, patient, and gently circular. Successful explorers pass through it by walking with intention rather than speed: those who leave in a chosen direction rather than away from something exit cleanly the first time. Strange herbs grow only in the valley's pleated shade and cross-pollinate with themselves between two sites at once. One hidden cave mouth opens on the valley's north wall for a single hour on settled afternoons, breathing warm air from elsewhere in the dimension: a shortcut that has never twice led to the same place, and by consensus should stay unmarked.",
+    "hiddenInfo": "The Valley returns everyone because it is the dimension's practicing ground for hospitality — safe, patient, and gently circular. Successful explorers pass through it by walking with intention rather than speed: those who leave in a chosen direction rather than away from something exit cleanly the first time. Strange herbs grow only in the valley's pleated shade and cross-pollinate with themselves between two sites at once. One hidden cave mouth opens on the valley's north wall for a single hour on settled afternoons, breathing warm air from elsewhere in the dimension: a shortcut that has never twice led to the same place, and by consensus should stay unmarked.\n\nEcological Continuity: Leaving by chosen direction works because the geometry responds to stable intent, not because it judges courage or reads private thoughts. The route cannot force or infer a character's decision.",
     "factions": [],
     "visited": false,
     "lastVisitedTick": -1,
@@ -4776,8 +4776,8 @@
     "detailType": "detailed",
     "known": true,
     "name": "The Shimmering Curtain",
-    "basicInfo": "The veil's most luminous reach — a sweeping arc where the boundary stands closest and glows brightest, rippling slowly like light through deep water. The spirit-grass ends here in a clean line, and beyond it the shimmering curtain rises from the ground to no visible height. Ground-aura light pools at its base in slow-moving bands. Sound softens within a few strides of it. Touching it is cool and faintly yielding, like pressing a hand against the surface of a still lake from underneath.",
-    "hiddenInfo": "The Curtain thins where intent is focused upon it. Sustained, deliberate attention opens layers of translucency through which the space between dimensions becomes briefly visible — distant realities as faint constellations, mortal leylines as drifting ribbons of gold. The Chamberlain does not know this has been observed."
+    "basicInfo": "The veil's most luminous reach — a sweeping arc where the boundary stands closest and glows brightest, rippling slowly like light through deep water. The spirit-grass ends here in a clean line, and beyond it the shimmering curtain rises from the ground to no visible height. Ground-aura light pools at its base in slow-moving bands. Sound softens within a few strides of it. Touching it is cool and faintly yielding, like pressing a hand against the surface of a still lake from underneath.\n\nLiving Ecology: Veil moths rest against the upright light like leaves on glass, and shoals of foxfire minnows swim through the dense aurora pooled at its base. Touch sends color through nearby grass roots without opening a passage.",
+    "hiddenInfo": "The Curtain thins where intent is focused upon it. Sustained, deliberate attention opens layers of translucency through which the space between dimensions becomes briefly visible — distant realities as faint constellations, mortal leylines as drifting ribbons of gold. The Chamberlain does not know this has been observed.\n\nEcological Continuity: Sustained intent can reveal layers beyond the curtain under the established boundary behavior, but looking grants no access, automatic recognition, or factual knowledge of distant realms."
   },
   "Veilwatch Point": {
     "x": 20,
@@ -4788,7 +4788,7 @@
     "detailType": "detailed",
     "known": true,
     "name": "Veilwatch Point",
-    "basicInfo": "A low stone rise at the edge's clearing — bare grey rock in an otherwise silver-grassed plain, offering the clearest, safest view of the shimmering boundary. From its summit the whole arc of the veil is visible, and the aurora ground-glow reads as slow weather over the meridian. Aurora wisps gather above the point at dusk, and the light they shed is steady enough to read by. A natural watch-post and the region's favored resting place.",
-    "hiddenInfo": "The bedrock of Veilwatch Point is the last truly solid stone before the boundary — it does not hum, glow, or shift, and its stillness acts as an anchor. Boundary spirits are drawn to rest here; aurora crystal forms in the rock's shadow on the northeast face."
+    "basicInfo": "A low stone rise at the edge's clearing — bare grey rock in an otherwise silver-grassed plain, offering the clearest, safest view of the shimmering boundary. From its summit the whole arc of the veil is visible, and the aurora ground-glow reads as slow weather over the meridian. Aurora wisps gather above the point at dusk, and the light they shed is steady enough to read by. A natural watch-post and the region's favored resting place.\n\nLiving Ecology: Aurora crystal grows only in the rise's northeast shadow, where prism beetles graze excess light and boundary walkers rest without leaving tracks. Every pulse from the Curtain crosses the stone as visible color.",
+    "hiddenInfo": "The bedrock of Veilwatch Point is the last truly solid stone before the boundary — it does not hum, glow, or shift, and its stillness acts as an anchor. Boundary spirits are drawn to rest here; aurora crystal forms in the rock's shadow on the northeast face.\n\nEcological Continuity: The point is a reliable observation station because it is stable, not because it sees everything. Its signs must be witnessed and interpreted, and can still be misunderstood."
   }
 }
